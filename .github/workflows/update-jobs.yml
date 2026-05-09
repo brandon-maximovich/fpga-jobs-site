@@ -1,0 +1,41 @@
+name: Update FPGA Jobs
+
+on:
+  schedule:
+    # Daily at 06:00 UTC (~02:00 ET / 23:00 PT previous day / 15:00 JST).
+    # GitHub may delay scheduled runs by 5-30 minutes during peak load.
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # manual trigger from Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'fetch_fpga_jobs.py'  # rerun if the script itself changes
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to commit regenerated index.html
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run aggregator
+        run: python fetch_fpga_jobs.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html fpga_jobs.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update FPGA jobs ($(date -u +%Y-%m-%d))"
+            git push
+          fi

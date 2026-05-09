@@ -1,0 +1,594 @@
+"""FPGA Remote Jobs aggregator.
+
+Fetches FPGA remote job postings from public APIs, dedupes, persists to JSON,
+and regenerates a static HTML dashboard.
+
+Sources:
+  - Remotive (public API)
+  - Remote OK (public API)
+  - Hacker News "Who is Hiring" comments (Algolia API)
+  - Greenhouse boards (public API) for known FPGA employers
+  - Lever boards (public API)
+  - Ashby boards (public API)
+
+Run daily:
+    python fetch_fpga_jobs.py
+"""
+from __future__ import annotations
+
+import json
+import logging
+import re
+import sys
+import urllib.request
+import urllib.error
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+DB_PATH = ROOT / "fpga_jobs.json"
+HTML_PATH = ROOT / "index.html"
+
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 FPGAJobAggregator/1.0"
+TIMEOUT = 30
+
+FPGA_STRICT_RE = re.compile(r"\bfpga\b", re.I)
+EXCLUDE_RE = re.compile(
+    r"\bsecurity clearance\b|\bsecret clearance\b|\btop secret\b|\bts/sci\b|"
+    r"\bus citizen(ship)?\b|\bclearance required\b|\bactive clearance\b|\bitar\b",
+    re.I,
+)
+
+GREENHOUSE_ORGS = [
+    "drweng", "virtu", "wehrtyou", "wayve", "tanius", "aeyeinc",
+    "two-sigma", "jane-street", "imc",
+]
+LEVER_ORGS = [
+    "mythic-ai", "honeybeerobotics", "loftorbital", "kapta-space",
+    "arraylabs.io", "reliable", "lumispace", "CesiumAstro",
+]
+ASHBY_ORGS = ["keyrock", "radiant-industries", "tenstorrent", "groq"]
+
+
+def fetch_url(url: str, headers: dict | None = None) -> bytes:
+    req = urllib.request.Request(
+        url, headers={"User-Agent": UA, "Accept": "application/json", **(headers or {})}
+    )
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+        return resp.read()
+
+
+def fetch_json(url: str, headers: dict | None = None):
+    return json.loads(fetch_url(url, headers).decode("utf-8", errors="replace"))
+
+
+def is_fpga(title: str, content: str = "") -> bool:
+    text = f"{title} {content}".lower()
+    if EXCLUDE_RE.search(text):
+        return False
+    return bool(FPGA_STRICT_RE.search(text))
+
+
+def is_remote(location: str, content: str = "") -> bool:
+    text = f"{location} {content}".lower()
+    return any(k in text for k in ("remote", "anywhere", "work from home", "wfh", "distributed"))
+
+
+def fetch_remotive() -> list[dict]:
+    out = []
+    try:
+        data = fetch_json("https://remotive.com/api/remote-jobs?search=fpga")
+        for j in data.get("jobs", []):
+            title = j.get("title", "")
+            desc = j.get("description", "") or ""
+            if not is_fpga(title, desc):
+                continue
+            out.append({
+                "url": j.get("url", ""),
+                "title": title,
+                "company": j.get("company_name", ""),
+                "location": j.get("candidate_required_location", "Remote"),
+                "source": "Remotive",
+                "posted_at": j.get("publication_date", ""),
+            })
+    except Exception as e:
+        logging.warning("Remotive failed: %s", e)
+    return out
+
+
+def fetch_remoteok() -> list[dict]:
+    out = []
+    try:
+        data = fetch_json("https://remoteok.com/api")
+        if not isinstance(data, list):
+            return out
+        for j in data:
+            if not isinstance(j, dict):
+                continue
+            title = j.get("position", "") or ""
+            tags = j.get("tags", []) or []
+            tags_str = " ".join(tags) if isinstance(tags, list) else ""
+            desc = j.get("description", "") or ""
+            if not is_fpga(f"{title} {tags_str}", desc):
+                continue
+            url = j.get("url") or j.get("apply_url", "")
+            if not url:
+                continue
+            if url.startswith("/"):
+                url = "https://remoteok.com" + url
+            out.append({
+                "url": url,
+                "title": title,
+                "company": j.get("company", ""),
+                "location": j.get("location", "Remote"),
+                "source": "Remote OK",
+                "posted_at": j.get("date", ""),
+            })
+    except Exception as e:
+        logging.warning("Remote OK failed: %s", e)
+    return out
+
+
+def fetch_hn() -> list[dict]:
+    out = []
+    try:
+        epoch_7d = int((datetime.now(timezone.utc) - timedelta(days=7)).timestamp())
+        url = (
+            "https://hn.algolia.com/api/v1/search_by_date"
+            "?query=FPGA&tags=comment"
+            f"&numericFilters=created_at_i%3E{epoch_7d}"
+            "&hitsPerPage=50"
+        )
+        data = fetch_json(url)
+        for h in data.get("hits", []):
+            text = h.get("comment_text") or ""
+            if not text or not is_fpga(text) or not is_remote("", text):
+                continue
+            obj_id = h.get("objectID")
+            if not obj_id:
+                continue
+            snippet = re.sub(r"<[^>]+>", " ", text)
+            snippet = re.sub(r"\s+", " ", snippet).strip()
+            out.append({
+                "url": f"https://news.ycombinator.com/item?id={obj_id}",
+                "title": (snippet[:140] + "...") if len(snippet) > 140 else snippet,
+                "company": "(via HN Who is Hiring)",
+                "location": "Remote (see comment)",
+                "source": "Hacker News",
+                "posted_at": h.get("created_at", ""),
+            })
+    except Exception as e:
+        logging.warning("HN failed: %s", e)
+    return out
+
+
+def fetch_greenhouse(org: str) -> list[dict]:
+    out = []
+    try:
+        url = f"https://boards-api.greenhouse.io/v1/boards/{org}/jobs?content=true"
+        data = fetch_json(url)
+        for j in data.get("jobs", []):
+            title = j.get("title", "")
+            content = j.get("content", "") or ""
+            location = (j.get("location") or {}).get("name", "")
+            if not is_fpga(title, content):
+                continue
+            if not is_remote(location, content):
+                continue
+            out.append({
+                "url": j.get("absolute_url", ""),
+                "title": title,
+                "company": org,
+                "location": location or "Remote",
+                "source": f"Greenhouse:{org}",
+                "posted_at": j.get("updated_at", ""),
+            })
+    except Exception as e:
+        logging.warning("Greenhouse %s failed: %s", org, e)
+    return out
+
+
+def fetch_lever(org: str) -> list[dict]:
+    out = []
+    try:
+        url = f"https://api.lever.co/v0/postings/{org}?mode=json"
+        data = fetch_json(url)
+        if not isinstance(data, list):
+            return out
+        for j in data:
+            title = j.get("text", "")
+            cats = j.get("categories", {}) or {}
+            location = cats.get("location", "") or ""
+            workplace = cats.get("workplaceType", "") or cats.get("allLocations", "") or ""
+            desc = j.get("descriptionPlain", "") or ""
+            if not is_fpga(title, desc):
+                continue
+            if not is_remote(f"{location} {workplace}", desc):
+                continue
+            out.append({
+                "url": j.get("hostedUrl", ""),
+                "title": title,
+                "company": org,
+                "location": location or "Remote",
+                "source": f"Lever:{org}",
+                "posted_at": str(j.get("createdAt", "")),
+            })
+    except Exception as e:
+        logging.warning("Lever %s failed: %s", org, e)
+    return out
+
+
+def fetch_ashby(org: str) -> list[dict]:
+    out = []
+    try:
+        url = f"https://api.ashbyhq.com/posting-api/job-board/{org}?includeCompensation=true"
+        data = fetch_json(url)
+        for j in data.get("jobs", []):
+            title = j.get("title", "")
+            location = j.get("locationName", "") or ""
+            desc = j.get("descriptionPlain", "") or ""
+            is_remote_flag = bool(j.get("isRemote"))
+            if not is_fpga(title, desc):
+                continue
+            if not (is_remote_flag or is_remote(location, desc)):
+                continue
+            out.append({
+                "url": j.get("jobUrl", ""),
+                "title": title,
+                "company": org,
+                "location": location or "Remote",
+                "source": f"Ashby:{org}",
+                "posted_at": j.get("publishedAt", "") or j.get("updatedAt", ""),
+            })
+    except Exception as e:
+        logging.warning("Ashby %s failed: %s", org, e)
+    return out
+
+
+def fetch_all() -> list[dict]:
+    jobs = []
+    print("[1/6] Remotive...", flush=True)
+    jobs += fetch_remotive()
+    print(f"  +{len(jobs)} so far")
+    print("[2/6] Remote OK...", flush=True)
+    n0 = len(jobs); jobs += fetch_remoteok()
+    print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    print("[3/6] Hacker News (FPGA + remote, last 7d)...", flush=True)
+    n0 = len(jobs); jobs += fetch_hn()
+    print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    print(f"[4/6] Greenhouse boards ({len(GREENHOUSE_ORGS)} orgs)...", flush=True)
+    n0 = len(jobs)
+    for org in GREENHOUSE_ORGS:
+        jobs += fetch_greenhouse(org)
+    print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    print(f"[5/6] Lever boards ({len(LEVER_ORGS)} orgs)...", flush=True)
+    n0 = len(jobs)
+    for org in LEVER_ORGS:
+        jobs += fetch_lever(org)
+    print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    print(f"[6/6] Ashby boards ({len(ASHBY_ORGS)} orgs)...", flush=True)
+    n0 = len(jobs)
+    for org in ASHBY_ORGS:
+        jobs += fetch_ashby(org)
+    print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    return jobs
+
+
+def load_db() -> dict:
+    if DB_PATH.exists():
+        try:
+            return json.loads(DB_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {"last_run": None, "jobs": {}, "currently_open_urls": []}
+
+
+def save_db(db: dict) -> None:
+    DB_PATH.write_text(json.dumps(db, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def merge(db: dict, new_jobs: list[dict]) -> dict:
+    now = datetime.now(timezone.utc).isoformat()
+    seen_urls = set()
+    for j in new_jobs:
+        url = (j.get("url") or "").strip()
+        if not url or url in seen_urls:
+            continue
+        seen_urls.add(url)
+        if url in db["jobs"]:
+            existing = db["jobs"][url]
+            existing["last_seen"] = now
+            for k in ("title", "company", "location", "source", "posted_at"):
+                if j.get(k):
+                    existing[k] = j[k]
+        else:
+            db["jobs"][url] = {**j, "first_seen": now, "last_seen": now}
+    db["last_run"] = now
+    db["currently_open_urls"] = sorted(seen_urls)
+    return db
+
+
+HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FPGA Remote Jobs &mdash; Live Feed</title>
+<style>
+:root {
+  --bg:#0f1115; --panel:#171a21; --panel-2:#1f242d; --border:#2a313d;
+  --text:#e6e9ef; --muted:#8b94a3; --accent:#6ea8fe; --green:#4ade80;
+  --yellow:#fbbf24; --red:#f87171; --visited:#585f6b;
+}
+* { box-sizing: border-box; }
+body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+  background:var(--bg); color:var(--text); line-height:1.5; }
+header { background:linear-gradient(180deg,#1a1f2a,#0f1115); border-bottom:1px solid var(--border);
+  padding:24px 32px; }
+h1 { margin:0 0 4px 0; font-size:22px; font-weight:600; }
+.subtitle { color:var(--muted); font-size:13px; }
+.stat-bar { display:flex; gap:12px; flex-wrap:wrap; margin-top:14px; font-size:12px; color:var(--muted); }
+.stat { background:var(--panel-2); padding:5px 12px; border-radius:6px; border:1px solid var(--border); }
+.stat strong { color:var(--text); margin-right:4px; }
+.controls { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap; }
+.controls button { background:var(--panel-2); color:var(--text); border:1px solid var(--border);
+  border-radius:6px; padding:6px 12px; font-size:12px; cursor:pointer; }
+.controls button:hover { border-color:var(--accent); }
+main { padding:24px 32px 64px; max-width:1200px; margin:0 auto; }
+.filter-bar { display:flex; gap:10px; margin-bottom:20px; align-items:center; flex-wrap:wrap; }
+.filter-bar input { background:var(--panel-2); color:var(--text); border:1px solid var(--border);
+  border-radius:6px; padding:6px 10px; font-size:13px; min-width:200px; }
+.filter-bar label { font-size:12px; color:var(--muted); cursor:pointer; }
+.section { margin-bottom:28px; background:var(--panel); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.sec-head { padding:14px 18px; border-bottom:1px solid var(--border); }
+.sec-head h2 { margin:0; font-size:15px; font-weight:600; display:flex; align-items:center; gap:10px; }
+.sec-head .count { background:var(--panel-2); color:var(--muted); font-size:12px;
+  padding:2px 8px; border-radius:10px; border:1px solid var(--border); }
+.dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+.dot.green { background:var(--green); }
+.dot.yellow { background:var(--yellow); }
+.dot.red { background:var(--red); }
+.jobs { padding:0; }
+.job { display:block; padding:12px 18px; border-bottom:1px solid var(--border);
+  text-decoration:none; color:var(--text); transition:background .1s; position:relative; }
+.job:last-child { border-bottom:none; }
+.job:hover { background:var(--panel-2); }
+.job.visited .title { color:var(--visited); }
+.job.applied { background:#0e2a1a; }
+.job.applied::before { content:"APPLIED"; position:absolute; right:14px; top:14px;
+  font-size:10px; color:var(--green); font-weight:600; letter-spacing:0.5px; }
+.job .title { font-size:14px; font-weight:500; padding-right:80px; }
+.job .meta { font-size:12px; color:var(--muted); margin-top:4px;
+  display:flex; flex-wrap:wrap; gap:12px; }
+.job .company { color:var(--accent); }
+.job .src { background:var(--panel-2); padding:1px 6px; border-radius:3px;
+  border:1px solid var(--border); font-size:10px; }
+.actions { font-size:11px; margin-top:6px; display:flex; gap:10px; }
+.actions a { color:var(--muted); text-decoration:none; cursor:pointer; }
+.actions a:hover { color:var(--accent); }
+.empty { padding:24px; text-align:center; color:var(--muted); font-size:13px; }
+.footer { margin-top:32px; color:var(--muted); font-size:12px; text-align:center; padding:16px; }
+.hidden { display:none !important; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>FPGA Remote Jobs &mdash; Live Feed</h1>
+  <div class="subtitle">Auto-aggregated from public job board APIs. URLs are real apply-now links. No clearance-required roles.</div>
+  <div class="stat-bar">
+    <span class="stat"><strong>__N_NEW__</strong>new in last 24h</span>
+    <span class="stat"><strong>__N_OLDER__</strong>still open from earlier</span>
+    <span class="stat"><strong>__N_CLOSED__</strong>removed in last 7 days</span>
+    <span class="stat">Last run: __LAST_RUN__</span>
+  </div>
+  <div class="controls">
+    <button id="hideApplied">Hide applied</button>
+    <button id="resetVisited">Reset visited marks</button>
+    <button id="resetApplied">Reset applied marks</button>
+    <button id="exportApplied">Export applied list</button>
+  </div>
+</header>
+
+<main>
+  <div class="filter-bar">
+    <input id="searchBox" placeholder="Filter by title, company, location...">
+    <label><input type="checkbox" id="hideOlder"> Hide "still open from earlier"</label>
+    <label><input type="checkbox" id="hideClosed" checked> Hide "no longer posted"</label>
+  </div>
+
+  <div class="section">
+    <div class="sec-head">
+      <h2><span class="dot green"></span> New in last 24 hours <span class="count">__N_NEW__</span></h2>
+    </div>
+    <div class="jobs" id="new24h">__NEW24__</div>
+  </div>
+
+  <div class="section" id="sec-older">
+    <div class="sec-head">
+      <h2><span class="dot yellow"></span> Still open from earlier <span class="count">__N_OLDER__</span></h2>
+    </div>
+    <div class="jobs">__OLDER__</div>
+  </div>
+
+  <div class="section" id="sec-closed">
+    <div class="sec-head">
+      <h2><span class="dot red"></span> No longer posted (last 7 days) <span class="count">__N_CLOSED__</span></h2>
+    </div>
+    <div class="jobs">__CLOSED__</div>
+  </div>
+
+  <div class="footer">
+    Auto-refreshed daily by GitHub Actions. URLs persist across runs &mdash; new ones appear at top, old ones remain until they drop from feeds. Source: <a href="https://github.com/brandon-maximovich/fpga-jobs" style="color:var(--accent);">github.com/brandon-maximovich/fpga-jobs</a>
+  </div>
+</main>
+
+<script>
+const VISITED = 'fpga-feed-visited';
+const APPLIED = 'fpga-feed-applied';
+
+function load(k) { try { return JSON.parse(localStorage.getItem(k) || '{}'); } catch { return {}; } }
+function save(k, v) { localStorage.setItem(k, JSON.stringify(v)); }
+
+const visited = load(VISITED);
+const applied = load(APPLIED);
+
+document.querySelectorAll('.job').forEach(a => {
+  const url = a.dataset.url;
+  if (visited[url]) a.classList.add('visited');
+  if (applied[url]) a.classList.add('applied');
+
+  // Inject "Mark applied" link
+  const actions = document.createElement('div');
+  actions.className = 'actions';
+  const mark = document.createElement('a');
+  mark.textContent = applied[url] ? 'Unmark applied' : 'Mark as applied';
+  mark.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const ap = load(APPLIED);
+    if (ap[url]) {
+      delete ap[url];
+      a.classList.remove('applied');
+      mark.textContent = 'Mark as applied';
+    } else {
+      ap[url] = Date.now();
+      a.classList.add('applied');
+      mark.textContent = 'Unmark applied';
+    }
+    save(APPLIED, ap);
+  });
+  actions.appendChild(mark);
+  a.appendChild(actions);
+
+  a.addEventListener('click', () => {
+    const v = load(VISITED);
+    v[url] = Date.now();
+    save(VISITED, v);
+    a.classList.add('visited');
+  });
+});
+
+// Filter
+const searchBox = document.getElementById('searchBox');
+function applyFilter() {
+  const q = searchBox.value.toLowerCase().trim();
+  document.querySelectorAll('.job').forEach(a => {
+    const text = a.textContent.toLowerCase();
+    a.classList.toggle('hidden', q && !text.includes(q));
+  });
+}
+searchBox.addEventListener('input', applyFilter);
+
+document.getElementById('hideApplied').addEventListener('click', () => {
+  document.querySelectorAll('.job.applied').forEach(a => a.classList.toggle('hidden'));
+});
+document.getElementById('hideOlder').addEventListener('change', (e) => {
+  document.getElementById('sec-older').classList.toggle('hidden', e.target.checked);
+});
+document.getElementById('hideClosed').addEventListener('change', (e) => {
+  document.getElementById('sec-closed').classList.toggle('hidden', e.target.checked);
+});
+document.getElementById('hideClosed').dispatchEvent(new Event('change'));
+
+document.getElementById('resetVisited').addEventListener('click', () => {
+  if (!confirm('Reset all "visited" marks?')) return;
+  localStorage.removeItem(VISITED);
+  document.querySelectorAll('.job.visited').forEach(a => a.classList.remove('visited'));
+});
+document.getElementById('resetApplied').addEventListener('click', () => {
+  if (!confirm('Reset all "applied" marks? You will lose your application tracking.')) return;
+  localStorage.removeItem(APPLIED);
+  document.querySelectorAll('.job.applied').forEach(a => a.classList.remove('applied'));
+  document.querySelectorAll('.actions a').forEach(a => a.textContent = 'Mark as applied');
+});
+document.getElementById('exportApplied').addEventListener('click', () => {
+  const ap = load(APPLIED);
+  const urls = Object.keys(ap).sort((a, b) => ap[b] - ap[a]);
+  const text = urls.map(u => `${new Date(ap[u]).toISOString().slice(0,10)}  ${u}`).join('\\n');
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'fpga-applied-jobs.txt';
+  a.click();
+});
+</script>
+
+</body>
+</html>
+"""
+
+
+def render_html(db: dict) -> str:
+    now = datetime.now(timezone.utc)
+    cutoff_24h = (now - timedelta(hours=24)).isoformat()
+    cutoff_7d = (now - timedelta(days=7)).isoformat()
+
+    new_24h, older_open, closed_recently = [], [], []
+    open_urls = set(db.get("currently_open_urls") or [])
+
+    for url, j in db["jobs"].items():
+        if url in open_urls:
+            if j.get("first_seen", "") >= cutoff_24h:
+                new_24h.append(j)
+            else:
+                older_open.append(j)
+        elif j.get("last_seen", "") >= cutoff_7d:
+            closed_recently.append(j)
+
+    new_24h.sort(key=lambda j: j.get("first_seen", ""), reverse=True)
+    older_open.sort(key=lambda j: j.get("first_seen", ""), reverse=True)
+    closed_recently.sort(key=lambda j: j.get("last_seen", ""), reverse=True)
+
+    def html_escape(s):
+        return (str(s).replace("&", "&amp;").replace("<", "&lt;")
+                .replace(">", "&gt;").replace('"', "&quot;"))
+
+    def jobs_to_html(jobs):
+        if not jobs:
+            return '<div class="empty">No jobs in this category.</div>'
+        rows = []
+        for j in jobs:
+            rows.append(
+                f'<a class="job" href="{html_escape(j["url"])}" target="_blank" '
+                f'rel="noopener" data-url="{html_escape(j["url"])}">'
+                f'<div class="title">{html_escape(j.get("title","(no title)"))}</div>'
+                f'<div class="meta">'
+                f'<span class="company">{html_escape(j.get("company",""))}</span>'
+                f'<span>{html_escape(j.get("location",""))}</span>'
+                f'<span class="src">{html_escape(j.get("source",""))}</span>'
+                f'<span>First seen: {html_escape(j.get("first_seen","")[:10])}</span>'
+                f'</div></a>'
+            )
+        return "\n".join(rows)
+
+    last_run = (db.get("last_run") or "")[:19].replace("T", " ")
+
+    return (
+        HTML_TEMPLATE
+        .replace("__LAST_RUN__", html_escape(last_run))
+        .replace("__NEW24__", jobs_to_html(new_24h))
+        .replace("__OLDER__", jobs_to_html(older_open))
+        .replace("__CLOSED__", jobs_to_html(closed_recently))
+        .replace("__N_NEW__", str(len(new_24h)))
+        .replace("__N_OLDER__", str(len(older_open)))
+        .replace("__N_CLOSED__", str(len(closed_recently)))
+    )
+
+
+def main():
+    logging.basicConfig(level=logging.WARNING, format="WARN: %(message)s")
+    print("=== FPGA Remote Jobs Aggregator ===")
+    new_jobs = fetch_all()
+    db = load_db()
+    pre_count = len(db["jobs"])
+    db = merge(db, new_jobs)
+    save_db(db)
+    HTML_PATH.write_text(render_html(db), encoding="utf-8")
+    print()
+    print(f"DB total: {len(db['jobs'])} jobs ({len(db['jobs']) - pre_count} new this run)")
+    print(f"Currently open: {len(db.get('currently_open_urls') or [])}")
+    print(f"HTML written to: {HTML_PATH}")
+
+
+if __name__ == "__main__":
+    main()

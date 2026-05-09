@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FPGA Remote Jobs &mdash; Live Feed</title>
+<style>
+:root {
+  --bg:#0f1115; --panel:#171a21; --panel-2:#1f242d; --border:#2a313d;
+  --text:#e6e9ef; --muted:#8b94a3; --accent:#6ea8fe; --green:#4ade80;
+  --yellow:#fbbf24; --red:#f87171; --visited:#585f6b;
+}
+* { box-sizing: border-box; }
+body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+  background:var(--bg); color:var(--text); line-height:1.5; }
+header { background:linear-gradient(180deg,#1a1f2a,#0f1115); border-bottom:1px solid var(--border);
+  padding:24px 32px; }
+h1 { margin:0 0 4px 0; font-size:22px; font-weight:600; }
+.subtitle { color:var(--muted); font-size:13px; }
+.stat-bar { display:flex; gap:12px; flex-wrap:wrap; margin-top:14px; font-size:12px; color:var(--muted); }
+.stat { background:var(--panel-2); padding:5px 12px; border-radius:6px; border:1px solid var(--border); }
+.stat strong { color:var(--text); margin-right:4px; }
+.controls { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap; }
+.controls button { background:var(--panel-2); color:var(--text); border:1px solid var(--border);
+  border-radius:6px; padding:6px 12px; font-size:12px; cursor:pointer; }
+.controls button:hover { border-color:var(--accent); }
+main { padding:24px 32px 64px; max-width:1200px; margin:0 auto; }
+.filter-bar { display:flex; gap:10px; margin-bottom:20px; align-items:center; flex-wrap:wrap; }
+.filter-bar input { background:var(--panel-2); color:var(--text); border:1px solid var(--border);
+  border-radius:6px; padding:6px 10px; font-size:13px; min-width:200px; }
+.filter-bar label { font-size:12px; color:var(--muted); cursor:pointer; }
+.section { margin-bottom:28px; background:var(--panel); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.sec-head { padding:14px 18px; border-bottom:1px solid var(--border); }
+.sec-head h2 { margin:0; font-size:15px; font-weight:600; display:flex; align-items:center; gap:10px; }
+.sec-head .count { background:var(--panel-2); color:var(--muted); font-size:12px;
+  padding:2px 8px; border-radius:10px; border:1px solid var(--border); }
+.dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+.dot.green { background:var(--green); }
+.dot.yellow { background:var(--yellow); }
+.dot.red { background:var(--red); }
+.jobs { padding:0; }
+.job { display:block; padding:12px 18px; border-bottom:1px solid var(--border);
+  text-decoration:none; color:var(--text); transition:background .1s; position:relative; }
+.job:last-child { border-bottom:none; }
+.job:hover { background:var(--panel-2); }
+.job.visited .title { color:var(--visited); }
+.job.applied { background:#0e2a1a; }
+.job.applied::before { content:"APPLIED"; position:absolute; right:14px; top:14px;
+  font-size:10px; color:var(--green); font-weight:600; letter-spacing:0.5px; }
+.job .title { font-size:14px; font-weight:500; padding-right:80px; }
+.job .meta { font-size:12px; color:var(--muted); margin-top:4px;
+  display:flex; flex-wrap:wrap; gap:12px; }
+.job .company { color:var(--accent); }
+.job .src { background:var(--panel-2); padding:1px 6px; border-radius:3px;
+  border:1px solid var(--border); font-size:10px; }
+.actions { font-size:11px; margin-top:6px; display:flex; gap:10px; }
+.actions a { color:var(--muted); text-decoration:none; cursor:pointer; }
+.actions a:hover { color:var(--accent); }
+.empty { padding:24px; text-align:center; color:var(--muted); font-size:13px; }
+.footer { margin-top:32px; color:var(--muted); font-size:12px; text-align:center; padding:16px; }
+.hidden { display:none !important; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>FPGA Remote Jobs &mdash; Live Feed</h1>
+  <div class="subtitle">Auto-aggregated from public job board APIs. URLs are real apply-now links. No clearance-required roles.</div>
+  <div class="stat-bar">
+    <span class="stat"><strong>10</strong>new in last 24h</span>
+    <span class="stat"><strong>0</strong>still open from earlier</span>
+    <span class="stat"><strong>0</strong>removed in last 7 days</span>
+    <span class="stat">Last run: 2026-05-09 11:32:30</span>
+  </div>
+  <div class="controls">
+    <button id="hideApplied">Hide applied</button>
+    <button id="resetVisited">Reset visited marks</button>
+    <button id="resetApplied">Reset applied marks</button>
+    <button id="exportApplied">Export applied list</button>
+  </div>
+</header>
+
+<main>
+  <div class="filter-bar">
+    <input id="searchBox" placeholder="Filter by title, company, location...">
+    <label><input type="checkbox" id="hideOlder"> Hide "still open from earlier"</label>
+    <label><input type="checkbox" id="hideClosed" checked> Hide "no longer posted"</label>
+  </div>
+
+  <div class="section">
+    <div class="sec-head">
+      <h2><span class="dot green"></span> New in last 24 hours <span class="count">10</span></h2>
+    </div>
+    <div class="jobs" id="new24h"><a class="job" href="https://news.ycombinator.com/item?id=47987441" target="_blank" rel="noopener" data-url="https://news.ycombinator.com/item?id=47987441"><div class="title">Location: Kronshagen, DE (Kiel &amp;#x2F; Hamburg area) Remote: Yes (working EU+US remotely since 2014) Willing to relocate: No, but I travel fo...</div><div class="meta"><span class="company">(via HN Who is Hiring)</span><span>Remote (see comment)</span><span class="src">Hacker News</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://www.hudsonrivertrading.com/careers/job/?gh_jid=6726219" target="_blank" rel="noopener" data-url="https://www.hudsonrivertrading.com/careers/job/?gh_jid=6726219"><div class="title">Experienced Hardware Design Engineer</div><div class="meta"><span class="company">wehrtyou</span><span>Austin, TX, United States; Boulder, Colorado, United States; Chicago, Illinois, United States; New York, NY, United States</span><span class="src">Greenhouse:wehrtyou</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.lever.co/CesiumAstro/0983a6e8-1799-4b55-94ab-3cdb20fdd7db" target="_blank" rel="noopener" data-url="https://jobs.lever.co/CesiumAstro/0983a6e8-1799-4b55-94ab-3cdb20fdd7db"><div class="title">Senior FPGA Engineer I</div><div class="meta"><span class="company">CesiumAstro</span><span>Melbourne, FL</span><span class="src">Lever:CesiumAstro</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.ashbyhq.com/keyrock/638f8c1e-381f-481f-9bc7-5b34fc694aae" target="_blank" rel="noopener" data-url="https://jobs.ashbyhq.com/keyrock/638f8c1e-381f-481f-9bc7-5b34fc694aae"><div class="title">Engineering Lead- Options</div><div class="meta"><span class="company">keyrock</span><span>Remote</span><span class="src">Ashby:keyrock</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.ashbyhq.com/keyrock/8a08f877-6fa7-4d00-9720-905cdcd4295f" target="_blank" rel="noopener" data-url="https://jobs.ashbyhq.com/keyrock/8a08f877-6fa7-4d00-9720-905cdcd4295f"><div class="title">Head of Engineering - Options</div><div class="meta"><span class="company">keyrock</span><span>Remote</span><span class="src">Ashby:keyrock</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.ashbyhq.com/radiant-industries/174bd644-8cda-4972-8a18-bc370e3c08c5" target="_blank" rel="noopener" data-url="https://jobs.ashbyhq.com/radiant-industries/174bd644-8cda-4972-8a18-bc370e3c08c5"><div class="title">Principal FPGA Engineer</div><div class="meta"><span class="company">radiant-industries</span><span>Remote</span><span class="src">Ashby:radiant-industries</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.ashbyhq.com/radiant-industries/886b1d35-ee1e-4fb3-8ffb-774b604b1a2f" target="_blank" rel="noopener" data-url="https://jobs.ashbyhq.com/radiant-industries/886b1d35-ee1e-4fb3-8ffb-774b604b1a2f"><div class="title">Senior FPGA Engineer</div><div class="meta"><span class="company">radiant-industries</span><span>Remote</span><span class="src">Ashby:radiant-industries</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.ashbyhq.com/radiant-industries/79a0b713-94ed-4484-85b3-271d559f76ea" target="_blank" rel="noopener" data-url="https://jobs.ashbyhq.com/radiant-industries/79a0b713-94ed-4484-85b3-271d559f76ea"><div class="title">Senior Electrical Engineer - PCB Design</div><div class="meta"><span class="company">radiant-industries</span><span>Remote</span><span class="src">Ashby:radiant-industries</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.ashbyhq.com/radiant-industries/14dabe30-8d05-491f-b2ab-efb6faeef311" target="_blank" rel="noopener" data-url="https://jobs.ashbyhq.com/radiant-industries/14dabe30-8d05-491f-b2ab-efb6faeef311"><div class="title">Senior Embedded Engineer - DSP</div><div class="meta"><span class="company">radiant-industries</span><span>Remote</span><span class="src">Ashby:radiant-industries</span><span>First seen: 2026-05-09</span></div></a>
+<a class="job" href="https://jobs.ashbyhq.com/radiant-industries/94fad2f9-3fde-41c1-be54-e707df10f940" target="_blank" rel="noopener" data-url="https://jobs.ashbyhq.com/radiant-industries/94fad2f9-3fde-41c1-be54-e707df10f940"><div class="title">Principal Electrical Engineer - PCB</div><div class="meta"><span class="company">radiant-industries</span><span>Remote</span><span class="src">Ashby:radiant-industries</span><span>First seen: 2026-05-09</span></div></a></div>
+  </div>
+
+  <div class="section" id="sec-older">
+    <div class="sec-head">
+      <h2><span class="dot yellow"></span> Still open from earlier <span class="count">0</span></h2>
+    </div>
+    <div class="jobs"><div class="empty">No jobs in this category.</div></div>
+  </div>
+
+  <div class="section" id="sec-closed">
+    <div class="sec-head">
+      <h2><span class="dot red"></span> No longer posted (last 7 days) <span class="count">0</span></h2>
+    </div>
+    <div class="jobs"><div class="empty">No jobs in this category.</div></div>
+  </div>
+
+  <div class="footer">
+    Auto-refreshed daily by GitHub Actions. URLs persist across runs &mdash; new ones appear at top, old ones remain until they drop from feeds. Source: <a href="https://github.com/brandon-maximovich/fpga-jobs" style="color:var(--accent);">github.com/brandon-maximovich/fpga-jobs</a>
+  </div>
+</main>
+
+<script>
+const VISITED = 'fpga-feed-visited';
+const APPLIED = 'fpga-feed-applied';
+
+function load(k) { try { return JSON.parse(localStorage.getItem(k) || '{}'); } catch { return {}; } }
+function save(k, v) { localStorage.setItem(k, JSON.stringify(v)); }
+
+const visited = load(VISITED);
+const applied = load(APPLIED);
+
+document.querySelectorAll('.job').forEach(a => {
+  const url = a.dataset.url;
+  if (visited[url]) a.classList.add('visited');
+  if (applied[url]) a.classList.add('applied');
+
+  // Inject "Mark applied" link
+  const actions = document.createElement('div');
+  actions.className = 'actions';
+  const mark = document.createElement('a');
+  mark.textContent = applied[url] ? 'Unmark applied' : 'Mark as applied';
+  mark.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const ap = load(APPLIED);
+    if (ap[url]) {
+      delete ap[url];
+      a.classList.remove('applied');
+      mark.textContent = 'Mark as applied';
+    } else {
+      ap[url] = Date.now();
+      a.classList.add('applied');
+      mark.textContent = 'Unmark applied';
+    }
+    save(APPLIED, ap);
+  });
+  actions.appendChild(mark);
+  a.appendChild(actions);
+
+  a.addEventListener('click', () => {
+    const v = load(VISITED);
+    v[url] = Date.now();
+    save(VISITED, v);
+    a.classList.add('visited');
+  });
+});
+
+// Filter
+const searchBox = document.getElementById('searchBox');
+function applyFilter() {
+  const q = searchBox.value.toLowerCase().trim();
+  document.querySelectorAll('.job').forEach(a => {
+    const text = a.textContent.toLowerCase();
+    a.classList.toggle('hidden', q && !text.includes(q));
+  });
+}
+searchBox.addEventListener('input', applyFilter);
+
+document.getElementById('hideApplied').addEventListener('click', () => {
+  document.querySelectorAll('.job.applied').forEach(a => a.classList.toggle('hidden'));
+});
+document.getElementById('hideOlder').addEventListener('change', (e) => {
+  document.getElementById('sec-older').classList.toggle('hidden', e.target.checked);
+});
+document.getElementById('hideClosed').addEventListener('change', (e) => {
+  document.getElementById('sec-closed').classList.toggle('hidden', e.target.checked);
+});
+document.getElementById('hideClosed').dispatchEvent(new Event('change'));
+
+document.getElementById('resetVisited').addEventListener('click', () => {
+  if (!confirm('Reset all "visited" marks?')) return;
+  localStorage.removeItem(VISITED);
+  document.querySelectorAll('.job.visited').forEach(a => a.classList.remove('visited'));
+});
+document.getElementById('resetApplied').addEventListener('click', () => {
+  if (!confirm('Reset all "applied" marks? You will lose your application tracking.')) return;
+  localStorage.removeItem(APPLIED);
+  document.querySelectorAll('.job.applied').forEach(a => a.classList.remove('applied'));
+  document.querySelectorAll('.actions a').forEach(a => a.textContent = 'Mark as applied');
+});
+document.getElementById('exportApplied').addEventListener('click', () => {
+  const ap = load(APPLIED);
+  const urls = Object.keys(ap).sort((a, b) => ap[b] - ap[a]);
+  const text = urls.map(u => `${new Date(ap[u]).toISOString().slice(0,10)}  ${u}`).join('\n');
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'fpga-applied-jobs.txt';
+  a.click();
+});
+</script>
+
+</body>
+</html>
