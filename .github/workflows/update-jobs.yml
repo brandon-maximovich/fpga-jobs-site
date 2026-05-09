@@ -26,6 +26,10 @@ jobs:
           python-version: '3.12'
 
       - name: Run aggregator
+        env:
+          # Optional: set repo Secret SERPAPI_KEY to enable broad-web Google search.
+          # Without it, the SerpAPI fetcher silently no-ops.
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python fetch_fpga_jobs.py
 
       - name: Commit and push if changed

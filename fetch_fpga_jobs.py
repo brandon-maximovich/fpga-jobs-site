@@ -18,8 +18,10 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
@@ -40,14 +42,24 @@ EXCLUDE_RE = re.compile(
 )
 
 GREENHOUSE_ORGS = [
-    "drweng", "virtu", "wehrtyou", "wayve", "tanius", "aeyeinc",
-    "two-sigma", "jane-street", "imc",
+    # HFT
+    "drweng", "virtu", "wehrtyou", "imc", "optiverus",
+    "janestreet", "jumptrading",
+    # AI accelerators / quantum
+    "tenstorrent", "lightmatter", "psiquantum", "ionq",
+    # Autonomy
+    "wayve", "nuro", "aurorainnovation", "waymo",
+    # Sensors / hardware
+    "tanius", "aeyeinc", "vast",
 ]
 LEVER_ORGS = [
-    "mythic-ai", "honeybeerobotics", "loftorbital", "kapta-space",
-    "arraylabs.io", "reliable", "lumispace", "CesiumAstro",
+    "loftorbital", "kapta-space", "arraylabs.io", "reliable",
+    "CesiumAstro", "waabi",
 ]
-ASHBY_ORGS = ["keyrock", "radiant-industries", "tenstorrent", "groq"]
+ASHBY_ORGS = [
+    "keyrock", "radiant-industries", "d-matrix", "saronic",
+    "rain", "perplexity",
+]
 
 
 def fetch_url(url: str, headers: dict | None = None) -> bytes:
@@ -67,6 +79,26 @@ def is_fpga(title: str, content: str = "") -> bool:
     if EXCLUDE_RE.search(text):
         return False
     return bool(FPGA_STRICT_RE.search(text))
+
+
+# Stricter: FPGA must appear in the title (or closely related hardware role title).
+# Used for ATS sources where the description is a long full JD that often
+# mentions FPGA only incidentally as a "nice to have" skill.
+TITLE_FPGA_RE = re.compile(
+    r"\bfpga\b|\brtl\b|\bsystem\s*verilog\b|\bdigital design\b|"
+    r"\bhardware design\b|\bverification engineer\b|\bdv engineer\b",
+    re.I,
+)
+
+
+def is_fpga_role_strict(title: str, content: str = "") -> bool:
+    """Require FPGA-ish keywords in the TITLE, not just the description."""
+    if EXCLUDE_RE.search(f"{title} {content}".lower()):
+        return False
+    if not TITLE_FPGA_RE.search(title):
+        return False
+    # Belt-and-braces: also require the JD to mention FPGA somewhere
+    return bool(FPGA_STRICT_RE.search(f"{title} {content}"))
 
 
 def is_remote(location: str, content: str = "") -> bool:
@@ -171,7 +203,7 @@ def fetch_greenhouse(org: str) -> list[dict]:
             title = j.get("title", "")
             content = j.get("content", "") or ""
             location = (j.get("location") or {}).get("name", "")
-            if not is_fpga(title, content):
+            if not is_fpga_role_strict(title, content):
                 continue
             if not is_remote(location, content):
                 continue
@@ -201,7 +233,7 @@ def fetch_lever(org: str) -> list[dict]:
             location = cats.get("location", "") or ""
             workplace = cats.get("workplaceType", "") or cats.get("allLocations", "") or ""
             desc = j.get("descriptionPlain", "") or ""
-            if not is_fpga(title, desc):
+            if not is_fpga_role_strict(title, desc):
                 continue
             if not is_remote(f"{location} {workplace}", desc):
                 continue
@@ -228,7 +260,7 @@ def fetch_ashby(org: str) -> list[dict]:
             location = j.get("locationName", "") or ""
             desc = j.get("descriptionPlain", "") or ""
             is_remote_flag = bool(j.get("isRemote"))
-            if not is_fpga(title, desc):
+            if not is_fpga_role_strict(title, desc):
                 continue
             if not (is_remote_flag or is_remote(location, desc)):
                 continue
@@ -245,32 +277,109 @@ def fetch_ashby(org: str) -> list[dict]:
     return out
 
 
+SERPAPI_QUERIES = [
+    '"FPGA engineer" "remote" -clearance -secret -"US citizen"',
+    '"FPGA" "remote" site:boards.greenhouse.io -clearance',
+    '"FPGA" "fully remote" -clearance -secret',
+]
+
+
+def _company_from_url(url: str) -> str:
+    try:
+        host = urllib.parse.urlparse(url).hostname or ""
+        if "greenhouse.io" in host:
+            parts = urllib.parse.urlparse(url).path.strip("/").split("/")
+            return parts[0] if parts else "(greenhouse)"
+        if "lever.co" in host:
+            parts = urllib.parse.urlparse(url).path.strip("/").split("/")
+            return parts[0] if parts else "(lever)"
+        if "ashbyhq.com" in host:
+            parts = urllib.parse.urlparse(url).path.strip("/").split("/")
+            return parts[0] if parts else "(ashby)"
+        return host
+    except Exception:
+        return ""
+
+
+def fetch_serpapi() -> list[dict]:
+    """Optional broad-web fetcher. Set SERPAPI_KEY env var to enable.
+
+    Free tier: 100 queries/month. We use 3 queries per run (~90/month).
+    """
+    api_key = os.environ.get("SERPAPI_KEY", "").strip()
+    if not api_key:
+        return []
+    out = []
+    seen = set()
+    for q in SERPAPI_QUERIES:
+        try:
+            url = (
+                "https://serpapi.com/search.json"
+                f"?engine=google&num=20&q={urllib.parse.quote(q)}"
+                f"&api_key={urllib.parse.quote(api_key)}"
+            )
+            data = fetch_json(url)
+            for r in data.get("organic_results", []):
+                link = (r.get("link") or "").strip()
+                if not link or link in seen:
+                    continue
+                title = r.get("title", "") or ""
+                snippet = r.get("snippet", "") or ""
+                if not is_fpga(title, snippet):
+                    continue
+                # Filter out aggregator listing pages (we want the actual job posting)
+                low = link.lower()
+                if any(k in low for k in ("/search?", "/jobs?", "/q-fpga", "google.com/search")):
+                    continue
+                seen.add(link)
+                out.append({
+                    "url": link,
+                    "title": title,
+                    "company": _company_from_url(link),
+                    "location": "Remote (per query)",
+                    "source": "SerpAPI:Google",
+                    "posted_at": r.get("date", ""),
+                })
+        except Exception as e:
+            logging.warning("SerpAPI query %r failed: %s", q, e)
+    return out
+
+
 def fetch_all() -> list[dict]:
     jobs = []
-    print("[1/6] Remotive...", flush=True)
+    has_serpapi = bool(os.environ.get("SERPAPI_KEY", "").strip())
+    total_steps = 7 if has_serpapi else 6
+
+    print(f"[1/{total_steps}] Remotive...", flush=True)
     jobs += fetch_remotive()
     print(f"  +{len(jobs)} so far")
-    print("[2/6] Remote OK...", flush=True)
+    print(f"[2/{total_steps}] Remote OK...", flush=True)
     n0 = len(jobs); jobs += fetch_remoteok()
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
-    print("[3/6] Hacker News (FPGA + remote, last 7d)...", flush=True)
+    print(f"[3/{total_steps}] Hacker News (FPGA + remote, last 7d)...", flush=True)
     n0 = len(jobs); jobs += fetch_hn()
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
-    print(f"[4/6] Greenhouse boards ({len(GREENHOUSE_ORGS)} orgs)...", flush=True)
+    print(f"[4/{total_steps}] Greenhouse boards ({len(GREENHOUSE_ORGS)} orgs)...", flush=True)
     n0 = len(jobs)
     for org in GREENHOUSE_ORGS:
         jobs += fetch_greenhouse(org)
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
-    print(f"[5/6] Lever boards ({len(LEVER_ORGS)} orgs)...", flush=True)
+    print(f"[5/{total_steps}] Lever boards ({len(LEVER_ORGS)} orgs)...", flush=True)
     n0 = len(jobs)
     for org in LEVER_ORGS:
         jobs += fetch_lever(org)
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
-    print(f"[6/6] Ashby boards ({len(ASHBY_ORGS)} orgs)...", flush=True)
+    print(f"[6/{total_steps}] Ashby boards ({len(ASHBY_ORGS)} orgs)...", flush=True)
     n0 = len(jobs)
     for org in ASHBY_ORGS:
         jobs += fetch_ashby(org)
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    if has_serpapi:
+        print(f"[7/{total_steps}] SerpAPI broad-web search...", flush=True)
+        n0 = len(jobs); jobs += fetch_serpapi()
+        print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    else:
+        print("(skip SerpAPI: SERPAPI_KEY env var not set)")
     return jobs
 
 
