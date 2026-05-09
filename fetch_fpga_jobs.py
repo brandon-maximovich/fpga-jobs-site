@@ -527,7 +527,7 @@ main { padding:24px 32px 64px; max-width:1200px; margin:0 auto; }
   </div>
 
   <div class="footer">
-    Auto-refreshed daily by GitHub Actions. URLs persist across runs &mdash; new ones appear at top, old ones remain until they drop from feeds. Source: <a href="https://github.com/brandon-maximovich/fpga-jobs" style="color:var(--accent);">github.com/brandon-maximovich/fpga-jobs</a>
+    Auto-refreshed daily by GitHub Actions. URLs persist across runs &mdash; new ones appear at top, old ones remain until they drop from feeds. Source: <a href="https://github.com/brandon-maximovich/fpga-jobs-site" style="color:var(--accent);">github.com/brandon-maximovich/fpga-jobs-site</a>
   </div>
 </main>
 

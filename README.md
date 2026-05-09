@@ -1,7 +1,7 @@
 # FPGA Remote Jobs — Live Feed
 
 Auto-aggregated FPGA remote job postings (no clearance required).
-Live site: <https://brandon-maximovich.github.io/fpga-jobs/>
+Live site: <https://brandon-maximovich.github.io/fpga-jobs-site/>
 
 ## How it works
 
@@ -23,7 +23,7 @@ python fetch_fpga_jobs.py
 
 ## Manual trigger (live site)
 
-Go to the [Actions tab](https://github.com/brandon-maximovich/fpga-jobs/actions),
+Go to the [Actions tab](https://github.com/brandon-maximovich/fpga-jobs-site/actions),
 select **Update FPGA Jobs**, click **Run workflow**.
 
 ## Adding more company sources

@@ -201,7 +201,7 @@ on:
 ## 8. Recipe: Trigger an immediate refresh
 
 **Option A — via GitHub UI:**
-1. Go to <https://github.com/brandon-maximovich/fpga-jobs/actions>
+1. Go to <https://github.com/brandon-maximovich/fpga-jobs-site/actions>
 2. Click **Update FPGA Jobs** → **Run workflow** → **Run workflow**
 
 **Option B — via push:** any commit to `main` triggers it (because the workflow has `push: branches: [main]`).
@@ -243,7 +243,7 @@ Then on GitHub, open a pull request from `add-new-source` → `main`. Merging th
 
 | Symptom | Where to look |
 |---|---|
-| Site shows old data | <https://github.com/brandon-maximovich/fpga-jobs/actions> — check if last run failed |
+| Site shows old data | <https://github.com/brandon-maximovich/fpga-jobs-site/actions> — check if last run failed |
 | Workflow shows red ❌ | Click the failed run → expand the failed step for the error log |
 | One source returns 0 every day | The org slug 404'd, or the API changed shape — see Recipe #4 |
 | `git push` rejected | Run `git pull --rebase` first |
@@ -263,7 +263,7 @@ The script supports an optional 7th fetcher that hits Google via [SerpAPI](https
 2. Copy your API key from the dashboard.
 
 **Step 2 — add it as a GitHub Actions secret:**
-1. Go to `https://github.com/brandon-maximovich/fpga-jobs/settings/secrets/actions`
+1. Go to `https://github.com/brandon-maximovich/fpga-jobs-site/settings/secrets/actions`
 2. Click **New repository secret**.
 3. Name: `SERPAPI_KEY`. Value: your API key. Save.
 
