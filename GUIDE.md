@@ -82,6 +82,47 @@ Then add to `LEVER_ORGS` in the script.
 
 ---
 
+## 2.5. Recipe: Add a new Workday tenant (AMD/NVIDIA/Intel/etc.)
+
+Workday hosts the careers pages of most large hardware companies. **Use `probe_workday.py` first** — Workday's API has quirks (requires `Referer` header, max `limit=20`).
+
+**Step 1.** Find the tenant + cluster + site from a public job URL. Example:
+`https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/...`
+→ tenant=`nvidia`, cluster=`wd5`, site=`NVIDIAExternalCareerSite`.
+
+**Step 2.** Add to the candidate list at the top of `probe_workday.py` and run:
+
+```bash
+py probe_workday.py
+```
+
+A successful tenant returns `http=200, total_fpga > 0`. Common error codes:
+- `400` — body or headers wrong (see top of `fetch_workday()` for the exact format)
+- `422` — site path is wrong
+- `404` — tenant doesn't exist or moved
+
+**Step 3.** Add the working tuple to `WORKDAY_BOARDS` in `fetch_fpga_jobs.py`:
+
+```python
+WORKDAY_BOARDS = [
+    ("nvidia", "wd5", "NVIDIAExternalCareerSite"),
+    ("your-tenant", "wd1", "External_Career"),  # <-- add it
+]
+```
+
+**Step 4.** Test, commit, push:
+
+```bash
+py fetch_fpga_jobs.py
+git add -A
+git commit -m "Add <company> Workday tenant"
+git push
+```
+
+> **Filter behavior:** Workday listings don't include the JD, so we use a two-tier title filter. **Strong matches** (FPGA/RTL/Verilog/VHDL in title) are always included. **Medium matches** (broader "verification engineer", "hardware design") are included only when location is explicitly Remote/Virtual.
+
+---
+
 ## 3. Recipe: Add a new Ashby company
 
 ```bash

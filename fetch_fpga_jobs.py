@@ -61,6 +61,19 @@ ASHBY_ORGS = [
     "rain", "perplexity",
 ]
 
+# Workday tenants. Tuple format: (tenant, cluster, site_path).
+# Verify new entries with probe_workday.py before adding.
+WORKDAY_BOARDS = [
+    ("nvidia", "wd5", "NVIDIAExternalCareerSite"),
+    ("intel", "wd1", "External"),
+    ("cadence", "wd1", "External_Careers"),
+    ("marvell", "wd1", "MarvellCareers2"),
+    ("broadcom", "wd1", "External_Career"),
+    ("hpe", "wd5", "Jobsathpe"),
+    ("micron", "wd1", "External"),
+    ("globalfoundries", "wd1", "External"),
+]
+
 
 def fetch_url(url: str, headers: dict | None = None) -> bytes:
     req = urllib.request.Request(
@@ -101,9 +114,28 @@ def is_fpga_role_strict(title: str, content: str = "") -> bool:
     return bool(FPGA_STRICT_RE.search(f"{title} {content}"))
 
 
+WORKDAY_TITLE_RE = re.compile(
+    r"\bfpga\b|\brtl\b|\bsystem\s*verilog\b|\bverilog\b|\bvhdl\b",
+    re.I,
+)
+
+
+def is_fpga_title_only(title: str) -> bool:
+    """Title-only filter for sources without descriptions in listings (Workday).
+
+    Stricter than is_fpga_role_strict: must literally mention FPGA/RTL/Verilog.
+    "Verification Engineer" alone is NOT enough -- at semi companies on Workday,
+    most verification roles are ASIC, not FPGA.
+    """
+    if EXCLUDE_RE.search(title.lower()):
+        return False
+    return bool(WORKDAY_TITLE_RE.search(title))
+
+
 def is_remote(location: str, content: str = "") -> bool:
     text = f"{location} {content}".lower()
-    return any(k in text for k in ("remote", "anywhere", "work from home", "wfh", "distributed"))
+    return any(k in text for k in
+               ("remote", "anywhere", "work from home", "wfh", "distributed", "virtual"))
 
 
 def fetch_remotive() -> list[dict]:
@@ -277,6 +309,62 @@ def fetch_ashby(org: str) -> list[dict]:
     return out
 
 
+def fetch_workday(tenant: str, cluster: str, site: str) -> list[dict]:
+    """Workday public job-board API.
+
+    Quirks:
+    - Requires Referer header pointing to the careers page (else 400).
+    - Requires limit <= 20 (else 400).
+    - searchText="FPGA remote" forces both keywords (Workday treats it as AND).
+    - Listings don't return descriptions, so we filter on title only.
+    """
+    out = []
+    try:
+        url = f"https://{tenant}.{cluster}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"
+        body = json.dumps({
+            "appliedFacets": {},
+            "limit": 20,
+            "offset": 0,
+            "searchText": "FPGA remote",
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            url, data=body, method="POST",
+            headers={
+                "User-Agent": "Mozilla/5.0",
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "Referer": f"https://{tenant}.{cluster}.myworkdayjobs.com/{site}",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+        for j in data.get("jobPostings", []):
+            title = j.get("title", "")
+            location = j.get("locationsText", "") or ""
+            # Strong: literal FPGA/RTL/Verilog in title -- include regardless.
+            # Medium: broader hardware/verification title AND location explicitly
+            # marked remote/virtual -- include.
+            strong = is_fpga_title_only(title)
+            medium = (TITLE_FPGA_RE.search(title) and is_remote(location)
+                      and not EXCLUDE_RE.search(f"{title} {location}".lower()))
+            if not (strong or medium):
+                continue
+            external_path = j.get("externalPath", "")
+            if not external_path:
+                continue
+            out.append({
+                "url": f"https://{tenant}.{cluster}.myworkdayjobs.com/{site}{external_path}",
+                "title": title,
+                "company": tenant,
+                "location": location or "Multiple (per searchText)",
+                "source": f"Workday:{tenant}",
+                "posted_at": j.get("postedOn", ""),
+            })
+    except Exception as e:
+        logging.warning("Workday %s failed: %s", tenant, e)
+    return out
+
+
 SERPAPI_QUERIES = [
     '"FPGA engineer" "remote" -clearance -secret -"US citizen"',
     '"FPGA" "remote" site:boards.greenhouse.io -clearance',
@@ -348,7 +436,7 @@ def fetch_serpapi() -> list[dict]:
 def fetch_all() -> list[dict]:
     jobs = []
     has_serpapi = bool(os.environ.get("SERPAPI_KEY", "").strip())
-    total_steps = 7 if has_serpapi else 6
+    total_steps = 8 if has_serpapi else 7
 
     print(f"[1/{total_steps}] Remotive...", flush=True)
     jobs += fetch_remotive()
@@ -374,8 +462,13 @@ def fetch_all() -> list[dict]:
     for org in ASHBY_ORGS:
         jobs += fetch_ashby(org)
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    print(f"[7/{total_steps}] Workday boards ({len(WORKDAY_BOARDS)} tenants)...", flush=True)
+    n0 = len(jobs)
+    for tenant, cluster, site in WORKDAY_BOARDS:
+        jobs += fetch_workday(tenant, cluster, site)
+    print(f"  +{len(jobs) - n0} (total {len(jobs)})")
     if has_serpapi:
-        print(f"[7/{total_steps}] SerpAPI broad-web search...", flush=True)
+        print(f"[8/{total_steps}] SerpAPI broad-web search...", flush=True)
         n0 = len(jobs); jobs += fetch_serpapi()
         print(f"  +{len(jobs) - n0} (total {len(jobs)})")
     else:
