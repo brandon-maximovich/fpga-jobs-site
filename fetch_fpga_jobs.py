@@ -523,8 +523,9 @@ def fetch_jsearch() -> list[dict]:
                 if not (j.get("job_is_remote") or is_remote(location, desc)):
                     continue
                 posted = j.get("job_posted_at_datetime_utc", "") or ""
-                if not is_recent(posted, "JSearch"):
-                    continue
+                # JSearch is intentionally NOT subject to the 24h freshness
+                # filter -- LinkedIn/Indeed listings stay open for weeks and the
+                # user wants broad coverage. ATS sources still enforce 24h.
                 # JSearch broad mode: accept any apply URL (aggregators OK).
                 apply_link = (j.get("job_apply_link") or j.get("job_google_link") or "").strip()
                 if not apply_link or apply_link in seen:
