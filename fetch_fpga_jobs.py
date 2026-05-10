@@ -525,33 +525,22 @@ def fetch_jsearch() -> list[dict]:
                 posted = j.get("job_posted_at_datetime_utc", "") or ""
                 if not is_recent(posted, "JSearch"):
                     continue
-                # Prefer the company's direct apply page; skip aggregator-only.
-                direct_link = ""
-                direct_publisher = ""
-                for opt in (j.get("apply_options") or []):
-                    if not isinstance(opt, dict):
-                        continue
-                    if opt.get("is_direct"):
-                        direct_link = (opt.get("apply_link") or "").strip()
-                        direct_publisher = opt.get("publisher") or "Direct"
-                        break
-                if not direct_link and j.get("job_apply_is_direct"):
-                    direct_link = (j.get("job_apply_link") or "").strip()
-                    direct_publisher = j.get("job_publisher") or "Direct"
-                if not direct_link or direct_link in seen:
+                # JSearch broad mode: accept any apply URL (aggregators OK).
+                apply_link = (j.get("job_apply_link") or j.get("job_google_link") or "").strip()
+                if not apply_link or apply_link in seen:
                     continue
-                seen.add(direct_link)
+                seen.add(apply_link)
                 # Strip zero-width and other invisible chars from title (JSearch
                 # often returns them around dashes).
                 clean_title = re.sub(
                     r"[​-‏‪-‮⁠﻿]", "", title
                 )
                 out.append({
-                    "url": direct_link,
+                    "url": apply_link,
                     "title": clean_title,
                     "company": j.get("employer_name", "") or "",
                     "location": location,
-                    "source": f"JSearch:{direct_publisher}",
+                    "source": f"JSearch:{j.get('job_publisher') or 'unknown'}",
                     "posted_at": posted,
                 })
         except Exception as e:
@@ -564,6 +553,18 @@ SERPAPI_QUERIES = [
     '"FPGA" "remote" site:boards.greenhouse.io -clearance',
     '"FPGA" "fully remote" -clearance -secret',
 ]
+
+# Aggregator domains: SerpAPI results pointing at these are dropped, since
+# we want links to the company's own apply page (direct/ATS), not a job-board
+# listing. JSearch handles aggregator coverage separately.
+AGGREGATOR_DOMAINS = (
+    "indeed.com", "linkedin.com", "ziprecruiter.com", "glassdoor.com",
+    "simplyhired.com", "monster.com", "builtin.com", "wellfound.com",
+    "remoteok.com", "remotive.com", "weworkremotely.com", "himalayas.app",
+    "jooble.org", "lensa.com", "talent.com", "theladders.com", "snagajob.com",
+    "jobtrees.com", "clusterworkaura.com", "learn4good.com", "quickswoop.com",
+    "remoterocketship.com", "whatjobs.com", "neuvoo.com", "adzuna.com",
+)
 
 
 def _company_from_url(url: str) -> str:
@@ -615,6 +616,11 @@ def fetch_serpapi() -> list[dict]:
                 # Filter out aggregator listing pages (we want the actual job posting)
                 low = link.lower()
                 if any(k in low for k in ("/search?", "/jobs?", "/q-fpga", "google.com/search")):
+                    continue
+                # Skip aggregator-domain URLs entirely; SerpAPI must return only
+                # company-direct or ATS apply links.
+                host = (urllib.parse.urlparse(link).hostname or "").lower()
+                if any(host == d or host.endswith("." + d) for d in AGGREGATOR_DOMAINS):
                     continue
                 seen.add(link)
                 out.append({
