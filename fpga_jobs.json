@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-10T14:06:12.906392+00:00",
+  "last_run": "2026-05-10T14:11:41.088613+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -149,7 +149,7 @@
       "source": "JSearch:WhatJobs",
       "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.whatjobs.com/jobs/principal-fpga-engineer/remote?id=2670360881": {
       "url": "https://www.whatjobs.com/jobs/principal-fpga-engineer/remote?id=2670360881",
@@ -159,7 +159,7 @@
       "source": "JSearch:WhatJobs",
       "posted_at": "2026-04-29T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.learn4good.com/jobs/online_remote/engineering/5083036729/e/": {
       "url": "https://www.learn4good.com/jobs/online_remote/engineering/5083036729/e/",
@@ -169,7 +169,7 @@
       "source": "JSearch:Learn4Good",
       "posted_at": "2026-05-08T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://lensa.com/job-v1/infostride-technologies/remote/senior-fpga-engineer/07a6feb687b19247a97379a0eaa85b0a": {
       "url": "https://lensa.com/job-v1/infostride-technologies/remote/senior-fpga-engineer/07a6feb687b19247a97379a0eaa85b0a",
@@ -179,7 +179,7 @@
       "source": "JSearch:Lensa",
       "posted_at": "2026-05-01T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://theelitejob.com/job/17003/remote-embedded-fpga-engineer-%E2%80%93-hardware-design": {
       "url": "https://theelitejob.com/job/17003/remote-embedded-fpga-engineer-%E2%80%93-hardware-design",
@@ -189,7 +189,7 @@
       "source": "JSearch:The Elite Job",
       "posted_at": "2026-05-02T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://jooble.org/jdp/-1547542471028053930": {
       "url": "https://jooble.org/jdp/-1547542471028053930",
@@ -199,7 +199,7 @@
       "source": "JSearch:Jooble",
       "posted_at": "2026-05-08T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.jobtrees.com/postid/6d8e0e3d-680a-40c9-bc57-57586e9b9982": {
       "url": "https://www.jobtrees.com/postid/6d8e0e3d-680a-40c9-bc57-57586e9b9982",
@@ -209,7 +209,7 @@
       "source": "JSearch:Jobtrees",
       "posted_at": "2026-04-27T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.remoterocketship.com/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/": {
       "url": "https://www.remoterocketship.com/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
@@ -219,7 +219,7 @@
       "source": "JSearch:Remote Rocketship",
       "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic": {
       "url": "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
@@ -229,7 +229,7 @@
       "source": "JSearch:Himalayas",
       "posted_at": "2026-04-26T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.learn4good.com/jobs/online_remote/engineering/5046190316/e/": {
       "url": "https://www.learn4good.com/jobs/online_remote/engineering/5046190316/e/",
@@ -239,7 +239,7 @@
       "source": "JSearch:Learn4Good",
       "posted_at": "2026-04-20T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.learn4good.com/jobs/online_remote/engineering/5038709149/e/": {
       "url": "https://www.learn4good.com/jobs/online_remote/engineering/5038709149/e/",
@@ -249,7 +249,7 @@
       "source": "JSearch:Learn4Good",
       "posted_at": "2026-04-17T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -259,7 +259,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-05-02T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83": {
       "url": "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
@@ -269,7 +269,7 @@
       "source": "JSearch:Teal",
       "posted_at": "2026-04-21T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.learn4good.com/jobs/online_remote/engineering/5046314460/e/": {
       "url": "https://www.learn4good.com/jobs/online_remote/engineering/5046314460/e/",
@@ -279,7 +279,7 @@
       "source": "JSearch:Learn4Good",
       "posted_at": "2026-04-20T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277": {
       "url": "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
@@ -289,7 +289,7 @@
       "source": "JSearch:Tallo",
       "posted_at": "2026-04-16T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://gigpro.html-5.me/job/firmware-developer-fpga-vhdl-verilog-system-verilog": {
       "url": "https://gigpro.html-5.me/job/firmware-developer-fpga-vhdl-verilog-system-verilog",
@@ -299,7 +299,7 @@
       "source": "JSearch:Gigpro",
       "posted_at": "2026-05-04T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.reddit.com/r/FPGA/comments/1no0jab/career_advice_fpga_engineer_remote_work_options/": {
       "url": "https://www.reddit.com/r/FPGA/comments/1no0jab/career_advice_fpga_engineer_remote_work_options/",
@@ -479,7 +479,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "11 hours ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
-      "last_seen": "2026-05-10T14:06:12.906392+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://ca.talent.com/view?id=618631131880887769": {
       "url": "https://ca.talent.com/view?id=618631131880887769",
@@ -509,7 +509,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "13 hours ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
-      "last_seen": "2026-05-10T14:06:12.906392+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://www.eluta.ca/FPGA-Engineer-jobs-in-Mississauga-ON": {
       "url": "https://www.eluta.ca/FPGA-Engineer-jobs-in-Mississauga-ON",
@@ -519,7 +519,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "16 hours ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
-      "last_seen": "2026-05-10T14:06:12.906392+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://sg.jobstreet.com/fpga-engineer-jobs": {
       "url": "https://sg.jobstreet.com/fpga-engineer-jobs",
@@ -529,7 +529,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "12 hours ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
-      "last_seen": "2026-05-10T14:06:12.906392+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://cosmoquick.com/hire-experienced-in/montreal/hire-experienced-fpga-engineer": {
       "url": "https://cosmoquick.com/hire-experienced-in/montreal/hire-experienced-fpga-engineer",
@@ -539,7 +539,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "18 hours ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
-      "last_seen": "2026-05-10T14:06:12.906392+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://ca.talent.com/view?id=618631173961422297": {
       "url": "https://ca.talent.com/view?id=618631173961422297",
@@ -559,7 +559,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "14 hours ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
-      "last_seen": "2026-05-10T14:06:12.906392+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://ca.indeed.com/q-electrical-drafter-l-remote-jobs.html": {
       "url": "https://ca.indeed.com/q-electrical-drafter-l-remote-jobs.html",
@@ -579,7 +579,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "7 hours ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
-      "last_seen": "2026-05-10T14:06:12.906392+00:00"
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     },
     "https://ca.linkedin.com/jobs/%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E5%B0%8F%E5%A7%90%E4%B8%8A%E9%97%A8%E7%89%B9%E6%AE%8A%E6%9C%8D%E5%8A%A1%E2%9D%B0%E7%BA%A6%E7%82%AE%E7%BD%91%E5%9D%80%EF%BD%99%EF%BD%95%EF%BD%85%EF%BC%92%EF%BC%93%EF%BC%94%EF%BC%95%EF%BC%8E%EF%BD%96%EF%BD%89%EF%BD%90%E7%9C%9F%E5%AE%9E%E4%B8%8A%E9%97%A8%E6%9C%8D%E5%8A%A1%E2%9D%B1%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%80%8E%E4%B9%88%E6%89%BE%E5%B0%8F%E5%A7%90%E6%9C%8D%E5%8A%A1_%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%89%BE%E5%B0%8F%E5%A7%90%E5%85%A8%E5%A5%97%E7%89%B9%E6%AE%8A%E6%9C%8D%E5%8A%A1_%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%89%BE%E5%B0%8F%E5%A7%90%E4%B8%8A%E9%97%A8%E6%8E%A8%E6%B2%B9%E4%BF%9D%E5%81%A5%E6%8C%89%E6%91%A9%E6%9C%8D%E5%8A%A1_%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%89%BE%E5%B0%8F%E5%A7%90%E5%AD%A6%E7%94%9F%E5%A6%B9%E5%85%A8%E5%A5%97%E6%8C%89%E6%91%A9%E6%9C%8D%E5%8A%A1%E4%B8%8A%E9%97%A8%E5%A4%9A%E5%B0%91%E9%92%B1.0510-jobs": {
       "url": "https://ca.linkedin.com/jobs/%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E5%B0%8F%E5%A7%90%E4%B8%8A%E9%97%A8%E7%89%B9%E6%AE%8A%E6%9C%8D%E5%8A%A1%E2%9D%B0%E7%BA%A6%E7%82%AE%E7%BD%91%E5%9D%80%EF%BD%99%EF%BD%95%EF%BD%85%EF%BC%92%EF%BC%93%EF%BC%94%EF%BC%95%EF%BC%8E%EF%BD%96%EF%BD%89%EF%BD%90%E7%9C%9F%E5%AE%9E%E4%B8%8A%E9%97%A8%E6%9C%8D%E5%8A%A1%E2%9D%B1%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%80%8E%E4%B9%88%E6%89%BE%E5%B0%8F%E5%A7%90%E6%9C%8D%E5%8A%A1_%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%89%BE%E5%B0%8F%E5%A7%90%E5%85%A8%E5%A5%97%E7%89%B9%E6%AE%8A%E6%9C%8D%E5%8A%A1_%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%89%BE%E5%B0%8F%E5%A7%90%E4%B8%8A%E9%97%A8%E6%8E%A8%E6%B2%B9%E4%BF%9D%E5%81%A5%E6%8C%89%E6%91%A9%E6%9C%8D%E5%8A%A1_%E6%97%A5%E6%9C%AC%E5%9F%BC%E7%8E%89%E6%89%BE%E5%B0%8F%E5%A7%90%E5%AD%A6%E7%94%9F%E5%A6%B9%E5%85%A8%E5%A5%97%E6%8C%89%E6%91%A9%E6%9C%8D%E5%8A%A1%E4%B8%8A%E9%97%A8%E5%A4%9A%E5%B0%91%E9%92%B1.0510-jobs",
@@ -620,15 +620,42 @@
       "posted_at": "1 hour ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
       "last_seen": "2026-05-10T13:58:54.279127+00:00"
+    },
+    "https://quickswoop.infinityfree.me/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-10": {
+      "url": "https://quickswoop.infinityfree.me/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-10",
+      "title": "[Remote] FPGA RTL Design Engineer-5G Wireless Domain",
+      "company": "Quickswoop",
+      "location": "Remote",
+      "source": "JSearch:Quickswoop",
+      "posted_at": "2026-05-05T00:00:00.000Z",
+      "first_seen": "2026-05-10T14:11:41.088613+00:00",
+      "last_seen": "2026-05-10T14:11:41.088613+00:00"
     }
   },
   "currently_open_urls": [
     "https://cosmoquick.com/hire-experienced-in/montreal/hire-experienced-fpga-engineer",
+    "https://gigpro.html-5.me/job/firmware-developer-fpga-vhdl-verilog-system-verilog",
+    "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
     "https://i-qcc.com/research",
+    "https://jooble.org/jdp/-1547542471028053930",
+    "https://lensa.com/job-v1/infostride-technologies/remote/senior-fpga-engineer/07a6feb687b19247a97379a0eaa85b0a",
+    "https://quickswoop.infinityfree.me/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-10",
     "https://sg.jobstreet.com/fpga-engineer-jobs",
+    "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
+    "https://theelitejob.com/job/17003/remote-embedded-fpga-engineer-%E2%80%93-hardware-design",
     "https://www.careerbeacon.com/en/job-9/3185489/lmi-technologies/senior-hardware-fpga-engineer/burnaby-bc",
+    "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
     "https://www.eluta.ca/FPGA-Engineer-jobs-in-Mississauga-ON",
     "https://www.exec-appointments.com/job/1925880/senior-hardware-engineer/",
-    "https://www.itjobswatch.co.uk/jobs/uk/fpga%20engineer.do"
+    "https://www.itjobswatch.co.uk/jobs/uk/fpga%20engineer.do",
+    "https://www.jobtrees.com/postid/6d8e0e3d-680a-40c9-bc57-57586e9b9982",
+    "https://www.learn4good.com/jobs/online_remote/engineering/5038709149/e/",
+    "https://www.learn4good.com/jobs/online_remote/engineering/5046190316/e/",
+    "https://www.learn4good.com/jobs/online_remote/engineering/5046314460/e/",
+    "https://www.learn4good.com/jobs/online_remote/engineering/5083036729/e/",
+    "https://www.remoterocketship.com/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
+    "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
+    "https://www.whatjobs.com/jobs/fpga-architect-custom-compute/california?id=2690275011",
+    "https://www.whatjobs.com/jobs/principal-fpga-engineer/remote?id=2670360881"
   ]
 }
