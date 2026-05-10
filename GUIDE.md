@@ -293,6 +293,39 @@ Then on GitHub, open a pull request from `add-new-source` → `main`. Merging th
 
 ---
 
+## 11.3. Recipe: Adjust the freshness window
+
+The script ships with a strict **24-hour** age filter. Anything posted more than 24 hours before the run is excluded. This keeps the feed truly fresh but also means you'll often see 0-3 ATS results per day (companies don't post FPGA roles daily).
+
+**To relax the window**, set the `MAX_AGE_HOURS` env var. Common values:
+
+| Value | Meaning | Typical daily volume |
+|---|---|---|
+| `24` (default) | Past day only | 0–10 jobs |
+| `72` | Past 3 days | 5–25 jobs |
+| `168` | Past week | 15–60 jobs |
+| `720` | Past month | 40–150 jobs |
+
+**To override on GitHub Actions**, edit `.github/workflows/update-jobs.yml`:
+
+```yaml
+- name: Run aggregator
+  env:
+    MAX_AGE_HOURS: '168'   # past week
+    SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+    RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+  run: python fetch_fpga_jobs.py
+```
+
+**To override locally:**
+```bash
+MAX_AGE_HOURS=168 py fetch_fpga_jobs.py
+```
+
+> **Why strict-by-default?** The existing UI already tracks `first_seen` per URL, so older roles you've already reviewed don't repeat. Combined with the 24h filter, every job you see in "New today" is genuinely fresh — no scrolling past stale postings.
+
+---
+
 ## 11.4. Recipe: Enable LinkedIn/Indeed coverage via JSearch (RapidAPI)
 
 JSearch wraps LinkedIn, Indeed, Glassdoor, and ZipRecruiter behind one ToS-compliant API. **Biggest single source of new jobs** — likely +20–80 remote FPGA roles per run.

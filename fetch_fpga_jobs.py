@@ -34,6 +34,10 @@ HTML_PATH = ROOT / "index.html"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 FPGAJobAggregator/1.0"
 TIMEOUT = 30
 
+# Max age of a posting in hours. Default 24 = only show jobs posted in the
+# last day. Override via env var, e.g. MAX_AGE_HOURS=168 for a 1-week window.
+MAX_AGE_HOURS = float(os.environ.get("MAX_AGE_HOURS", "24"))
+
 FPGA_STRICT_RE = re.compile(r"\bfpga\b", re.I)
 EXCLUDE_RE = re.compile(
     r"\bsecurity clearance\b|\bsecret clearance\b|\btop secret\b|\bts/sci\b|"
@@ -140,6 +144,66 @@ def is_remote(location: str, content: str = "") -> bool:
                ("remote", "anywhere", "work from home", "wfh", "distributed", "virtual"))
 
 
+def parse_posted_age_hours(posted_at, source: str = "") -> float | None:
+    """Return hours since posted, or None if unparseable.
+
+    Handles:
+    - ISO 8601 strings ("2026-05-08T12:00:00Z", with or without TZ)
+    - Numeric epoch (seconds or milliseconds)
+    - Workday-style human text ("Posted Today", "Yesterday", "30+ Days Ago")
+    """
+    if posted_at is None or posted_at == "":
+        return None
+    s = str(posted_at).strip()
+    low = s.lower()
+
+    # Workday-style human text
+    if any(w in low for w in ("today", "yesterday", "ago")):
+        if "today" in low:
+            return 0.0
+        if "yesterday" in low:
+            return 24.0
+        m = re.search(r"(\d+)\s*\+?\s*hour", low)
+        if m:
+            return float(m.group(1))
+        m = re.search(r"(\d+)\s*\+?\s*day", low)
+        if m:
+            return float(m.group(1)) * 24
+        m = re.search(r"(\d+)\s*\+?\s*week", low)
+        if m:
+            return float(m.group(1)) * 24 * 7
+        m = re.search(r"(\d+)\s*\+?\s*month", low)
+        if m:
+            return float(m.group(1)) * 24 * 30
+        return None
+
+    # Numeric epoch
+    if s.lstrip("-").isdigit():
+        ts = int(s)
+        if ts > 1e12:
+            ts /= 1000.0  # ms -> s
+        delta = datetime.now(timezone.utc).timestamp() - ts
+        return delta / 3600
+
+    # ISO 8601
+    try:
+        iso = s.replace("Z", "+00:00")
+        dt = datetime.fromisoformat(iso)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        delta = (datetime.now(timezone.utc) - dt).total_seconds()
+        return delta / 3600
+    except Exception:
+        return None
+
+
+def is_recent(posted_at, source: str = "") -> bool:
+    """Strict: include only if we can confirm posted_at is within MAX_AGE_HOURS.
+    Unparseable timestamps are EXCLUDED (we cannot confirm freshness)."""
+    age = parse_posted_age_hours(posted_at, source)
+    return age is not None and 0 <= age <= MAX_AGE_HOURS
+
+
 def fetch_remotive() -> list[dict]:
     out = []
     try:
@@ -148,6 +212,8 @@ def fetch_remotive() -> list[dict]:
             title = j.get("title", "")
             desc = j.get("description", "") or ""
             if not is_fpga(title, desc):
+                continue
+            if not is_recent(j.get("publication_date", ""), "Remotive"):
                 continue
             out.append({
                 "url": j.get("url", ""),
@@ -177,6 +243,9 @@ def fetch_remoteok() -> list[dict]:
             desc = j.get("description", "") or ""
             if not is_fpga(f"{title} {tags_str}", desc):
                 continue
+            posted = j.get("date") or j.get("epoch", "")
+            if not is_recent(posted, "Remote OK"):
+                continue
             url = j.get("url") or j.get("apply_url", "")
             if not url:
                 continue
@@ -188,7 +257,7 @@ def fetch_remoteok() -> list[dict]:
                 "company": j.get("company", ""),
                 "location": j.get("location", "Remote"),
                 "source": "Remote OK",
-                "posted_at": j.get("date", ""),
+                "posted_at": str(posted),
             })
     except Exception as e:
         logging.warning("Remote OK failed: %s", e)
@@ -230,6 +299,8 @@ def fetch_hn() -> list[dict]:
             # Require at least one "we're hiring" signal
             if not _HN_HIRING_RE.search(text):
                 continue
+            if not is_recent(h.get("created_at", ""), "Hacker News"):
+                continue
             obj_id = h.get("objectID")
             if not obj_id:
                 continue
@@ -261,13 +332,16 @@ def fetch_greenhouse(org: str) -> list[dict]:
                 continue
             if not is_remote(location, content):
                 continue
+            posted = j.get("updated_at", "") or j.get("first_published", "")
+            if not is_recent(posted, "Greenhouse"):
+                continue
             out.append({
                 "url": j.get("absolute_url", ""),
                 "title": title,
                 "company": org,
                 "location": location or "Remote",
                 "source": f"Greenhouse:{org}",
-                "posted_at": j.get("updated_at", ""),
+                "posted_at": posted,
             })
     except Exception as e:
         logging.warning("Greenhouse %s failed: %s", org, e)
@@ -291,13 +365,16 @@ def fetch_lever(org: str) -> list[dict]:
                 continue
             if not is_remote(f"{location} {workplace}", desc):
                 continue
+            posted = str(j.get("createdAt", ""))
+            if not is_recent(posted, "Lever"):
+                continue
             out.append({
                 "url": j.get("hostedUrl", ""),
                 "title": title,
                 "company": org,
                 "location": location or "Remote",
                 "source": f"Lever:{org}",
-                "posted_at": str(j.get("createdAt", "")),
+                "posted_at": posted,
             })
     except Exception as e:
         logging.warning("Lever %s failed: %s", org, e)
@@ -318,13 +395,16 @@ def fetch_ashby(org: str) -> list[dict]:
                 continue
             if not (is_remote_flag or is_remote(location, desc)):
                 continue
+            posted = j.get("publishedAt", "") or j.get("updatedAt", "")
+            if not is_recent(posted, "Ashby"):
+                continue
             out.append({
                 "url": j.get("jobUrl", ""),
                 "title": title,
                 "company": org,
                 "location": location or "Remote",
                 "source": f"Ashby:{org}",
-                "posted_at": j.get("publishedAt", "") or j.get("updatedAt", ""),
+                "posted_at": posted,
             })
     except Exception as e:
         logging.warning("Ashby %s failed: %s", org, e)
@@ -371,6 +451,9 @@ def fetch_workday(tenant: str, cluster: str, site: str) -> list[dict]:
                       and not EXCLUDE_RE.search(f"{title} {location}".lower()))
             if not (strong or medium):
                 continue
+            posted = j.get("postedOn", "")
+            if not is_recent(posted, "Workday"):
+                continue
             external_path = j.get("externalPath", "")
             if not external_path:
                 continue
@@ -380,7 +463,7 @@ def fetch_workday(tenant: str, cluster: str, site: str) -> list[dict]:
                 "company": tenant,
                 "location": location or "Multiple (per searchText)",
                 "source": f"Workday:{tenant}",
-                "posted_at": j.get("postedOn", ""),
+                "posted_at": posted,
             })
     except Exception as e:
         logging.warning("Workday %s failed: %s", tenant, e)
@@ -439,22 +522,37 @@ def fetch_jsearch() -> list[dict]:
                 location = ", ".join(filter(None, location_parts)) or "Remote"
                 if not (j.get("job_is_remote") or is_remote(location, desc)):
                     continue
-                apply_link = (j.get("job_apply_link") or j.get("job_google_link") or "").strip()
-                if not apply_link or apply_link in seen:
+                posted = j.get("job_posted_at_datetime_utc", "") or ""
+                if not is_recent(posted, "JSearch"):
                     continue
-                seen.add(apply_link)
+                # Prefer the company's direct apply page; skip aggregator-only.
+                direct_link = ""
+                direct_publisher = ""
+                for opt in (j.get("apply_options") or []):
+                    if not isinstance(opt, dict):
+                        continue
+                    if opt.get("is_direct"):
+                        direct_link = (opt.get("apply_link") or "").strip()
+                        direct_publisher = opt.get("publisher") or "Direct"
+                        break
+                if not direct_link and j.get("job_apply_is_direct"):
+                    direct_link = (j.get("job_apply_link") or "").strip()
+                    direct_publisher = j.get("job_publisher") or "Direct"
+                if not direct_link or direct_link in seen:
+                    continue
+                seen.add(direct_link)
                 # Strip zero-width and other invisible chars from title (JSearch
                 # often returns them around dashes).
                 clean_title = re.sub(
                     r"[​-‏‪-‮⁠﻿]", "", title
                 )
                 out.append({
-                    "url": apply_link,
+                    "url": direct_link,
                     "title": clean_title,
                     "company": j.get("employer_name", "") or "",
                     "location": location,
-                    "source": f"JSearch:{j.get('job_publisher') or 'unknown'}",
-                    "posted_at": j.get("job_posted_at_datetime_utc", "") or "",
+                    "source": f"JSearch:{direct_publisher}",
+                    "posted_at": posted,
                 })
         except Exception as e:
             logging.warning("JSearch query %r failed: %s", q, e)
@@ -497,9 +595,12 @@ def fetch_serpapi() -> list[dict]:
     seen = set()
     for q in SERPAPI_QUERIES:
         try:
+            # tbs=qdr:d restricts Google results to the past 24 hours, matching
+            # the rest of the pipeline's freshness contract.
             url = (
                 "https://serpapi.com/search.json"
                 f"?engine=google&num=20&q={urllib.parse.quote(q)}"
+                f"&tbs=qdr:d"
                 f"&api_key={urllib.parse.quote(api_key)}"
             )
             data = fetch_json(url)
