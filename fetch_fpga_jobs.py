@@ -526,9 +526,12 @@ def fetch_jsearch() -> list[dict]:
                 # JSearch is intentionally NOT subject to the 24h freshness
                 # filter -- LinkedIn/Indeed listings stay open for weeks and the
                 # user wants broad coverage. ATS sources still enforce 24h.
-                # JSearch broad mode: accept any apply URL (aggregators OK).
+                # JSearch broad mode: accept any apply URL (aggregators OK)
+                # except known SCAM/SEO-spam domains.
                 apply_link = (j.get("job_apply_link") or j.get("job_google_link") or "").strip()
                 if not apply_link or apply_link in seen:
+                    continue
+                if _is_scam_url(apply_link):
                     continue
                 seen.add(apply_link)
                 # Strip zero-width and other invisible chars from title (JSearch
@@ -562,10 +565,38 @@ AGGREGATOR_DOMAINS = (
     "indeed.com", "linkedin.com", "ziprecruiter.com", "glassdoor.com",
     "simplyhired.com", "monster.com", "builtin.com", "wellfound.com",
     "remoteok.com", "remotive.com", "weworkremotely.com", "himalayas.app",
-    "jooble.org", "lensa.com", "talent.com", "theladders.com", "snagajob.com",
-    "jobtrees.com", "clusterworkaura.com", "learn4good.com", "quickswoop.com",
-    "remoterocketship.com", "whatjobs.com", "neuvoo.com", "adzuna.com",
+    "talent.com", "theladders.com", "snagajob.com", "neuvoo.com", "adzuna.com",
+    "dice.com", "tealhq.com", "tallo.com", "exec-appointments.com",
+    "itjobswatch.co.uk", "careerbeacon.com", "eluta.ca", "jobstreet.com",
+    "remoterocketship.com",
 )
+
+# SCAM / SEO-spam domains: blocked EVERYWHERE (JSearch + SerpAPI). These sites
+# scrape real job titles to draw search traffic, then redirect to affiliate
+# funnels ("data entry $25/word/min", fake training programs, info-harvesting).
+# trendingnewsgo.com flagged by ScamAdviser; the others share the same redirect
+# pattern when manually checked.
+SCAM_DOMAINS = (
+    "trendingnewsgo.com", "theelitejob.com", "cosmoquick.com", "i-qcc.com",
+    "learn4good.com", "jobtrees.com", "lensa.com", "jooble.org",
+    "whatjobs.com", "clusterworkaura.com", "quickswoop.com",
+)
+# Free-hosting subdomains -- legitimate companies do not use these for hiring.
+SCAM_HOSTING_SUFFIXES = (
+    ".html-5.me", ".infinityfree.me", ".byethost.com", ".byethost7.com",
+    ".000webhostapp.com", ".altervista.org", ".rf.gd", ".rfsite.com",
+)
+
+
+def _is_scam_url(url: str) -> bool:
+    host = (urllib.parse.urlparse(url).hostname or "").lower()
+    if not host:
+        return True  # malformed URL -- drop
+    if any(host == d or host.endswith("." + d) for d in SCAM_DOMAINS):
+        return True
+    if any(host.endswith(s) for s in SCAM_HOSTING_SUFFIXES):
+        return True
+    return False
 
 
 def _company_from_url(url: str) -> str:
@@ -619,7 +650,9 @@ def fetch_serpapi() -> list[dict]:
                 if any(k in low for k in ("/search?", "/jobs?", "/q-fpga", "google.com/search")):
                     continue
                 # Skip aggregator-domain URLs entirely; SerpAPI must return only
-                # company-direct or ATS apply links.
+                # company-direct or ATS apply links. Also drop scam/SEO-spam.
+                if _is_scam_url(link):
+                    continue
                 host = (urllib.parse.urlparse(link).hostname or "").lower()
                 if any(host == d or host.endswith("." + d) for d in AGGREGATOR_DOMAINS):
                     continue
@@ -691,12 +724,21 @@ def fetch_all() -> list[dict]:
 
 
 def load_db() -> dict:
+    db = {"last_run": None, "jobs": {}, "currently_open_urls": []}
     if DB_PATH.exists():
         try:
-            return json.loads(DB_PATH.read_text(encoding="utf-8"))
+            db = json.loads(DB_PATH.read_text(encoding="utf-8"))
         except Exception:
             pass
-    return {"last_run": None, "jobs": {}, "currently_open_urls": []}
+    # Purge any scam/SEO-spam URLs that crept in before the blocklist existed.
+    purged = [u for u in list(db.get("jobs", {})) if _is_scam_url(u)]
+    for u in purged:
+        del db["jobs"][u]
+    if "currently_open_urls" in db:
+        db["currently_open_urls"] = [u for u in db["currently_open_urls"] if not _is_scam_url(u)]
+    if purged:
+        print(f"Purged {len(purged)} scam/SEO-spam URLs from DB")
+    return db
 
 
 def save_db(db: dict) -> None:
