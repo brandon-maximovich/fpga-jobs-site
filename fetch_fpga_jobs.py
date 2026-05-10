@@ -195,6 +195,20 @@ def fetch_remoteok() -> list[dict]:
     return out
 
 
+_HN_HIRING_RE = re.compile(
+    r"\b(we\s*(\'re|are)\s*hiring|hiring\b|seeking|looking\s+for|"
+    r"join\s+(us|our|the\s+team)|come\s+work|\|\s*remote)",
+    re.I,
+)
+_HN_SEEKER_RE = re.compile(
+    r"\bseeking\s+(work|employment|a\s+job|opportunit|role|position)\b|"
+    r"\b(am|i\'m|i\s+am)\s+(available|looking|seeking)\s+for\s+(remote|work)|"
+    r"\bopen\s+to\s+(work|new\s+opportunit)|\bavailable\s+for\s+(hire|work|"
+    r"contract|consulting)|\bSEEKING\s+(WORK|FREELANCE)",
+    re.I,
+)
+
+
 def fetch_hn() -> list[dict]:
     out = []
     try:
@@ -209,6 +223,12 @@ def fetch_hn() -> list[dict]:
         for h in data.get("hits", []):
             text = h.get("comment_text") or ""
             if not text or not is_fpga(text) or not is_remote("", text):
+                continue
+            # Skip "I'm available for remote work" job-seeker comments
+            if _HN_SEEKER_RE.search(text):
+                continue
+            # Require at least one "we're hiring" signal
+            if not _HN_HIRING_RE.search(text):
                 continue
             obj_id = h.get("objectID")
             if not obj_id:
@@ -369,12 +389,14 @@ def fetch_workday(tenant: str, cluster: str, site: str) -> list[dict]:
 
 JSEARCH_QUERIES = [
     # (query, date_posted_filter)
-    # Free RapidAPI tier ~200 calls/month; 3 queries/day = ~90/month.
+    # Free RapidAPI tier ~200 calls/month; 5 queries/day = ~150/month (safe).
     # Embedding "remote" in the query string works MUCH better than the broken
     # remote_jobs_only=true parameter. date_posted=month gives more breadth.
     ("FPGA engineer remote", "month"),
     ("FPGA verification remote", "month"),
     ("RTL design engineer remote", "month"),
+    ("FPGA design engineer remote", "month"),
+    ("FPGA firmware remote", "month"),
 ]
 
 
