@@ -99,7 +99,8 @@ def is_fpga(title: str, content: str = "") -> bool:
 # mentions FPGA only incidentally as a "nice to have" skill.
 TITLE_FPGA_RE = re.compile(
     r"\bfpga\b|\brtl\b|\bsystem\s*verilog\b|\bdigital design\b|"
-    r"\bhardware design\b|\bverification engineer\b|\bdv engineer\b",
+    r"\bhardware design\b|\bverification engineer\b|\bdv engineer\b|"
+    r"\bfield.programmable gate array",
     re.I,
 )
 
@@ -115,7 +116,8 @@ def is_fpga_role_strict(title: str, content: str = "") -> bool:
 
 
 WORKDAY_TITLE_RE = re.compile(
-    r"\bfpga\b|\brtl\b|\bsystem\s*verilog\b|\bverilog\b|\bvhdl\b",
+    r"\bfpga\b|\brtl\b|\bsystem\s*verilog\b|\bverilog\b|\bvhdl\b|"
+    r"\bfield.programmable gate array",
     re.I,
 )
 
@@ -367,8 +369,12 @@ def fetch_workday(tenant: str, cluster: str, site: str) -> list[dict]:
 
 JSEARCH_QUERIES = [
     # (query, date_posted_filter)
-    # Free RapidAPI tier ~200 calls/month; 1 query/day = ~30/month.
-    ("FPGA engineer", "week"),
+    # Free RapidAPI tier ~200 calls/month; 3 queries/day = ~90/month.
+    # Embedding "remote" in the query string works MUCH better than the broken
+    # remote_jobs_only=true parameter. date_posted=month gives more breadth.
+    ("FPGA engineer remote", "month"),
+    ("FPGA verification remote", "month"),
+    ("RTL design engineer remote", "month"),
 ]
 
 
@@ -390,8 +396,8 @@ def fetch_jsearch() -> list[dict]:
                 "page": "1",
                 "num_pages": "1",
                 "date_posted": date_filter,
-                "remote_jobs_only": "true",
-                "employment_types": "FULLTIME",
+                # NOTE: remote_jobs_only=true is broken in JSearch (returns
+                # job_is_remote=false for everything). Embed "remote" in query instead.
             })
             url = f"https://jsearch.p.rapidapi.com/search?{params}"
             req = urllib.request.Request(url, headers={
@@ -415,9 +421,14 @@ def fetch_jsearch() -> list[dict]:
                 if not apply_link or apply_link in seen:
                     continue
                 seen.add(apply_link)
+                # Strip zero-width and other invisible chars from title (JSearch
+                # often returns them around dashes).
+                clean_title = re.sub(
+                    r"[​-‏‪-‮⁠﻿]", "", title
+                )
                 out.append({
                     "url": apply_link,
-                    "title": title,
+                    "title": clean_title,
                     "company": j.get("employer_name", "") or "",
                     "location": location,
                     "source": f"JSearch:{j.get('job_publisher') or 'unknown'}",
