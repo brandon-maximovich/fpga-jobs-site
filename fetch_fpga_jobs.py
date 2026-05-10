@@ -365,6 +365,69 @@ def fetch_workday(tenant: str, cluster: str, site: str) -> list[dict]:
     return out
 
 
+JSEARCH_QUERIES = [
+    # (query, date_posted_filter)
+    # Free RapidAPI tier ~200 calls/month; 1 query/day = ~30/month.
+    ("FPGA engineer", "week"),
+]
+
+
+def fetch_jsearch() -> list[dict]:
+    """JSearch on RapidAPI -- wraps LinkedIn/Indeed/Glassdoor/ZipRecruiter.
+
+    Set RAPIDAPI_KEY env var (and subscribe to JSearch BASIC plan) to enable.
+    Free tier: ~200 queries/month; this uses 1 per run.
+    """
+    api_key = os.environ.get("RAPIDAPI_KEY", "").strip()
+    if not api_key:
+        return []
+    out = []
+    seen = set()
+    for q, date_filter in JSEARCH_QUERIES:
+        try:
+            params = urllib.parse.urlencode({
+                "query": q,
+                "page": "1",
+                "num_pages": "1",
+                "date_posted": date_filter,
+                "remote_jobs_only": "true",
+                "employment_types": "FULLTIME",
+            })
+            url = f"https://jsearch.p.rapidapi.com/search?{params}"
+            req = urllib.request.Request(url, headers={
+                "x-rapidapi-key": api_key,
+                "x-rapidapi-host": "jsearch.p.rapidapi.com",
+                "User-Agent": "Mozilla/5.0",
+                "Accept": "application/json",
+            })
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                data = json.loads(resp.read().decode("utf-8", errors="replace"))
+            for j in data.get("data", []):
+                title = j.get("job_title", "") or ""
+                desc = j.get("job_description", "") or ""
+                if not is_fpga_role_strict(title, desc):
+                    continue
+                location_parts = [j.get(k, "") for k in ("job_city", "job_state", "job_country") if j.get(k)]
+                location = ", ".join(filter(None, location_parts)) or "Remote"
+                if not (j.get("job_is_remote") or is_remote(location, desc)):
+                    continue
+                apply_link = (j.get("job_apply_link") or j.get("job_google_link") or "").strip()
+                if not apply_link or apply_link in seen:
+                    continue
+                seen.add(apply_link)
+                out.append({
+                    "url": apply_link,
+                    "title": title,
+                    "company": j.get("employer_name", "") or "",
+                    "location": location,
+                    "source": f"JSearch:{j.get('job_publisher') or 'unknown'}",
+                    "posted_at": j.get("job_posted_at_datetime_utc", "") or "",
+                })
+        except Exception as e:
+            logging.warning("JSearch query %r failed: %s", q, e)
+    return out
+
+
 SERPAPI_QUERIES = [
     '"FPGA engineer" "remote" -clearance -secret -"US citizen"',
     '"FPGA" "remote" site:boards.greenhouse.io -clearance',
@@ -436,7 +499,8 @@ def fetch_serpapi() -> list[dict]:
 def fetch_all() -> list[dict]:
     jobs = []
     has_serpapi = bool(os.environ.get("SERPAPI_KEY", "").strip())
-    total_steps = 8 if has_serpapi else 7
+    has_jsearch = bool(os.environ.get("RAPIDAPI_KEY", "").strip())
+    total_steps = 7 + (1 if has_serpapi else 0) + (1 if has_jsearch else 0)
 
     print(f"[1/{total_steps}] Remotive...", flush=True)
     jobs += fetch_remotive()
@@ -467,12 +531,21 @@ def fetch_all() -> list[dict]:
     for tenant, cluster, site in WORKDAY_BOARDS:
         jobs += fetch_workday(tenant, cluster, site)
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    step = 7
     if has_serpapi:
-        print(f"[8/{total_steps}] SerpAPI broad-web search...", flush=True)
+        step += 1
+        print(f"[{step}/{total_steps}] SerpAPI broad-web search...", flush=True)
         n0 = len(jobs); jobs += fetch_serpapi()
         print(f"  +{len(jobs) - n0} (total {len(jobs)})")
     else:
         print("(skip SerpAPI: SERPAPI_KEY env var not set)")
+    if has_jsearch:
+        step += 1
+        print(f"[{step}/{total_steps}] JSearch (LinkedIn/Indeed/Glassdoor via RapidAPI)...", flush=True)
+        n0 = len(jobs); jobs += fetch_jsearch()
+        print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    else:
+        print("(skip JSearch: RAPIDAPI_KEY env var not set)")
     return jobs
 
 

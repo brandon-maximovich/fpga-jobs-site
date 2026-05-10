@@ -293,6 +293,46 @@ Then on GitHub, open a pull request from `add-new-source` → `main`. Merging th
 
 ---
 
+## 11.4. Recipe: Enable LinkedIn/Indeed coverage via JSearch (RapidAPI)
+
+JSearch wraps LinkedIn, Indeed, Glassdoor, and ZipRecruiter behind one ToS-compliant API. **Biggest single source of new jobs** — likely +20–80 remote FPGA roles per run.
+
+**Free tier:** ~200 queries/month. The script uses 1 query/run, so daily cron uses ~30/month.
+
+**Step 1 — subscribe (you already signed up):**
+1. Go to <https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch>
+2. Click **Subscribe to Test** → choose the **Basic (Free)** plan.
+3. Copy your `X-RapidAPI-Key` from the Endpoints page.
+
+**Step 2 — add it as a GitHub Actions secret:**
+1. Go to `https://github.com/brandon-maximovich/fpga-jobs-site/settings/secrets/actions`
+2. Click **New repository secret**.
+3. Name: `RAPIDAPI_KEY`. Value: your key. Save.
+
+The next workflow run will auto-pick it up. Look for `[N/N] JSearch (LinkedIn/Indeed/Glassdoor via RapidAPI)` in the run logs.
+
+**To use locally:**
+```bash
+# PowerShell
+$env:RAPIDAPI_KEY = "your-key-here"
+py fetch_fpga_jobs.py
+
+# Git Bash
+RAPIDAPI_KEY=your-key-here py fetch_fpga_jobs.py
+```
+
+**Tweaking queries:** edit `JSEARCH_QUERIES` in `fetch_fpga_jobs.py`. Each query consumes one of your monthly credits. Multiple queries hit different result pools; a smart set might be:
+```python
+JSEARCH_QUERIES = [
+    ("FPGA engineer", "week"),
+    ("FPGA verification", "week"),
+    ("RTL design engineer remote", "week"),
+]
+```
+Three queries × 30 days = 90/month, still inside free tier.
+
+---
+
 ## 11.5. Recipe: Enable broad-web search via SerpAPI (free tier)
 
 The script supports an optional 7th fetcher that hits Google via [SerpAPI](https://serpapi.com/) to find FPGA-remote jobs across the entire indexed web — beyond the ATS APIs.
