@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-10T15:08:08.200826+00:00",
+  "last_run": "2026-05-11T09:36:55.345392+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -147,9 +147,9 @@
       "company": "Quest Defense",
       "location": "Remote",
       "source": "JSearch:Remote Rocketship",
-      "posted_at": "2026-05-05T00:00:00.000Z",
+      "posted_at": "2026-05-06T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T15:08:08.200826+00:00"
+      "last_seen": "2026-05-11T09:36:55.345392+00:00"
     },
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic": {
       "url": "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
@@ -159,7 +159,7 @@
       "source": "JSearch:Himalayas",
       "posted_at": "2026-04-26T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-10T15:08:08.200826+00:00"
+      "last_seen": "2026-05-11T09:36:55.345392+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -169,7 +169,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-05-02T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-10T15:08:08.200826+00:00"
+      "last_seen": "2026-05-11T09:36:55.345392+00:00"
     },
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83": {
       "url": "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
@@ -470,13 +470,44 @@
       "posted_at": "1 hour ago",
       "first_seen": "2026-05-10T13:58:54.279127+00:00",
       "last_seen": "2026-05-10T13:58:54.279127+00:00"
+    },
+    "https://bebee.com/gb/jobs/design-engineer-senior-engineer-morgan-mckinley-cambridgeshire--jooble--7472209580700066420": {
+      "url": "https://bebee.com/gb/jobs/design-engineer-senior-engineer-morgan-mckinley-cambridgeshire--jooble--7472209580700066420",
+      "title": "Design Engineer & Senior Engineer - Morgan McKinley",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-05-11T09:36:55.345392+00:00",
+      "last_seen": "2026-05-11T09:36:55.345392+00:00"
+    },
+    "https://www.104.com.tw/jobs/search/?keyword=vhdl": {
+      "url": "https://www.104.com.tw/jobs/search/?keyword=vhdl",
+      "title": "「vhdl」最新找工作職缺｜2026年5月",
+      "company": "www.104.com.tw",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "24 hours ago",
+      "first_seen": "2026-05-11T09:36:55.345392+00:00",
+      "last_seen": "2026-05-11T09:36:55.345392+00:00"
+    },
+    "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212": {
+      "url": "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
+      "title": "FPGA Design Engineer (Hybrid Sunnyvale, CA, Denver, CO, Houston, TX)",
+      "company": "Stage 4 Solutions, inc",
+      "location": "Remote",
+      "source": "JSearch:Tallo",
+      "posted_at": "2026-05-05T00:00:00.000Z",
+      "first_seen": "2026-05-11T09:36:55.345392+00:00",
+      "last_seen": "2026-05-11T09:36:55.345392+00:00"
     }
   },
   "currently_open_urls": [
+    "https://bebee.com/gb/jobs/design-engineer-senior-engineer-morgan-mckinley-cambridgeshire--jooble--7472209580700066420",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
-    "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
+    "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
+    "https://www.104.com.tw/jobs/search/?keyword=vhdl",
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
-    "https://www.remoterocketship.com/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
-    "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83"
+    "https://www.remoterocketship.com/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/"
   ]
 }
