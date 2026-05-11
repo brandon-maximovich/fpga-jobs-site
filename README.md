@@ -5,7 +5,7 @@ Live site: <https://brandon-maximovich.github.io/fpga-jobs-site/>
 
 ## How it works
 
-1. `fetch_fpga_jobs.py` hits public APIs from Remotive, Remote OK, Hacker News, Greenhouse, Lever, and Ashby.
+1. `fetch_fpga_jobs.py` hits public APIs from Remotive, Remote OK, Hacker News, Greenhouse, Lever, Ashby, Workday, and Jobright — plus SerpAPI and JSearch (RapidAPI) when keys are set.
 2. Filters for FPGA roles that allow remote and exclude clearance/ITAR requirements.
 3. Persists URLs to `fpga_jobs.json` with `first_seen` / `last_seen` timestamps.
 4. Regenerates `index.html` showing:

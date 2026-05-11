@@ -10,6 +10,10 @@ Sources:
   - Greenhouse boards (public API) for known FPGA employers
   - Lever boards (public API)
   - Ashby boards (public API)
+  - Workday tenants (public search API)
+  - Jobright (server-rendered remote-FPGA SEO page, scraped via __NEXT_DATA__)
+  - SerpAPI broad-web Google search (optional, requires SERPAPI_KEY)
+  - JSearch on RapidAPI (optional, requires RAPIDAPI_KEY)
 
 Run daily:
     python fetch_fpga_jobs.py
@@ -552,6 +556,66 @@ def fetch_jsearch() -> list[dict]:
     return out
 
 
+JOBRIGHT_URL = "https://jobright.ai/jobs/remote-fpga-jobs-in-united-states"
+_JOBRIGHT_NEXT_DATA_RE = re.compile(
+    r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.DOTALL
+)
+
+
+def fetch_jobright() -> list[dict]:
+    """Scrape jobright.ai's remote-FPGA SEO page.
+
+    The page is server-rendered (Next.js) and embeds the full listing array as
+    JSON in __NEXT_DATA__ — no auth, no API key. Subject to the 24h freshness
+    filter like the ATS sources. Anonymous fetch is permitted by robots.txt.
+    """
+    out = []
+    try:
+        raw = fetch_url(JOBRIGHT_URL, headers={"Accept": "text/html"})
+        html = raw.decode("utf-8", errors="replace")
+        m = _JOBRIGHT_NEXT_DATA_RE.search(html)
+        if not m:
+            logging.warning("Jobright: __NEXT_DATA__ not found")
+            return out
+        data = json.loads(m.group(1))
+        listings = data.get("props", {}).get("pageProps", {}).get("jobList", []) or []
+        seen = set()
+        for item in listings:
+            r = item.get("jobResult") or {}
+            c = item.get("companyResult") or {}
+            title = r.get("jobTitle", "") or ""
+            summary = r.get("jobSummary", "") or ""
+            if not is_fpga_role_strict(title, summary):
+                continue
+            if not (r.get("isRemote") or (r.get("workModel") or "").lower() == "remote"):
+                continue
+            # publishTime arrives as "2026-05-06 23:03:07" (UTC, space-separated).
+            # is_recent's ISO parser handles the space fine on Python 3.11+.
+            posted = r.get("publishTime") or ""
+            if not is_recent(posted, "Jobright"):
+                continue
+            # applyLink is jobright.ai/jobs/info/<id>?utm_source=1014. Strip
+            # the tracker so de-dup keys are stable across runs.
+            apply_link = (r.get("applyLink") or r.get("url") or "").strip()
+            if not apply_link:
+                continue
+            apply_link = apply_link.split("?", 1)[0]
+            if apply_link in seen or _is_scam_url(apply_link):
+                continue
+            seen.add(apply_link)
+            out.append({
+                "url": apply_link,
+                "title": title,
+                "company": c.get("companyName", "") or "",
+                "location": r.get("jobLocation", "") or "Remote",
+                "source": "Jobright",
+                "posted_at": posted,
+            })
+    except Exception as e:
+        logging.warning("Jobright failed: %s", e)
+    return out
+
+
 SERPAPI_QUERIES = [
     '"FPGA engineer" "remote" -clearance -secret -"US citizen"',
     '"FPGA" "remote" site:boards.greenhouse.io -clearance',
@@ -674,7 +738,7 @@ def fetch_all() -> list[dict]:
     jobs = []
     has_serpapi = bool(os.environ.get("SERPAPI_KEY", "").strip())
     has_jsearch = bool(os.environ.get("RAPIDAPI_KEY", "").strip())
-    total_steps = 7 + (1 if has_serpapi else 0) + (1 if has_jsearch else 0)
+    total_steps = 8 + (1 if has_serpapi else 0) + (1 if has_jsearch else 0)
 
     print(f"[1/{total_steps}] Remotive...", flush=True)
     jobs += fetch_remotive()
@@ -705,7 +769,10 @@ def fetch_all() -> list[dict]:
     for tenant, cluster, site in WORKDAY_BOARDS:
         jobs += fetch_workday(tenant, cluster, site)
     print(f"  +{len(jobs) - n0} (total {len(jobs)})")
-    step = 7
+    print(f"[8/{total_steps}] Jobright (remote-FPGA SEO page)...", flush=True)
+    n0 = len(jobs); jobs += fetch_jobright()
+    print(f"  +{len(jobs) - n0} (total {len(jobs)})")
+    step = 8
     if has_serpapi:
         step += 1
         print(f"[{step}/{total_steps}] SerpAPI broad-web search...", flush=True)
