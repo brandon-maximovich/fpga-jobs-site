@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-12T08:37:13.286266+00:00",
+  "last_run": "2026-05-12T17:48:29.843417+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -157,9 +157,9 @@
       "company": "AMD",
       "location": "Remote",
       "source": "JSearch:Himalayas",
-      "posted_at": "2026-04-26T00:00:00.000Z",
+      "posted_at": "2026-04-25T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-12T08:37:13.286266+00:00"
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -167,9 +167,9 @@
       "company": "Lockheed Martin Corporation",
       "location": "Remote",
       "source": "JSearch:Dice",
-      "posted_at": "2026-05-03T00:00:00.000Z",
+      "posted_at": "2026-05-02T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-12T08:37:13.286266+00:00"
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
     },
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83": {
       "url": "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
@@ -497,9 +497,9 @@
       "company": "Stage 4 Solutions, inc",
       "location": "Remote",
       "source": "JSearch:Tallo",
-      "posted_at": "2026-05-05T00:00:00.000Z",
+      "posted_at": "2026-05-04T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-12T08:37:13.286266+00:00"
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -577,9 +577,9 @@
       "company": "careers.actalentservices.com",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "13 hours ago",
+      "posted_at": "22 hours ago",
       "first_seen": "2026-05-12T08:37:13.286266+00:00",
-      "last_seen": "2026-05-12T08:37:13.286266+00:00"
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
     },
     "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--jblead-20008_8308b32812d45a8b21fbf34d8c67c8d2": {
       "url": "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--jblead-20008_8308b32812d45a8b21fbf34d8c67c8d2",
@@ -610,17 +610,111 @@
       "posted_at": "",
       "first_seen": "2026-05-12T08:37:13.286266+00:00",
       "last_seen": "2026-05-12T08:37:13.286266+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a032b7622395b6dc6d91a6b": {
+      "url": "https://jobright.ai/jobs/info/6a032b7622395b6dc6d91a6b",
+      "title": "FPGA Developer",
+      "company": "Booz Allen Hamilton",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-12 07:04:42",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a032adc7c753c287f6e42ac": {
+      "url": "https://jobright.ai/jobs/info/6a032adc7c753c287f6e42ac",
+      "title": "FPGA Engineer, Senior",
+      "company": "Booz Allen Hamilton",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-12 07:12:16",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006019510/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006019510/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--whatjobs-355_5108462": {
+      "url": "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--whatjobs-355_5108462",
+      "title": "Remote FPGA Engineer",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://www.space-careers.com/jobs/electronics_engineer": {
+      "url": "https://www.space-careers.com/jobs/electronics_engineer",
+      "title": "Electronics Engineer jobs",
+      "company": "www.space-careers.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "10 hours ago",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://www.freelancermap.com/project/contract-firmware-engineer-2999451": {
+      "url": "https://www.freelancermap.com/project/contract-firmware-engineer-2999451",
+      "title": "Contract Firmware Engineer",
+      "company": "www.freelancermap.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "8 hours ago",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://www.engineeringjobs.co.uk/remote-eica-engineer-jobs": {
+      "url": "https://www.engineeringjobs.co.uk/remote-eica-engineer-jobs",
+      "title": "Remote Eica Engineer jobs - May 2026",
+      "company": "www.engineeringjobs.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://bebee.com/gb/jobs/senior-system-design-engineer-soc-renaissance-semiconductor-birmingham-england--theirstack-681471723": {
+      "url": "https://bebee.com/gb/jobs/senior-system-design-engineer-soc-renaissance-semiconductor-birmingham-england--theirstack-681471723",
+      "title": "Senior System Design Engineer, SoC - Renaissance ...",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+    },
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/": {
+      "url": "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
+      "title": "Senior FPGA Verification Engineer",
+      "company": "Quest Defense",
+      "location": "Remote",
+      "source": "JSearch:Remote Rocketship",
+      "posted_at": "2026-05-05T00:00:00.000Z",
+      "first_seen": "2026-05-12T17:48:29.843417+00:00",
+      "last_seen": "2026-05-12T17:48:29.843417+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--jblead-20008_8308b32812d45a8b21fbf34d8c67c8d2",
-    "https://bebee.com/gb/jobs/role/sales-engineer/slough",
+    "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--whatjobs-355_5108462",
+    "https://bebee.com/gb/jobs/senior-system-design-engineer-soc-renaissance-semiconductor-birmingham-england--theirstack-681471723",
     "https://careers.actalentservices.com/us/en/job/JP-006018560/Firmware-Engineer",
+    "https://careers.actalentservices.com/us/en/job/JP-006019510/Firmware-Engineer",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
-    "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
+    "https://jobright.ai/jobs/info/6a032adc7c753c287f6e42ac",
+    "https://jobright.ai/jobs/info/6a032b7622395b6dc6d91a6b",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
-    "https://www.facebook.com/groups/httpstoptern.cominternshipapplicationform/posts/1654988865784261/",
-    "https://www.remoterocketship.com/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/"
+    "https://www.engineeringjobs.co.uk/remote-eica-engineer-jobs",
+    "https://www.freelancermap.com/project/contract-firmware-engineer-2999451",
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
+    "https://www.space-careers.com/jobs/electronics_engineer"
   ]
 }
