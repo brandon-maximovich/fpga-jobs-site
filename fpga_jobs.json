@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-13T08:42:51.480068+00:00",
+  "last_run": "2026-05-13T14:55:24.410188+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -159,7 +159,7 @@
       "source": "JSearch:Himalayas",
       "posted_at": "2026-04-26T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -167,9 +167,9 @@
       "company": "Lockheed Martin Corporation",
       "location": "Remote",
       "source": "JSearch:Dice",
-      "posted_at": "2026-05-03T00:00:00.000Z",
+      "posted_at": "2026-05-02T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83": {
       "url": "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
@@ -179,7 +179,7 @@
       "source": "JSearch:Teal",
       "posted_at": "2026-04-21T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277": {
       "url": "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
@@ -497,9 +497,9 @@
       "company": "Stage 4 Solutions, inc",
       "location": "Remote",
       "source": "JSearch:Tallo",
-      "posted_at": "2026-05-05T00:00:00.000Z",
+      "posted_at": "2026-05-04T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -697,9 +697,9 @@
       "company": "Quest Defense",
       "location": "Remote",
       "source": "JSearch:Remote Rocketship",
-      "posted_at": "2026-05-06T00:00:00.000Z",
+      "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://4dayweek.io/signal-processing-jobs": {
       "url": "https://4dayweek.io/signal-processing-jobs",
@@ -707,9 +707,9 @@
       "company": "4dayweek.io",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "2 hours ago",
+      "posted_at": "9 hours ago",
       "first_seen": "2026-05-13T08:42:51.480068+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://careers.actalentservices.com/us/en/job/JP-006020408/Storage-Administrator": {
       "url": "https://careers.actalentservices.com/us/en/job/JP-006020408/Storage-Administrator",
@@ -747,9 +747,9 @@
       "company": "remote.com",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "12 hours ago",
+      "posted_at": "18 hours ago",
       "first_seen": "2026-05-13T08:42:51.480068+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://bebee.com/gb/jobs/senior-hardware-engineer-avd-appoint-ltd-south-west-london--jobgoal-19276_14498954678055731237340": {
       "url": "https://bebee.com/gb/jobs/senior-hardware-engineer-avd-appoint-ltd-south-west-london--jobgoal-19276_14498954678055731237340",
@@ -767,9 +767,9 @@
       "company": "careers.actalentservices.com",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "15 hours ago",
+      "posted_at": "21 hours ago",
       "first_seen": "2026-05-13T08:42:51.480068+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     },
     "https://www.reddit.com/r/remoteworking/comments/1tbfk8p/hiring_remote_software_engineer_scala_cobol_abap/": {
       "url": "https://www.reddit.com/r/remoteworking/comments/1tbfk8p/hiring_remote_software_engineer_scala_cobol_abap/",
@@ -790,25 +790,82 @@
       "posted_at": "",
       "first_seen": "2026-05-13T08:42:51.480068+00:00",
       "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006022195/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006022195/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-05-13T14:55:24.410188+00:00",
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
+    },
+    "https://www.welcometothejungle.com/en/companies/radiant-nuclear/jobs/principal-fpga-engineer_el-segundo_ofvpriuh": {
+      "url": "https://www.welcometothejungle.com/en/companies/radiant-nuclear/jobs/principal-fpga-engineer_el-segundo_ofvpriuh",
+      "title": "Principal FPGA Engineer – Radiant Nuclear",
+      "company": "www.welcometothejungle.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-05-13T14:55:24.410188+00:00",
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
+    },
+    "https://www.space-careers.com/job_search": {
+      "url": "https://www.space-careers.com/job_search",
+      "title": "Find Space Jobs | Space-Careers.com",
+      "company": "www.space-careers.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "7 hours ago",
+      "first_seen": "2026-05-13T14:55:24.410188+00:00",
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
+    },
+    "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/principal-systems-hardware-engineer_fr_6fbkd5tk": {
+      "url": "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/principal-systems-hardware-engineer_fr_6fbkd5tk",
+      "title": "Principal Systems Hardware Engineer – d-Matrix",
+      "company": "www.welcometothejungle.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "16 hours ago",
+      "first_seen": "2026-05-13T14:55:24.410188+00:00",
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
+    },
+    "https://bebee.com/gb/jobs/computer-engineering-expert-ai-content-specialist-alignerr-birmingham--fj-2150983070": {
+      "url": "https://bebee.com/gb/jobs/computer-engineering-expert-ai-content-specialist-alignerr-birmingham--fj-2150983070",
+      "title": "Computer Engineering Expert - AI Content Specialist",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-05-13T14:55:24.410188+00:00",
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
+    },
+    "https://jobgether.com/offer/6a039c218444a8266556cce9-software-engineer-cuda-q": {
+      "url": "https://jobgether.com/offer/6a039c218444a8266556cce9-software-engineer-cuda-q",
+      "title": "Software Engineer, CUDA-Q at NVIDIA",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-05-13T14:55:24.410188+00:00",
+      "last_seen": "2026-05-13T14:55:24.410188+00:00"
     }
   },
   "currently_open_urls": [
     "https://4dayweek.io/signal-processing-jobs",
-    "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--whatjobs-355_5108462",
-    "https://bebee.com/gb/jobs/fpga-vhdl-engineer-redline-group-specialist-recruitment-for-technology-electronics-companies-egham-e--theirstack-682012605",
-    "https://bebee.com/gb/jobs/senior-hardware-engineer-avd-appoint-ltd-south-west-london--jobgoal-19276_14498954678055731237340",
-    "https://careers.actalentservices.com/us/en/job/JP-006020408/Storage-Administrator",
+    "https://bebee.com/gb/jobs/computer-engineering-expert-ai-content-specialist-alignerr-birmingham--fj-2150983070",
     "https://careers.actalentservices.com/us/en/job/JP-006020955/Senior-Electrical-Engineer",
+    "https://careers.actalentservices.com/us/en/job/JP-006022195/Firmware-Engineer",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
+    "https://jobgether.com/offer/6a039c218444a8266556cce9-software-engineer-cuda-q",
     "https://remote.com/jobs/infuse-c1y1r0nj/sr-hardware-design-engineer-remote-j12rcjgd",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
-    "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
-    "https://www.facebook.com/groups/380295225328320/posts/27310063951924749/",
-    "https://www.freelancermap.com/project/contract-firmware-engineer-2999451",
-    "https://www.reddit.com/r/remoteworking/comments/1tbfk8p/hiring_remote_software_engineer_scala_cobol_abap/",
     "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
+    "https://www.space-careers.com/job_search",
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
-    "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/senior-staff-fpga-design-engineer_fr_7utlkyjl"
+    "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/principal-systems-hardware-engineer_fr_6fbkd5tk",
+    "https://www.welcometothejungle.com/en/companies/radiant-nuclear/jobs/principal-fpga-engineer_el-segundo_ofvpriuh"
   ]
 }
