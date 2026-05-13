@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-12T17:48:29.843417+00:00",
+  "last_run": "2026-05-13T08:42:51.480068+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -157,9 +157,9 @@
       "company": "AMD",
       "location": "Remote",
       "source": "JSearch:Himalayas",
-      "posted_at": "2026-04-25T00:00:00.000Z",
+      "posted_at": "2026-04-26T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -167,9 +167,9 @@
       "company": "Lockheed Martin Corporation",
       "location": "Remote",
       "source": "JSearch:Dice",
-      "posted_at": "2026-05-02T00:00:00.000Z",
+      "posted_at": "2026-05-03T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     },
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83": {
       "url": "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
@@ -179,7 +179,7 @@
       "source": "JSearch:Teal",
       "posted_at": "2026-04-21T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-11T19:42:47.625788+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     },
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277": {
       "url": "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
@@ -187,9 +187,9 @@
       "company": "Lam Research",
       "location": "Remote",
       "source": "JSearch:Tallo",
-      "posted_at": "2026-04-16T00:00:00.000Z",
+      "posted_at": "2026-04-17T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-10T15:08:08.200826+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     },
     "https://www.reddit.com/r/FPGA/comments/1no0jab/career_advice_fpga_engineer_remote_work_options/": {
       "url": "https://www.reddit.com/r/FPGA/comments/1no0jab/career_advice_fpga_engineer_remote_work_options/",
@@ -497,9 +497,9 @@
       "company": "Stage 4 Solutions, inc",
       "location": "Remote",
       "source": "JSearch:Tallo",
-      "posted_at": "2026-05-04T00:00:00.000Z",
+      "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -649,7 +649,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     },
     "https://www.space-careers.com/jobs/electronics_engineer": {
       "url": "https://www.space-careers.com/jobs/electronics_engineer",
@@ -667,9 +667,9 @@
       "company": "www.freelancermap.com",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "8 hours ago",
+      "posted_at": "23 hours ago",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     },
     "https://www.engineeringjobs.co.uk/remote-eica-engineer-jobs": {
       "url": "https://www.engineeringjobs.co.uk/remote-eica-engineer-jobs",
@@ -697,24 +697,118 @@
       "company": "Quest Defense",
       "location": "Remote",
       "source": "JSearch:Remote Rocketship",
-      "posted_at": "2026-05-05T00:00:00.000Z",
+      "posted_at": "2026-05-06T00:00:00.000Z",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-12T17:48:29.843417+00:00"
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://4dayweek.io/signal-processing-jobs": {
+      "url": "https://4dayweek.io/signal-processing-jobs",
+      "title": "20+ Signal Processing Jobs - Hiring Now (2026)",
+      "company": "4dayweek.io",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "2 hours ago",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006020408/Storage-Administrator": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006020408/Storage-Administrator",
+      "title": "Storage Administrator in Poway, California, USA",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://bebee.com/gb/jobs/fpga-vhdl-engineer-redline-group-specialist-recruitment-for-technology-electronics-companies-egham-e--theirstack-682012605": {
+      "url": "https://bebee.com/gb/jobs/fpga-vhdl-engineer-redline-group-specialist-recruitment-for-technology-electronics-companies-egham-e--theirstack-682012605",
+      "title": "FPGA / VHDL Engineer - Redline Group",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/senior-staff-fpga-design-engineer_fr_7utlkyjl": {
+      "url": "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/senior-staff-fpga-design-engineer_fr_7utlkyjl",
+      "title": "Senior Staff FPGA Design Engineer – d-Matrix",
+      "company": "www.welcometothejungle.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "11 hours ago",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://remote.com/jobs/infuse-c1y1r0nj/sr-hardware-design-engineer-remote-j12rcjgd": {
+      "url": "https://remote.com/jobs/infuse-c1y1r0nj/sr-hardware-design-engineer-remote-j12rcjgd",
+      "title": "Sr. Hardware Design Engineer (Remote) at INFUSE",
+      "company": "remote.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://bebee.com/gb/jobs/senior-hardware-engineer-avd-appoint-ltd-south-west-london--jobgoal-19276_14498954678055731237340": {
+      "url": "https://bebee.com/gb/jobs/senior-hardware-engineer-avd-appoint-ltd-south-west-london--jobgoal-19276_14498954678055731237340",
+      "title": "Senior Hardware Engineer - Avd Appoint Ltd",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006020955/Senior-Electrical-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006020955/Senior-Electrical-Engineer",
+      "title": "Senior Electrical Engineer in Las Vegas, Nevada, USA",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://www.reddit.com/r/remoteworking/comments/1tbfk8p/hiring_remote_software_engineer_scala_cobol_abap/": {
+      "url": "https://www.reddit.com/r/remoteworking/comments/1tbfk8p/hiring_remote_software_engineer_scala_cobol_abap/",
+      "title": "Scala / COBOL / ABAP / Verilog / Fortran / Slang $120- ...",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+    },
+    "https://www.facebook.com/groups/380295225328320/posts/27310063951924749/": {
+      "url": "https://www.facebook.com/groups/380295225328320/posts/27310063951924749/",
+      "title": "Remote civil/utility survey CAD drafter job opportunity",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-05-13T08:42:51.480068+00:00",
+      "last_seen": "2026-05-13T08:42:51.480068+00:00"
     }
   },
   "currently_open_urls": [
+    "https://4dayweek.io/signal-processing-jobs",
     "https://bebee.com/co/jobs/remote-fpga-engineer-real-time-processing-acceleration-bairesdev-bogota-distrito-capital--whatjobs-355_5108462",
-    "https://bebee.com/gb/jobs/senior-system-design-engineer-soc-renaissance-semiconductor-birmingham-england--theirstack-681471723",
-    "https://careers.actalentservices.com/us/en/job/JP-006018560/Firmware-Engineer",
-    "https://careers.actalentservices.com/us/en/job/JP-006019510/Firmware-Engineer",
+    "https://bebee.com/gb/jobs/fpga-vhdl-engineer-redline-group-specialist-recruitment-for-technology-electronics-companies-egham-e--theirstack-682012605",
+    "https://bebee.com/gb/jobs/senior-hardware-engineer-avd-appoint-ltd-south-west-london--jobgoal-19276_14498954678055731237340",
+    "https://careers.actalentservices.com/us/en/job/JP-006020408/Storage-Administrator",
+    "https://careers.actalentservices.com/us/en/job/JP-006020955/Senior-Electrical-Engineer",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
-    "https://jobright.ai/jobs/info/6a032adc7c753c287f6e42ac",
-    "https://jobright.ai/jobs/info/6a032b7622395b6dc6d91a6b",
+    "https://remote.com/jobs/infuse-c1y1r0nj/sr-hardware-design-engineer-remote-j12rcjgd",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
+    "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
-    "https://www.engineeringjobs.co.uk/remote-eica-engineer-jobs",
+    "https://www.facebook.com/groups/380295225328320/posts/27310063951924749/",
     "https://www.freelancermap.com/project/contract-firmware-engineer-2999451",
+    "https://www.reddit.com/r/remoteworking/comments/1tbfk8p/hiring_remote_software_engineer_scala_cobol_abap/",
     "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
-    "https://www.space-careers.com/jobs/electronics_engineer"
+    "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
+    "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/senior-staff-fpga-design-engineer_fr_7utlkyjl"
   ]
 }
