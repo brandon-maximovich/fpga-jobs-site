@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-14T08:36:09.823045+00:00",
+  "last_run": "2026-05-14T15:43:01.326615+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -157,9 +157,9 @@
       "company": "AMD",
       "location": "Remote",
       "source": "JSearch:Himalayas",
-      "posted_at": "2026-04-26T00:00:00.000Z",
+      "posted_at": "2026-04-25T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -497,9 +497,9 @@
       "company": "Stage 4 Solutions, inc",
       "location": "Remote",
       "source": "JSearch:Tallo",
-      "posted_at": "2026-05-05T00:00:00.000Z",
+      "posted_at": "2026-05-04T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -697,9 +697,9 @@
       "company": "Quest Defense",
       "location": "Remote",
       "source": "JSearch:Remote Rocketship",
-      "posted_at": "2026-05-06T00:00:00.000Z",
+      "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://4dayweek.io/signal-processing-jobs": {
       "url": "https://4dayweek.io/signal-processing-jobs",
@@ -859,7 +859,7 @@
       "source": "Jobright",
       "posted_at": "2026-05-13 20:41:38",
       "first_seen": "2026-05-14T08:36:09.823045+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://jobright.ai/jobs/info/69e85ce00a6e095553033495": {
       "url": "https://jobright.ai/jobs/info/69e85ce00a6e095553033495",
@@ -879,7 +879,7 @@
       "source": "Jobright",
       "posted_at": "2026-05-14 01:18:56",
       "first_seen": "2026-05-14T08:36:09.823045+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://jobright.ai/jobs/info/6a04e6ad7c753c287f6f490c": {
       "url": "https://jobright.ai/jobs/info/6a04e6ad7c753c287f6f490c",
@@ -889,7 +889,7 @@
       "source": "Jobright",
       "posted_at": "2026-05-13 21:01:33",
       "first_seen": "2026-05-14T08:36:09.823045+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://bebee.com/gb/jobs/lead-fpga-engineer-ecm-selection-ltd-bath--jobgoal-19276_495474906307860889637342": {
       "url": "https://bebee.com/gb/jobs/lead-fpga-engineer-ecm-selection-ltd-bath--jobgoal-19276_495474906307860889637342",
@@ -907,9 +907,9 @@
       "company": "eworker.co",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "3 hours ago",
+      "posted_at": "10 hours ago",
       "first_seen": "2026-05-14T08:36:09.823045+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://www.cv-library.co.uk/job/225102704/FPGA-DSP-Engineer": {
       "url": "https://www.cv-library.co.uk/job/225102704/FPGA-DSP-Engineer",
@@ -937,9 +937,9 @@
       "company": "jobgether.com",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "11 hours ago",
+      "posted_at": "18 hours ago",
       "first_seen": "2026-05-14T08:36:09.823045+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     },
     "https://www.instagram.com/p/DYRcXgsDusx/": {
       "url": "https://www.instagram.com/p/DYRcXgsDusx/",
@@ -969,26 +969,73 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-05-13T19:00:00.000Z",
       "first_seen": "2026-05-14T08:36:09.823045+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+    },
+    "https://spacecrew.com/space-rf+satellite+fpga+engineer+internship-jobs": {
+      "url": "https://spacecrew.com/space-rf+satellite+fpga+engineer+internship-jobs",
+      "title": "Rf Satellite Fpga Engineering Internship Jobs",
+      "company": "spacecrew.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-05-14T15:43:01.326615+00:00",
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+    },
+    "https://bebee.com/gb/jobs/senior-fpga-design-engineer-platform-recruitment-limited-cambridge-cambridgeshire--bs-gb-6e9541d6-2797-4b9a-a5be-5ce412bfaa96": {
+      "url": "https://bebee.com/gb/jobs/senior-fpga-design-engineer-platform-recruitment-limited-cambridge-cambridgeshire--bs-gb-6e9541d6-2797-4b9a-a5be-5ce412bfaa96",
+      "title": "Senior FPGA Design Engineer - Platform Recruitment Limited",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-05-14T15:43:01.326615+00:00",
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+    },
+    "https://www.jobleads.com/mx/job/fpga-engineer-remote-work-ref-288956--puebla-de-zaragoza--e1fab32fabe2a7fe1a5a9f91febf230eb": {
+      "url": "https://www.jobleads.com/mx/job/fpga-engineer-remote-work-ref-288956--puebla-de-zaragoza--e1fab32fabe2a7fe1a5a9f91febf230eb",
+      "title": "FPGA Engineer - Remote Work | REF#288956",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-05-14T15:43:01.326615+00:00",
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+    },
+    "https://jobs.lever.co/loftorbital?lever-via=sSO&workplaceType=onsite": {
+      "url": "https://jobs.lever.co/loftorbital?lever-via=sSO&workplaceType=onsite",
+      "title": "Loft Orbital Solutions",
+      "company": "loftorbital",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "7 hours ago",
+      "first_seen": "2026-05-14T15:43:01.326615+00:00",
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+    },
+    "https://bebee.com/in/jobs/quantum-computing-research-intern-qomputingai-bengaluru-karnataka--theirstack-683803296": {
+      "url": "https://bebee.com/in/jobs/quantum-computing-research-intern-qomputingai-bengaluru-karnataka--theirstack-683803296",
+      "title": "Quantum Computing Research Intern - Qomputing.AI",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "7 hours ago",
+      "first_seen": "2026-05-14T15:43:01.326615+00:00",
+      "last_seen": "2026-05-14T15:43:01.326615+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/gb/jobs/lead-fpga-engineer-ecm-selection-ltd-bath--jobgoal-19276_495474906307860889637342",
+    "https://bebee.com/gb/jobs/senior-fpga-design-engineer-platform-recruitment-limited-cambridge-cambridgeshire--bs-gb-6e9541d6-2797-4b9a-a5be-5ce412bfaa96",
+    "https://bebee.com/in/jobs/quantum-computing-research-intern-qomputingai-bengaluru-karnataka--theirstack-683803296",
     "https://eworker.co/",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
     "https://jobgether.com/offer/6a04ed8e8444a82665586071-senior-engineer-digital-design-engineering",
-    "https://jobright.ai/jobs/info/69e85ce00a6e095553033495",
     "https://jobright.ai/jobs/info/6a04e202bc4184089f24057d",
     "https://jobright.ai/jobs/info/6a04e6ad7c753c287f6f490c",
     "https://jobright.ai/jobs/info/6a0523004373b07358a3a790",
-    "https://jobs.womenforhire.com/job/united-kingdom/potton-eng/contract-fpga-engineer-863249/",
+    "https://jobs.lever.co/loftorbital?lever-via=sSO&workplaceType=onsite",
+    "https://spacecrew.com/space-rf+satellite+fpga+engineer+internship-jobs",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
-    "https://www.cv-library.co.uk/job/225102704/FPGA-DSP-Engineer",
-    "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
     "https://www.dice.com/job-detail/d0961e7e-4fa6-47a2-b849-0d1e89da540e",
-    "https://www.instagram.com/p/DYRcXgsDusx/",
-    "https://www.reddit.com/r/techsalesjobs/comments/1tc7vky/hiring_sdrgtm_at_revternal/",
-    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
-    "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83"
+    "https://www.jobleads.com/mx/job/fpga-engineer-remote-work-ref-288956--puebla-de-zaragoza--e1fab32fabe2a7fe1a5a9f91febf230eb",
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/"
   ]
 }
