@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-14T15:43:01.326615+00:00",
+  "last_run": "2026-05-15T08:47:13.511546+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -157,9 +157,9 @@
       "company": "AMD",
       "location": "Remote",
       "source": "JSearch:Himalayas",
-      "posted_at": "2026-04-25T00:00:00.000Z",
+      "posted_at": "2026-04-26T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -169,7 +169,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-05-03T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
     },
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83": {
       "url": "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
@@ -497,9 +497,9 @@
       "company": "Stage 4 Solutions, inc",
       "location": "Remote",
       "source": "JSearch:Tallo",
-      "posted_at": "2026-05-04T00:00:00.000Z",
+      "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -697,9 +697,9 @@
       "company": "Quest Defense",
       "location": "Remote",
       "source": "JSearch:Remote Rocketship",
-      "posted_at": "2026-05-05T00:00:00.000Z",
+      "posted_at": "2026-05-06T00:00:00.000Z",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
     },
     "https://4dayweek.io/signal-processing-jobs": {
       "url": "https://4dayweek.io/signal-processing-jobs",
@@ -1007,9 +1007,9 @@
       "company": "loftorbital",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "7 hours ago",
+      "posted_at": "24 hours ago",
       "first_seen": "2026-05-14T15:43:01.326615+00:00",
-      "last_seen": "2026-05-14T15:43:01.326615+00:00"
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
     },
     "https://bebee.com/in/jobs/quantum-computing-research-intern-qomputingai-bengaluru-karnataka--theirstack-683803296": {
       "url": "https://bebee.com/in/jobs/quantum-computing-research-intern-qomputingai-bengaluru-karnataka--theirstack-683803296",
@@ -1020,22 +1020,101 @@
       "posted_at": "7 hours ago",
       "first_seen": "2026-05-14T15:43:01.326615+00:00",
       "last_seen": "2026-05-14T15:43:01.326615+00:00"
+    },
+    "https://jobright.ai/jobs/info/695efcb4a1bbea1d9a79cab8": {
+      "url": "https://jobright.ai/jobs/info/695efcb4a1bbea1d9a79cab8",
+      "title": "Senior FPGA Verification Engineer",
+      "company": "Ursa Major",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-15 02:18:35",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a062069320bff2205ea86cf": {
+      "url": "https://jobright.ai/jobs/info/6a062069320bff2205ea86cf",
+      "title": "ASIC & FPGA Design Engineer Sr",
+      "company": "Dice",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-14 19:20:09",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://www.jobleads.com/gb/job/senior-fpga-asic-digital-design-engineer-hybrid--bristol--cambridge--romsey--greater-london--ee0ea38b9a807f3ad32e51ef0e69974f8": {
+      "url": "https://www.jobleads.com/gb/job/senior-fpga-asic-digital-design-engineer-hybrid--bristol--cambridge--romsey--greater-london--ee0ea38b9a807f3ad32e51ef0e69974f8",
+      "title": "Senior FPGA/ASIC Digital Design Engineer (Hybrid)",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://www.apply4u.co.uk/jobs/fpga-firmware-engineer/35304731?type=external": {
+      "url": "https://www.apply4u.co.uk/jobs/fpga-firmware-engineer/35304731?type=external",
+      "title": "FPGA Firmware Engineer job in Ulverston | Jobs Near Me",
+      "company": "www.apply4u.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "3 hours ago",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://www.simplyhired.co.uk/job/dSUsWcszOJnYDKVF8kQDRRcDG4awDJwKUcMZwRHQn0N4az8Jbur_RQ": {
+      "url": "https://www.simplyhired.co.uk/job/dSUsWcszOJnYDKVF8kQDRRcDG4awDJwKUcMZwRHQn0N4az8Jbur_RQ",
+      "title": "Senior FPGA Engineer - Surrey Satellite Technology Limited",
+      "company": "www.simplyhired.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://spacecrew.com/space-jobs/mp6l52ko-surrey-satellite-technology-rf-payload-engineer": {
+      "url": "https://spacecrew.com/space-jobs/mp6l52ko-surrey-satellite-technology-rf-payload-engineer",
+      "title": "RF Payload Engineer - Surrey Satellite Technology",
+      "company": "spacecrew.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "1 hour ago",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://lesjeudis.com/job/computer-engineering-expert-ai-content-specialist-416071": {
+      "url": "https://lesjeudis.com/job/computer-engineering-expert-ai-content-specialist-416071",
+      "title": "Computer Engineering Expert - AI Content Specialist - France",
+      "company": "lesjeudis.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "14 hours ago",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://jobgether.com/offer/6a063ef85a8ef7f700e9f798-engineering-manager-cpu-bootloader-firmware---sbios": {
+      "url": "https://jobgether.com/offer/6a063ef85a8ef7f700e9f798-engineering-manager-cpu-bootloader-firmware---sbios",
+      "title": "Engineering Manager, CPU Bootloader Firmware - SBIOS",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "11 hours ago",
+      "first_seen": "2026-05-15T08:47:13.511546+00:00",
+      "last_seen": "2026-05-15T08:47:13.511546+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/gb/jobs/senior-fpga-design-engineer-platform-recruitment-limited-cambridge-cambridgeshire--bs-gb-6e9541d6-2797-4b9a-a5be-5ce412bfaa96",
-    "https://bebee.com/in/jobs/quantum-computing-research-intern-qomputingai-bengaluru-karnataka--theirstack-683803296",
-    "https://eworker.co/",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
-    "https://jobgether.com/offer/6a04ed8e8444a82665586071-senior-engineer-digital-design-engineering",
-    "https://jobright.ai/jobs/info/6a04e202bc4184089f24057d",
-    "https://jobright.ai/jobs/info/6a04e6ad7c753c287f6f490c",
-    "https://jobright.ai/jobs/info/6a0523004373b07358a3a790",
+    "https://jobgether.com/offer/6a063ef85a8ef7f700e9f798-engineering-manager-cpu-bootloader-firmware---sbios",
+    "https://jobright.ai/jobs/info/695efcb4a1bbea1d9a79cab8",
+    "https://jobright.ai/jobs/info/6a062069320bff2205ea86cf",
     "https://jobs.lever.co/loftorbital?lever-via=sSO&workplaceType=onsite",
-    "https://spacecrew.com/space-rf+satellite+fpga+engineer+internship-jobs",
+    "https://lesjeudis.com/job/computer-engineering-expert-ai-content-specialist-416071",
+    "https://spacecrew.com/space-jobs/mp6l52ko-surrey-satellite-technology-rf-payload-engineer",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
-    "https://www.dice.com/job-detail/d0961e7e-4fa6-47a2-b849-0d1e89da540e",
-    "https://www.jobleads.com/mx/job/fpga-engineer-remote-work-ref-288956--puebla-de-zaragoza--e1fab32fabe2a7fe1a5a9f91febf230eb",
-    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/"
+    "https://www.apply4u.co.uk/jobs/fpga-firmware-engineer/35304731?type=external",
+    "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
+    "https://www.jobleads.com/gb/job/senior-fpga-asic-digital-design-engineer-hybrid--bristol--cambridge--romsey--greater-london--ee0ea38b9a807f3ad32e51ef0e69974f8",
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
+    "https://www.simplyhired.co.uk/job/dSUsWcszOJnYDKVF8kQDRRcDG4awDJwKUcMZwRHQn0N4az8Jbur_RQ"
   ]
 }
