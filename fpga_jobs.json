@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-15T08:47:13.511546+00:00",
+  "last_run": "2026-05-16T08:01:34.249869+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -107,9 +107,9 @@
       "company": "optiverus",
       "location": "Amsterdam, North Holland, Netherlands",
       "source": "Greenhouse:optiverus",
-      "posted_at": "2026-04-30T17:21:06-04:00",
+      "posted_at": "2026-05-15T11:52:17-04:00",
       "first_seen": "2026-05-09T12:27:13.797907+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://optiver.com/working-at-optiver/career-opportunities/8097725002/?gh_jid=8097725002": {
       "url": "https://optiver.com/working-at-optiver/career-opportunities/8097725002/?gh_jid=8097725002",
@@ -117,9 +117,9 @@
       "company": "optiverus",
       "location": "Amsterdam, North Holland, Netherlands",
       "source": "Greenhouse:optiverus",
-      "posted_at": "2026-04-30T17:21:06-04:00",
+      "posted_at": "2026-05-15T11:52:17-04:00",
       "first_seen": "2026-05-09T12:27:13.797907+00:00",
-      "last_seen": "2026-05-10T13:41:30.839123+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://jobs.ashbyhq.com/d-matrix/88643089-dfb9-4900-bdf2-ed3e2185aa72": {
       "url": "https://jobs.ashbyhq.com/d-matrix/88643089-dfb9-4900-bdf2-ed3e2185aa72",
@@ -159,7 +159,7 @@
       "source": "JSearch:Himalayas",
       "posted_at": "2026-04-26T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -169,7 +169,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-05-03T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83": {
       "url": "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83",
@@ -499,7 +499,7 @@
       "source": "JSearch:Tallo",
       "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -699,7 +699,7 @@
       "source": "JSearch:Remote Rocketship",
       "posted_at": "2026-05-06T00:00:00.000Z",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://4dayweek.io/signal-processing-jobs": {
       "url": "https://4dayweek.io/signal-processing-jobs",
@@ -727,9 +727,9 @@
       "company": "bebee.com",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "20 hours ago",
+      "posted_at": "22 hours ago",
       "first_seen": "2026-05-13T08:42:51.480068+00:00",
-      "last_seen": "2026-05-13T08:42:51.480068+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/senior-staff-fpga-design-engineer_fr_7utlkyjl": {
       "url": "https://www.welcometothejungle.com/en/companies/d-matrix/jobs/senior-staff-fpga-design-engineer_fr_7utlkyjl",
@@ -1027,9 +1027,9 @@
       "company": "Ursa Major",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-05-15 02:18:35",
+      "posted_at": "2026-05-15 10:10:36",
       "first_seen": "2026-05-15T08:47:13.511546+00:00",
-      "last_seen": "2026-05-15T08:47:13.511546+00:00"
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     },
     "https://jobright.ai/jobs/info/6a062069320bff2205ea86cf": {
       "url": "https://jobright.ai/jobs/info/6a062069320bff2205ea86cf",
@@ -1100,21 +1100,214 @@
       "posted_at": "11 hours ago",
       "first_seen": "2026-05-15T08:47:13.511546+00:00",
       "last_seen": "2026-05-15T08:47:13.511546+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a077d3d939a5f01db9506fe": {
+      "url": "https://jobright.ai/jobs/info/6a077d3d939a5f01db9506fe",
+      "title": "FPGA Verification Engineer - UVM Architect",
+      "company": "Quest Defense",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-15 20:08:29",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a077d383b54ed42d74ce6e1": {
+      "url": "https://jobright.ai/jobs/info/6a077d383b54ed42d74ce6e1",
+      "title": "FPGA Emulation Engineer",
+      "company": "Quest Defense",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-15 20:08:24",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://jobright.ai/jobs/info/68909363f5ee707a15db785d": {
+      "url": "https://jobright.ai/jobs/info/68909363f5ee707a15db785d",
+      "title": "FPGA Developer",
+      "company": "Eqvilent",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-15 11:30:44",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a0701e424dcb03739f1d9fb": {
+      "url": "https://jobright.ai/jobs/info/6a0701e424dcb03739f1d9fb",
+      "title": "Senior Radar FPGA/Embedded Systems Engineer",
+      "company": "LeoLabs",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-15 11:22:12",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://jobright.ai/jobs/info/69e6361e3aa0c47964392875": {
+      "url": "https://jobright.ai/jobs/info/69e6361e3aa0c47964392875",
+      "title": "Senior FPGA Verification Engineer",
+      "company": "Quest Defense",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-15 11:44:22",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a070714078fec52738a707b": {
+      "url": "https://jobright.ai/jobs/info/6a070714078fec52738a707b",
+      "title": "Senior FPGA Verification Engineer",
+      "company": "Quest Defense",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-15 11:44:20",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006029370/Senior-FPGA-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006029370/Senior-FPGA-Engineer",
+      "title": "Senior FPGA Engineer in Hawthorne, California, USA",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://spacecrew.com/space-jobs/mp6kuudy-surrey-satellite-technology-senior-fpga-engineer": {
+      "url": "https://spacecrew.com/space-jobs/mp6kuudy-surrey-satellite-technology-senior-fpga-engineer",
+      "title": "Senior FPGA Engineer - Surrey Satellite Technology",
+      "company": "spacecrew.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://www.instagram.com/p/DYXCR-2zisJ/": {
+      "url": "https://www.instagram.com/p/DYXCR-2zisJ/",
+      "title": "Comment \"vlsi\" for direct link. FPGA & Embedded ...",
+      "company": "www.instagram.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://www.builtinaustin.com/job/ux-researcher-ii/8793948": {
+      "url": "https://www.builtinaustin.com/job/ux-researcher-ii/8793948",
+      "title": "UX Researcher II - Anaconda",
+      "company": "www.builtinaustin.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "8 hours ago",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006031046/Senior-Electrical-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006031046/Senior-Electrical-Engineer",
+      "title": "Senior Electrical Engineer in Las Vegas, Nevada, USA",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "9 hours ago",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://www.careerbuilder.com/job-details/senior-trading-systems-engineer-chicago-il--c411bebe-f8d9-4d24-9667-9fded4bec99b?mstr_dist=true": {
+      "url": "https://www.careerbuilder.com/job-details/senior-trading-systems-engineer-chicago-il--c411bebe-f8d9-4d24-9667-9fded4bec99b?mstr_dist=true",
+      "title": "Senior Trading Systems Engineer Job in Chicago, IL - Jobot",
+      "company": "www.careerbuilder.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "2 hours ago",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://jobgether.com/offer/6a07907a5a8ef7f700eb288e-principal-software-engineer---rack-scale-systems-infrastructure": {
+      "url": "https://jobgether.com/offer/6a07907a5a8ef7f700eb288e-principal-software-engineer---rack-scale-systems-infrastructure",
+      "title": "Software Engineer - Rack Scale Systems Infrastructure",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "11 hours ago",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006030372/Data-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006030372/Data-Engineer",
+      "title": "Data Engineer in Vancouver, British Columbia, Canada",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "11 hours ago",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-emulation-engineer-iowa-remote/": {
+      "url": "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-emulation-engineer-iowa-remote/",
+      "title": "FPGA Emulation Engineer",
+      "company": "Quest Defense",
+      "location": "Remote",
+      "source": "JSearch:Remote Rocketship",
+      "posted_at": "2026-05-15T00:00:00.000Z",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-verification-engineer-uvm-architect-iowa-remote/": {
+      "url": "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-verification-engineer-uvm-architect-iowa-remote/",
+      "title": "FPGA Verification Engineer – UVM Architect",
+      "company": "Quest Defense",
+      "location": "Remote",
+      "source": "JSearch:Remote Rocketship",
+      "posted_at": "2026-05-15T00:00:00.000Z",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c": {
+      "url": "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c",
+      "title": "FPGA Emulation Engineer",
+      "company": "Quest Defense Systems & Solutions, Inc.",
+      "location": "Remote",
+      "source": "JSearch:Indeed",
+      "posted_at": "2026-05-15T21:00:00.000Z",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+    },
+    "https://teamworthy.getro.com/companies/reliable-robotics-2/jobs/77843109-sr-fpga-verification-engineer": {
+      "url": "https://teamworthy.getro.com/companies/reliable-robotics-2/jobs/77843109-sr-fpga-verification-engineer",
+      "title": "Sr. FPGA Verification Engineer",
+      "company": "Reliable Robotics",
+      "location": "Remote",
+      "source": "JSearch:Teamworthy Ventures Job Board - Getro",
+      "posted_at": "2026-05-08T00:00:00.000Z",
+      "first_seen": "2026-05-16T08:01:34.249869+00:00",
+      "last_seen": "2026-05-16T08:01:34.249869+00:00"
     }
   },
   "currently_open_urls": [
+    "https://bebee.com/gb/jobs/fpga-vhdl-engineer-redline-group-specialist-recruitment-for-technology-electronics-companies-egham-e--theirstack-682012605",
+    "https://careers.actalentservices.com/us/en/job/JP-006029370/Senior-FPGA-Engineer",
+    "https://careers.actalentservices.com/us/en/job/JP-006030372/Data-Engineer",
+    "https://careers.actalentservices.com/us/en/job/JP-006031046/Senior-Electrical-Engineer",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
-    "https://jobgether.com/offer/6a063ef85a8ef7f700e9f798-engineering-manager-cpu-bootloader-firmware---sbios",
+    "https://jobgether.com/offer/6a07907a5a8ef7f700eb288e-principal-software-engineer---rack-scale-systems-infrastructure",
+    "https://jobright.ai/jobs/info/68909363f5ee707a15db785d",
     "https://jobright.ai/jobs/info/695efcb4a1bbea1d9a79cab8",
-    "https://jobright.ai/jobs/info/6a062069320bff2205ea86cf",
-    "https://jobs.lever.co/loftorbital?lever-via=sSO&workplaceType=onsite",
-    "https://lesjeudis.com/job/computer-engineering-expert-ai-content-specialist-416071",
-    "https://spacecrew.com/space-jobs/mp6l52ko-surrey-satellite-technology-rf-payload-engineer",
+    "https://jobright.ai/jobs/info/69e6361e3aa0c47964392875",
+    "https://jobright.ai/jobs/info/6a0701e424dcb03739f1d9fb",
+    "https://jobright.ai/jobs/info/6a070714078fec52738a707b",
+    "https://jobright.ai/jobs/info/6a077d383b54ed42d74ce6e1",
+    "https://jobright.ai/jobs/info/6a077d3d939a5f01db9506fe",
+    "https://optiver.com/working-at-optiver/career-opportunities/8057449002/?gh_jid=8057449002",
+    "https://optiver.com/working-at-optiver/career-opportunities/8097725002/?gh_jid=8097725002",
+    "https://spacecrew.com/space-jobs/mp6kuudy-surrey-satellite-technology-senior-fpga-engineer",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
-    "https://www.apply4u.co.uk/jobs/fpga-firmware-engineer/35304731?type=external",
+    "https://teamworthy.getro.com/companies/reliable-robotics-2/jobs/77843109-sr-fpga-verification-engineer",
+    "https://www.builtinaustin.com/job/ux-researcher-ii/8793948",
+    "https://www.careerbuilder.com/job-details/senior-trading-systems-engineer-chicago-il--c411bebe-f8d9-4d24-9667-9fded4bec99b?mstr_dist=true",
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
-    "https://www.jobleads.com/gb/job/senior-fpga-asic-digital-design-engineer-hybrid--bristol--cambridge--romsey--greater-london--ee0ea38b9a807f3ad32e51ef0e69974f8",
-    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
-    "https://www.simplyhired.co.uk/job/dSUsWcszOJnYDKVF8kQDRRcDG4awDJwKUcMZwRHQn0N4az8Jbur_RQ"
+    "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c",
+    "https://www.instagram.com/p/DYXCR-2zisJ/",
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-emulation-engineer-iowa-remote/",
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-verification-engineer-uvm-architect-iowa-remote/",
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/"
   ]
 }
