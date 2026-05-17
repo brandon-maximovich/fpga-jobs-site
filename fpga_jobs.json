@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-16T08:01:34.249869+00:00",
+  "last_run": "2026-05-17T08:19:06.389528+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -159,7 +159,7 @@
       "source": "JSearch:Himalayas",
       "posted_at": "2026-04-26T00:00:00.000Z",
       "first_seen": "2026-05-10T13:06:41.734570+00:00",
-      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     },
     "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2": {
       "url": "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
@@ -179,7 +179,7 @@
       "source": "JSearch:Teal",
       "posted_at": "2026-04-21T00:00:00.000Z",
       "first_seen": "2026-05-10T13:29:52.836344+00:00",
-      "last_seen": "2026-05-14T08:36:09.823045+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     },
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277": {
       "url": "https://tallo.com/talent/job/engineering/hardware-engineer/remote/senior-fpga-design-engineer-0f852277",
@@ -499,7 +499,7 @@
       "source": "JSearch:Tallo",
       "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -699,7 +699,7 @@
       "source": "JSearch:Remote Rocketship",
       "posted_at": "2026-05-06T00:00:00.000Z",
       "first_seen": "2026-05-12T17:48:29.843417+00:00",
-      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     },
     "https://4dayweek.io/signal-processing-jobs": {
       "url": "https://4dayweek.io/signal-processing-jobs",
@@ -1249,7 +1249,7 @@
       "source": "JSearch:Remote Rocketship",
       "posted_at": "2026-05-15T00:00:00.000Z",
       "first_seen": "2026-05-16T08:01:34.249869+00:00",
-      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     },
     "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-verification-engineer-uvm-architect-iowa-remote/": {
       "url": "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-verification-engineer-uvm-architect-iowa-remote/",
@@ -1259,7 +1259,7 @@
       "source": "JSearch:Remote Rocketship",
       "posted_at": "2026-05-15T00:00:00.000Z",
       "first_seen": "2026-05-16T08:01:34.249869+00:00",
-      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     },
     "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c": {
       "url": "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c",
@@ -1267,9 +1267,9 @@
       "company": "Quest Defense Systems & Solutions, Inc.",
       "location": "Remote",
       "source": "JSearch:Indeed",
-      "posted_at": "2026-05-15T21:00:00.000Z",
+      "posted_at": "2026-05-16T00:00:00.000Z",
       "first_seen": "2026-05-16T08:01:34.249869+00:00",
-      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     },
     "https://teamworthy.getro.com/companies/reliable-robotics-2/jobs/77843109-sr-fpga-verification-engineer": {
       "url": "https://teamworthy.getro.com/companies/reliable-robotics-2/jobs/77843109-sr-fpga-verification-engineer",
@@ -1277,37 +1277,151 @@
       "company": "Reliable Robotics",
       "location": "Remote",
       "source": "JSearch:Teamworthy Ventures Job Board - Getro",
-      "posted_at": "2026-05-08T00:00:00.000Z",
+      "posted_at": "2026-05-07T00:00:00.000Z",
       "first_seen": "2026-05-16T08:01:34.249869+00:00",
-      "last_seen": "2026-05-16T08:01:34.249869+00:00"
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://workinoptics.com/job/staff-fpga-engineer-oxford-6244": {
+      "url": "https://workinoptics.com/job/staff-fpga-engineer-oxford-6244",
+      "title": "Staff FPGA Engineer in Oxford, United Kingdom",
+      "company": "workinoptics.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://www.jobleads.com/gb/job/fpga-engineer-high-performance-hdl-design-verification--cambridge--e0f3d8fe941006659d98b26216ffcf1aa": {
+      "url": "https://www.jobleads.com/gb/job/fpga-engineer-high-performance-hdl-design-verification--cambridge--e0f3d8fe941006659d98b26216ffcf1aa",
+      "title": "FPGA Engineer: High-Performance HDL Design & ...",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://www.bayt.com/en/international/jobs/fpga-jobs/": {
+      "url": "https://www.bayt.com/en/international/jobs/fpga-jobs/",
+      "title": "Fpga Jobs in the Middle East (May 2026)",
+      "company": "www.bayt.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "5 hours ago",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://bebee.com/in/jobs/fpga-engineer-appriffy-digital-it-hub-private-limited-bengaluru-bangalore--bs-in-4b5859b8-dacb-47c6-a441-fc5ec209134d": {
+      "url": "https://bebee.com/in/jobs/fpga-engineer-appriffy-digital-it-hub-private-limited-bengaluru-bangalore--bs-in-4b5859b8-dacb-47c6-a441-fc5ec209134d",
+      "title": "FPGA Engineer - Appriffy Digital It Hub Private Limited",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://bebee.com/id/jobs/chip-design-engineer-bespoke-labs-mamuju--bs-id-eee6aec6-1f47-4c88-a6fd-0192349ba57a": {
+      "url": "https://bebee.com/id/jobs/chip-design-engineer-bespoke-labs-mamuju--bs-id-eee6aec6-1f47-4c88-a6fd-0192349ba57a",
+      "title": "Chip Design Engineer - Bespoke Labs",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "3 hours ago",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://www.simplyhired.co.uk/job/ger8dRMkCA5M5QR0TtKKWEjkVq0uXewzk2_5bjdfyW_f9BaPafQiUA": {
+      "url": "https://www.simplyhired.co.uk/job/ger8dRMkCA5M5QR0TtKKWEjkVq0uXewzk2_5bjdfyW_f9BaPafQiUA",
+      "title": "Embedded Systems Engineer London, UK (London Bridge)",
+      "company": "www.simplyhired.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://www.reddit.com/r/EngineeringStudents/comments/1tetq0t/power_electronics_uni_project/": {
+      "url": "https://www.reddit.com/r/EngineeringStudents/comments/1tetq0t/power_electronics_uni_project/",
+      "title": "Power Electronics uni project : r/EngineeringStudents",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://www.nottinghamjobs.co.uk/data-centre-engineer-jobs-in-maidstone": {
+      "url": "https://www.nottinghamjobs.co.uk/data-centre-engineer-jobs-in-maidstone",
+      "title": "Data Centre Engineer jobs in Maidstone, Kent - May 2026",
+      "company": "www.nottinghamjobs.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://www.facebook.com/2mopthafloor/photos/d41d8cd9/10163167914773335/": {
+      "url": "https://www.facebook.com/2mopthafloor/photos/d41d8cd9/10163167914773335/",
+      "title": "Elden Wayne Whalen III",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://www.indeed.com/viewjob?jk=359e3a55b96a7766": {
+      "url": "https://www.indeed.com/viewjob?jk=359e3a55b96a7766",
+      "title": "FPGA Verification Engineer - UVM Architect",
+      "company": "Quest Defense Systems & Solutions, Inc.",
+      "location": "Remote",
+      "source": "JSearch:Indeed",
+      "posted_at": "2026-05-16T00:00:00.000Z",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero-up2draftex-30012025080639": {
+      "url": "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero-up2draftex-30012025080639",
+      "title": "Staff Fpga Firmware Design Engineer",
+      "company": "Wisk Aero",
+      "location": "Remote",
+      "source": "JSearch:Up2staff",
+      "posted_at": "2026-05-16T12:00:00.000Z",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
+    },
+    "https://novexwork.is-best.net/job/firmware-developer-fpga-vhdl-verilog-system-verilog": {
+      "url": "https://novexwork.is-best.net/job/firmware-developer-fpga-vhdl-verilog-system-verilog",
+      "title": "Firmware Developer (FPGA, VHDL, Verilog/System Verilog)",
+      "company": "Novexwork",
+      "location": "Remote",
+      "source": "JSearch:Novexwork",
+      "posted_at": "2026-05-14T00:00:00.000Z",
+      "first_seen": "2026-05-17T08:19:06.389528+00:00",
+      "last_seen": "2026-05-17T08:19:06.389528+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/gb/jobs/fpga-vhdl-engineer-redline-group-specialist-recruitment-for-technology-electronics-companies-egham-e--theirstack-682012605",
-    "https://careers.actalentservices.com/us/en/job/JP-006029370/Senior-FPGA-Engineer",
-    "https://careers.actalentservices.com/us/en/job/JP-006030372/Data-Engineer",
-    "https://careers.actalentservices.com/us/en/job/JP-006031046/Senior-Electrical-Engineer",
+    "https://bebee.com/id/jobs/chip-design-engineer-bespoke-labs-mamuju--bs-id-eee6aec6-1f47-4c88-a6fd-0192349ba57a",
+    "https://bebee.com/in/jobs/fpga-engineer-appriffy-digital-it-hub-private-limited-bengaluru-bangalore--bs-in-4b5859b8-dacb-47c6-a441-fc5ec209134d",
     "https://himalayas.app/companies/amd/jobs/first-pass-pcie-verification-engineer-fpga-asic",
-    "https://jobgether.com/offer/6a07907a5a8ef7f700eb288e-principal-software-engineer---rack-scale-systems-infrastructure",
-    "https://jobright.ai/jobs/info/68909363f5ee707a15db785d",
-    "https://jobright.ai/jobs/info/695efcb4a1bbea1d9a79cab8",
-    "https://jobright.ai/jobs/info/69e6361e3aa0c47964392875",
-    "https://jobright.ai/jobs/info/6a0701e424dcb03739f1d9fb",
-    "https://jobright.ai/jobs/info/6a070714078fec52738a707b",
-    "https://jobright.ai/jobs/info/6a077d383b54ed42d74ce6e1",
-    "https://jobright.ai/jobs/info/6a077d3d939a5f01db9506fe",
-    "https://optiver.com/working-at-optiver/career-opportunities/8057449002/?gh_jid=8057449002",
-    "https://optiver.com/working-at-optiver/career-opportunities/8097725002/?gh_jid=8097725002",
-    "https://spacecrew.com/space-jobs/mp6kuudy-surrey-satellite-technology-senior-fpga-engineer",
+    "https://novexwork.is-best.net/job/firmware-developer-fpga-vhdl-verilog-system-verilog",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
     "https://teamworthy.getro.com/companies/reliable-robotics-2/jobs/77843109-sr-fpga-verification-engineer",
-    "https://www.builtinaustin.com/job/ux-researcher-ii/8793948",
-    "https://www.careerbuilder.com/job-details/senior-trading-systems-engineer-chicago-il--c411bebe-f8d9-4d24-9667-9fded4bec99b?mstr_dist=true",
-    "https://www.dice.com/job-detail/57a85a7b-b147-42de-b91b-c736dd59a8c2",
+    "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero-up2draftex-30012025080639",
+    "https://workinoptics.com/job/staff-fpga-engineer-oxford-6244",
+    "https://www.bayt.com/en/international/jobs/fpga-jobs/",
+    "https://www.facebook.com/2mopthafloor/photos/d41d8cd9/10163167914773335/",
     "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c",
-    "https://www.instagram.com/p/DYXCR-2zisJ/",
+    "https://www.indeed.com/viewjob?jk=359e3a55b96a7766",
+    "https://www.jobleads.com/gb/job/fpga-engineer-high-performance-hdl-design-verification--cambridge--e0f3d8fe941006659d98b26216ffcf1aa",
+    "https://www.nottinghamjobs.co.uk/data-centre-engineer-jobs-in-maidstone",
+    "https://www.reddit.com/r/EngineeringStudents/comments/1tetq0t/power_electronics_uni_project/",
     "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-emulation-engineer-iowa-remote/",
     "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-verification-engineer-uvm-architect-iowa-remote/",
-    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/"
+    "https://www.remoterocketship.com/us/company/quest-defense/jobs/senior-fpga-verification-engineer-united-states-remote/",
+    "https://www.simplyhired.co.uk/job/ger8dRMkCA5M5QR0TtKKWEjkVq0uXewzk2_5bjdfyW_f9BaPafQiUA",
+    "https://www.tealhq.com/job/systems-design-engineer-fpga-video-networking-systems_7ea1a6efa634265e1ad876ad3397374509a83"
   ]
 }
