@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-23T08:15:13.895146+00:00",
+  "last_run": "2026-05-24T08:26:57.581982+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -499,7 +499,7 @@
       "source": "JSearch:Tallo",
       "posted_at": "2026-05-05T00:00:00.000Z",
       "first_seen": "2026-05-11T09:36:55.345392+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     },
     "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer": {
       "url": "https://jobs.generalcatalyst.com/companies/iceye/jobs/78234096-senior-fpga-engineer",
@@ -1259,7 +1259,7 @@
       "source": "JSearch:Remote Rocketship",
       "posted_at": "2026-05-15T00:00:00.000Z",
       "first_seen": "2026-05-16T08:01:34.249869+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     },
     "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c": {
       "url": "https://www.indeed.com/viewjob?jk=0f42c26cf3fe5c3c",
@@ -1279,7 +1279,7 @@
       "source": "JSearch:Teamworthy Ventures Job Board - Getro",
       "posted_at": "2026-05-07T00:00:00.000Z",
       "first_seen": "2026-05-16T08:01:34.249869+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     },
     "https://workinoptics.com/job/staff-fpga-engineer-oxford-6244": {
       "url": "https://workinoptics.com/job/staff-fpga-engineer-oxford-6244",
@@ -1389,7 +1389,7 @@
       "source": "JSearch:Up2staff",
       "posted_at": "2026-05-16T00:00:00.000Z",
       "first_seen": "2026-05-17T08:19:06.389528+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     },
     "https://novexwork.is-best.net/job/firmware-developer-fpga-vhdl-verilog-system-verilog": {
       "url": "https://novexwork.is-best.net/job/firmware-developer-fpga-vhdl-verilog-system-verilog",
@@ -1629,7 +1629,7 @@
       "source": "JSearch:Built In",
       "posted_at": "2026-05-16T00:00:00.000Z",
       "first_seen": "2026-05-20T09:27:54.037963+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     },
     "https://tallo.com/talent/job/engineering/electronics-engineer/remote/senior-fpga-engineer-onsite-d59712a5": {
       "url": "https://tallo.com/talent/job/engineering/electronics-engineer/remote/senior-fpga-engineer-onsite-d59712a5",
@@ -1639,7 +1639,7 @@
       "source": "JSearch:Tallo",
       "posted_at": "2026-05-16T00:00:00.000Z",
       "first_seen": "2026-05-20T09:27:54.037963+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     },
     "https://jobgether.com/offer/6a087f955a8ef7f700ebfdef-fpga-emulation-engineer": {
       "url": "https://jobgether.com/offer/6a087f955a8ef7f700ebfdef-fpga-emulation-engineer",
@@ -1879,7 +1879,7 @@
       "source": "JSearch:Indeed",
       "posted_at": "2026-05-16T00:00:00.000Z",
       "first_seen": "2026-05-22T08:58:31.521889+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     },
     "https://bebee.com/gb/jobs/fpga-engineer-experis-it-bedfordshire-united-kingdom--jobgoal-20246_448733ad2fe4de0bbc2cce71f347f998": {
       "url": "https://bebee.com/gb/jobs/fpga-engineer-experis-it-bedfordshire-united-kingdom--jobgoal-20246_448733ad2fe4de0bbc2cce71f347f998",
@@ -1959,28 +1959,127 @@
       "source": "JSearch:Ladders",
       "posted_at": "2026-05-17T00:00:00.000Z",
       "first_seen": "2026-05-23T08:15:13.895146+00:00",
-      "last_seen": "2026-05-23T08:15:13.895146+00:00"
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a125d509f654b3359cf2eb9": {
+      "url": "https://jobright.ai/jobs/info/6a125d509f654b3359cf2eb9",
+      "title": "FPGA Emulation Engineer",
+      "company": "Quest Defense",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-24 02:07:12",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a12403a69bd827926af569d": {
+      "url": "https://jobright.ai/jobs/info/6a12403a69bd827926af569d",
+      "title": "Senior FPGA Verification Engineer",
+      "company": "Ursa Major",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-05-24 00:03:06",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://www.jobleads.com/gb/job/remote-fpga-design-engineer-high-speed-systems--tendring--e778435ab3cbec932a9bf85aef4a7124a": {
+      "url": "https://www.jobleads.com/gb/job/remote-fpga-design-engineer-high-speed-systems--tendring--e778435ab3cbec932a9bf85aef4a7124a",
+      "title": "Remote FPGA Design Engineer - High-Speed Systems",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://bebee.com/gb/jobs/staff-fpga-engineer-ic-resources-london-england--theirstack-690344218": {
+      "url": "https://bebee.com/gb/jobs/staff-fpga-engineer-ic-resources-london-england--theirstack-690344218",
+      "title": "Staff FPGA Engineer - IC Resources",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://www.jobsmedical.co.uk/remote-technical-training-jobs-in-ealing": {
+      "url": "https://www.jobsmedical.co.uk/remote-technical-training-jobs-in-ealing",
+      "title": "Remote Technical Training jobs in Ealing, Greater London",
+      "company": "www.jobsmedical.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://remoteleaf.com/company/alten-technology/fpga-firmware-engineer-united-states/": {
+      "url": "https://remoteleaf.com/company/alten-technology/fpga-firmware-engineer-united-states/",
+      "title": "FPGA Firmware Engineer at ALTEN Technology - Remote",
+      "company": "remoteleaf.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "13 hours ago",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://bebee.com/pk/jobs/role/design-engineer": {
+      "url": "https://bebee.com/pk/jobs/role/design-engineer",
+      "title": "253+ Design Engineer Jobs in Pakistan 2026",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "14 hours ago",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://www.facebook.com/100064732297192/posts/coody-is-hiring-a-senior-embedded-software-engineer-in-stockholm-5-years-in-cc-e/1418913170276413/": {
+      "url": "https://www.facebook.com/100064732297192/posts/coody-is-hiring-a-senior-embedded-software-engineer-in-stockholm-5-years-in-cc-e/1418913170276413/",
+      "title": "COODY is hiring a Senior Embedded Software Engineer ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://www.jobleads.com/nz/job/ai-data-trainer-advanced-computer-architecture-remote--new-zealand--ebb8a43501aba87e752ad4f2508ec1611": {
+      "url": "https://www.jobleads.com/nz/job/ai-data-trainer-advanced-computer-architecture-remote--new-zealand--ebb8a43501aba87e752ad4f2508ec1611",
+      "title": "AI Data Trainer: Advanced Computer Architecture (Remote)",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
+    },
+    "https://www.tealhq.com/job/fpga-firmware-engineer_7ea1a96806e160485f189e1152c9b36fd4db4": {
+      "url": "https://www.tealhq.com/job/fpga-firmware-engineer_7ea1a96806e160485f189e1152c9b36fd4db4",
+      "title": "FPGA Firmware Engineer",
+      "company": "ALTEN Technology USA",
+      "location": "Remote",
+      "source": "JSearch:Teal",
+      "posted_at": "2026-05-22T00:00:00.000Z",
+      "first_seen": "2026-05-24T08:26:57.581982+00:00",
+      "last_seen": "2026-05-24T08:26:57.581982+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/gb/jobs/fpga-engineer-experis-it-bedfordshire-united-kingdom--jobgoal-20246_448733ad2fe4de0bbc2cce71f347f998",
-    "https://bebee.com/in/jobs/role/quantum-computing",
+    "https://bebee.com/gb/jobs/staff-fpga-engineer-ic-resources-london-england--theirstack-690344218",
+    "https://bebee.com/pk/jobs/role/design-engineer",
     "https://builtin.com/job/fpga-engineer/819973",
-    "https://careers.actalentservices.com/us/en/job/JP-006044338/Embedded-Software-Engineer",
-    "https://careers.actalentservices.com/us/en/job/JP-006044343/Firmware-Engineer",
-    "https://jaabz.com/jobs/217930-firmware-engineer",
-    "https://localwork.com/job/11847881",
+    "https://jobright.ai/jobs/info/6a12403a69bd827926af569d",
+    "https://jobright.ai/jobs/info/6a125d509f654b3359cf2eb9",
+    "https://remoteleaf.com/company/alten-technology/fpga-firmware-engineer-united-states/",
     "https://tallo.com/talent/job/engineering/electronics-engineer/remote/senior-fpga-engineer-onsite-d59712a5",
     "https://tallo.com/talent/job/engineering/hardware-engineer/remote/fpga-design-engineer-hybrid-s-b7e37212",
     "https://teamworthy.getro.com/companies/reliable-robotics-2/jobs/77843109-sr-fpga-verification-engineer",
     "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero-up2draftex-30012025080639",
-    "https://www.bayt.com/en/international/jobs/fpga-jobs/",
-    "https://www.glassdoor.co.in/Job/india-fpga-jobs-SRCH_IL.0,5_IN115_KO6,10.htm",
+    "https://www.facebook.com/100064732297192/posts/coody-is-hiring-a-senior-embedded-software-engineer-in-stockholm-5-years-in-cc-e/1418913170276413/",
     "https://www.indeed.com/viewjob?jk=9bd0e68814b2144f",
-    "https://www.indeed.com/viewjob?jk=ddb3d97abf66691a",
-    "https://www.jobleads.com/us/job/principal-fpga-engineer--el-segundo--e8891ec8695276465f8723238a26ee0cf",
-    "https://www.reddit.com/r/PMCareers/comments/1tl6iso/rate_my_resume/",
+    "https://www.jobleads.com/gb/job/remote-fpga-design-engineer-high-speed-systems--tendring--e778435ab3cbec932a9bf85aef4a7124a",
+    "https://www.jobleads.com/nz/job/ai-data-trainer-advanced-computer-architecture-remote--new-zealand--ebb8a43501aba87e752ad4f2508ec1611",
+    "https://www.jobsmedical.co.uk/remote-technical-training-jobs-in-ealing",
     "https://www.remoterocketship.com/us/company/quest-defense/jobs/fpga-verification-engineer-uvm-architect-iowa-remote/",
+    "https://www.tealhq.com/job/fpga-firmware-engineer_7ea1a96806e160485f189e1152c9b36fd4db4",
     "https://www.theladders.com/job/sr-fpga-design-engineer-reliablerobotics-virtual-travel_86950045"
   ]
 }
