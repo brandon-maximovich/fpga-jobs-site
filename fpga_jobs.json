@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-01T11:29:51.430079+00:00",
+  "last_run": "2026-06-01T19:10:43.050723+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -2670,7 +2670,74 @@
       "posted_at": "23 hours ago",
       "first_seen": "2026-05-31T08:42:29.716789+00:00",
       "last_seen": "2026-05-31T08:42:29.716789+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a1dd6256b135014dbc98d64": {
+      "url": "https://jobright.ai/jobs/info/6a1dd6256b135014dbc98d64",
+      "title": "ASIC &amp; FPGA Design Engineer Stf",
+      "company": "Lockheed Martin",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-06-01 18:57:41",
+      "first_seen": "2026-06-01T19:10:43.050723+00:00",
+      "last_seen": "2026-06-01T19:10:43.050723+00:00"
+    },
+    "https://www.reddit.com/r/FPGA/comments/1ttda0v/cli_project_scaffolding_and_makefile_based_build/": {
+      "url": "https://www.reddit.com/r/FPGA/comments/1ttda0v/cli_project_scaffolding_and_makefile_based_build/",
+      "title": "CLI project scaffolding and Makefile based build for Shrike- ...",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-01T19:10:43.050723+00:00",
+      "last_seen": "2026-06-01T19:10:43.050723+00:00"
+    },
+    "https://bebee.com/gb/jobs/senior-fpga-engineer-enterprise-recruitment-limited-cambridge--diversej-25080117": {
+      "url": "https://bebee.com/gb/jobs/senior-fpga-engineer-enterprise-recruitment-limited-cambridge--diversej-25080117",
+      "title": "Senior FPGA Engineer - Enterprise Recruitment Limited",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-06-01T19:10:43.050723+00:00",
+      "last_seen": "2026-06-01T19:10:43.050723+00:00"
+    },
+    "https://news.ycombinator.com/item?id=48357724": {
+      "url": "https://news.ycombinator.com/item?id=48357724",
+      "title": "Ask HN: Who wants to be hired? (June 2026)",
+      "company": "news.ycombinator.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "3 hours ago",
+      "first_seen": "2026-06-01T19:10:43.050723+00:00",
+      "last_seen": "2026-06-01T19:10:43.050723+00:00"
+    },
+    "https://jobtoday.com/gb/jobs-ecm/glossop": {
+      "url": "https://jobtoday.com/gb/jobs-ecm/glossop",
+      "title": "48 Best ecm Jobs in Glossop (June 2026)",
+      "company": "jobtoday.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-06-01T19:10:43.050723+00:00",
+      "last_seen": "2026-06-01T19:10:43.050723+00:00"
+    },
+    "https://internshala.com/jobs-for-women/part-time-electronics-jobs-in-medak/remote/": {
+      "url": "https://internshala.com/jobs-for-women/part-time-electronics-jobs-in-medak/remote/",
+      "title": "39 Part Time Electronics Remote Jobs in Medak for Women",
+      "company": "internshala.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "7 hours ago",
+      "first_seen": "2026-06-01T19:10:43.050723+00:00",
+      "last_seen": "2026-06-01T19:10:43.050723+00:00"
     }
   },
-  "currently_open_urls": []
+  "currently_open_urls": [
+    "https://bebee.com/gb/jobs/senior-fpga-engineer-enterprise-recruitment-limited-cambridge--diversej-25080117",
+    "https://internshala.com/jobs-for-women/part-time-electronics-jobs-in-medak/remote/",
+    "https://jobright.ai/jobs/info/6a1dd6256b135014dbc98d64",
+    "https://jobtoday.com/gb/jobs-ecm/glossop",
+    "https://news.ycombinator.com/item?id=48357724",
+    "https://www.reddit.com/r/FPGA/comments/1ttda0v/cli_project_scaffolding_and_makefile_based_build/"
+  ]
 }
