@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-01T19:10:43.050723+00:00",
+  "last_run": "2026-06-02T10:19:23.734477+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -2677,9 +2677,9 @@
       "company": "Lockheed Martin",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-06-01 18:57:41",
+      "posted_at": "2026-06-02 03:03:01",
       "first_seen": "2026-06-01T19:10:43.050723+00:00",
-      "last_seen": "2026-06-01T19:10:43.050723+00:00"
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
     },
     "https://www.reddit.com/r/FPGA/comments/1ttda0v/cli_project_scaffolding_and_makefile_based_build/": {
       "url": "https://www.reddit.com/r/FPGA/comments/1ttda0v/cli_project_scaffolding_and_makefile_based_build/",
@@ -2730,14 +2730,119 @@
       "posted_at": "7 hours ago",
       "first_seen": "2026-06-01T19:10:43.050723+00:00",
       "last_seen": "2026-06-01T19:10:43.050723+00:00"
+    },
+    "https://www.reddit.com/r/chipdesign/comments/1tu5hjd/ciena_fpga_internship_any_insights/": {
+      "url": "https://www.reddit.com/r/chipdesign/comments/1tu5hjd/ciena_fpga_internship_any_insights/",
+      "title": "Ciena FPGA internship; any insights? : r/chipdesign",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006063264/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006063264/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "16 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://careers.gevernova.com/jobs/page/14": {
+      "url": "https://careers.gevernova.com/jobs/page/14",
+      "title": "Search Jobs | GE Vernova Careers Portal",
+      "company": "careers.gevernova.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://ph.jobrapido.com/jobpreview/606821246906138624": {
+      "url": "https://ph.jobrapido.com/jobpreview/606821246906138624",
+      "title": "Radar & EW DSP/FPGA Engineer — at Indra Group in Remote",
+      "company": "ph.jobrapido.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "11 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://en.wizbii.com/company/sopra-steria/job/senior-fpga-engineer-project-lead-do-254-1": {
+      "url": "https://en.wizbii.com/company/sopra-steria/job/senior-fpga-engineer-project-lead-do-254-1",
+      "title": "Senior FPGA Engineer & Project Lead – DO-254",
+      "company": "en.wizbii.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://www.adzuna.ca/details/5724217079": {
+      "url": "https://www.adzuna.ca/details/5724217079",
+      "title": "Senior Hardware (FPGA) Engineer",
+      "company": "www.adzuna.ca",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "5 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://bebee.com/in/jobs/rtl-engineer-systemverilog-specialist-mercor--theirstack-698410564": {
+      "url": "https://bebee.com/in/jobs/rtl-engineer-systemverilog-specialist-mercor--theirstack-698410564",
+      "title": "RTL Engineer - SystemVerilog Specialist - Mercor",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "14 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://www.jobijoba.co.uk/detail/92/4407aefb1e1187f72f43e7af317070e5": {
+      "url": "https://www.jobijoba.co.uk/detail/92/4407aefb1e1187f72f43e7af317070e5",
+      "title": "Fully remote senior analog ic design engineer (bicmos)",
+      "company": "www.jobijoba.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://www.cv-library.co.uk/job/225184372/VOID-Connection-Test": {
+      "url": "https://www.cv-library.co.uk/job/225184372/VOID-Connection-Test",
+      "title": "Connection Test by HireRoad (Integration) in Nationwide Ref",
+      "company": "www.cv-library.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://www.facebook.com/100064732297192/posts/axis-communications-ab-is-hiring-experienced-software-engineer-for-video-managem/1427306632770400/": {
+      "url": "https://www.facebook.com/100064732297192/posts/axis-communications-ab-is-hiring-experienced-software-engineer-for-video-managem/1427306632770400/",
+      "title": "Axis Communications AB is hiring",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-02T10:19:23.734477+00:00",
+      "last_seen": "2026-06-02T10:19:23.734477+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/gb/jobs/senior-fpga-engineer-enterprise-recruitment-limited-cambridge--diversej-25080117",
-    "https://internshala.com/jobs-for-women/part-time-electronics-jobs-in-medak/remote/",
+    "https://bebee.com/in/jobs/rtl-engineer-systemverilog-specialist-mercor--theirstack-698410564",
+    "https://careers.actalentservices.com/us/en/job/JP-006063264/Firmware-Engineer",
+    "https://careers.gevernova.com/jobs/page/14",
+    "https://en.wizbii.com/company/sopra-steria/job/senior-fpga-engineer-project-lead-do-254-1",
     "https://jobright.ai/jobs/info/6a1dd6256b135014dbc98d64",
-    "https://jobtoday.com/gb/jobs-ecm/glossop",
-    "https://news.ycombinator.com/item?id=48357724",
-    "https://www.reddit.com/r/FPGA/comments/1ttda0v/cli_project_scaffolding_and_makefile_based_build/"
+    "https://ph.jobrapido.com/jobpreview/606821246906138624",
+    "https://www.adzuna.ca/details/5724217079",
+    "https://www.cv-library.co.uk/job/225184372/VOID-Connection-Test",
+    "https://www.facebook.com/100064732297192/posts/axis-communications-ab-is-hiring-experienced-software-engineer-for-video-managem/1427306632770400/",
+    "https://www.jobijoba.co.uk/detail/92/4407aefb1e1187f72f43e7af317070e5",
+    "https://www.reddit.com/r/chipdesign/comments/1tu5hjd/ciena_fpga_internship_any_insights/"
   ]
 }
