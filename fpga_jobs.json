@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-02T10:19:23.734477+00:00",
+  "last_run": "2026-06-03T10:54:29.844605+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -1627,9 +1627,9 @@
       "company": "Citadel Securities",
       "location": "Remote",
       "source": "JSearch:Built In",
-      "posted_at": "2026-05-16T00:00:00.000Z",
+      "posted_at": "2026-05-31T00:00:00.000Z",
       "first_seen": "2026-05-20T09:27:54.037963+00:00",
-      "last_seen": "2026-05-29T09:53:42.725227+00:00"
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
     },
     "https://tallo.com/talent/job/engineering/electronics-engineer/remote/senior-fpga-engineer-onsite-d59712a5": {
       "url": "https://tallo.com/talent/job/engineering/electronics-engineer/remote/senior-fpga-engineer-onsite-d59712a5",
@@ -2097,9 +2097,9 @@
       "company": "CyberCoders",
       "location": "Remote",
       "source": "JSearch:CyberCoders",
-      "posted_at": "2026-05-15T00:00:00.000Z",
+      "posted_at": "2026-05-14T00:00:00.000Z",
       "first_seen": "2026-05-25T10:01:13.922898+00:00",
-      "last_seen": "2026-05-31T08:42:29.716789+00:00"
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
     },
     "https://jobright.ai/jobs/info/69fec5d2d0dc596b8d11a0c8?visit=digital-ic-verification-engineer-in-houston-tx": {
       "url": "https://jobright.ai/jobs/info/69fec5d2d0dc596b8d11a0c8?visit=digital-ic-verification-engineer-in-houston-tx",
@@ -2189,7 +2189,7 @@
       "source": "JSearch:Monster",
       "posted_at": "2026-05-25T00:00:00.000Z",
       "first_seen": "2026-05-26T09:52:39.344096+00:00",
-      "last_seen": "2026-05-31T08:42:29.716789+00:00"
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
     },
     "https://www.semidesignjobs.com/s/fpga-programming-jobs": {
       "url": "https://www.semidesignjobs.com/s/fpga-programming-jobs",
@@ -2830,19 +2830,132 @@
       "posted_at": "",
       "first_seen": "2026-06-02T10:19:23.734477+00:00",
       "last_seen": "2026-06-02T10:19:23.734477+00:00"
+    },
+    "https://quantumtechnologies.career.softgarden.de/jobs/63900959/Senior-FPGA-Engineer-%E2%80%93-Space-Systems-m-f-d-/": {
+      "url": "https://quantumtechnologies.career.softgarden.de/jobs/63900959/Senior-FPGA-Engineer-%E2%80%93-Space-Systems-m-f-d-/",
+      "title": "Senior FPGA Engineer – Space Systems (m/f/d)",
+      "company": "quantumtechnologies.career.softgarden.de",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://careers.actalentservices.com/ca/fr/job/JP-006065776/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/ca/fr/job/JP-006065776/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "14 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://embedded.jobs/job/Architect-FPGA-Design-AXI-UCIe-Protocol-with-Synopsys-Inc-b19924": {
+      "url": "https://embedded.jobs/job/Architect-FPGA-Design-AXI-UCIe-Protocol-with-Synopsys-Inc-b19924",
+      "title": "FPGA Design, AXI/ UCIe Protocol - Synopsys Inc",
+      "company": "embedded.jobs",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://internshala.com/internships/fpga-engineer-internship-in-coimbatore/": {
+      "url": "https://internshala.com/internships/fpga-engineer-internship-in-coimbatore/",
+      "title": "40 Fpga Engineer Internships in Coimbatore",
+      "company": "internshala.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006065776/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006065776/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://synmatchai.teamtailor.com/jobs/7837096-senior-embedded-software-engineer-for-fpga-dsp": {
+      "url": "https://synmatchai.teamtailor.com/jobs/7837096-senior-embedded-software-engineer-for-fpga-dsp",
+      "title": "Senior Embedded Software Engineer for FPGA/ DSP",
+      "company": "synmatchai.teamtailor.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://bebee.com/in/jobs/hardware-design-expert-fully-remote-mercor-mumbai--manatal-3934044": {
+      "url": "https://bebee.com/in/jobs/hardware-design-expert-fully-remote-mercor-mumbai--manatal-3934044",
+      "title": "Hardware Design Expert - Fully Remote - Mercor",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "16 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://careers.arrow.com/us/en/job/R244505/Field-Applications-Engineer": {
+      "url": "https://careers.arrow.com/us/en/job/R244505/Field-Applications-Engineer",
+      "title": "Field Applications Engineer job in Remote-OR, ...",
+      "company": "careers.arrow.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://www.reddit.com/r/MachineLearningJobs/comments/1tuqnfs/hiring_senior_embedded_software_engineer_146700/": {
+      "url": "https://www.reddit.com/r/MachineLearningJobs/comments/1tuqnfs/hiring_senior_embedded_software_engineer_146700/",
+      "title": "[HIRING] Senior Embedded Software Engineer [💰 $146700",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://arxiv.org/html/2606.03697v1": {
+      "url": "https://arxiv.org/html/2606.03697v1",
+      "title": "Designing a Hardware Reverse Engineering Course",
+      "company": "arxiv.org",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "3 hours ago",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://www.tealhq.com/job/lead-fpga-engineer_7ea1a92960557a5313cc1c3edd53e14b016a7": {
+      "url": "https://www.tealhq.com/job/lead-fpga-engineer_7ea1a92960557a5313cc1c3edd53e14b016a7",
+      "title": "Lead FPGA Engineer",
+      "company": "GE Vernova",
+      "location": "Remote",
+      "source": "JSearch:Teal",
+      "posted_at": "2026-05-30T00:00:00.000Z",
+      "first_seen": "2026-06-03T10:54:29.844605+00:00",
+      "last_seen": "2026-06-03T10:54:29.844605+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/in/jobs/rtl-engineer-systemverilog-specialist-mercor--theirstack-698410564",
-    "https://careers.actalentservices.com/us/en/job/JP-006063264/Firmware-Engineer",
-    "https://careers.gevernova.com/jobs/page/14",
-    "https://en.wizbii.com/company/sopra-steria/job/senior-fpga-engineer-project-lead-do-254-1",
-    "https://jobright.ai/jobs/info/6a1dd6256b135014dbc98d64",
-    "https://ph.jobrapido.com/jobpreview/606821246906138624",
-    "https://www.adzuna.ca/details/5724217079",
-    "https://www.cv-library.co.uk/job/225184372/VOID-Connection-Test",
-    "https://www.facebook.com/100064732297192/posts/axis-communications-ab-is-hiring-experienced-software-engineer-for-video-managem/1427306632770400/",
-    "https://www.jobijoba.co.uk/detail/92/4407aefb1e1187f72f43e7af317070e5",
-    "https://www.reddit.com/r/chipdesign/comments/1tu5hjd/ciena_fpga_internship_any_insights/"
+    "https://arxiv.org/html/2606.03697v1",
+    "https://bebee.com/in/jobs/hardware-design-expert-fully-remote-mercor-mumbai--manatal-3934044",
+    "https://builtin.com/job/fpga-engineer/819973",
+    "https://careers.actalentservices.com/ca/fr/job/JP-006065776/Firmware-Engineer",
+    "https://careers.actalentservices.com/us/en/job/JP-006065776/Firmware-Engineer",
+    "https://careers.arrow.com/us/en/job/R244505/Field-Applications-Engineer",
+    "https://cybercoders.com/job-detail/938274",
+    "https://embedded.jobs/job/Architect-FPGA-Design-AXI-UCIe-Protocol-with-Synopsys-Inc-b19924",
+    "https://internshala.com/internships/fpga-engineer-internship-in-coimbatore/",
+    "https://quantumtechnologies.career.softgarden.de/jobs/63900959/Senior-FPGA-Engineer-%E2%80%93-Space-Systems-m-f-d-/",
+    "https://synmatchai.teamtailor.com/jobs/7837096-senior-embedded-software-engineer-for-fpga-dsp",
+    "https://www.monster.com/job-openings/fpga-design-engineer-asic-remote-ak--0164632f-dc2f-4bc6-be5f-e8f1f6ca5f55",
+    "https://www.reddit.com/r/MachineLearningJobs/comments/1tuqnfs/hiring_senior_embedded_software_engineer_146700/",
+    "https://www.tealhq.com/job/lead-fpga-engineer_7ea1a92960557a5313cc1c3edd53e14b016a7"
   ]
 }
