@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-03T10:54:29.844605+00:00",
+  "last_run": "2026-06-04T09:53:07.294846+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -2940,22 +2940,74 @@
       "posted_at": "2026-05-30T00:00:00.000Z",
       "first_seen": "2026-06-03T10:54:29.844605+00:00",
       "last_seen": "2026-06-03T10:54:29.844605+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a20c138c00e701fe836b6fd": {
+      "url": "https://jobright.ai/jobs/info/6a20c138c00e701fe836b6fd",
+      "title": "Sr. FPGA Verification Engineer, Radar",
+      "company": "Reliable Robotics Corporation",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-06-04 08:21:21",
+      "first_seen": "2026-06-04T09:53:07.294846+00:00",
+      "last_seen": "2026-06-04T09:53:07.294846+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a211b02ca8f0b365d7a4f2e": {
+      "url": "https://jobright.ai/jobs/info/6a211b02ca8f0b365d7a4f2e",
+      "title": "FPGA Engineer",
+      "company": "CyberCoders",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-06-04 06:28:18",
+      "first_seen": "2026-06-04T09:53:07.294846+00:00",
+      "last_seen": "2026-06-04T09:53:07.294846+00:00"
+    },
+    "https://www.reddit.com/r/FPGA/comments/1tvvc10/is_it_possible_to_have_a_fulfilling_career_in/": {
+      "url": "https://www.reddit.com/r/FPGA/comments/1tvvc10/is_it_possible_to_have_a_fulfilling_career_in/",
+      "title": "Is it possible to have a fulfilling career in FPGA without ever ...",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-04T09:53:07.294846+00:00",
+      "last_seen": "2026-06-04T09:53:07.294846+00:00"
+    },
+    "https://www.linuxcareers.com/fpga-linux-jobs": {
+      "url": "https://www.linuxcareers.com/fpga-linux-jobs",
+      "title": "FPGA Linux Jobs | Field-Programmable Gate Array Careers",
+      "company": "www.linuxcareers.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "7 hours ago",
+      "first_seen": "2026-06-04T09:53:07.294846+00:00",
+      "last_seen": "2026-06-04T09:53:07.294846+00:00"
+    },
+    "https://bebee.com/ca/jobs/fpga-engineer-4g-5g-radio-systems-pri-global-ottawa-ontario--theirstack-700455343": {
+      "url": "https://bebee.com/ca/jobs/fpga-engineer-4g-5g-radio-systems-pri-global-ottawa-ontario--theirstack-700455343",
+      "title": "FPGA Engineer – 4G/5G Radio Systems - PRI Global",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "24 hours ago",
+      "first_seen": "2026-06-04T09:53:07.294846+00:00",
+      "last_seen": "2026-06-04T09:53:07.294846+00:00"
+    },
+    "https://mx.trabajo.org/oferta-5304-2e254e0d759d2a5292d54d4527f2d2de": {
+      "url": "https://mx.trabajo.org/oferta-5304-2e254e0d759d2a5292d54d4527f2d2de",
+      "title": "Remote FPGA Engineer",
+      "company": "mx.trabajo.org",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-06-04T09:53:07.294846+00:00",
+      "last_seen": "2026-06-04T09:53:07.294846+00:00"
     }
   },
   "currently_open_urls": [
-    "https://arxiv.org/html/2606.03697v1",
-    "https://bebee.com/in/jobs/hardware-design-expert-fully-remote-mercor-mumbai--manatal-3934044",
-    "https://builtin.com/job/fpga-engineer/819973",
-    "https://careers.actalentservices.com/ca/fr/job/JP-006065776/Firmware-Engineer",
-    "https://careers.actalentservices.com/us/en/job/JP-006065776/Firmware-Engineer",
-    "https://careers.arrow.com/us/en/job/R244505/Field-Applications-Engineer",
-    "https://cybercoders.com/job-detail/938274",
-    "https://embedded.jobs/job/Architect-FPGA-Design-AXI-UCIe-Protocol-with-Synopsys-Inc-b19924",
-    "https://internshala.com/internships/fpga-engineer-internship-in-coimbatore/",
-    "https://quantumtechnologies.career.softgarden.de/jobs/63900959/Senior-FPGA-Engineer-%E2%80%93-Space-Systems-m-f-d-/",
-    "https://synmatchai.teamtailor.com/jobs/7837096-senior-embedded-software-engineer-for-fpga-dsp",
-    "https://www.monster.com/job-openings/fpga-design-engineer-asic-remote-ak--0164632f-dc2f-4bc6-be5f-e8f1f6ca5f55",
-    "https://www.reddit.com/r/MachineLearningJobs/comments/1tuqnfs/hiring_senior_embedded_software_engineer_146700/",
-    "https://www.tealhq.com/job/lead-fpga-engineer_7ea1a92960557a5313cc1c3edd53e14b016a7"
+    "https://bebee.com/ca/jobs/fpga-engineer-4g-5g-radio-systems-pri-global-ottawa-ontario--theirstack-700455343",
+    "https://jobright.ai/jobs/info/6a20c138c00e701fe836b6fd",
+    "https://jobright.ai/jobs/info/6a211b02ca8f0b365d7a4f2e",
+    "https://mx.trabajo.org/oferta-5304-2e254e0d759d2a5292d54d4527f2d2de",
+    "https://www.linuxcareers.com/fpga-linux-jobs",
+    "https://www.reddit.com/r/FPGA/comments/1tvvc10/is_it_possible_to_have_a_fulfilling_career_in/"
   ]
 }
