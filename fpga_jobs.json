@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-05T09:42:19.909805+00:00",
+  "last_run": "2026-06-06T08:31:19.437762+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -3007,9 +3007,9 @@
       "company": "intel",
       "location": "Virtual India",
       "source": "Workday:intel",
-      "posted_at": "Posted Today",
+      "posted_at": "Posted Yesterday",
       "first_seen": "2026-06-05T09:42:19.909805+00:00",
-      "last_seen": "2026-06-05T09:42:19.909805+00:00"
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
     },
     "https://www.reddit.com/r/FPGA/comments/1twjhn2/are_you_a_fpga_engineer_in_the_uk_a_question/": {
       "url": "https://www.reddit.com/r/FPGA/comments/1twjhn2/are_you_a_fpga_engineer_in_the_uk_a_question/",
@@ -3090,17 +3090,86 @@
       "posted_at": "17 hours ago",
       "first_seen": "2026-06-05T09:42:19.909805+00:00",
       "last_seen": "2026-06-05T09:42:19.909805+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006073373/Senior-Fpga-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006073373/Senior-Fpga-Engineer",
+      "title": "Senior Fpga Engineer in Southfield, Michigan, USA",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-06-06T08:31:19.437762+00:00",
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
+    },
+    "https://hitmarker.net/jobs/nvidia-emulation-and-fpga-engineer-1730523": {
+      "url": "https://hitmarker.net/jobs/nvidia-emulation-and-fpga-engineer-1730523",
+      "title": "Emulation and FPGA Engineer - NVIDIA",
+      "company": "hitmarker.net",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-06-06T08:31:19.437762+00:00",
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
+    },
+    "https://bebee.com/gb/jobs/principal-fpga-engineer-x4-technology-hampshire-england--theirstack-705653249": {
+      "url": "https://bebee.com/gb/jobs/principal-fpga-engineer-x4-technology-hampshire-england--theirstack-705653249",
+      "title": "Principal FPGA Engineer - X4 Technology",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "5 hours ago",
+      "first_seen": "2026-06-06T08:31:19.437762+00:00",
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
+    },
+    "https://www.bayt.com/en/qatar/jobs/fpga-engineer-jobs/": {
+      "url": "https://www.bayt.com/en/qatar/jobs/fpga-engineer-jobs/",
+      "title": "Fpga Engineer Jobs in Qatar (Jun 2026) - Doha",
+      "company": "www.bayt.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-06-06T08:31:19.437762+00:00",
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
+    },
+    "https://jobgether.com/offer/6a235dccf8af0ea2c408a95b-hardware-design-expert---fully-remote-upto-190-hr": {
+      "url": "https://jobgether.com/offer/6a235dccf8af0ea2c408a95b-hardware-design-expert---fully-remote-upto-190-hr",
+      "title": "Hardware Design Expert - Fully Remote | Upto $190/hr",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "8 hours ago",
+      "first_seen": "2026-06-06T08:31:19.437762+00:00",
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
+    },
+    "https://jobs.sw.siemens.com/costa-mesa-ca/strategic-student-program-electronics-reliability-simulation-internship-fall-2026-sim/A4196A48A8F24210A8A267748733EC1E/job/": {
+      "url": "https://jobs.sw.siemens.com/costa-mesa-ca/strategic-student-program-electronics-reliability-simulation-internship-fall-2026-sim/A4196A48A8F24210A8A267748733EC1E/job/",
+      "title": "Strategic Student Program: Electronics Reliability Simulation ...",
+      "company": "jobs.sw.siemens.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "4 hours ago",
+      "first_seen": "2026-06-06T08:31:19.437762+00:00",
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
+    },
+    "https://careers.actalentservices.com/ca/fr/job/JP-006053889/Piping-Engineer": {
+      "url": "https://careers.actalentservices.com/ca/fr/job/JP-006053889/Piping-Engineer",
+      "title": "Piping Engineer in LAKE MARY, Florida, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-06-06T08:31:19.437762+00:00",
+      "last_seen": "2026-06-06T08:31:19.437762+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/ca/jobs/fpga-design-engineer-remote-5g-role-elea-ecuador-montreal--talent-622414408887568453",
-    "https://bebee.com/jp/jobs/hardware-design-expert-fully-remote-mercor-tokyo--manatal-3943138",
+    "https://bebee.com/gb/jobs/principal-fpga-engineer-x4-technology-hampshire-england--theirstack-705653249",
+    "https://careers.actalentservices.com/ca/fr/job/JP-006053889/Piping-Engineer",
+    "https://careers.actalentservices.com/us/en/job/JP-006073373/Senior-Fpga-Engineer",
+    "https://hitmarker.net/jobs/nvidia-emulation-and-fpga-engineer-1730523",
     "https://intel.wd1.myworkdayjobs.com/External/job/Virtual-India/Senior-Design-Verification-Engineer_JR0284630",
-    "https://jobgether.com/offer/6a219b73f8af0ea2c4055bb6-rf-design-engineer-fpga",
-    "https://jobgether.com/offer/6a219b73f8af0ea2c4055bf8-sr.-fpga-design-engineer",
-    "https://jobs.sw.siemens.com/costa-mesa-ca/strategic-student-program-simulation-engineering-internship-fall-2026-sim/A6E6B31E0740474C9568BDD21696BE8A/job/",
-    "https://www.amoriabond.com/",
-    "https://www.builtinnyc.com/company/citadel-securities/jobs",
-    "https://www.reddit.com/r/FPGA/comments/1twjhn2/are_you_a_fpga_engineer_in_the_uk_a_question/"
+    "https://jobgether.com/offer/6a235dccf8af0ea2c408a95b-hardware-design-expert---fully-remote-upto-190-hr",
+    "https://jobs.sw.siemens.com/costa-mesa-ca/strategic-student-program-electronics-reliability-simulation-internship-fall-2026-sim/A4196A48A8F24210A8A267748733EC1E/job/",
+    "https://www.bayt.com/en/qatar/jobs/fpga-engineer-jobs/"
   ]
 }
