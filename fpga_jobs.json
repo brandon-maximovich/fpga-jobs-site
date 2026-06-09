@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-08T10:48:22.498392+00:00",
+  "last_run": "2026-06-09T09:39:14.552688+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -3300,16 +3300,118 @@
       "posted_at": "21 hours ago",
       "first_seen": "2026-06-08T10:48:22.498392+00:00",
       "last_seen": "2026-06-08T10:48:22.498392+00:00"
+    },
+    "https://www.reddit.com/r/FPGA/comments/1u0u3o3/cannot_find_a_job_in_fpga_design_anymore/": {
+      "url": "https://www.reddit.com/r/FPGA/comments/1u0u3o3/cannot_find_a_job_in_fpga_design_anymore/",
+      "title": "Cannot find a job in FPGA design anymore",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://www.metaintro.com/job/fpga-engineer-quantum-computing-f-m-d-279db1bb-527b-5ecd-a974-f4a3a7ce2355": {
+      "url": "https://www.metaintro.com/job/fpga-engineer-quantum-computing-f-m-d-279db1bb-527b-5ecd-a974-f4a3a7ce2355",
+      "title": "FPGA Engineer at eleQtron",
+      "company": "www.metaintro.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "6 hours ago",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://bebee.com/in/jobs/fpga-engineer-acl-digital-karimganj--jobted-6b1da918d869e7543047a6ebcacc1017": {
+      "url": "https://bebee.com/in/jobs/fpga-engineer-acl-digital-karimganj--jobted-6b1da918d869e7543047a6ebcacc1017",
+      "title": "FPGA Engineer - ACL Digital",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://www.space-careers.com/jobs/aerospace_engineer": {
+      "url": "https://www.space-careers.com/jobs/aerospace_engineer",
+      "title": "Aerospace Engineer jobs",
+      "company": "www.space-careers.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "2 hours ago",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://www.semidesignjobs.com/s/amd-jobs-for-semiconductor-designers": {
+      "url": "https://www.semidesignjobs.com/s/amd-jobs-for-semiconductor-designers",
+      "title": "AMD Semiconductor Design Jobs",
+      "company": "www.semidesignjobs.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "4 hours ago",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://www.facebook.com/FaradayTechVN/posts/-%F0%9D%90%96%F0%9D%90%9E-%F0%9D%90%80%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%87%F0%9D%90%A2%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%AB-%F0%9D%90%83%F0%9D%90%85%F0%9D%90%93-%F0%9D%90%84%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%B4%F0%9D%91%A1-%F0%9D%90%B9%F0%9D%91%8E%F0%9D%91%9F%F0%9D%91%8E%F0%9D%91%91%F0%9D%91%8E%F0%9D%91%A6-%F0%9D%91%87%F0%9D%91%92%F0%9D%91%90%E2%84%8E%F0%9D%91%9B%F0%9D%91%9C%F0%9D%91%99%F0%9D%91%9C%F0%9D%91%94%F0%9D%91%A6-%F0%9D%91%92%F0%9D%91%A3%F0%9D%91%92%F0%9D%91%9F%F0%9D%91%A6-%F0%9D%91%A0%F0%9D%91%A2%F0%9D%91%90%F0%9D%91%90%F0%9D%91%92%F0%9D%91%A0%F0%9D%91%A0%F0%9D%91%93%F0%9D%91%A2%F0%9D%91%99-%F0%9D%91%90%E2%84%8E%F0%9D%91%96%F0%9D%91%9D-%F0%9D%91%8F%F0%9D%91%92/1554617486674606/": {
+      "url": "https://www.facebook.com/FaradayTechVN/posts/-%F0%9D%90%96%F0%9D%90%9E-%F0%9D%90%80%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%87%F0%9D%90%A2%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%AB-%F0%9D%90%83%F0%9D%90%85%F0%9D%90%93-%F0%9D%90%84%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%B4%F0%9D%91%A1-%F0%9D%90%B9%F0%9D%91%8E%F0%9D%91%9F%F0%9D%91%8E%F0%9D%91%91%F0%9D%91%8E%F0%9D%91%A6-%F0%9D%91%87%F0%9D%91%92%F0%9D%91%90%E2%84%8E%F0%9D%91%9B%F0%9D%91%9C%F0%9D%91%99%F0%9D%91%9C%F0%9D%91%94%F0%9D%91%A6-%F0%9D%91%92%F0%9D%91%A3%F0%9D%91%92%F0%9D%91%9F%F0%9D%91%A6-%F0%9D%91%A0%F0%9D%91%A2%F0%9D%91%90%F0%9D%91%90%F0%9D%91%92%F0%9D%91%A0%F0%9D%91%A0%F0%9D%91%93%F0%9D%91%A2%F0%9D%91%99-%F0%9D%91%90%E2%84%8E%F0%9D%91%96%F0%9D%91%9D-%F0%9D%91%8F%F0%9D%91%92/1554617486674606/",
+      "title": "Faraday Technology hiring Senior DFT Engineer for ASIC ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://workforcesource.hire.trakstar.com/jobs/fk0zzjk/": {
+      "url": "https://workforcesource.hire.trakstar.com/jobs/fk0zzjk/",
+      "title": "0608 - Sr Board Design Hardware Engineer",
+      "company": "workforcesource.hire.trakstar.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://www.reddit.com/r/csMajors/comments/1u0gitc/all_i_do_is_vibecode_at_internship/": {
+      "url": "https://www.reddit.com/r/csMajors/comments/1u0gitc/all_i_do_is_vibecode_at_internship/",
+      "title": "All I do is vibecode at internship : r/csMajors",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://jobs.lever.co/jobgether/32aa2faf-940c-4806-a11d-74cf7173f00d": {
+      "url": "https://jobs.lever.co/jobgether/32aa2faf-940c-4806-a11d-74cf7173f00d",
+      "title": "Jobgether - Senior Design Verification Engineer",
+      "company": "jobgether",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
+    },
+    "https://jobgether.com/offer/6a278909f4c10b4493248136-ise-neo-software-engineer": {
+      "url": "https://jobgether.com/offer/6a278909f4c10b4493248136-ise-neo-software-engineer",
+      "title": "iSE neo Software Engineer at Cadence",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "4 hours ago",
+      "first_seen": "2026-06-09T09:39:14.552688+00:00",
+      "last_seen": "2026-06-09T09:39:14.552688+00:00"
     }
   },
   "currently_open_urls": [
-    "https://2.halvolink.liveblog365.com/job/2413014",
-    "https://bebee.com/ca/jobs/manager-fpga-synthesis-altera-toronto-ontario--theirstack-705162002",
-    "https://bebee.com/us/jobs/senior-fpga-engineer-atom-computing-san-francisco-bay-area-denver-austin--theirstack-713438731",
-    "https://bebee.com/us/jobs/senior-trading-systems-engineer-jobot-chicago-il--theirstack-713052756",
-    "https://hirequorum.liveblog365.com/job/technical-sales-executive",
-    "https://jobgether.com/offer/6a262ba6f4c10b4493236883-field-application-engineer---amd-xilinx",
-    "https://www.crypto-careers.com/jobs/541075280-senior-fpga-engineer-at-akuna-capital",
-    "https://www.reddit.com/r/FPGA/comments/1tzzntu/stuck_systems_ee_schematic_layout/"
+    "https://bebee.com/in/jobs/fpga-engineer-acl-digital-karimganj--jobted-6b1da918d869e7543047a6ebcacc1017",
+    "https://jobgether.com/offer/6a278909f4c10b4493248136-ise-neo-software-engineer",
+    "https://jobs.lever.co/jobgether/32aa2faf-940c-4806-a11d-74cf7173f00d",
+    "https://workforcesource.hire.trakstar.com/jobs/fk0zzjk/",
+    "https://www.facebook.com/FaradayTechVN/posts/-%F0%9D%90%96%F0%9D%90%9E-%F0%9D%90%80%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%87%F0%9D%90%A2%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%AB-%F0%9D%90%83%F0%9D%90%85%F0%9D%90%93-%F0%9D%90%84%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%B4%F0%9D%91%A1-%F0%9D%90%B9%F0%9D%91%8E%F0%9D%91%9F%F0%9D%91%8E%F0%9D%91%91%F0%9D%91%8E%F0%9D%91%A6-%F0%9D%91%87%F0%9D%91%92%F0%9D%91%90%E2%84%8E%F0%9D%91%9B%F0%9D%91%9C%F0%9D%91%99%F0%9D%91%9C%F0%9D%91%94%F0%9D%91%A6-%F0%9D%91%92%F0%9D%91%A3%F0%9D%91%92%F0%9D%91%9F%F0%9D%91%A6-%F0%9D%91%A0%F0%9D%91%A2%F0%9D%91%90%F0%9D%91%90%F0%9D%91%92%F0%9D%91%A0%F0%9D%91%A0%F0%9D%91%93%F0%9D%91%A2%F0%9D%91%99-%F0%9D%91%90%E2%84%8E%F0%9D%91%96%F0%9D%91%9D-%F0%9D%91%8F%F0%9D%91%92/1554617486674606/",
+    "https://www.metaintro.com/job/fpga-engineer-quantum-computing-f-m-d-279db1bb-527b-5ecd-a974-f4a3a7ce2355",
+    "https://www.reddit.com/r/FPGA/comments/1u0u3o3/cannot_find_a_job_in_fpga_design_anymore/",
+    "https://www.reddit.com/r/csMajors/comments/1u0gitc/all_i_do_is_vibecode_at_internship/",
+    "https://www.semidesignjobs.com/s/amd-jobs-for-semiconductor-designers",
+    "https://www.space-careers.com/jobs/aerospace_engineer"
   ]
 }
