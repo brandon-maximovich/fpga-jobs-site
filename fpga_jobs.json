@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-17T10:52:13.112430+00:00",
+  "last_run": "2026-06-18T10:17:47.541945+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -17,9 +17,9 @@
       "company": "wehrtyou",
       "location": "Austin, TX, United States; Boulder, Colorado, United States; Chicago, Illinois, United States; New York, NY, United States",
       "source": "Greenhouse:wehrtyou",
-      "posted_at": "2026-06-16T08:13:45-04:00",
+      "posted_at": "2026-06-18T01:05:37-04:00",
       "first_seen": "2026-05-09T11:32:30.598385+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://jobs.lever.co/CesiumAstro/0983a6e8-1799-4b55-94ab-3cdb20fdd7db": {
       "url": "https://jobs.lever.co/CesiumAstro/0983a6e8-1799-4b55-94ab-3cdb20fdd7db",
@@ -1537,9 +1537,9 @@
       "company": "IT Recruiters for Tech Jobs - itrecruiters.technology",
       "location": "Remote",
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
-      "posted_at": "2026-05-01T00:00:00.000Z",
+      "posted_at": "2026-06-01T00:00:00.000Z",
       "first_seen": "2026-05-19T09:39:32.560961+00:00",
-      "last_seen": "2026-05-19T09:39:32.560961+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://careers.tekever.com/jobs/7760496-fpga-engineer": {
       "url": "https://careers.tekever.com/jobs/7760496-fpga-engineer",
@@ -1867,9 +1867,9 @@
       "company": "ALTEN Technology USA",
       "location": "Remote",
       "source": "JSearch:Indeed",
-      "posted_at": "2026-05-21T00:00:00.000Z",
+      "posted_at": "2026-05-22T00:00:00.000Z",
       "first_seen": "2026-05-22T08:58:31.521889+00:00",
-      "last_seen": "2026-06-16T11:07:32.459521+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://www.indeed.com/viewjob?jk=9bd0e68814b2144f": {
       "url": "https://www.indeed.com/viewjob?jk=9bd0e68814b2144f",
@@ -2019,7 +2019,7 @@
       "source": "JSearch:RemoteLeaf",
       "posted_at": "2026-05-23T00:00:00.000Z",
       "first_seen": "2026-05-24T08:26:57.581982+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://bebee.com/pk/jobs/role/design-engineer": {
       "url": "https://bebee.com/pk/jobs/role/design-engineer",
@@ -2609,7 +2609,7 @@
       "source": "JSearch:Teal",
       "posted_at": "2026-05-19T00:00:00.000Z",
       "first_seen": "2026-05-30T08:26:17.140767+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://jobright.ai/jobs/info/6a1b6cc19111f771d1a11322": {
       "url": "https://jobright.ai/jobs/info/6a1b6cc19111f771d1a11322",
@@ -3569,7 +3569,7 @@
       "source": "JSearch:Himalayas",
       "posted_at": "2026-06-06T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://dailyremote.com/remote-job/sr-fpga-verification-engineer-radar-5095125": {
       "url": "https://dailyremote.com/remote-job/sr-fpga-verification-engineer-radar-5095125",
@@ -3579,7 +3579,7 @@
       "source": "JSearch:DailyRemote",
       "posted_at": "2026-06-04T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://www.talent.com/view?id=623057606152489376": {
       "url": "https://www.talent.com/view?id=623057606152489376",
@@ -3599,7 +3599,7 @@
       "source": "JSearch:Career.com",
       "posted_at": "2026-06-05T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709": {
       "url": "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709",
@@ -3637,9 +3637,9 @@
       "company": "careersprint",
       "location": "Remote",
       "source": "JSearch:CareerSprint",
-      "posted_at": "2026-06-16T23:00:00.000Z",
+      "posted_at": "2026-06-17T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://careersprint.7f.liveblog365.com/job/2336593": {
       "url": "https://careersprint.7f.liveblog365.com/job/2336593",
@@ -3709,7 +3709,7 @@
       "source": "JSearch:RemoteJobs.org",
       "posted_at": "2026-06-08T00:00:00.000Z",
       "first_seen": "2026-06-12T10:08:17.210104+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://www.tealhq.com/job/principal-fpga-rtl-design-engineer-signal-processing_7ea1a6b46632ca08fe5ce82229d5fef6fc1f0": {
       "url": "https://www.tealhq.com/job/principal-fpga-rtl-design-engineer-signal-processing_7ea1a6b46632ca08fe5ce82229d5fef6fc1f0",
@@ -3719,7 +3719,7 @@
       "source": "JSearch:Teal",
       "posted_at": "2026-06-01T00:00:00.000Z",
       "first_seen": "2026-06-12T10:08:17.210104+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://careersync.liveblog365.com/remote-jobs/sr-fpga-design-engineer": {
       "url": "https://careersync.liveblog365.com/remote-jobs/sr-fpga-design-engineer",
@@ -3957,9 +3957,9 @@
       "company": "frontendnode-production.up.railway.app",
       "location": "Remote",
       "source": "JSearch:Frontendnode-Production.up.railway.app - Railway",
-      "posted_at": "2026-06-13T00:00:00.000Z",
+      "posted_at": "2026-06-17T00:00:00.000Z",
       "first_seen": "2026-06-15T11:59:23.078518+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://careers.intuitive.com/en/jobs/744000132252129/JOB216033/sr-fpga-designer/": {
       "url": "https://careers.intuitive.com/en/jobs/744000132252129/JOB216033/sr-fpga-designer/",
@@ -4139,7 +4139,7 @@
       "source": "JSearch:Frontendnode-Production.up.railway.app - Railway",
       "posted_at": "2026-06-15T00:00:00.000Z",
       "first_seen": "2026-06-17T10:52:13.112430+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     },
     "https://jobgether.com/offer/6a219b73f8af0ea2c4055c08-sr.-fpga-design-engineer-radar": {
       "url": "https://jobgether.com/offer/6a219b73f8af0ea2c4055c08-sr.-fpga-design-engineer-radar",
@@ -4149,32 +4149,143 @@
       "source": "JSearch:Jobgether",
       "posted_at": "2026-06-04T00:00:00.000Z",
       "first_seen": "2026-06-17T10:52:13.112430+00:00",
-      "last_seen": "2026-06-17T10:52:13.112430+00:00"
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://www.reddit.com/r/FPGA/comments/1u89qdi/looking_to_hire_fpga_engineers/": {
+      "url": "https://www.reddit.com/r/FPGA/comments/1u89qdi/looking_to_hire_fpga_engineers/",
+      "title": "Looking to hire FPGA Engineers",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://bebee.com/pk/jobs/physical-design-engineer-fpga-engineer-design-verification-engineer-software-engineer-dft-engineer-e--theirstack-730769687": {
+      "url": "https://bebee.com/pk/jobs/physical-design-engineer-fpga-engineer-design-verification-engineer-software-engineer-dft-engineer-e--theirstack-730769687",
+      "title": "Physical Design Engineer, FPGA Engineer ...",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://www.jobleads.com/us/job/ai-fpga-solutions-architect--redwood-city--eaa847f2bd4a6c85867c41bf8be668751": {
+      "url": "https://www.jobleads.com/us/job/ai-fpga-solutions-architect--redwood-city--eaa847f2bd4a6c85867c41bf8be668751",
+      "title": "AI FPGA Solutions Architect | Redwood City",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "6 hours ago",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://www.adzuna.es/details/5722205458": {
+      "url": "https://www.adzuna.es/details/5722205458",
+      "title": "FPGA Engineer Empleos en Valencia - Adzuna",
+      "company": "www.adzuna.es",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://www.facebook.com/engineeringjobs9/posts/engineering-and-other-jobs/1474566094717397/": {
+      "url": "https://www.facebook.com/engineeringjobs9/posts/engineering-and-other-jobs/1474566094717397/",
+      "title": "https://rightjobalert.com/tifr-recruitment/ Engineering and ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006099395/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006099395/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://dailyremote.com/salaries/hardware-engineer": {
+      "url": "https://dailyremote.com/salaries/hardware-engineer",
+      "title": "Remote Hardware Engineer Salary – updated June 2026",
+      "company": "dailyremote.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://careers.actalentservices.com/ca/fr/job/JP-006099408/Electrical-Engineer": {
+      "url": "https://careers.actalentservices.com/ca/fr/job/JP-006099408/Electrical-Engineer",
+      "title": "Electrical Engineer in Costa Mesa, California, USA",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "8 hours ago",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://www.facebook.com/groups/miamijewishworks/posts/27320297167609083/": {
+      "url": "https://www.facebook.com/groups/miamijewishworks/posts/27320297167609083/",
+      "title": "ישראלים בפלורידה? זו יכולה להיות הזדמנות מעניינת עבורכם. ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/vay/junior-mid-level-embedded-software-engineer-berlin-1497": {
+      "url": "https://www.arbeitnow.com/jobs/companies/vay/junior-mid-level-embedded-software-engineer-berlin-1497",
+      "title": "Junior/Mid-Level Embedded Software Engineer – vay",
+      "company": "www.arbeitnow.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+    },
+    "https://frontendnode-production.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level": {
+      "url": "https://frontendnode-production.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level",
+      "title": "ASIC and/or FPGA Design and Verification Engineer (Entry Level, Associate or Mid-Level)",
+      "company": "frontendnode-production.up.railway.app",
+      "location": "Remote",
+      "source": "JSearch:Frontendnode-Production.up.railway.app - Railway",
+      "posted_at": "2026-06-15T00:00:00.000Z",
+      "first_seen": "2026-06-18T10:17:47.541945+00:00",
+      "last_seen": "2026-06-18T10:17:47.541945+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/ca/jobs/computer-engineering-expert-ai-content-specialist-alignerr-edmonton--fj-2209472245",
+    "https://bebee.com/pk/jobs/physical-design-engineer-fpga-engineer-design-verification-engineer-software-engineer-dft-engineer-e--theirstack-730769687",
+    "https://careers.actalentservices.com/ca/fr/job/JP-006099408/Electrical-Engineer",
+    "https://careers.actalentservices.com/us/en/job/JP-006099395/Firmware-Engineer",
     "https://careersprint.7f.liveblog365.com/job/2331861",
-    "https://careersprint.7f.liveblog365.com/job/2451402",
-    "https://careersprint.7f.liveblog365.com/job/2539620",
     "https://dailyremote.com/remote-job/sr-fpga-verification-engineer-radar-5095125",
+    "https://dailyremote.com/salaries/hardware-engineer",
+    "https://frontendnode-production.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level",
     "https://frontendnode-production.up.railway.app/job/fpga-engineer-custom-compute-hardware",
     "https://frontendnode-production.up.railway.app/job/remotewfm-urgently-need-principal-project-engineer-asicfpga",
     "https://himalayas.app/companies/alten-technology-usa/jobs/remote-fpga-firmware-engineer-avionics-arinc-429",
     "https://jobgether.com/offer/6a219b73f8af0ea2c4055c08-sr.-fpga-design-engineer-radar",
-    "https://jobgether.com/offer/6a31968d63c956434a7a28c8-technology-field-application-engineer---fpga",
-    "https://jobright.ai/jobs/info/6a31a358e7b7d514a3bd4aa9",
     "https://remotejobs.org/remote-jobs/team-lead-fpga-development-job-req-2025-314-ross-video",
     "https://remoteleaf.com/company/alten-technology/fpga-firmware-engineer-united-states/",
+    "https://www.adzuna.es/details/5722205458",
+    "https://www.arbeitnow.com/jobs/companies/vay/junior-mid-level-embedded-software-engineer-berlin-1497",
     "https://www.career.com/job/honeywell2-pilot/remote-sr-advanced-fpga-asic-verification-engineer-uvm-sign-on-bonus-available/j202312130016246032393",
-    "https://www.cv-library.co.uk/job/225257776/FPGA-Design-Engineer-Contract",
+    "https://www.facebook.com/engineeringjobs9/posts/engineering-and-other-jobs/1474566094717397/",
+    "https://www.facebook.com/groups/miamijewishworks/posts/27320297167609083/",
     "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6726219",
-    "https://www.jobleads.com/us/job/lead-fpga-rtl-design-engineer-for-coherent-fso-modems-remote--livermore--e93a83fbe1227b28e5b918fa2af2416c7",
-    "https://www.jobleads.com/us/job/senior-fpga-engineer-4k-video-xilinx-onsite-in-tx--addison--e418aa43bbb3c59ecb886c185dbfa60c3",
-    "https://www.jobleads.com/us/job/senior-fpga-engineer-low-latency-systems-soc-design--new-york--e72253a5dd601d1ddf86751bf20f8ab27",
-    "https://www.randstad.nl/vacatures/9210036/fpga-engineer",
-    "https://www.simplyhired.co.uk/job/2nNCOZHl-9yBPVCk02xXKmhOtEIM6VF-2ybtLw2lvDz86fbE9Yy8qA",
-    "https://www.space-careers.com/jobs/defence",
+    "https://www.indeed.com/viewjob?jk=ddb3d97abf66691a",
+    "https://www.itrecruiters.technology/job/fpga-electrical-engineer-work-from-home/",
+    "https://www.jobleads.com/us/job/ai-fpga-solutions-architect--redwood-city--eaa847f2bd4a6c85867c41bf8be668751",
+    "https://www.reddit.com/r/FPGA/comments/1u89qdi/looking_to_hire_fpga_engineers/",
     "https://www.tealhq.com/job/fpga-prototyping-and-emulation-engineer_7ea1a3a31d2692d8386d2d73d2fef54382607",
     "https://www.tealhq.com/job/principal-fpga-rtl-design-engineer-signal-processing_7ea1a6b46632ca08fe5ce82229d5fef6fc1f0"
   ]
