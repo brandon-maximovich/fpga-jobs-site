@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-19T10:22:43.149599+00:00",
+  "last_run": "2026-06-20T08:52:20.858239+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -1869,7 +1869,7 @@
       "source": "JSearch:Indeed",
       "posted_at": "2026-05-22T00:00:00.000Z",
       "first_seen": "2026-05-22T08:58:31.521889+00:00",
-      "last_seen": "2026-06-19T10:22:43.149599+00:00"
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     },
     "https://www.indeed.com/viewjob?jk=9bd0e68814b2144f": {
       "url": "https://www.indeed.com/viewjob?jk=9bd0e68814b2144f",
@@ -2019,7 +2019,7 @@
       "source": "JSearch:RemoteLeaf",
       "posted_at": "2026-05-23T00:00:00.000Z",
       "first_seen": "2026-05-24T08:26:57.581982+00:00",
-      "last_seen": "2026-06-19T10:22:43.149599+00:00"
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     },
     "https://bebee.com/pk/jobs/role/design-engineer": {
       "url": "https://bebee.com/pk/jobs/role/design-engineer",
@@ -3127,9 +3127,9 @@
       "company": "www.bayt.com",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "21 hours ago",
+      "posted_at": "22 hours ago",
       "first_seen": "2026-06-06T08:31:19.437762+00:00",
-      "last_seen": "2026-06-06T08:31:19.437762+00:00"
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     },
     "https://jobgether.com/offer/6a235dccf8af0ea2c408a95b-hardware-design-expert---fully-remote-upto-190-hr": {
       "url": "https://jobgether.com/offer/6a235dccf8af0ea2c408a95b-hardware-design-expert---fully-remote-upto-190-hr",
@@ -3579,7 +3579,7 @@
       "source": "JSearch:DailyRemote",
       "posted_at": "2026-06-04T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-06-19T10:22:43.149599+00:00"
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     },
     "https://www.talent.com/view?id=623057606152489376": {
       "url": "https://www.talent.com/view?id=623057606152489376",
@@ -3599,7 +3599,7 @@
       "source": "JSearch:Career.com",
       "posted_at": "2026-06-05T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-06-19T10:22:43.149599+00:00"
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     },
     "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709": {
       "url": "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709",
@@ -4139,7 +4139,7 @@
       "source": "JSearch:Frontendnode-Production.up.railway.app - Railway",
       "posted_at": "2026-06-15T00:00:00.000Z",
       "first_seen": "2026-06-17T10:52:13.112430+00:00",
-      "last_seen": "2026-06-18T10:17:47.541945+00:00"
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     },
     "https://jobgether.com/offer/6a219b73f8af0ea2c4055c08-sr.-fpga-design-engineer-radar": {
       "url": "https://jobgether.com/offer/6a219b73f8af0ea2c4055c08-sr.-fpga-design-engineer-radar",
@@ -4149,7 +4149,7 @@
       "source": "JSearch:Jobgether",
       "posted_at": "2026-06-04T00:00:00.000Z",
       "first_seen": "2026-06-17T10:52:13.112430+00:00",
-      "last_seen": "2026-06-19T10:22:43.149599+00:00"
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     },
     "https://www.reddit.com/r/FPGA/comments/1u89qdi/looking_to_hire_fpga_engineers/": {
       "url": "https://www.reddit.com/r/FPGA/comments/1u89qdi/looking_to_hire_fpga_engineers/",
@@ -4370,28 +4370,147 @@
       "posted_at": "2026-06-18T00:00:00.000Z",
       "first_seen": "2026-06-19T10:22:43.149599+00:00",
       "last_seen": "2026-06-19T10:22:43.149599+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006104963/Hardware-Electronics-Design-Engineer-PCB": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006104963/Hardware-Electronics-Design-Engineer-PCB",
+      "title": "Hardware Electronics Design Engineer (PCB) - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://www.simplyhired.co.uk/job/i3EKwqXBthfYMIK5UMzI7e_WOLYI3k0kiuofTpMUCYMfTzWcn7IXGA": {
+      "url": "https://www.simplyhired.co.uk/job/i3EKwqXBthfYMIK5UMzI7e_WOLYI3k0kiuofTpMUCYMfTzWcn7IXGA",
+      "title": "Senior FPGA Engineer - Zenovo | Bedford",
+      "company": "www.simplyhired.co.uk",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "16 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://spacecrew.com/space-jobs/mqkl40pe-relativity-space-vehicle-structures-engineer-i": {
+      "url": "https://spacecrew.com/space-jobs/mqkl40pe-relativity-space-vehicle-structures-engineer-i",
+      "title": "Vehicle Structures Engineer I - Relativity Space",
+      "company": "spacecrew.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://www.jobleads.com/us/job/senior-technical-project-manager--kief--e0f64e532438310d98fe6fb1691134af0": {
+      "url": "https://www.jobleads.com/us/job/senior-technical-project-manager--kief--e0f64e532438310d98fe6fb1691134af0",
+      "title": "Senior Technical Project Manager | Kief",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006105217/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006105217/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "14 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://careersprint.7f.liveblog365.com/job/2494057": {
+      "url": "https://careersprint.7f.liveblog365.com/job/2494057",
+      "title": "Electrical Engineering Specialist - Fully Remote | Upto ...",
+      "company": "careersprint.7f.liveblog365.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://dailyremote.com/remote-jobs-in-israel": {
+      "url": "https://dailyremote.com/remote-jobs-in-israel",
+      "title": "Remote Jobs & Online Work Opportunities in Israel",
+      "company": "dailyremote.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "11 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://in.jobsora.com/job-50781960090": {
+      "url": "https://in.jobsora.com/job-50781960090",
+      "title": "Velmenni - Hardware Design Engineer",
+      "company": "in.jobsora.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://jobgether.com/offer/6a3560d863c956434a7f2841-verification-engineer": {
+      "url": "https://jobgether.com/offer/6a3560d863c956434a7f2841-verification-engineer",
+      "title": "Verification Engineer at Delos Data Inc",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://frontendnode-production.up.railway.app/job/work-from-home-want-lead-ic-hardwarefpga-design-engineer": {
+      "url": "https://frontendnode-production.up.railway.app/job/work-from-home-want-lead-ic-hardwarefpga-design-engineer",
+      "title": "[Work From Home] Want Lead I&C Hardware/FPGA Design Engineer",
+      "company": "frontendnode-production.up.railway.app",
+      "location": "Remote",
+      "source": "JSearch:Frontendnode-Production.up.railway.app - Railway",
+      "posted_at": "2026-06-18T00:00:00.000Z",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://frontendnode-production.up.railway.app/job/fpga-design-engineer-staff": {
+      "url": "https://frontendnode-production.up.railway.app/job/fpga-design-engineer-staff",
+      "title": "FPGA Design Engineer, Staff",
+      "company": "frontendnode-production.up.railway.app",
+      "location": "Remote",
+      "source": "JSearch:Frontendnode-Production.up.railway.app - Railway",
+      "posted_at": "2026-06-19T00:00:00.000Z",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
+    },
+    "https://frontendnode-production.up.railway.app/job/team-lead-fpga-development-job-req-2025-314-1": {
+      "url": "https://frontendnode-production.up.railway.app/job/team-lead-fpga-development-job-req-2025-314-1",
+      "title": "Team Lead - FPGA Development (Job Req #2025-314)",
+      "company": "frontendnode-production.up.railway.app",
+      "location": "Remote",
+      "source": "JSearch:Frontendnode-Production.up.railway.app - Railway",
+      "posted_at": "2026-06-18T00:00:00.000Z",
+      "first_seen": "2026-06-20T08:52:20.858239+00:00",
+      "last_seen": "2026-06-20T08:52:20.858239+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/gb/jobs/director-and-founder-microtech-global-ltd-midlands--lifeworq-6589dcda-69cb-497c-aea3-5b39c56a8d33",
-    "https://careersprint.7f.liveblog365.com/job/2451402",
-    "https://careersprint.7f.liveblog365.com/job/839588",
+    "https://careers.actalentservices.com/us/en/job/JP-006104963/Hardware-Electronics-Design-Engineer-PCB",
+    "https://careers.actalentservices.com/us/en/job/JP-006105217/Firmware-Engineer",
+    "https://careersprint.7f.liveblog365.com/job/2494057",
     "https://dailyremote.com/remote-job/sr-fpga-verification-engineer-radar-5095125",
-    "https://dailyremote.com/remote-jobs-in-hungary",
-    "https://frontendnode-production.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level",
-    "https://helloworld.rs/posao/GTM-Engineer-at-Clay-Enterprise-Partner/Peakora/737441?sort=p_vreme_postavljanja_sort&isource=HelloWorld.rs&icampaign=alternate-criteria-results-newest&item_index=19",
-    "https://job-boards.greenhouse.io/tenstorrent/jobs/5108816007",
+    "https://dailyremote.com/remote-jobs-in-israel",
+    "https://frontendnode-production.up.railway.app/job/fpga-design-engineer-staff",
+    "https://frontendnode-production.up.railway.app/job/remotewfm-urgently-need-principal-project-engineer-asicfpga",
+    "https://frontendnode-production.up.railway.app/job/team-lead-fpga-development-job-req-2025-314-1",
+    "https://frontendnode-production.up.railway.app/job/work-from-home-want-lead-ic-hardwarefpga-design-engineer",
+    "https://in.jobsora.com/job-50781960090",
     "https://jobgether.com/offer/6a219b73f8af0ea2c4055c08-sr.-fpga-design-engineer-radar",
-    "https://jobgether.com/offer/6a34a9c363c956434a7e4335-dsp-specialist-fae-field-applications-engineer---west-region",
-    "https://jobright.ai/jobs/info/6a34c88ace501060b5cf2722",
-    "https://mx.jobrapido.com/jobpreview/5629949910926229504",
+    "https://jobgether.com/offer/6a3560d863c956434a7f2841-verification-engineer",
     "https://remoteleaf.com/company/alten-technology/fpga-firmware-engineer-united-states/",
+    "https://spacecrew.com/space-jobs/mqkl40pe-relativity-space-vehicle-structures-engineer-i",
+    "https://www.bayt.com/en/qatar/jobs/fpga-engineer-jobs/",
     "https://www.career.com/job/honeywell2-pilot/remote-sr-advanced-fpga-asic-verification-engineer-uvm-sign-on-bonus-available/j202312130016246032393",
-    "https://www.careerbuilder.com/job-details/plumbing-design-engineer-rochester-ny--3e7ed236-5e33-4325-84cd-a53605f1f977?mstr_dist=true",
     "https://www.indeed.com/viewjob?jk=ddb3d97abf66691a",
-    "https://www.reddit.com/r/SoftwareEngineerJobs/comments/1u9gsx0/us_30_software_engineer_jobs_that_opened_this/",
-    "https://www.simplyhired.ca/job/auKzoNIcoa7wINDPeeEJCgWPikvCRJRjDKRQzudI5aSDf3i6gIbokw",
-    "https://www.talent.com/view?id=623057606152489376",
-    "https://www.tealhq.com/job/principal-fpga-rtl-design-engineer-signal-processing_7ea1a6b46632ca08fe5ce82229d5fef6fc1f0"
+    "https://www.jobleads.com/us/job/senior-technical-project-manager--kief--e0f64e532438310d98fe6fb1691134af0",
+    "https://www.simplyhired.co.uk/job/i3EKwqXBthfYMIK5UMzI7e_WOLYI3k0kiuofTpMUCYMfTzWcn7IXGA"
   ]
 }
