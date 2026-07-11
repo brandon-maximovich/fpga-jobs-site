@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-10T09:30:58.890213+00:00",
+  "last_run": "2026-07-11T07:51:58.140268+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -1539,7 +1539,7 @@
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
       "posted_at": "2026-07-01T00:00:00.000Z",
       "first_seen": "2026-05-19T09:39:32.560961+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://careers.tekever.com/jobs/7760496-fpga-engineer": {
       "url": "https://careers.tekever.com/jobs/7760496-fpga-engineer",
@@ -3599,7 +3599,7 @@
       "source": "JSearch:Career.com",
       "posted_at": "2026-07-06T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709": {
       "url": "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709",
@@ -3997,9 +3997,9 @@
       "company": "www.ucsc-extension.edu",
       "location": "Remote (per query)",
       "source": "SerpAPI:Google",
-      "posted_at": "13 hours ago",
+      "posted_at": "6 hours ago",
       "first_seen": "2026-06-16T11:07:32.459521+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://careers.actalentservices.com/us/en/job/JP-006095237/Embedded-Software-Engineer": {
       "url": "https://careers.actalentservices.com/us/en/job/JP-006095237/Embedded-Software-Engineer",
@@ -4267,9 +4267,9 @@
       "company": "tenstorrent",
       "location": "Tokyo, Japan",
       "source": "Greenhouse:tenstorrent",
-      "posted_at": "2026-06-29T18:56:21-04:00",
+      "posted_at": "2026-07-10T20:55:11-04:00",
       "first_seen": "2026-06-19T10:22:43.149599+00:00",
-      "last_seen": "2026-06-30T09:30:13.843703+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://jobright.ai/jobs/info/6a34c88ace501060b5cf2722": {
       "url": "https://jobright.ai/jobs/info/6a34c88ace501060b5cf2722",
@@ -5669,7 +5669,7 @@
       "source": "JSearch:RemoteFront",
       "posted_at": "2026-06-22T00:00:00.000Z",
       "first_seen": "2026-07-02T08:53:20.316419+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://us.trabajo.org/job-5003-77c06e3c4586e7fd977f7ac2f2971c64": {
       "url": "https://us.trabajo.org/job-5003-77c06e3c4586e7fd977f7ac2f2971c64",
@@ -6059,7 +6059,7 @@
       "source": "JSearch:Hackajob",
       "posted_at": "2026-07-02T00:00:00.000Z",
       "first_seen": "2026-07-07T09:37:09.256722+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://www.monster.com/job-openings/senior-hardware-validation-engineer-fpga-networking-redmond-wa--5a9c22a8-67cc-4b37-b166-fe3a58429a86": {
       "url": "https://www.monster.com/job-openings/senior-hardware-validation-engineer-fpga-networking-redmond-wa--5a9c22a8-67cc-4b37-b166-fe3a58429a86",
@@ -6289,7 +6289,7 @@
       "source": "JSearch:Recruit.net",
       "posted_at": "2026-07-09T00:00:00.000Z",
       "first_seen": "2026-07-09T09:35:08.904679+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://career.io/job/remote-senior-hardware-validation-engineer-fpga-redmond-team-red-dog-1560a17a4c3338a77b56c91d901bf3b5": {
       "url": "https://career.io/job/remote-senior-hardware-validation-engineer-fpga-redmond-team-red-dog-1560a17a4c3338a77b56c91d901bf3b5",
@@ -6319,7 +6319,7 @@
       "source": "JSearch:Jobs",
       "posted_at": "2026-07-07T00:00:00.000Z",
       "first_seen": "2026-07-09T09:35:08.904679+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     },
     "https://jobright.ai/jobs/info/6a50215a9469c06620350417": {
       "url": "https://jobright.ai/jobs/info/6a50215a9469c06620350417",
@@ -6399,29 +6399,139 @@
       "source": "JSearch:Monster",
       "posted_at": "2026-07-08T00:00:00.000Z",
       "first_seen": "2026-07-10T09:30:58.890213+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a51de49bf63b66c7997e251": {
+      "url": "https://jobright.ai/jobs/info/6a51de49bf63b66c7997e251",
+      "title": "(Sr.) FPGA Design Engineer - Fully Remote(WFH)",
+      "company": "Zealogics Inc",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-07-11 06:10:17",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a51ac6078e364789ca5accc": {
+      "url": "https://jobright.ai/jobs/info/6a51ac6078e364789ca5accc",
+      "title": "Lead FPGA / Hardware Engineer",
+      "company": "Quest Defense",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-07-10 19:06:39",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://www.reddit.com/r/FPGA/comments/1usm9ud/remote_ic_verification_jobs/": {
+      "url": "https://www.reddit.com/r/FPGA/comments/1usm9ud/remote_ic_verification_jobs/",
+      "title": "Remote ic verification jobs : r/FPGA",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://jobgether.com/offer/6a51aac6ac00a71a5a8791f6-lead-fpga-hardware-engineer": {
+      "url": "https://jobgether.com/offer/6a51aac6ac00a71a5a8791f6-lead-fpga-hardware-engineer",
+      "title": "Lead FPGA / Hardware Engineer at Quest Defense",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "5 hours ago",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering-nakuru--t7xk-755600961": {
+      "url": "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering-nakuru--t7xk-755600961",
+      "title": "Senior FPGA Engineer Perm in Heerbrugg - Skills Coalition",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://www.glassdoor.co.in/job-listing/hardware-engineer-tech-engi-JV_KO0,17_KE18,27.htm?jl=1010195634085": {
+      "url": "https://www.glassdoor.co.in/job-listing/hardware-engineer-tech-engi-JV_KO0,17_KE18,27.htm?jl=1010195634085",
+      "title": "Tech Engi hiring Hardware Engineer Job in Remote",
+      "company": "www.glassdoor.co.in",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "24 hours ago",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://careers.actalentservices.com/ca/fr/job/JP-006147567/Firmware-Engineer": {
+      "url": "https://careers.actalentservices.com/ca/fr/job/JP-006147567/Firmware-Engineer",
+      "title": "Firmware Engineer in Tucson, Arizona, USA - Actalent Careers",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22San+Rafael%2C+CA%22%2C%22Novi%2C+MI%22%2C%22Council+Bluffs%2C+IA%22%2C%22Cincinnati%2C+OH%22%5D%5D%5D": {
+      "url": "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22San+Rafael%2C+CA%22%2C%22Novi%2C+MI%22%2C%22Council+Bluffs%2C+IA%22%2C%22Cincinnati%2C+OH%22%5D%5D%5D",
+      "title": "Careers | Intermedia Group, Inc. - Intermedia Group",
+      "company": "jobs.intermediagroup.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "16 hours ago",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://www.careers-page.com/24-mag/job/5W939345": {
+      "url": "https://www.careers-page.com/24-mag/job/5W939345",
+      "title": "Digital Hardware Design & Verification Specialist — $65–$95 ...",
+      "company": "www.careers-page.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "14 hours ago",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://www.facebook.com/aroraengineersllc/posts/ready-to-take-the-next-step-in-your-engineering-career-were-looking-for-talented/1763099411946006/": {
+      "url": "https://www.facebook.com/aroraengineersllc/posts/ready-to-take-the-next-step-in-your-engineering-career-were-looking-for-talented/1763099411946006/",
+      "title": "Ready to take the next step in your engineering career? ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://www.reddit.com/r/ElectricalEngineering/comments/1usx68f/computer_or_electrical_engineering_in_college/": {
+      "url": "https://www.reddit.com/r/ElectricalEngineering/comments/1usx68f/computer_or_electrical_engineering_in_college/",
+      "title": "Computer or Electrical Engineering in College",
+      "company": "www.reddit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-07-11T07:51:58.140268+00:00",
+      "last_seen": "2026-07-11T07:51:58.140268+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering--techmap_ke_4438540283",
-    "https://career.io/job/remote-senior-hardware-validation-engineer-fpga-redmond-team-red-dog-1560a17a4c3338a77b56c91d901bf3b5",
-    "https://careers.actalentservices.com/ca/fr/job/JP-006144477/Embedded-Software-Engineer",
-    "https://careers.actalentservices.com/us/en/job/JP-006144335/Embedded-Software-Engineer",
+    "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering-nakuru--t7xk-755600961",
+    "https://careers.actalentservices.com/ca/fr/job/JP-006147567/Firmware-Engineer",
     "https://hackajob.com/job/d2b1cd9e-760b-11f1-a7b8-0a05e249917d-staff-fpga-engineern?utm_source=LinkedIn&utm_medium=JobAds&utm_term=Automated&utm_campaign=entrust-staff-fpga-engineern&job_name=staff-fpga-engineern&company=entrust&workplace_type=remote&country=united-states",
-    "https://jobgether.com/offer/6a4fcc9fac00a71a5a8451af-sr.-manager-sap-center-of-excellence",
-    "https://jobright.ai/jobs/info/6a12403a69bd827926af569d",
-    "https://jobright.ai/jobs/info/6a50215a9469c06620350417",
+    "https://job-boards.greenhouse.io/tenstorrent/jobs/5108816007",
+    "https://jobgether.com/offer/6a51aac6ac00a71a5a8791f6-lead-fpga-hardware-engineer",
+    "https://jobright.ai/jobs/info/6a51ac6078e364789ca5accc",
+    "https://jobright.ai/jobs/info/6a51de49bf63b66c7997e251",
     "https://jobs.ashbyhq.com/NormalComputing/ce3e3ffa-5001-42b5-851d-d5dc46e5d463",
-    "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero",
+    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22San+Rafael%2C+CA%22%2C%22Novi%2C+MI%22%2C%22Council+Bluffs%2C+IA%22%2C%22Cincinnati%2C+OH%22%5D%5D%5D",
     "https://www.career.com/job/honeywell2-pilot/remote-sr-advanced-fpga-asic-verification-engineer-uvm-sign-on-bonus-available/j202312130016246032393",
+    "https://www.careers-page.com/24-mag/job/5W939345",
+    "https://www.facebook.com/aroraengineersllc/posts/ready-to-take-the-next-step-in-your-engineering-career-were-looking-for-talented/1763099411946006/",
+    "https://www.glassdoor.co.in/job-listing/hardware-engineer-tech-engi-JV_KO0,17_KE18,27.htm?jl=1010195634085",
     "https://www.itrecruiters.technology/job/fpga-electrical-engineer-work-from-home/",
     "https://www.monster.com/job-openings/senior-fpga-architect-remote-for-satellite-communications-herndon-va--210120c3-b60b-48e9-a546-e82f33477b0c",
     "https://www.recruit.net/job/fpga-engineer-space-vhdl-verilog-jobs/C50E52B27FC3FFD7",
-    "https://www.recruit.net/job/fpga-engineer-spacetech-rtl-vhdl-jobs/99CBF4F2156DC44A",
+    "https://www.reddit.com/r/ElectricalEngineering/comments/1usx68f/computer_or_electrical_engineering_in_college/",
+    "https://www.reddit.com/r/FPGA/comments/1usm9ud/remote_ic_verification_jobs/",
     "https://www.remotefront.com/remote-jobs/motorola-solutions-principal-fpga-rtl-design-engineer-signal-processing-zrdk9",
-    "https://www.simplyhired.co.in/job/pSILZXlfQYeRminMjUD0lRsCNZG-WBfMFzEAM29y9AantUjJXJOJ_g",
-    "https://www.theladders.com/job/early-career-fpga-design-engineer-space-based-remote-sensing-onsite-sandianationallaboratories-virtual-travel_87638454",
-    "https://www.ucsc-extension.edu/certificates/embedded-systems",
-    "https://xk1cg6.buffalodestroyersmuseum.com/"
+    "https://www.ucsc-extension.edu/certificates/embedded-systems"
   ]
 }
