@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-11T07:51:58.140268+00:00",
+  "last_run": "2026-07-12T08:13:09.578169+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -1539,7 +1539,7 @@
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
       "posted_at": "2026-07-01T00:00:00.000Z",
       "first_seen": "2026-05-19T09:39:32.560961+00:00",
-      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
     },
     "https://careers.tekever.com/jobs/7760496-fpga-engineer": {
       "url": "https://careers.tekever.com/jobs/7760496-fpga-engineer",
@@ -3599,7 +3599,7 @@
       "source": "JSearch:Career.com",
       "posted_at": "2026-07-06T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
     },
     "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709": {
       "url": "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709",
@@ -3827,9 +3827,9 @@
       "company": "Aalyria Technologies, Inc.",
       "location": "Remote",
       "source": "JSearch:JobLeads",
-      "posted_at": "2026-06-18T00:00:00.000Z",
+      "posted_at": "2026-07-09T00:00:00.000Z",
       "first_seen": "2026-06-13T08:55:21.346856+00:00",
-      "last_seen": "2026-06-27T08:33:11.041895+00:00"
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
     },
     "https://up2staff.com/fpga-aeronautiques-ingenieur-254-systemes-at-wisk-aero": {
       "url": "https://up2staff.com/fpga-aeronautiques-ingenieur-254-systemes-at-wisk-aero",
@@ -5669,7 +5669,7 @@
       "source": "JSearch:RemoteFront",
       "posted_at": "2026-06-22T00:00:00.000Z",
       "first_seen": "2026-07-02T08:53:20.316419+00:00",
-      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
     },
     "https://us.trabajo.org/job-5003-77c06e3c4586e7fd977f7ac2f2971c64": {
       "url": "https://us.trabajo.org/job-5003-77c06e3c4586e7fd977f7ac2f2971c64",
@@ -6099,7 +6099,7 @@
       "source": "JSearch:Up2staff",
       "posted_at": "2026-07-08T00:00:00.000Z",
       "first_seen": "2026-07-07T09:37:09.256722+00:00",
-      "last_seen": "2026-07-10T09:30:58.890213+00:00"
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
     },
     "https://www.itjobboard.co.uk/job/16768573/fpga-firmware-engineer/": {
       "url": "https://www.itjobboard.co.uk/job/16768573/fpga-firmware-engineer/",
@@ -6319,7 +6319,7 @@
       "source": "JSearch:Jobs",
       "posted_at": "2026-07-07T00:00:00.000Z",
       "first_seen": "2026-07-09T09:35:08.904679+00:00",
-      "last_seen": "2026-07-11T07:51:58.140268+00:00"
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
     },
     "https://jobright.ai/jobs/info/6a50215a9469c06620350417": {
       "url": "https://jobright.ai/jobs/info/6a50215a9469c06620350417",
@@ -6510,28 +6510,190 @@
       "posted_at": "",
       "first_seen": "2026-07-11T07:51:58.140268+00:00",
       "last_seen": "2026-07-11T07:51:58.140268+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a528b3e9fbdab22fe13c03c": {
+      "url": "https://jobright.ai/jobs/info/6a528b3e9fbdab22fe13c03c",
+      "title": "Senior FPGA Verification Engineer",
+      "company": "Ursa Major",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-07-11 18:28:14",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://jobright.ai/jobs/info/69e1a1c840a62c1fa93b946e": {
+      "url": "https://jobright.ai/jobs/info/69e1a1c840a62c1fa93b946e",
+      "title": "Software Engineer - FPGA Logic Synthesis",
+      "company": "AMD",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-07-11 09:45:49",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe": {
+      "url": "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe",
+      "title": "Experienced FPGA Developer and Tester",
+      "company": "SBS",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-07-11 08:52:20",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://spacecrew.com/space-jobs/mrg126h6-satellogic-fpga-jr-engineer-position": {
+      "url": "https://spacecrew.com/space-jobs/mrg126h6-satellogic-fpga-jr-engineer-position",
+      "title": "FPGA Jr. Engineer Position - Satellogic",
+      "company": "spacecrew.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://www.wearedevelopers.com/en/jobs/ls/netherlands/vhdl": {
+      "url": "https://www.wearedevelopers.com/en/jobs/ls/netherlands/vhdl",
+      "title": "VHDL Developer Jobs in Netherlands | 10+ open jobs",
+      "company": "www.wearedevelopers.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://simplify.jobs/p/2053ece1-6748-4534-b67b-e2510041ef61/FPGA-Engineer": {
+      "url": "https://simplify.jobs/p/2053ece1-6748-4534-b67b-e2510041ef61/FPGA-Engineer",
+      "title": "FPGA Engineer @ Tesla",
+      "company": "simplify.jobs",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering-nakuru--bs-ke-accc5505-98bb-41e6-8112-c8a1df3e5d8d": {
+      "url": "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering-nakuru--bs-ke-accc5505-98bb-41e6-8112-c8a1df3e5d8d",
+      "title": "Senior FPGA Engineer Perm in Heerbrugg - Skills Coalition",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://jaabz.com/jobs/246798-firmware-engineer": {
+      "url": "https://jaabz.com/jobs/246798-firmware-engineer",
+      "title": "Senior FPGA Firmware Engineer II - Remote at Actalent",
+      "company": "jaabz.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://w300h.squidya.com/": {
+      "url": "https://w300h.squidya.com/",
+      "title": "4,124,000+ 福塔莱萨怎么找小姐服务电话﹝同城约炮网 ...",
+      "company": "w300h.squidya.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://jobgether.com/offer/6a5299d0ac00a71a5a88e846-hardware-technician-5": {
+      "url": "https://jobgether.com/offer/6a5299d0ac00a71a5a88e846-hardware-technician-5",
+      "title": "Hardware Technician 5 at Beyondsoft",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "9 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://www.instagram.com/p/Dap7nv_j9Cl/": {
+      "url": "https://www.instagram.com/p/Dap7nv_j9Cl/",
+      "title": "Only 1 Day Left to Apply. The NADA India Internship ...",
+      "company": "www.instagram.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "http://7818.simplysoybathandcandle.com/%E2%98%91%E2%98%91/672e36498963.html": {
+      "url": "http://7818.simplysoybathandcandle.com/%E2%98%91%E2%98%91/672e36498963.html",
+      "title": "4,013,000+ 三沙市高端外围【美女外围】（ ‿ Tg:dd566）长 ...",
+      "company": "7818.simplysoybathandcandle.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "24 hours ago",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://www.theladders.com/job/early-career-fpga-design-engineer-space-based-remote-sensing-onsite-sandianationallaboratories-virtual-travel_87638454?source=company": {
+      "url": "https://www.theladders.com/job/early-career-fpga-design-engineer-space-based-remote-sensing-onsite-sandianationallaboratories-virtual-travel_87638454?source=company",
+      "title": "Early Career FPGA Design Engineer - Space-based Remote Sensing, Onsite",
+      "company": "Sandia",
+      "location": "Remote",
+      "source": "JSearch:Ladders",
+      "posted_at": "2026-07-09T00:00:00.000Z",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://www.monster.com/job-openings/sr-fpga-design-engineer-melbourne-fl-remote-fulltime-contract-opportunity-melbourne-fl--d8d5fc91-6a4c-439c-ab76-b8dc8f044d3f": {
+      "url": "https://www.monster.com/job-openings/sr-fpga-design-engineer-melbourne-fl-remote-fulltime-contract-opportunity-melbourne-fl--d8d5fc91-6a4c-439c-ab76-b8dc8f044d3f",
+      "title": "Sr. FPGA Design Engineer - Melbourne, FL / Remote - Fulltime/ Contract Opportunity",
+      "company": "Zodiac Solutions",
+      "location": "Remote",
+      "source": "JSearch:Monster",
+      "posted_at": "2026-07-11T00:00:00.000Z",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a4c0c9b4eb370649b27c058?visit=aurora-water-network-engineer-or-senior-network-engineer-jobs-in-united-states": {
+      "url": "https://jobright.ai/jobs/info/6a4c0c9b4eb370649b27c058?visit=aurora-water-network-engineer-or-senior-network-engineer-jobs-in-united-states",
+      "title": "[Remote] Senior Hardware Validation Engineer – FPGA & Networking",
+      "company": "Team Red Dog",
+      "location": "Remote",
+      "source": "JSearch:Jobright",
+      "posted_at": "2026-07-07T00:00:00.000Z",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
+    },
+    "https://remotezest.up.railway.app/job/remote-fpga-engineers-needed-us-or-canadian-reputed-company-only": {
+      "url": "https://remotezest.up.railway.app/job/remote-fpga-engineers-needed-us-or-canadian-reputed-company-only",
+      "title": "[Remote] FPGA Engineers needed, US or Canadian reputed company only",
+      "company": "remote zest jobs",
+      "location": "Remote",
+      "source": "JSearch:Remote Zest Jobs",
+      "posted_at": "2026-07-09T00:00:00.000Z",
+      "first_seen": "2026-07-12T08:13:09.578169+00:00",
+      "last_seen": "2026-07-12T08:13:09.578169+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering-nakuru--t7xk-755600961",
-    "https://careers.actalentservices.com/ca/fr/job/JP-006147567/Firmware-Engineer",
-    "https://hackajob.com/job/d2b1cd9e-760b-11f1-a7b8-0a05e249917d-staff-fpga-engineern?utm_source=LinkedIn&utm_medium=JobAds&utm_term=Automated&utm_campaign=entrust-staff-fpga-engineern&job_name=staff-fpga-engineern&company=entrust&workplace_type=remote&country=united-states",
-    "https://job-boards.greenhouse.io/tenstorrent/jobs/5108816007",
-    "https://jobgether.com/offer/6a51aac6ac00a71a5a8791f6-lead-fpga-hardware-engineer",
-    "https://jobright.ai/jobs/info/6a51ac6078e364789ca5accc",
-    "https://jobright.ai/jobs/info/6a51de49bf63b66c7997e251",
+    "http://7818.simplysoybathandcandle.com/%E2%98%91%E2%98%91/672e36498963.html",
+    "https://bebee.com/ke/jobs/senior-fpga-engineer-perm-in-heerbrugg-skills-coalition-oserian-engineering-nakuru--bs-ke-accc5505-98bb-41e6-8112-c8a1df3e5d8d",
+    "https://jaabz.com/jobs/246798-firmware-engineer",
+    "https://jobgether.com/offer/6a5299d0ac00a71a5a88e846-hardware-technician-5",
+    "https://jobright.ai/jobs/info/69e1a1c840a62c1fa93b946e",
+    "https://jobright.ai/jobs/info/6a4c0c9b4eb370649b27c058?visit=aurora-water-network-engineer-or-senior-network-engineer-jobs-in-united-states",
+    "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe",
+    "https://jobright.ai/jobs/info/6a528b3e9fbdab22fe13c03c",
     "https://jobs.ashbyhq.com/NormalComputing/ce3e3ffa-5001-42b5-851d-d5dc46e5d463",
-    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22San+Rafael%2C+CA%22%2C%22Novi%2C+MI%22%2C%22Council+Bluffs%2C+IA%22%2C%22Cincinnati%2C+OH%22%5D%5D%5D",
+    "https://remotezest.up.railway.app/job/remote-fpga-engineers-needed-us-or-canadian-reputed-company-only",
+    "https://simplify.jobs/p/2053ece1-6748-4534-b67b-e2510041ef61/FPGA-Engineer",
+    "https://spacecrew.com/space-jobs/mrg126h6-satellogic-fpga-jr-engineer-position",
+    "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero",
+    "https://w300h.squidya.com/",
     "https://www.career.com/job/honeywell2-pilot/remote-sr-advanced-fpga-asic-verification-engineer-uvm-sign-on-bonus-available/j202312130016246032393",
-    "https://www.careers-page.com/24-mag/job/5W939345",
-    "https://www.facebook.com/aroraengineersllc/posts/ready-to-take-the-next-step-in-your-engineering-career-were-looking-for-talented/1763099411946006/",
-    "https://www.glassdoor.co.in/job-listing/hardware-engineer-tech-engi-JV_KO0,17_KE18,27.htm?jl=1010195634085",
+    "https://www.instagram.com/p/Dap7nv_j9Cl/",
     "https://www.itrecruiters.technology/job/fpga-electrical-engineer-work-from-home/",
-    "https://www.monster.com/job-openings/senior-fpga-architect-remote-for-satellite-communications-herndon-va--210120c3-b60b-48e9-a546-e82f33477b0c",
-    "https://www.recruit.net/job/fpga-engineer-space-vhdl-verilog-jobs/C50E52B27FC3FFD7",
-    "https://www.reddit.com/r/ElectricalEngineering/comments/1usx68f/computer_or_electrical_engineering_in_college/",
-    "https://www.reddit.com/r/FPGA/comments/1usm9ud/remote_ic_verification_jobs/",
+    "https://www.jobleads.com/us/job/lead-fpga-rtl-design-engineer-for-coherent-fso-modems-remote--livermore--e93a83fbe1227b28e5b918fa2af2416c7",
+    "https://www.monster.com/job-openings/sr-fpga-design-engineer-melbourne-fl-remote-fulltime-contract-opportunity-melbourne-fl--d8d5fc91-6a4c-439c-ab76-b8dc8f044d3f",
     "https://www.remotefront.com/remote-jobs/motorola-solutions-principal-fpga-rtl-design-engineer-signal-processing-zrdk9",
-    "https://www.ucsc-extension.edu/certificates/embedded-systems"
+    "https://www.theladders.com/job/early-career-fpga-design-engineer-space-based-remote-sensing-onsite-sandianationallaboratories-virtual-travel_87638454?source=company",
+    "https://www.wearedevelopers.com/en/jobs/ls/netherlands/vhdl"
   ]
 }
