@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-22T08:24:20.254979+00:00",
+  "last_run": "2026-07-23T08:25:46.369836+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -3599,7 +3599,7 @@
       "source": "JSearch:Career.com",
       "posted_at": "2026-07-06T00:00:00.000Z",
       "first_seen": "2026-06-11T10:22:11.737883+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709": {
       "url": "https://bebee.com/us/jobs/fpga-design-engineer-asic-remote-stage-4-solutions--theirstack-692694709",
@@ -3829,7 +3829,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-07-16T00:00:00.000Z",
       "first_seen": "2026-06-13T08:55:21.346856+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://up2staff.com/fpga-aeronautiques-ingenieur-254-systemes-at-wisk-aero": {
       "url": "https://up2staff.com/fpga-aeronautiques-ingenieur-254-systemes-at-wisk-aero",
@@ -5119,7 +5119,7 @@
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
       "posted_at": "2026-07-01T00:00:00.000Z",
       "first_seen": "2026-06-27T08:33:11.041895+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0": {
       "url": "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0",
@@ -6319,7 +6319,7 @@
       "source": "JSearch:Jobs",
       "posted_at": "2026-07-15T00:00:00.000Z",
       "first_seen": "2026-07-09T09:35:08.904679+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://jobright.ai/jobs/info/6a50215a9469c06620350417": {
       "url": "https://jobright.ai/jobs/info/6a50215a9469c06620350417",
@@ -6747,9 +6747,9 @@
       "company": "remote zest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Zest Jobs",
-      "posted_at": "2026-07-16T00:00:00.000Z",
+      "posted_at": "2026-07-22T00:00:00.000Z",
       "first_seen": "2026-07-13T09:21:40.042165+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://www.dice.com/job-detail/32c9a67a-6953-47a5-beb9-4da4b1bfebc3": {
       "url": "https://www.dice.com/job-detail/32c9a67a-6953-47a5-beb9-4da4b1bfebc3",
@@ -6769,7 +6769,7 @@
       "source": "JSearch:Career.io",
       "posted_at": "2026-07-11T00:00:00.000Z",
       "first_seen": "2026-07-13T09:21:40.042165+00:00",
-      "last_seen": "2026-07-21T08:24:30.715035+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://vacancyglobal.up.railway.app/job/firmware-developer-fpga-vhdl-verilogsystem-verilog": {
       "url": "https://vacancyglobal.up.railway.app/job/firmware-developer-fpga-vhdl-verilogsystem-verilog",
@@ -6967,9 +6967,9 @@
       "company": "remote zest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Zest Jobs",
-      "posted_at": "2026-07-11T00:00:00.000Z",
+      "posted_at": "2026-07-21T00:00:00.000Z",
       "first_seen": "2026-07-14T07:59:49.509334+00:00",
-      "last_seen": "2026-07-14T07:59:49.509334+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://vacancyglobal.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level": {
       "url": "https://vacancyglobal.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level",
@@ -6989,7 +6989,7 @@
       "source": "JSearch:Virtual Vocations",
       "posted_at": "2026-07-13T00:00:00.000Z",
       "first_seen": "2026-07-14T07:59:49.509334+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://vacancyglobal.up.railway.app/job/remotewfm-want-senior-ic-hardwarefpga-design-engineer": {
       "url": "https://vacancyglobal.up.railway.app/job/remotewfm-want-senior-ic-hardwarefpga-design-engineer",
@@ -7439,7 +7439,7 @@
       "source": "JSearch:Ladders",
       "posted_at": "2026-07-15T00:00:00.000Z",
       "first_seen": "2026-07-17T08:06:07.162282+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://jobright.ai/jobs/info/6a58032772fe7a7b98dcc60a?visit=software-verification-engineer-do-178b-c---relocation-travel-allowance-jobs-in-united-states": {
       "url": "https://jobright.ai/jobs/info/6a58032772fe7a7b98dcc60a?visit=software-verification-engineer-do-178b-c---relocation-travel-allowance-jobs-in-united-states",
@@ -7449,7 +7449,7 @@
       "source": "JSearch:Jobright",
       "posted_at": "2026-07-16T00:00:00.000Z",
       "first_seen": "2026-07-17T08:06:07.162282+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://jobright.ai/jobs/info/6a5ae48663a8f619507c8f02": {
       "url": "https://jobright.ai/jobs/info/6a5ae48663a8f619507c8f02",
@@ -7559,7 +7559,7 @@
       "source": "JSearch:Remote Zest Jobs",
       "posted_at": "2026-07-19T00:00:00.000Z",
       "first_seen": "2026-07-18T07:45:12.651022+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://remotezest.up.railway.app/job/senior-fpga-verification-engineer": {
       "url": "https://remotezest.up.railway.app/job/senior-fpga-verification-engineer",
@@ -7569,7 +7569,7 @@
       "source": "JSearch:Remote Zest Jobs",
       "posted_at": "2026-07-19T00:00:00.000Z",
       "first_seen": "2026-07-18T07:45:12.651022+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://remotezest.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level": {
       "url": "https://remotezest.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level",
@@ -7667,9 +7667,9 @@
       "company": "remote zest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Zest Jobs",
-      "posted_at": "2026-07-16T00:00:00.000Z",
+      "posted_at": "2026-07-20T00:00:00.000Z",
       "first_seen": "2026-07-19T08:12:13.100608+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://remotezest.up.railway.app/job/fpga-engineer-custom-compute-hardware": {
       "url": "https://remotezest.up.railway.app/job/fpga-engineer-custom-compute-hardware",
@@ -7697,9 +7697,9 @@
       "company": "remote zest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Zest Jobs",
-      "posted_at": "2026-07-17T00:00:00.000Z",
+      "posted_at": "2026-07-21T00:00:00.000Z",
       "first_seen": "2026-07-19T08:12:13.100608+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://bebee.com/us/jobs/senior-embedded-firmware-engineer-c-c-dsp-fpga-development-moseley-technical-services-inc-us-al-aubu--t7xk-766373260": {
       "url": "https://bebee.com/us/jobs/senior-embedded-firmware-engineer-c-c-dsp-fpga-development-moseley-technical-services-inc-us-al-aubu--t7xk-766373260",
@@ -7709,7 +7709,7 @@
       "source": "JSearch:BeBee",
       "posted_at": "2026-07-17T00:00:00.000Z",
       "first_seen": "2026-07-19T08:12:13.100608+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://www.jobleads.com/us/job/fpga-designer-safety-critical-do-254--crest-view-heights--e02c57e1d87c129f02b2378df3a5b1ef1": {
       "url": "https://www.jobleads.com/us/job/fpga-designer-safety-critical-do-254--crest-view-heights--e02c57e1d87c129f02b2378df3a5b1ef1",
@@ -7817,9 +7817,9 @@
       "company": "remote zest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Zest Jobs",
-      "posted_at": "2026-07-19T00:00:00.000Z",
+      "posted_at": "2026-07-20T00:00:00.000Z",
       "first_seen": "2026-07-20T08:53:45.226464+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://jobright.ai/jobs/info/6a5de2e927bf767ea68f394b": {
       "url": "https://jobright.ai/jobs/info/6a5de2e927bf767ea68f394b",
@@ -7919,7 +7919,7 @@
       "source": "JSearch:Remote Zest Jobs",
       "posted_at": "2026-07-21T00:00:00.000Z",
       "first_seen": "2026-07-21T08:24:30.715035+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://www.dice.com/job-detail/e8d75011-bb62-4a1f-97e8-985a669ebb6f": {
       "url": "https://www.dice.com/job-detail/e8d75011-bb62-4a1f-97e8-985a669ebb6f",
@@ -7929,7 +7929,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-07-21T00:00:00.000Z",
       "first_seen": "2026-07-21T08:24:30.715035+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://www.monster.com/job-openings/remote-field-application-engineer-xilinx-fpga-solutions-atlanta-ga--67632f2c-8cd3-425d-a1d1-4babee658604": {
       "url": "https://www.monster.com/job-openings/remote-field-application-engineer-xilinx-fpga-solutions-atlanta-ga--67632f2c-8cd3-425d-a1d1-4babee658604",
@@ -7949,7 +7949,7 @@
       "source": "JSearch:Haystack",
       "posted_at": "2026-07-05T00:00:00.000Z",
       "first_seen": "2026-07-21T08:24:30.715035+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://remotezest.up.railway.app/job/remote-fpga-electricalmechanical-reputed-companymechanical-engineers-needed-us-reputed-company-only-defense-industry-experts-only-got-it-1": {
       "url": "https://remotezest.up.railway.app/job/remote-fpga-electricalmechanical-reputed-companymechanical-engineers-needed-us-reputed-company-only-defense-industry-experts-only-got-it-1",
@@ -7957,9 +7957,9 @@
       "company": "remote zest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Zest Jobs",
-      "posted_at": "2026-07-20T00:00:00.000Z",
+      "posted_at": "2026-07-22T00:00:00.000Z",
       "first_seen": "2026-07-21T08:24:30.715035+00:00",
-      "last_seen": "2026-07-21T08:24:30.715035+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://jobright.ai/jobs/info/6a607c14193c4d692385e3e3": {
       "url": "https://jobright.ai/jobs/info/6a607c14193c4d692385e3e3",
@@ -8079,7 +8079,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-07-20T00:00:00.000Z",
       "first_seen": "2026-07-22T08:24:20.254979+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     },
     "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe?visit=fpga-engineer-in-houston-tx": {
       "url": "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe?visit=fpga-engineer-in-houston-tx",
@@ -8087,42 +8087,186 @@
       "company": "SBS",
       "location": "Remote",
       "source": "JSearch:Jobright",
-      "posted_at": "2026-07-21T13:00:00.000Z",
+      "posted_at": "2026-07-21T00:00:00.000Z",
       "first_seen": "2026-07-22T08:24:20.254979+00:00",
-      "last_seen": "2026-07-22T08:24:20.254979+00:00"
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a6145a67196365a6f009f93": {
+      "url": "https://jobright.ai/jobs/info/6a6145a67196365a6f009f93",
+      "title": "Senior Principal ASIC FPGA Engineer",
+      "company": "General Dynamics",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-07-22 19:58:37",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://jobs.apple.com/en-us/details/200673523-3543/fpga-design-engineer-instrument-engineering?team=HRDWR": {
+      "url": "https://jobs.apple.com/en-us/details/200673523-3543/fpga-design-engineer-instrument-engineering?team=HRDWR",
+      "title": "FPGA Design Engineer - Instrument Engineering",
+      "company": "jobs.apple.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "13 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://www.jobleads.com/us/job/senior-fpga-design-engineer-signal-processing-hybrid--irvine--eae0cf4caa5aa441c4c9db87be9d7ec20": {
+      "url": "https://www.jobleads.com/us/job/senior-fpga-design-engineer-signal-processing-hybrid--irvine--eae0cf4caa5aa441c4c9db87be9d7ec20",
+      "title": "Senior FPGA Design Engineer - Signal Processing (Hybrid)",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "6 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://www.instagram.com/p/DbGhRKsik_x/": {
+      "url": "https://www.instagram.com/p/DbGhRKsik_x/",
+      "title": "ambiq",
+      "company": "www.instagram.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22Memphis%2C+TN%22%2C%22Stamford%2C+CT%22%2C%22Galena%2C+IL%22%2C%22Oakland%2C+CA%22%2C%22Franklin+Lakes%2C+NJ%22%2C%22Napa%2C+CA%22%2C%22Alcoa%2C+TN%22%2C%22Minneapolis%2C+MN%22%2C%22Rosemead%2C+CA%22%2C%22Camden+County%2C+NJ%22%2C%22Sumter%2C+SC%22%2C%22Pittsburgh%2C+PA%22%2C%22REMOTE%2C+REMOTE%22%2C%22Coraopolis%2C+PA%22%2C%22Cincinnati%2C+OH%22%5D%5D%5D": {
+      "url": "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22Memphis%2C+TN%22%2C%22Stamford%2C+CT%22%2C%22Galena%2C+IL%22%2C%22Oakland%2C+CA%22%2C%22Franklin+Lakes%2C+NJ%22%2C%22Napa%2C+CA%22%2C%22Alcoa%2C+TN%22%2C%22Minneapolis%2C+MN%22%2C%22Rosemead%2C+CA%22%2C%22Camden+County%2C+NJ%22%2C%22Sumter%2C+SC%22%2C%22Pittsburgh%2C+PA%22%2C%22REMOTE%2C+REMOTE%22%2C%22Coraopolis%2C+PA%22%2C%22Cincinnati%2C+OH%22%5D%5D%5D",
+      "title": "Careers | Intermedia Group, Inc. - Intermedia Group",
+      "company": "jobs.intermediagroup.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://hirify.me/jobs/763398-staff-fpga-engineer-cybersecurity": {
+      "url": "https://hirify.me/jobs/763398-staff-fpga-engineer-cybersecurity",
+      "title": "Staff FPGA Engineer (Cybersecurity)",
+      "company": "hirify.me",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://tech-recruit.com/jobs/senior-analog-ic-design-engineer/": {
+      "url": "https://tech-recruit.com/jobs/senior-analog-ic-design-engineer/",
+      "title": "Senior Analog IC Design Engineer",
+      "company": "tech-recruit.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22Memphis%2C+TN%22%2C%22Camden+County%2C+NJ%22%2C%22Fond+Du+Lac%2C+WI%22%2C%22Napa%2C+CA%22%2C%22Franklin+Lakes%2C+NJ%22%2C%22Buffalo%2C+NY%22%2C%22Austin%2C+TX%22%2C%22Chicago%2C+IL%22%2C%22Cincinnati%2C+OH%22%2C%22REMOTE%2C+REMOTE%22%2C%22FULL+REMOTE%2C+FULL+REMOTE%22%5D%5D%5D": {
+      "url": "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22Memphis%2C+TN%22%2C%22Camden+County%2C+NJ%22%2C%22Fond+Du+Lac%2C+WI%22%2C%22Napa%2C+CA%22%2C%22Franklin+Lakes%2C+NJ%22%2C%22Buffalo%2C+NY%22%2C%22Austin%2C+TX%22%2C%22Chicago%2C+IL%22%2C%22Cincinnati%2C+OH%22%2C%22REMOTE%2C+REMOTE%22%2C%22FULL+REMOTE%2C+FULL+REMOTE%22%5D%5D%5D",
+      "title": "Careers | Intermedia Group, Inc. - Intermedia Group",
+      "company": "jobs.intermediagroup.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://www.motionrecruitment.com.au/jobview/embedded-software-engineer/236d2bc4-b3d3-4076-9abe-78ec27dbe4ae/": {
+      "url": "https://www.motionrecruitment.com.au/jobview/embedded-software-engineer/236d2bc4-b3d3-4076-9abe-78ec27dbe4ae/",
+      "title": "Embedded Software Engineer - au6-1805-883022",
+      "company": "www.motionrecruitment.com.au",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "2 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://www.selbyjennings.com/sje/homepage/job/python-developer-pr595661_1784765612/": {
+      "url": "https://www.selbyjennings.com/sje/homepage/job/python-developer-pr595661_1784765612/",
+      "title": "Python Developer job in Austin, Texas",
+      "company": "www.selbyjennings.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "8 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://www.careerbuilder.com/job-details/senior-account-associate-commercial-insurance-agriculture-construction-covington-ky--24240eb5-6f96-4e1f-8915-375ea30248cd": {
+      "url": "https://www.careerbuilder.com/job-details/senior-account-associate-commercial-insurance-agriculture-construction-covington-ky--24240eb5-6f96-4e1f-8915-375ea30248cd",
+      "title": "Senior Account Associate- Commercial Insurance ...",
+      "company": "www.careerbuilder.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "16 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://jobgether.com/offer/6a6001191b23f4f87b2deeef-sales-development-representative-in-poland-remote": {
+      "url": "https://jobgether.com/offer/6a6001191b23f4f87b2deeef-sales-development-representative-in-poland-remote",
+      "title": "Sales Development Representative In Poland (remote)",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "21 hours ago",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://remotezest.up.railway.app/job/lead-fpga-engineer": {
+      "url": "https://remotezest.up.railway.app/job/lead-fpga-engineer",
+      "title": "Lead FPGA Engineer",
+      "company": "remote zest jobs",
+      "location": "Remote",
+      "source": "JSearch:Remote Zest Jobs",
+      "posted_at": "2026-07-21T00:00:00.000Z",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+    },
+    "https://remotezest.up.railway.app/job/asic-andor-fpga-design-verification-engineer-lead-senior-or-reputed-company": {
+      "url": "https://remotezest.up.railway.app/job/asic-andor-fpga-design-verification-engineer-lead-senior-or-reputed-company",
+      "title": "ASIC and/or FPGA Design & Verification Engineer (Lead, Senior or reputed company)",
+      "company": "remote zest jobs",
+      "location": "Remote",
+      "source": "JSearch:Remote Zest Jobs",
+      "posted_at": "2026-07-20T00:00:00.000Z",
+      "first_seen": "2026-07-23T08:25:46.369836+00:00",
+      "last_seen": "2026-07-23T08:25:46.369836+00:00"
     }
   },
   "currently_open_urls": [
-    "https://24-mag.careers-page.com/jobs/c341a501-bf0a-4bb5-bb61-e9a587237f78",
-    "https://bebee.com/gb/jobs/contract-fpga-engineer-enterprise-recruitment-ltd-didcot--talent-629045015490333484",
     "https://bebee.com/us/jobs/senior-embedded-firmware-engineer-c-c-dsp-fpga-development-moseley-technical-services-inc-us-al-aubu--t7xk-766373260",
-    "https://gamesjobsindex.com/game-jobs/engineering.html",
+    "https://career.io/job/remote-remote-digital-hardware-design-new-york-24-mag-3457d61153fce76c2366a9f5591fbf04",
     "https://haystackapp.io/jobs/3cb0e1e2-41a2-4eaa-a810-9b6a6c654a74",
-    "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe",
+    "https://hirify.me/jobs/763398-staff-fpga-engineer-cybersecurity",
+    "https://jobgether.com/offer/6a6001191b23f4f87b2deeef-sales-development-representative-in-poland-remote",
     "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe?visit=fpga-engineer-in-houston-tx",
     "https://jobright.ai/jobs/info/6a58032772fe7a7b98dcc60a?visit=software-verification-engineer-do-178b-c---relocation-travel-allowance-jobs-in-united-states",
-    "https://jobright.ai/jobs/info/6a607c14193c4d692385e3e3",
+    "https://jobright.ai/jobs/info/6a6145a67196365a6f009f93",
+    "https://jobs.apple.com/en-us/details/200673523-3543/fpga-design-engineer-instrument-engineering?team=HRDWR",
     "https://jobs.ashbyhq.com/NormalComputing/ce3e3ffa-5001-42b5-851d-d5dc46e5d463",
-    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22Memphis%2C+TN%22%2C%22Camden+County%2C+NJ%22%2C%22Mission+Hills%2C+CA%22%2C%22Fond+Du+Lac%2C+WI%22%2C%22Napa%2C+CA%22%2C%22Franklin+Lakes%2C+NJ%22%2C%22Buffalo%2C+NY%22%2C%22Austin%2C+TX%22%2C%22Chicago%2C+IL%22%2C%22Cincinnati%2C+OH%22%2C%22REMOTE%2C+REMOTE%22%2C%22FULL+REMOTE%2C+FULL+REMOTE%22%5D%5D%5D",
-    "https://remotezest.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level",
+    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22Memphis%2C+TN%22%2C%22Camden+County%2C+NJ%22%2C%22Fond+Du+Lac%2C+WI%22%2C%22Napa%2C+CA%22%2C%22Franklin+Lakes%2C+NJ%22%2C%22Buffalo%2C+NY%22%2C%22Austin%2C+TX%22%2C%22Chicago%2C+IL%22%2C%22Cincinnati%2C+OH%22%2C%22REMOTE%2C+REMOTE%22%2C%22FULL+REMOTE%2C+FULL+REMOTE%22%5D%5D%5D",
+    "https://jobs.intermediagroup.com/careers/3935-General?facets=%5B%5B%22location%22%2C%5B%22Memphis%2C+TN%22%2C%22Stamford%2C+CT%22%2C%22Galena%2C+IL%22%2C%22Oakland%2C+CA%22%2C%22Franklin+Lakes%2C+NJ%22%2C%22Napa%2C+CA%22%2C%22Alcoa%2C+TN%22%2C%22Minneapolis%2C+MN%22%2C%22Rosemead%2C+CA%22%2C%22Camden+County%2C+NJ%22%2C%22Sumter%2C+SC%22%2C%22Pittsburgh%2C+PA%22%2C%22REMOTE%2C+REMOTE%22%2C%22Coraopolis%2C+PA%22%2C%22Cincinnati%2C+OH%22%5D%5D%5D",
+    "https://remotezest.up.railway.app/job/asic-andor-fpga-design-verification-engineer-lead-senior-or-reputed-company",
+    "https://remotezest.up.railway.app/job/fpga-electrical-engineer-work-from-home",
+    "https://remotezest.up.railway.app/job/lead-fpga-engineer",
     "https://remotezest.up.railway.app/job/remote-fpga-design-engineer",
+    "https://remotezest.up.railway.app/job/remote-fpga-electricalmechanical-reputed-companymechanical-engineers-needed-us-reputed-company-only-defense-industry-experts-only-got-it-1",
     "https://remotezest.up.railway.app/job/remote-fpga-engineers-needed-us-reputed-company-only",
     "https://remotezest.up.railway.app/job/remote-fpga-firmware-engineer",
     "https://remotezest.up.railway.app/job/remote-senior-fpga-firmware-engineer",
     "https://remotezest.up.railway.app/job/remote-sr-fpga-design-engineer-fully-remotewfh",
     "https://remotezest.up.railway.app/job/senior-fpga-verification-engineer",
     "https://remotezest.up.railway.app/job/want-lead-ic-hardwarefpga-design-engineer-remote-eligible-us-in-usa",
-    "https://startup.jobs/fpga-engineer-control-systems-logiqal-8779251",
-    "https://www.builtinchicago.org/job/graduate-fpga-engineer-2027-start-chicago/10286286",
+    "https://tech-recruit.com/jobs/senior-analog-ic-design-engineer/",
     "https://www.career.com/job/honeywell2-pilot/remote-sr-advanced-fpga-asic-verification-engineer-uvm-sign-on-bonus-available/j202312130016246032393",
+    "https://www.careerbuilder.com/job-details/senior-account-associate-commercial-insurance-agriculture-construction-covington-ky--24240eb5-6f96-4e1f-8915-375ea30248cd",
     "https://www.dice.com/job-detail/b0281be5-d0a4-49e3-8deb-d618d3d43b61",
     "https://www.dice.com/job-detail/e8d75011-bb62-4a1f-97e8-985a669ebb6f",
-    "https://www.facebook.com/groups/laptrinhvienit/posts/29117968751126640/",
+    "https://www.instagram.com/p/DbGhRKsik_x/",
     "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/",
     "https://www.jobleads.com/us/job/lead-fpga-rtl-design-engineer-for-coherent-fso-modems-remote--livermore--e93a83fbe1227b28e5b918fa2af2416c7",
-    "https://www.jobleads.com/us/job/senior-electrical-fpga-design-engineer-spaceflight--orlando--ee8907c12789be46b43543053c8e3ff5e",
-    "https://www.linuxcareers.com/jobs/ing-nieur-fpga-fpga-engineer-46bc3d3eff5d",
-    "https://www.redlinegroup.com/job-details/semiconductor-amp-memory-account-manager---netherlands-europe",
+    "https://www.jobleads.com/us/job/senior-fpga-design-engineer-signal-processing-hybrid--irvine--eae0cf4caa5aa441c4c9db87be9d7ec20",
+    "https://www.motionrecruitment.com.au/jobview/embedded-software-engineer/236d2bc4-b3d3-4076-9abe-78ec27dbe4ae/",
+    "https://www.selbyjennings.com/sje/homepage/job/python-developer-pr595661_1784765612/",
     "https://www.theladders.com/job/sr-fpga-engineer-certification-reliablerobotics-virtual-travel_87831211",
     "https://www.virtualvocations.com/job/senior-fpga-firmware-engineer-3143812-i.html"
   ]
