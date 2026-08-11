@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-10T07:27:03.269582+00:00",
+  "last_run": "2026-08-11T07:02:31.337383+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -6099,7 +6099,7 @@
       "source": "JSearch:Up2staff",
       "posted_at": "2026-08-08T00:00:00.000Z",
       "first_seen": "2026-07-07T09:37:09.256722+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://www.itjobboard.co.uk/job/16768573/fpga-firmware-engineer/": {
       "url": "https://www.itjobboard.co.uk/job/16768573/fpga-firmware-engineer/",
@@ -6533,13 +6533,13 @@
     },
     "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe": {
       "url": "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe",
-      "title": "Experienced FPGA Developer and Tester",
+      "title": "[Remote] Experienced FPGA Developer and Tester",
       "company": "SBS",
-      "location": "United States",
-      "source": "Jobright",
-      "posted_at": "2026-08-06 05:08:37",
+      "location": "Remote",
+      "source": "JSearch:Jobright",
+      "posted_at": "2026-08-06T00:00:00.000Z",
       "first_seen": "2026-07-12T08:13:09.578169+00:00",
-      "last_seen": "2026-08-06T08:31:53.695611+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://spacecrew.com/space-jobs/mrg126h6-satellogic-fpga-jr-engineer-position": {
       "url": "https://spacecrew.com/space-jobs/mrg126h6-satellogic-fpga-jr-engineer-position",
@@ -6749,7 +6749,7 @@
       "source": "JSearch:Remote Zest Jobs",
       "posted_at": "2026-08-09T00:00:00.000Z",
       "first_seen": "2026-07-13T09:21:40.042165+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://www.dice.com/job-detail/32c9a67a-6953-47a5-beb9-4da4b1bfebc3": {
       "url": "https://www.dice.com/job-detail/32c9a67a-6953-47a5-beb9-4da4b1bfebc3",
@@ -7579,7 +7579,7 @@
       "source": "JSearch:Remote Zest Jobs",
       "posted_at": "2026-08-07T00:00:00.000Z",
       "first_seen": "2026-07-18T07:45:12.651022+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://remotezest.up.railway.app/job/want-reputed-company-ic-hardwarefpga-design-engineer-remote-eligible-us-in-usa": {
       "url": "https://remotezest.up.railway.app/job/want-reputed-company-ic-hardwarefpga-design-engineer-remote-eligible-us-in-usa",
@@ -7689,7 +7689,7 @@
       "source": "JSearch:Remote Zest Jobs",
       "posted_at": "2026-08-07T00:00:00.000Z",
       "first_seen": "2026-07-19T08:12:13.100608+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://remotezest.up.railway.app/job/remote-fpga-design-engineer": {
       "url": "https://remotezest.up.railway.app/job/remote-fpga-design-engineer",
@@ -7929,7 +7929,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-07-21T00:00:00.000Z",
       "first_seen": "2026-07-21T08:24:30.715035+00:00",
-      "last_seen": "2026-08-09T06:52:21.773145+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://www.monster.com/job-openings/remote-field-application-engineer-xilinx-fpga-solutions-atlanta-ga--67632f2c-8cd3-425d-a1d1-4babee658604": {
       "url": "https://www.monster.com/job-openings/remote-field-application-engineer-xilinx-fpga-solutions-atlanta-ga--67632f2c-8cd3-425d-a1d1-4babee658604",
@@ -8359,7 +8359,7 @@
       "source": "JSearch:Remote Zest Jobs",
       "posted_at": "2026-08-06T00:00:00.000Z",
       "first_seen": "2026-07-24T08:23:27.319322+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://www.apexsystems.com/job/3043695_usa/electronics-fpga-design-engineer": {
       "url": "https://www.apexsystems.com/job/3043695_usa/electronics-fpga-design-engineer",
@@ -8859,7 +8859,7 @@
       "source": "JSearch:Jobright",
       "posted_at": "2026-07-14T00:00:00.000Z",
       "first_seen": "2026-07-28T08:29:36.226789+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://jobright.ai/jobs/info/6a6947a63b549b0b531d4c32": {
       "url": "https://jobright.ai/jobs/info/6a6947a63b549b0b531d4c32",
@@ -9317,9 +9317,9 @@
       "company": "psiquantum",
       "location": "Palo Alto, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-07-31T13:54:35-04:00",
+      "posted_at": "2026-08-11T01:01:09-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-08-01T08:16:25.592661+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://www.psiquantum.com/apply?gh_jid=7791701003": {
       "url": "https://www.psiquantum.com/apply?gh_jid=7791701003",
@@ -9327,9 +9327,9 @@
       "company": "psiquantum",
       "location": "Milpitas, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-07-31T14:08:57-04:00",
+      "posted_at": "2026-08-11T01:01:16-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-08-01T08:16:25.592661+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681": {
       "url": "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681",
@@ -9979,7 +9979,7 @@
       "source": "JSearch:Ladders",
       "posted_at": "2026-07-14T00:00:00.000Z",
       "first_seen": "2026-08-06T08:31:53.695611+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://career.luxoft.com/jobs/seniorfpga-developer-26399": {
       "url": "https://career.luxoft.com/jobs/seniorfpga-developer-26399",
@@ -10319,7 +10319,7 @@
       "source": "JSearch:FlexBoard",
       "posted_at": "2026-08-08T00:00:00.000Z",
       "first_seen": "2026-08-09T06:52:21.773145+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://flexboard.9y.liveblog365.com/job/3011921": {
       "url": "https://flexboard.9y.liveblog365.com/job/3011921",
@@ -10329,7 +10329,7 @@
       "source": "JSearch:FlexBoard",
       "posted_at": "2026-08-08T00:00:00.000Z",
       "first_seen": "2026-08-09T06:52:21.773145+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://flexboard.9y.liveblog365.com/job/3094619": {
       "url": "https://flexboard.9y.liveblog365.com/job/3094619",
@@ -10339,7 +10339,7 @@
       "source": "JSearch:FlexBoard",
       "posted_at": "2026-08-08T00:00:00.000Z",
       "first_seen": "2026-08-09T06:52:21.773145+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://flexboard.9y.liveblog365.com/job/2960277/": {
       "url": "https://flexboard.9y.liveblog365.com/job/2960277/",
@@ -10357,9 +10357,9 @@
       "company": "remote zest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Zest Jobs",
-      "posted_at": "2026-08-06T00:00:00.000Z",
+      "posted_at": "2026-08-10T00:00:00.000Z",
       "first_seen": "2026-08-09T06:52:21.773145+00:00",
-      "last_seen": "2026-08-09T06:52:21.773145+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     },
     "https://www.monster.com/job-openings/-remote-digital-hardware-design-engineer-germantown-md--b10b84f5-bd7b-489f-821a-9a1ce491f5da": {
       "url": "https://www.monster.com/job-openings/-remote-digital-hardware-design-engineer-germantown-md--b10b84f5-bd7b-489f-821a-9a1ce491f5da",
@@ -10579,40 +10579,190 @@
       "source": "JSearch:FlexBoard",
       "posted_at": "2026-08-09T00:00:00.000Z",
       "first_seen": "2026-08-10T07:27:03.269582+00:00",
-      "last_seen": "2026-08-10T07:27:03.269582+00:00"
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a7a5f9bb17cba5690366eb7": {
+      "url": "https://jobright.ai/jobs/info/6a7a5f9bb17cba5690366eb7",
+      "title": "FPGA Design Engineer – Verification (Remote)",
+      "company": "Stage 4 Solutions",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-08-10 23:32:43",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a7a559eb17cba5690366c7e": {
+      "url": "https://jobright.ai/jobs/info/6a7a559eb17cba5690366c7e",
+      "title": "FPGA Design/Verification Engineer",
+      "company": "LanceSoft, Inc.",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-08-10 22:50:06",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://www.remotefront.com/remote-jobs/oxford-quantum-circuits-fpga-engineer-eo2hd": {
+      "url": "https://www.remotefront.com/remote-jobs/oxford-quantum-circuits-fpga-engineer-eo2hd",
+      "title": "Remote FPGA Engineer at Oxford Quantum Circuits",
+      "company": "www.remotefront.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "2 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://careers.intuitive.com/en/jobs/744000142743969/JOB216033/sr-fpga-designer/": {
+      "url": "https://careers.intuitive.com/en/jobs/744000142743969/JOB216033/sr-fpga-designer/",
+      "title": "Sr FPGA Designer, Sunnyvale, CA, United States",
+      "company": "careers.intuitive.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "8 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://ph.jobrapido.com/jobpreview/212860896324616192": {
+      "url": "https://ph.jobrapido.com/jobpreview/212860896324616192",
+      "title": "Remote FPGA Engineer - Real-Time Processing & Acceleration",
+      "company": "ph.jobrapido.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "14 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://www.remotefront.com/remote-jobs/nokia-soc-fpga-engineer-7xclv": {
+      "url": "https://www.remotefront.com/remote-jobs/nokia-soc-fpga-engineer-7xclv",
+      "title": "Remote SoC/FPGA Engineer at Nokia",
+      "company": "www.remotefront.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "6 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://www.totaljobs.com/job/principal-fpga-engineer/mary-ann-s-recruitment-services-ltd-job107820423": {
+      "url": "https://www.totaljobs.com/job/principal-fpga-engineer/mary-ann-s-recruitment-services-ltd-job107820423",
+      "title": "Principal FPGA Engineer - Permanent",
+      "company": "www.totaljobs.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://www.jobleads.com/us/job/fpga-engineer-for-high-performance-trading-systems--new-york--e47d28bd50fb75f3b3cd14ad9975bc54b": {
+      "url": "https://www.jobleads.com/us/job/fpga-engineer-for-high-performance-trading-systems--new-york--e47d28bd50fb75f3b3cd14ad9975bc54b",
+      "title": "FPGA Engineer for High-Performance Trading Systems",
+      "company": "www.jobleads.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "20 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://bebee.com/gb/jobs/fpga-engineer-avionics-eagle-x-london-area--t7xk-796938644": {
+      "url": "https://bebee.com/gb/jobs/fpga-engineer-avionics-eagle-x-london-area--t7xk-796938644",
+      "title": "FPGA Engineer – Avionics - Eagle-X",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "23 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://bebee.com/us/jobs/sr-fpga-engineer-iveia-canton-md--t7xk-795123108": {
+      "url": "https://bebee.com/us/jobs/sr-fpga-engineer-iveia-canton-md--t7xk-795123108",
+      "title": "Sr. FPGA Engineer - iVeia",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "24 hours ago",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://www.facebook.com/groups/indiansinjapan/posts/28026837926948787/": {
+      "url": "https://www.facebook.com/groups/indiansinjapan/posts/28026837926948787/",
+      "title": "🚀 We're Hiring Engineers in Japan! Are you currently living ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://flexboard.9y.liveblog365.com/job/2539620": {
+      "url": "https://flexboard.9y.liveblog365.com/job/2539620",
+      "title": "[Remote] FPGA Engineers needed, US or Canadian reputed company only",
+      "company": "FlexBoard",
+      "location": "Remote",
+      "source": "JSearch:FlexBoard",
+      "posted_at": "2026-08-10T00:00:00.000Z",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://flexboard.9y.liveblog365.com/job/839588": {
+      "url": "https://flexboard.9y.liveblog365.com/job/839588",
+      "title": "[Remote/WFM] Want Senior I&C Hardware/FPGA Design Engineer",
+      "company": "FlexBoard",
+      "location": "Remote",
+      "source": "JSearch:FlexBoard",
+      "posted_at": "2026-08-10T00:00:00.000Z",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://remotespark.up.railway.app/job/market-development-engineer-fpga": {
+      "url": "https://remotespark.up.railway.app/job/market-development-engineer-fpga",
+      "title": "Market Development Engineer FPGA",
+      "company": "Remote Spark",
+      "location": "Remote",
+      "source": "JSearch:Remote Spark",
+      "posted_at": "2026-08-09T00:00:00.000Z",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
+    },
+    "https://flexboard.9y.liveblog365.com/job/3355561": {
+      "url": "https://flexboard.9y.liveblog365.com/job/3355561",
+      "title": "reputed company Electrical Engineer FPGA/ASIC  (Remote)",
+      "company": "FlexBoard",
+      "location": "Remote",
+      "source": "JSearch:FlexBoard",
+      "posted_at": "2026-08-09T00:00:00.000Z",
+      "first_seen": "2026-08-11T07:02:31.337383+00:00",
+      "last_seen": "2026-08-11T07:02:31.337383+00:00"
     }
   },
   "currently_open_urls": [
-    "http://rz.rz.476.476.stilistas.com/news/61984758.html",
-    "https://bebee.com/gb/jobs/fpga-engineer-saxon-recruitment-solutions-ulverston--lifeworq-4c279c57-64dd-487f-9842-36a5499859c0",
-    "https://dailyremote.com/remote-internship-jobs",
-    "https://devitjobs.uk/jobs/VERTECH-GROUP--LTD-Senior-FPGA-Engineer",
+    "https://bebee.com/gb/jobs/fpga-engineer-avionics-eagle-x-london-area--t7xk-796938644",
+    "https://bebee.com/us/jobs/sr-fpga-engineer-iveia-canton-md--t7xk-795123108",
+    "https://careers.intuitive.com/en/jobs/744000142743969/JOB216033/sr-fpga-designer/",
     "https://flexboard.9y.liveblog365.com/job/1800296",
-    "https://flexboard.9y.liveblog365.com/job/2773155",
+    "https://flexboard.9y.liveblog365.com/job/2539620",
     "https://flexboard.9y.liveblog365.com/job/3011921",
     "https://flexboard.9y.liveblog365.com/job/3094619",
     "https://flexboard.9y.liveblog365.com/job/3205094",
-    "https://flexboard.9y.liveblog365.com/job/640259",
-    "https://flexboard.9y.liveblog365.com/job/976794",
-    "https://in.jobiglo.com/%D9%88%D8%B8%D9%8A%D9%81%D8%A9-semiconductor-technical-recruiter-remote-us-shift-j-6a7848b38e3b92745409d576",
+    "https://flexboard.9y.liveblog365.com/job/3355561",
+    "https://flexboard.9y.liveblog365.com/job/839588",
+    "https://jobright.ai/jobs/info/6a52044457513b72e0c6a2fe",
     "https://jobright.ai/jobs/info/6a557e484119652ff38660a5?visit=sr-fpga-engineer---development-jobs-in-united-states",
-    "https://remoteclickjobs-production.up.railway.app/job/remote-senior-data-solutions-engineer",
-    "https://remoteclickjobs-production.up.railway.app/job/remote-senior-reputed-company-software-engineer-platform-openbmc",
-    "https://remoteclickjobs-production.up.railway.app/job/sr-fpga-design-engineer",
-    "https://remotescout24.com/de/job/8664268-411b23b1-003e-440b-9908-d000948479fb",
-    "https://remotespark.up.railway.app/job/remotewfm-want-senior-fpga-project-engineer-remote-in-iowa",
+    "https://jobright.ai/jobs/info/6a7a559eb17cba5690366c7e",
+    "https://jobright.ai/jobs/info/6a7a5f9bb17cba5690366eb7",
+    "https://ph.jobrapido.com/jobpreview/212860896324616192",
+    "https://remotespark.up.railway.app/job/market-development-engineer-fpga",
     "https://remotezest.up.railway.app/job/asic-andor-fpga-design-and-verification-engineer-entry-level-associate-or-mid-level",
+    "https://remotezest.up.railway.app/job/immediate-hiring-want-reputed-company-project-engineer-asicfpga",
     "https://remotezest.up.railway.app/job/remote-fpga-engineers-needed-us-reputed-company-only",
     "https://remotezest.up.railway.app/job/remote-fpga-firmware-engineer-1",
     "https://remotezest.up.railway.app/job/remote-senior-hardware-validation-engineer-fpga-networking-1",
     "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero",
-    "https://vacancyglobalpro.up.railway.app/job/fpga-electrical-engineer-work-from-home",
-    "https://wfhbeacon.up.railway.app/job/want-senior-fpga-project-engineer-remote-in-iowa",
-    "https://www.foundit.in/search/sales-partnership-management-jobs-in-gurugram-4",
-    "https://www.instagram.com/sophia.unemployed/reel/Db0iYfYKe7O/",
-    "https://www.jobijoba.co.uk/detail/92/4843fcab128a0138f1b27036842d290e",
-    "https://www.jobleads.com/fi/job/senior-design-engineer--helsinki--e89f36d74b04d2bf4b899c2e5daeac85e",
+    "https://www.dice.com/job-detail/e8d75011-bb62-4a1f-97e8-985a669ebb6f",
+    "https://www.facebook.com/groups/indiansinjapan/posts/28026837926948787/",
+    "https://www.jobleads.com/us/job/fpga-engineer-for-high-performance-trading-systems--new-york--e47d28bd50fb75f3b3cd14ad9975bc54b",
+    "https://www.psiquantum.com/apply?gh_jid=7561477003",
+    "https://www.psiquantum.com/apply?gh_jid=7791701003",
+    "https://www.remotefront.com/remote-jobs/nokia-soc-fpga-engineer-7xclv",
+    "https://www.remotefront.com/remote-jobs/oxford-quantum-circuits-fpga-engineer-eo2hd",
     "https://www.theladders.com/job/sr-fpga-design-engineer-reliablerobotics-virtual-travel_87752888",
-    "https://www.theladders.com/job/sr-fpga-engineer-certification-reliablerobotics-virtual-travel_87831211"
+    "https://www.totaljobs.com/job/principal-fpga-engineer/mary-ann-s-recruitment-services-ltd-job107820423"
   ]
 }
