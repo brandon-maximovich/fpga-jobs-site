@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-08T10:33:10.067943+00:00",
+  "last_run": "2026-09-09T10:44:07.682142+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -13700,16 +13700,85 @@
       "posted_at": "15 hours ago",
       "first_seen": "2026-09-08T10:33:10.067943+00:00",
       "last_seen": "2026-09-08T10:33:10.067943+00:00"
+    },
+    "https://jobright.ai/jobs/info/6aa0c3a0500b01124c77ae13": {
+      "url": "https://jobright.ai/jobs/info/6aa0c3a0500b01124c77ae13",
+      "title": "E01-C07 Senior FPGA and Embedded Engineer",
+      "company": "Aether Aerospace",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-09 00:23:53",
+      "first_seen": "2026-09-09T10:44:07.682142+00:00",
+      "last_seen": "2026-09-09T10:44:07.682142+00:00"
+    },
+    "https://www.facebook.com/ElxsiTata/posts/tata-elxsi-is-truly-your-home-to-a-billion-possibilities-we-believe-in-opportuni/1556974863110786/": {
+      "url": "https://www.facebook.com/ElxsiTata/posts/tata-elxsi-is-truly-your-home-to-a-billion-possibilities-we-believe-in-opportuni/1556974863110786/",
+      "title": "Tata Elxsi hiring MDK validation engineers in Germany",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-09-09T10:44:07.682142+00:00",
+      "last_seen": "2026-09-09T10:44:07.682142+00:00"
+    },
+    "https://www.facebook.com/groups/jobITDaNang/posts/2736480073439680/": {
+      "url": "https://www.facebook.com/groups/jobITDaNang/posts/2736480073439680/",
+      "title": "Mail: duc.le@jt1.vn with title: [Position] - [ ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-09-09T10:44:07.682142+00:00",
+      "last_seen": "2026-09-09T10:44:07.682142+00:00"
+    },
+    "https://www.facebook.com/groups/1934352337083273/posts/2555914011593766/": {
+      "url": "https://www.facebook.com/groups/1934352337083273/posts/2555914011593766/",
+      "title": "How to set up BrickSDR with Lyra-SDR application",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-09-09T10:44:07.682142+00:00",
+      "last_seen": "2026-09-09T10:44:07.682142+00:00"
+    },
+    "https://www.careerbuilder.com/job-details/remote-uvm-verification-engineer-asic-fpga-for-4g-5g-plano-tx--bf7d5f27-94c6-46f6-85b2-0de8ae25a6ff?trk=bingjobs": {
+      "url": "https://www.careerbuilder.com/job-details/remote-uvm-verification-engineer-asic-fpga-for-4g-5g-plano-tx--bf7d5f27-94c6-46f6-85b2-0de8ae25a6ff?trk=bingjobs",
+      "title": "Remote UVM Verification Engineer - ASIC/FPGA For 4G/5G",
+      "company": "AIRSPAN CAREERS",
+      "location": "Texas, US",
+      "source": "JSearch:CareerBuilder",
+      "posted_at": "2026-07-16T00:00:00.000Z",
+      "first_seen": "2026-09-09T10:44:07.682142+00:00",
+      "last_seen": "2026-09-09T10:44:07.682142+00:00"
+    },
+    "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs": {
+      "url": "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs",
+      "title": "Senior FPGA Engineer & Project Lead - Remote/Hybrid",
+      "company": "CS",
+      "location": "Connecticut, US",
+      "source": "JSearch:CareerBuilder",
+      "posted_at": "2026-07-28T00:00:00.000Z",
+      "first_seen": "2026-09-09T10:44:07.682142+00:00",
+      "last_seen": "2026-09-09T10:44:07.682142+00:00"
+    },
+    "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs": {
+      "url": "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs",
+      "title": "Aerospace FPGA Designer Remote/Hybrid,",
+      "company": "CS",
+      "location": "Connecticut, US",
+      "source": "JSearch:CareerBuilder",
+      "posted_at": "2026-07-28T00:00:00.000Z",
+      "first_seen": "2026-09-09T10:44:07.682142+00:00",
+      "last_seen": "2026-09-09T10:44:07.682142+00:00"
     }
   },
   "currently_open_urls": [
-    "https://jobmesh.io/job/54ea83fc-4d31-4d3b-9133-a5d4cd6bda35",
-    "https://jobright.ai/jobs/info/6a8c97b8581f2d7bfdfe49e8",
-    "https://jobright.ai/jobs/info/6a9eb5e3f6ea002358296664",
-    "https://jobright.ai/jobs/info/6a9f57a1a7ba386c5d674c01",
-    "https://vacancyglobalpro.up.railway.app/job/remote-fpga-electrical-engineer-needed-us-reputed-company-only-defense-industry-experts-only-got-it",
-    "https://www.facebook.com/groups/1091389125179385/posts/1874767153508241/",
-    "https://www.linkedin.com/jobs/view/senior-rtl-design-engineer-at-sambanova-4456717748",
-    "https://www.remotefront.com/remote-jobs/soprasteria1-fpga-development-engineer-senior-level-yl0ex"
+    "https://jobright.ai/jobs/info/6aa0c3a0500b01124c77ae13",
+    "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs",
+    "https://www.careerbuilder.com/job-details/remote-uvm-verification-engineer-asic-fpga-for-4g-5g-plano-tx--bf7d5f27-94c6-46f6-85b2-0de8ae25a6ff?trk=bingjobs",
+    "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs",
+    "https://www.facebook.com/ElxsiTata/posts/tata-elxsi-is-truly-your-home-to-a-billion-possibilities-we-believe-in-opportuni/1556974863110786/",
+    "https://www.facebook.com/groups/1934352337083273/posts/2555914011593766/",
+    "https://www.facebook.com/groups/jobITDaNang/posts/2736480073439680/"
   ]
 }
