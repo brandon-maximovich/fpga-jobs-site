@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-11T10:35:22.668663+00:00",
+  "last_run": "2026-09-12T10:04:14.608935+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -8097,9 +8097,9 @@
       "company": "General Dynamics",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-07-22 19:58:37",
+      "posted_at": "2026-09-12 09:54:29",
       "first_seen": "2026-07-23T08:25:46.369836+00:00",
-      "last_seen": "2026-07-23T08:25:46.369836+00:00"
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
     },
     "https://jobs.apple.com/en-us/details/200673523-3543/fpga-design-engineer-instrument-engineering?team=HRDWR": {
       "url": "https://jobs.apple.com/en-us/details/200673523-3543/fpga-design-engineer-instrument-engineering?team=HRDWR",
@@ -9317,19 +9317,19 @@
       "company": "psiquantum",
       "location": "Palo Alto, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-09-10T16:47:37-04:00",
+      "posted_at": "2026-09-11T16:44:30-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-09-11T10:35:22.668663+00:00"
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
     },
     "https://www.psiquantum.com/apply?gh_jid=7791701003": {
       "url": "https://www.psiquantum.com/apply?gh_jid=7791701003",
-      "title": "Staff Hardware Design Engineer",
+      "title": "Staff Hardware Design Engineer (open to other levels)",
       "company": "psiquantum",
       "location": "Milpitas, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-09-10T16:47:37-04:00",
+      "posted_at": "2026-09-11T16:44:30-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-09-11T10:35:22.668663+00:00"
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
     },
     "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681": {
       "url": "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681",
@@ -13749,7 +13749,7 @@
       "source": "JSearch:CareerBuilder",
       "posted_at": "2026-07-16T00:00:00.000Z",
       "first_seen": "2026-09-09T10:44:07.682142+00:00",
-      "last_seen": "2026-09-11T10:35:22.668663+00:00"
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
     },
     "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs": {
       "url": "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs",
@@ -13759,7 +13759,7 @@
       "source": "JSearch:CareerBuilder",
       "posted_at": "2026-07-28T00:00:00.000Z",
       "first_seen": "2026-09-09T10:44:07.682142+00:00",
-      "last_seen": "2026-09-11T10:35:22.668663+00:00"
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
     },
     "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs": {
       "url": "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs",
@@ -13769,7 +13769,7 @@
       "source": "JSearch:CareerBuilder",
       "posted_at": "2026-07-28T00:00:00.000Z",
       "first_seen": "2026-09-09T10:44:07.682142+00:00",
-      "last_seen": "2026-09-11T10:35:22.668663+00:00"
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
     },
     "https://jobright.ai/jobs/info/6aa19301500b01124c77d804": {
       "url": "https://jobright.ai/jobs/info/6aa19301500b01124c77d804",
@@ -13950,24 +13950,36 @@
       "posted_at": "",
       "first_seen": "2026-09-11T10:35:22.668663+00:00",
       "last_seen": "2026-09-11T10:35:22.668663+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a6d25e957120971bf3af57a": {
+      "url": "https://jobright.ai/jobs/info/6a6d25e957120971bf3af57a",
+      "title": "Engineer Senior - FPGA Verification",
+      "company": "BAE Systems",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-12 01:18:43",
+      "first_seen": "2026-09-12T10:04:14.608935+00:00",
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a9eafd9a7ba386c5d6732ce": {
+      "url": "https://jobright.ai/jobs/info/6a9eafd9a7ba386c5d6732ce",
+      "title": "Field Applications Engineer - FPGA specialist",
+      "company": "Arrow Electronics",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-11 17:38:47",
+      "first_seen": "2026-09-12T10:04:14.608935+00:00",
+      "last_seen": "2026-09-12T10:04:14.608935+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/ca/jobs/fpga-design-engineer-fpga-systemverilog-cdc-synthesis-timing-closure-digital-design-european-tech-re--t7xk-835384059",
-    "https://bebee.com/in/jobs/computer-engineering-expert-ai-content-specialist-alignerr--fj-2358106679",
-    "https://eu-recruit.com/jobs/senior-asic-design-engineer-sensors-4/",
-    "https://jobright.ai/jobs/info/6a5f7935f68dd368023e6ba7",
-    "https://jobright.ai/jobs/info/6aa3b2f1959a10d7230d3552",
-    "https://jobs.ashbyhq.com/radiant-industries/ee4ad892-0e15-421a-9307-35c74ba40bf7",
+    "https://jobright.ai/jobs/info/6a6145a67196365a6f009f93",
+    "https://jobright.ai/jobs/info/6a6d25e957120971bf3af57a",
+    "https://jobright.ai/jobs/info/6a9eafd9a7ba386c5d6732ce",
     "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs",
     "https://www.careerbuilder.com/job-details/remote-uvm-verification-engineer-asic-fpga-for-4g-5g-plano-tx--bf7d5f27-94c6-46f6-85b2-0de8ae25a6ff?trk=bingjobs",
     "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs",
-    "https://www.freeinternships.in/free-embedded-vlsi-internship.php",
-    "https://www.iitjobs.com/job/lead-fpga-engineer-cedar-rapids-iowa-usa-410490",
     "https://www.psiquantum.com/apply?gh_jid=7561477003",
-    "https://www.psiquantum.com/apply?gh_jid=7791701003",
-    "https://www.reddit.com/r/DeveloperJobs/comments/1wcu6h1/us_30_developer_jobs_that_opened_this_week_remote/",
-    "https://www.simplyhired.co.uk/job/wksVrIfAbw8bfL7fF5pUZXnWEIIkOT8ZGSpOgJPhDS5A3AHIfACjuA",
-    "https://www.workopolis.com/jobsearch/viewjob/PjjG1rs_xk6fbtPc53WI2eQarQAlntCYIzPOumtQkY0BVvYET2s4eEOm76FnrwTs"
+    "https://www.psiquantum.com/apply?gh_jid=7791701003"
   ]
 }
