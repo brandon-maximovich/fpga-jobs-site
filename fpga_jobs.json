@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-12T10:04:14.608935+00:00",
+  "last_run": "2026-09-13T11:04:39.334695+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -13379,7 +13379,7 @@
       "source": "SerpAPI:Google",
       "posted_at": "20 hours ago",
       "first_seen": "2026-09-04T10:33:54.400783+00:00",
-      "last_seen": "2026-09-04T10:33:54.400783+00:00"
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
     },
     "https://www.reddit.com/r/cscareerquestionsEU/comments/1w6xwgt/what_does_industry_needs_people_in/": {
       "url": "https://www.reddit.com/r/cscareerquestionsEU/comments/1w6xwgt/what_does_industry_needs_people_in/",
@@ -13749,7 +13749,7 @@
       "source": "JSearch:CareerBuilder",
       "posted_at": "2026-07-16T00:00:00.000Z",
       "first_seen": "2026-09-09T10:44:07.682142+00:00",
-      "last_seen": "2026-09-12T10:04:14.608935+00:00"
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
     },
     "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs": {
       "url": "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs",
@@ -13759,7 +13759,7 @@
       "source": "JSearch:CareerBuilder",
       "posted_at": "2026-07-28T00:00:00.000Z",
       "first_seen": "2026-09-09T10:44:07.682142+00:00",
-      "last_seen": "2026-09-12T10:04:14.608935+00:00"
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
     },
     "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs": {
       "url": "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs",
@@ -13769,7 +13769,7 @@
       "source": "JSearch:CareerBuilder",
       "posted_at": "2026-07-28T00:00:00.000Z",
       "first_seen": "2026-09-09T10:44:07.682142+00:00",
-      "last_seen": "2026-09-12T10:04:14.608935+00:00"
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
     },
     "https://jobright.ai/jobs/info/6aa19301500b01124c77d804": {
       "url": "https://jobright.ai/jobs/info/6aa19301500b01124c77d804",
@@ -13970,16 +13970,78 @@
       "posted_at": "2026-09-11 17:38:47",
       "first_seen": "2026-09-12T10:04:14.608935+00:00",
       "last_seen": "2026-09-12T10:04:14.608935+00:00"
+    },
+    "https://jobright.ai/jobs/info/6a930cefa27a2d3c9848d1c3": {
+      "url": "https://jobright.ai/jobs/info/6a930cefa27a2d3c9848d1c3",
+      "title": "FAST Lab – Senior FPGA Engineer",
+      "company": "BAE Systems",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-12 17:51:57",
+      "first_seen": "2026-09-13T11:04:39.334695+00:00",
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
+    },
+    "https://bebee.com/gb/jobs/senior-lead-fpga-engineer-renishaw-wotton-under-edge--t7xk-837580030": {
+      "url": "https://bebee.com/gb/jobs/senior-lead-fpga-engineer-renishaw-wotton-under-edge--t7xk-837580030",
+      "title": "Senior / Lead FPGA Engineer - RENISHAW",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-09-13T11:04:39.334695+00:00",
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
+    },
+    "https://work.mercor.com/jobs/list_AAABoJgqRhQMEa_UPABNQLNa/application-users-vivado-on-windows-stem": {
+      "url": "https://work.mercor.com/jobs/list_AAABoJgqRhQMEa_UPABNQLNa/application-users-vivado-on-windows-stem",
+      "title": "Application Users - Vivado on Windows - STEM",
+      "company": "work.mercor.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "10 hours ago",
+      "first_seen": "2026-09-13T11:04:39.334695+00:00",
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
+    },
+    "https://work.mercor.com/jobs/list_AAABoJglBEavX4Se3gNNkaI6/application-users-quartus-ii-on-windows-code": {
+      "url": "https://work.mercor.com/jobs/list_AAABoJglBEavX4Se3gNNkaI6/application-users-quartus-ii-on-windows-code",
+      "title": "Application Users - Quartus II on Windows - Code",
+      "company": "work.mercor.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "10 hours ago",
+      "first_seen": "2026-09-13T11:04:39.334695+00:00",
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
+    },
+    "https://www.facebook.com/100064732297192/posts/axis-communications-ab-is-seeking-an-experienced-software-engineer-with-frontend/1519267683574294/": {
+      "url": "https://www.facebook.com/100064732297192/posts/axis-communications-ab-is-seeking-an-experienced-software-engineer-with-frontend/1519267683574294/",
+      "title": "Axis Communications AB is seeking an Experienced ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-09-13T11:04:39.334695+00:00",
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
+    },
+    "https://www.facebook.com/Swyft.Solutions/posts/meet-matthew-fontana-vice-president-at-swyft-solutions-matthew-oversees-both-sal/1705984774646265/": {
+      "url": "https://www.facebook.com/Swyft.Solutions/posts/meet-matthew-fontana-vice-president-at-swyft-solutions-matthew-oversees-both-sal/1705984774646265/",
+      "title": "Meet Swyft Solutions Vice President Matthew Fontana",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-09-13T11:04:39.334695+00:00",
+      "last_seen": "2026-09-13T11:04:39.334695+00:00"
     }
   },
   "currently_open_urls": [
-    "https://jobright.ai/jobs/info/6a6145a67196365a6f009f93",
-    "https://jobright.ai/jobs/info/6a6d25e957120971bf3af57a",
-    "https://jobright.ai/jobs/info/6a9eafd9a7ba386c5d6732ce",
+    "https://bebee.com/gb/jobs/senior-lead-fpga-engineer-renishaw-wotton-under-edge--t7xk-837580030",
+    "https://jobright.ai/jobs/info/6a930cefa27a2d3c9848d1c3",
+    "https://work.mercor.com/jobs/list_AAABoJglBEavX4Se3gNNkaI6/application-users-quartus-ii-on-windows-code",
+    "https://work.mercor.com/jobs/list_AAABoJgqRhQMEa_UPABNQLNa/application-users-vivado-on-windows-stem",
     "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs",
     "https://www.careerbuilder.com/job-details/remote-uvm-verification-engineer-asic-fpga-for-4g-5g-plano-tx--bf7d5f27-94c6-46f6-85b2-0de8ae25a6ff?trk=bingjobs",
     "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs",
-    "https://www.psiquantum.com/apply?gh_jid=7561477003",
-    "https://www.psiquantum.com/apply?gh_jid=7791701003"
+    "https://www.facebook.com/100064732297192/posts/axis-communications-ab-is-seeking-an-experienced-software-engineer-with-frontend/1519267683574294/",
+    "https://www.facebook.com/Swyft.Solutions/posts/meet-matthew-fontana-vice-president-at-swyft-solutions-matthew-oversees-both-sal/1705984774646265/",
+    "https://www.mdpi.com/2813-8856/3/3/21"
   ]
 }
