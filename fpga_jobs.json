@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-14T11:45:54.933075+00:00",
+  "last_run": "2026-09-15T11:03:05.390837+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -5113,13 +5113,13 @@
     },
     "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/": {
       "url": "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/",
-      "title": "FPGA Engineer &#8211; Work From Home",
+      "title": "FPGA Engineer – Work From Home",
       "company": "IT Recruiters for Tech Jobs - itrecruiters.technology",
       "location": "Remote",
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
-      "posted_at": "2026-08-01T00:00:00.000Z",
+      "posted_at": "2026-09-01T00:00:00.000Z",
       "first_seen": "2026-06-27T08:33:11.041895+00:00",
-      "last_seen": "2026-08-07T07:11:56.022434+00:00"
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
     },
     "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0": {
       "url": "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0",
@@ -9327,9 +9327,9 @@
       "company": "psiquantum",
       "location": "Milpitas, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-09-11T16:44:30-04:00",
+      "posted_at": "2026-09-14T21:09:24-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-09-12T10:04:14.608935+00:00"
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
     },
     "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681": {
       "url": "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681",
@@ -11959,7 +11959,7 @@
       "source": "JSearch:LinkedIn",
       "posted_at": "2026-08-25T00:00:00.000Z",
       "first_seen": "2026-08-21T06:41:04.363600+00:00",
-      "last_seen": "2026-09-08T10:33:10.067943+00:00"
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
     },
     "https://flexboard.9y.liveblog365.com/job/839587": {
       "url": "https://flexboard.9y.liveblog365.com/job/839587",
@@ -12323,13 +12323,13 @@
     },
     "https://jobright.ai/jobs/info/6a8c97b6cde3717f9e9be1be": {
       "url": "https://jobright.ai/jobs/info/6a8c97b6cde3717f9e9be1be",
-      "title": "FPGA Development Engineer (Mid level)",
+      "title": "[Remote] FPGA Development Engineer (Mid level)",
       "company": "Sopra Steria",
-      "location": "United States",
-      "source": "Jobright",
-      "posted_at": "2026-08-24 19:12:54",
+      "location": "Remote",
+      "source": "JSearch:Jobright",
+      "posted_at": "2026-09-07T00:00:00.000Z",
       "first_seen": "2026-08-25T06:41:06.006826+00:00",
-      "last_seen": "2026-08-25T06:41:06.006826+00:00"
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
     },
     "https://jobright.ai/jobs/info/6a8c8e7f1d96e6541c8c1929": {
       "url": "https://jobright.ai/jobs/info/6a8c8e7f1d96e6541c8c1929",
@@ -13693,13 +13693,13 @@
     },
     "https://www.remotefront.com/remote-jobs/soprasteria1-fpga-development-engineer-senior-level-yl0ex": {
       "url": "https://www.remotefront.com/remote-jobs/soprasteria1-fpga-development-engineer-senior-level-yl0ex",
-      "title": "Remote FPGA Development Engineer at Soprasteria1",
-      "company": "www.remotefront.com",
-      "location": "Remote (per query)",
-      "source": "SerpAPI:Google",
-      "posted_at": "15 hours ago",
+      "title": "FPGA Development Engineer",
+      "company": "Soprasteria1",
+      "location": "Remote",
+      "source": "JSearch:Remote Front",
+      "posted_at": "2026-08-29T00:00:00.000Z",
       "first_seen": "2026-09-08T10:33:10.067943+00:00",
-      "last_seen": "2026-09-08T10:33:10.067943+00:00"
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
     },
     "https://jobright.ai/jobs/info/6aa0c3a0500b01124c77ae13": {
       "url": "https://jobright.ai/jobs/info/6aa0c3a0500b01124c77ae13",
@@ -14190,27 +14190,101 @@
       "posted_at": "21 hours ago",
       "first_seen": "2026-09-14T11:45:54.933075+00:00",
       "last_seen": "2026-09-14T11:45:54.933075+00:00"
+    },
+    "https://jobgether.com/offer/6aa868ceb563ea142ea9d026-fpga-design-engineer---vivado-expert": {
+      "url": "https://jobgether.com/offer/6aa868ceb563ea142ea9d026-fpga-design-engineer---vivado-expert",
+      "title": "FPGA Design Engineer - Vivado Expert at Mercor",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
+    },
+    "https://www.itjobboard.net/job/16918596/fpga-development-engineer-senior-level/": {
+      "url": "https://www.itjobboard.net/job/16918596/fpga-development-engineer-senior-level/",
+      "title": "FPGA Development Engineer (senior level) | IT Job Board",
+      "company": "www.itjobboard.net",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "15 hours ago",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
+    },
+    "https://jobgether.com/offer/6aa868ceb563ea142ea9d02e-fpga-design-expert---quartus-ii": {
+      "url": "https://jobgether.com/offer/6aa868ceb563ea142ea9d02e-fpga-design-expert---quartus-ii",
+      "title": "FPGA Design Expert - Quartus II at Mercor",
+      "company": "jobgether.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "12 hours ago",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
+    },
+    "https://jobs.workable.com/view/eetZJH1sTarnhzGXJNaM7h/remote-dsp-designer-in-melbourne-at-fidus-systems": {
+      "url": "https://jobs.workable.com/view/eetZJH1sTarnhzGXJNaM7h/remote-dsp-designer-in-melbourne-at-fidus-systems",
+      "title": "DSP Designer | Fidus Systems",
+      "company": "jobs.workable.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "3 hours ago",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
+    },
+    "https://bebee.com/gb/jobs/computer-engineering-expert-ai-content-specialist-alignerr--fj-2363254827": {
+      "url": "https://bebee.com/gb/jobs/computer-engineering-expert-ai-content-specialist-alignerr--fj-2363254827",
+      "title": "Computer Engineering Expert - AI Content Specialist",
+      "company": "bebee.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "6 hours ago",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
+    },
+    "https://www.remoterocketship.com/us/company/dvtrading-co/jobs/senior-fpga-engineer-dv-equities-united-states-remote/": {
+      "url": "https://www.remoterocketship.com/us/company/dvtrading-co/jobs/senior-fpga-engineer-dv-equities-united-states-remote/",
+      "title": "Senior FPGA Engineer – DV Equities",
+      "company": "DV Trading LLC",
+      "location": "Remote",
+      "source": "JSearch:Remote Rocketship",
+      "posted_at": "2026-09-11T00:00:00.000Z",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
+    },
+    "https://us.remotejobs.dedyn.io/job/1715168": {
+      "url": "https://us.remotejobs.dedyn.io/job/1715168",
+      "title": "[Remote] FPGA RTL Design Engineer-5G Wireless Domain",
+      "company": "remote quest jobs",
+      "location": "Remote",
+      "source": "JSearch:Remote Quest Jobs",
+      "posted_at": "2026-09-13T00:00:00.000Z",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
+    },
+    "https://www.ziprecruiter.com/c/Reliable-Robotics/Job/Sr.-FPGA-Design-Engineer,-Radar/-in-Seattle,WA?jid=d46a8bd2dc83b32b": {
+      "url": "https://www.ziprecruiter.com/c/Reliable-Robotics/Job/Sr.-FPGA-Design-Engineer,-Radar/-in-Seattle,WA?jid=d46a8bd2dc83b32b",
+      "title": "Sr. FPGA Design Engineer, Radar",
+      "company": "Reliable Robotics",
+      "location": "Remote",
+      "source": "JSearch:ZipRecruiter",
+      "posted_at": "2026-09-10T00:00:00.000Z",
+      "first_seen": "2026-09-15T11:03:05.390837+00:00",
+      "last_seen": "2026-09-15T11:03:05.390837+00:00"
     }
   },
   "currently_open_urls": [
-    "https://adaptivesupport.amd.com/s/?language=en_US",
-    "https://bebee.com/gb/jobs/senior-lead-fpga-engineer-renishaw-plc--diversej-26212057",
-    "https://ece.hku.hk/events/20260921-1/",
-    "https://eimtechnology.com/fundamental-ee-core/",
-    "https://jobright.ai/jobs/info/6aa73e3d930bff471a2a3039",
-    "https://jobright.ai/jobs/info/6aa73f59a77a53f5a15751cd",
-    "https://misterfpga.org/viewtopic.php?t=10798",
-    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7454766",
-    "https://spacecrew.com/space-jobs/mu0wgqft-blue-origin-fpga-electrical-engineer-iii",
-    "https://www.adzuna.ca/details/5882604382",
-    "https://www.careerbuilder.com/job-details/aerospace-fpga-designer-remote-hybrid-east-hartford-ct--a1c7a5c5-95d7-41ba-a2b5-d27e9a5f79c1?trk=bingjobs",
-    "https://www.careerbuilder.com/job-details/remote-uvm-verification-engineer-asic-fpga-for-4g-5g-plano-tx--bf7d5f27-94c6-46f6-85b2-0de8ae25a6ff?trk=bingjobs",
-    "https://www.careerbuilder.com/job-details/senior-fpga-engineer-project-lead-remote-hybrid-east-hartford-ct--b142e12e-7875-4312-a6ba-7c4ccd2c4094?trk=bingjobs",
-    "https://www.facebook.com/groups/arcadiangaming/posts/3523954234436463/",
-    "https://www.jobleads.com/gb/job/senior-fpga-engineer--greater-london--e48946d2fd6272ed708e42b7cd34e5121",
-    "https://www.jobleads.com/gb/job/senior-fpga-engineer-hybrid-remote-hft-focus--greater-london--e76ce339e08f8eda7e56b5dcf92bd3192",
-    "https://www.levels.fyi/companies/amd/salaries/hardware-engineer/locations/taiwan",
-    "https://www.reddit.com/r/FPGA/comments/1wfgmxb/built_an_fpga_nasdaq_itch_feed_handler_order_book/",
-    "https://www.sciencedirect.com/science/article/pii/S138376212600192X"
+    "https://bebee.com/gb/jobs/computer-engineering-expert-ai-content-specialist-alignerr--fj-2363254827",
+    "https://jobgether.com/offer/6aa868ceb563ea142ea9d026-fpga-design-engineer---vivado-expert",
+    "https://jobgether.com/offer/6aa868ceb563ea142ea9d02e-fpga-design-expert---quartus-ii",
+    "https://jobright.ai/jobs/info/6a8c97b6cde3717f9e9be1be",
+    "https://jobs.workable.com/view/eetZJH1sTarnhzGXJNaM7h/remote-dsp-designer-in-melbourne-at-fidus-systems",
+    "https://us.remotejobs.dedyn.io/job/1715168",
+    "https://www.itjobboard.net/job/16918596/fpga-development-engineer-senior-level/",
+    "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/",
+    "https://www.linkedin.com/jobs/view/senior-rtl-design-engineer-at-sambanova-4456717748",
+    "https://www.psiquantum.com/apply?gh_jid=7791701003",
+    "https://www.remotefront.com/remote-jobs/soprasteria1-fpga-development-engineer-senior-level-yl0ex",
+    "https://www.remoterocketship.com/us/company/dvtrading-co/jobs/senior-fpga-engineer-dv-equities-united-states-remote/",
+    "https://www.ziprecruiter.com/c/Reliable-Robotics/Job/Sr.-FPGA-Design-Engineer,-Radar/-in-Seattle,WA?jid=d46a8bd2dc83b32b"
   ]
 }
