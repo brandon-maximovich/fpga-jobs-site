@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-17T10:57:44.545258+00:00",
+  "last_run": "2026-09-18T10:33:46.721653+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -1537,9 +1537,9 @@
       "company": "IT Recruiters for Tech Jobs - itrecruiters.technology",
       "location": "Remote",
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
-      "posted_at": "2026-07-01T00:00:00.000Z",
+      "posted_at": "2026-09-01T00:00:00.000Z",
       "first_seen": "2026-05-19T09:39:32.560961+00:00",
-      "last_seen": "2026-07-19T08:12:13.100608+00:00"
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
     },
     "https://careers.tekever.com/jobs/7760496-fpga-engineer": {
       "url": "https://careers.tekever.com/jobs/7760496-fpga-engineer",
@@ -13017,9 +13017,9 @@
       "company": "wehrtyou",
       "location": "New York, NY, United States",
       "source": "Greenhouse:wehrtyou",
-      "posted_at": "2026-09-04T20:18:49-04:00",
+      "posted_at": "2026-09-17T10:08:39-04:00",
       "first_seen": "2026-09-01T11:04:19.399716+00:00",
-      "last_seen": "2026-09-05T09:56:58.437325+00:00"
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
     },
     "https://www.reddit.com/r/FPGA/comments/1w43n3i/need_help_regarding_a_selflearning_project/": {
       "url": "https://www.reddit.com/r/FPGA/comments/1w43n3i/need_help_regarding_a_selflearning_project/",
@@ -13699,7 +13699,7 @@
       "source": "JSearch:Remote Front",
       "posted_at": "2026-08-29T00:00:00.000Z",
       "first_seen": "2026-09-08T10:33:10.067943+00:00",
-      "last_seen": "2026-09-17T10:57:44.545258+00:00"
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
     },
     "https://jobright.ai/jobs/info/6aa0c3a0500b01124c77ae13": {
       "url": "https://jobright.ai/jobs/info/6aa0c3a0500b01124c77ae13",
@@ -14259,7 +14259,7 @@
       "source": "JSearch:Remote Quest Jobs",
       "posted_at": "2026-09-13T00:00:00.000Z",
       "first_seen": "2026-09-15T11:03:05.390837+00:00",
-      "last_seen": "2026-09-16T10:50:25.515314+00:00"
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
     },
     "https://www.ziprecruiter.com/c/Reliable-Robotics/Job/Sr.-FPGA-Design-Engineer,-Radar/-in-Seattle,WA?jid=d46a8bd2dc83b32b": {
       "url": "https://www.ziprecruiter.com/c/Reliable-Robotics/Job/Sr.-FPGA-Design-Engineer,-Radar/-in-Seattle,WA?jid=d46a8bd2dc83b32b",
@@ -14459,7 +14459,7 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-09-12T00:00:00.000Z",
       "first_seen": "2026-09-17T10:57:44.545258+00:00",
-      "last_seen": "2026-09-17T10:57:44.545258+00:00"
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
     },
     "https://us.remotejobs.dedyn.io/job/2753483": {
       "url": "https://us.remotejobs.dedyn.io/job/2753483",
@@ -14477,9 +14477,9 @@
       "company": "CS GROUP",
       "location": "Remote",
       "source": "JSearch:JobMESH",
-      "posted_at": "2026-09-16T11:00:00.000Z",
+      "posted_at": "2026-09-16T00:00:00.000Z",
       "first_seen": "2026-09-17T10:57:44.545258+00:00",
-      "last_seen": "2026-09-17T10:57:44.545258+00:00"
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
     },
     "https://www.linkedin.com/jobs/view/fpga-designer-at-fidus-systems-4459374093": {
       "url": "https://www.linkedin.com/jobs/view/fpga-designer-at-fidus-systems-4459374093",
@@ -14489,23 +14489,170 @@
       "source": "JSearch:LinkedIn",
       "posted_at": "2026-08-26T00:00:00.000Z",
       "first_seen": "2026-09-17T10:57:44.545258+00:00",
-      "last_seen": "2026-09-17T10:57:44.545258+00:00"
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobright.ai/jobs/info/6aac69a73e3ce93970c7d695": {
+      "url": "https://jobright.ai/jobs/info/6aac69a73e3ce93970c7d695",
+      "title": "Principal FPGA Networking Engineer",
+      "company": "Trident",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-18 02:05:28",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobright.ai/jobs/info/6aac83943d96632d741ab416": {
+      "url": "https://jobright.ai/jobs/info/6aac83943d96632d741ab416",
+      "title": "US Citizens only, FPGA Distinguished Member of the Technical Staff Lead Principal Engineer- MK48 Torpedo",
+      "company": "A New Beginning-Genesis 2",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-18 00:19:32",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobright.ai/jobs/info/6aac3bfc3dbb1f8967ce99d7": {
+      "url": "https://jobright.ai/jobs/info/6aac3bfc3dbb1f8967ce99d7",
+      "title": "Senior Principal Electrical Engineer (FPGA/ASIC)",
+      "company": "RTX",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-17 21:19:57",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobright.ai/jobs/info/6aac2d3a2e757fcb5c8b429d": {
+      "url": "https://jobright.ai/jobs/info/6aac2d3a2e757fcb5c8b429d",
+      "title": "Sr. FPGA Engineer",
+      "company": "Everest Consultants, Inc.",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-17 18:11:06",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobright.ai/jobs/info/6aac63ce636cddf7396f3def": {
+      "url": "https://jobright.ai/jobs/info/6aac63ce636cddf7396f3def",
+      "title": "Principal FPGA Networking Engineer",
+      "company": "Trident",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-17 17:11:00",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobs.workable.com/view/qzfQFPsuSe3fuNVphvEzee/remote-verification-designer-in-north-carolina-at-fidus-systems": {
+      "url": "https://jobs.workable.com/view/qzfQFPsuSe3fuNVphvEzee/remote-verification-designer-in-north-carolina-at-fidus-systems",
+      "title": "Verification Designer | Fidus Systems",
+      "company": "jobs.workable.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "3 hours ago",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://careers.actalentservices.com/us/en/job/JP-006292519/Sr-Hardware-Engineer": {
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006292519/Sr-Hardware-Engineer",
+      "title": "Sr. Hardware Engineer in Raleigh, North Carolina, USA",
+      "company": "careers.actalentservices.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://haystackapp.io/jobs/462f352e-a811-415e-b4d9-91ef26dbc650": {
+      "url": "https://haystackapp.io/jobs/462f352e-a811-415e-b4d9-91ef26dbc650",
+      "title": "Senior Kotlin/JVM Engineer at Hackajob Ltd - Charing Cross",
+      "company": "haystackapp.io",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobmesh.io/job/22ba36e7-7307-4823-ba95-16acba7b5a86": {
+      "url": "https://jobmesh.io/job/22ba36e7-7307-4823-ba95-16acba7b5a86",
+      "title": "FPGA Engineer – Space Communications (Remote)",
+      "company": "Northwood Space",
+      "location": "Remote",
+      "source": "JSearch:JobMESH",
+      "posted_at": "2026-09-16T00:00:00.000Z",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://www.indeed.com/viewjob?jk=47bba3f75785e3d2": {
+      "url": "https://www.indeed.com/viewjob?jk=47bba3f75785e3d2",
+      "title": "Quartus II on Windows Design Review Specialist - FPGA and HDL Engineers",
+      "company": "AuraOne Human Data",
+      "location": "Remote",
+      "source": "JSearch:Indeed",
+      "posted_at": "2026-09-16T00:00:00.000Z",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobmesh.io/job/c4d69210-b3a3-45b5-aded-8390a45af67a": {
+      "url": "https://jobmesh.io/job/c4d69210-b3a3-45b5-aded-8390a45af67a",
+      "title": "FPGA Engineer – Space Communications, Remote",
+      "company": "Doist",
+      "location": "Remote",
+      "source": "JSearch:JobMESH",
+      "posted_at": "2026-09-16T00:00:00.000Z",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://www.tealhq.com/job/principal-fpga-emulation-engineer_7ea1ab7741b87c77cd686563fad662a639af6": {
+      "url": "https://www.tealhq.com/job/principal-fpga-emulation-engineer_7ea1ab7741b87c77cd686563fad662a639af6",
+      "title": "Principal FPGA Emulation Engineer",
+      "company": "Renesas Electronics",
+      "location": "Remote",
+      "source": "JSearch:Teal",
+      "posted_at": "2026-09-14T00:00:00.000Z",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://www.ziprecruiter.com/c/Sopra-Steria/Job/FPGA-Development-Engineer-(Mid-level)/-in-East-Hartford,CT?jid=86165813935cc095": {
+      "url": "https://www.ziprecruiter.com/c/Sopra-Steria/Job/FPGA-Development-Engineer-(Mid-level)/-in-East-Hartford,CT?jid=86165813935cc095",
+      "title": "FPGA Development Engineer (Mid level)",
+      "company": "Sopra Steria",
+      "location": "Remote",
+      "source": "JSearch:ZipRecruiter",
+      "posted_at": "2026-08-24T00:00:00.000Z",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+    },
+    "https://jobmesh.io/job/fa0c2bfe-1f4c-47f7-97da-164b86fbbf11": {
+      "url": "https://jobmesh.io/job/fa0c2bfe-1f4c-47f7-97da-164b86fbbf11",
+      "title": "Digital Hardware Design Engineer (Remote)",
+      "company": "Jobgether",
+      "location": "Remote",
+      "source": "JSearch:JobMESH",
+      "posted_at": "2026-09-16T00:00:00.000Z",
+      "first_seen": "2026-09-18T10:33:46.721653+00:00",
+      "last_seen": "2026-09-18T10:33:46.721653+00:00"
     }
   },
   "currently_open_urls": [
-    "https://jobgether.com/offer/6aa868ceb563ea142ea9d026-fpga-design-engineer---vivado-expert",
+    "https://careers.actalentservices.com/us/en/job/JP-006292519/Sr-Hardware-Engineer",
+    "https://haystackapp.io/jobs/462f352e-a811-415e-b4d9-91ef26dbc650",
+    "https://jobmesh.io/job/22ba36e7-7307-4823-ba95-16acba7b5a86",
     "https://jobmesh.io/job/3e44b0a9-61fb-4433-9478-3ed2496576f9",
     "https://jobmesh.io/job/41e17eda-a2fb-11f1-87ec-4201ac122412",
-    "https://jobs.workable.com/view/r6S3S9ExuVyNEqDBdNY87y/remote-rf-designer-in-colorado-at-fidus-systems",
-    "https://us.remotejobs.dedyn.io/job/2753483",
-    "https://vacancyglobalpro.up.railway.app/job/remote-embedded-flight-software-engineer-1",
-    "https://www.facebook.com/sigmaconnectivity/posts/your-vision-deserves-more-than-one-engineerbehind-every-engineer-is-a-network-of/1552388530219397/",
-    "https://www.flexjobs.com/gjw/velvetech/net-developer/publicjobs?id=975178a5-cd59-4e79-a6f5-e441a6fa2c73",
-    "https://www.instagram.com/p/DdWcqEEBJy2/",
-    "https://www.jobleads.com/us/job/senior-staff-fpga-engineer-sdr-pcie-expert-remote--rolling-meadows--eca1d244d4d8ea3e8cf4b0e864eb5cb93",
+    "https://jobmesh.io/job/c4d69210-b3a3-45b5-aded-8390a45af67a",
+    "https://jobmesh.io/job/fa0c2bfe-1f4c-47f7-97da-164b86fbbf11",
+    "https://jobright.ai/jobs/info/6aac2d3a2e757fcb5c8b429d",
+    "https://jobright.ai/jobs/info/6aac3bfc3dbb1f8967ce99d7",
+    "https://jobright.ai/jobs/info/6aac63ce636cddf7396f3def",
+    "https://jobright.ai/jobs/info/6aac69a73e3ce93970c7d695",
+    "https://jobright.ai/jobs/info/6aac83943d96632d741ab416",
+    "https://jobs.workable.com/view/qzfQFPsuSe3fuNVphvEzee/remote-verification-designer-in-north-carolina-at-fidus-systems",
+    "https://us.remotejobs.dedyn.io/job/1715168",
+    "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8167807",
+    "https://www.indeed.com/viewjob?jk=47bba3f75785e3d2",
+    "https://www.itrecruiters.technology/job/fpga-electrical-engineer-work-from-home/",
     "https://www.linkedin.com/jobs/view/fpga-designer-at-fidus-systems-4459374093",
     "https://www.remotefront.com/remote-jobs/soprasteria1-fpga-development-engineer-senior-level-yl0ex",
-    "https://www.simplyhired.co.in/job/MbimYsx6bAI2c92W0FaaebtAHu81Zjm8Agiw7a9lce4sWx_SBO-SDQ",
-    "https://www.ycombinator.com/jobs/role/operations/burlingame"
+    "https://www.tealhq.com/job/principal-fpga-emulation-engineer_7ea1ab7741b87c77cd686563fad662a639af6",
+    "https://www.ziprecruiter.com/c/Sopra-Steria/Job/FPGA-Development-Engineer-(Mid-level)/-in-East-Hartford,CT?jid=86165813935cc095"
   ]
 }
