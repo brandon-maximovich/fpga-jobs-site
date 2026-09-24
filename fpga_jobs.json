@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-23T10:44:59.045557+00:00",
+  "last_run": "2026-09-24T11:06:54.870459+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -5119,7 +5119,7 @@
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
       "posted_at": "2026-09-01T00:00:00.000Z",
       "first_seen": "2026-06-27T08:33:11.041895+00:00",
-      "last_seen": "2026-09-23T10:44:59.045557+00:00"
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     },
     "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0": {
       "url": "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0",
@@ -10747,9 +10747,9 @@
       "company": "K2 Space Corporation",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-08-31 21:47:34",
+      "posted_at": "2026-09-24 10:46:06",
       "first_seen": "2026-08-12T07:20:11.777364+00:00",
-      "last_seen": "2026-09-01T11:04:19.399716+00:00"
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     },
     "https://jobright.ai/jobs/info/6a7b35623b399d106e4d4f95": {
       "url": "https://jobright.ai/jobs/info/6a7b35623b399d106e4d4f95",
@@ -13017,9 +13017,9 @@
       "company": "wehrtyou",
       "location": "New York, NY, United States",
       "source": "Greenhouse:wehrtyou",
-      "posted_at": "2026-09-18T20:02:16-04:00",
+      "posted_at": "2026-09-23T08:47:17-04:00",
       "first_seen": "2026-09-01T11:04:19.399716+00:00",
-      "last_seen": "2026-09-19T10:18:10.704291+00:00"
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     },
     "https://www.reddit.com/r/FPGA/comments/1w43n3i/need_help_regarding_a_selflearning_project/": {
       "url": "https://www.reddit.com/r/FPGA/comments/1w43n3i/need_help_regarding_a_selflearning_project/",
@@ -14369,7 +14369,7 @@
       "source": "JSearch:LinkedIn",
       "posted_at": "2026-09-11T00:00:00.000Z",
       "first_seen": "2026-09-16T10:50:25.515314+00:00",
-      "last_seen": "2026-09-23T10:44:59.045557+00:00"
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     },
     "https://www.jobleads.com/us/job/senior-staff-fpga-engineer-sdr-pcie-expert-remote--rolling-meadows--eca1d244d4d8ea3e8cf4b0e864eb5cb93": {
       "url": "https://www.jobleads.com/us/job/senior-staff-fpga-engineer-sdr-pcie-expert-remote--rolling-meadows--eca1d244d4d8ea3e8cf4b0e864eb5cb93",
@@ -14459,7 +14459,7 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-09-18T00:00:00.000Z",
       "first_seen": "2026-09-17T10:57:44.545258+00:00",
-      "last_seen": "2026-09-23T10:44:59.045557+00:00"
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     },
     "https://us.remotejobs.dedyn.io/job/2753483": {
       "url": "https://us.remotejobs.dedyn.io/job/2753483",
@@ -14489,7 +14489,7 @@
       "source": "JSearch:LinkedIn",
       "posted_at": "2026-08-26T00:00:00.000Z",
       "first_seen": "2026-09-17T10:57:44.545258+00:00",
-      "last_seen": "2026-09-23T10:44:59.045557+00:00"
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     },
     "https://jobright.ai/jobs/info/6aac69a73e3ce93970c7d695": {
       "url": "https://jobright.ai/jobs/info/6aac69a73e3ce93970c7d695",
@@ -14757,9 +14757,9 @@
       "company": "remote quest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Quest Jobs",
-      "posted_at": "2026-09-18T00:00:00.000Z",
+      "posted_at": "2026-09-22T00:00:00.000Z",
       "first_seen": "2026-09-20T10:36:18.064597+00:00",
-      "last_seen": "2026-09-21T11:58:10.919236+00:00"
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     },
     "https://vacancyglobalpro.up.railway.app/job/sr-fpga-design-engineer-fully-remotewfh": {
       "url": "https://vacancyglobalpro.up.railway.app/job/sr-fpga-design-engineer-fully-remotewfh",
@@ -15130,34 +15130,48 @@
       "posted_at": "2026-09-20T00:00:00.000Z",
       "first_seen": "2026-09-23T10:44:59.045557+00:00",
       "last_seen": "2026-09-23T10:44:59.045557+00:00"
+    },
+    "https://www.jobleads.com/us/job/remote-dsp-designer-from-algorithms-to-fpga--huntsville--e9076f99ffadc5b1d9178d4ee1fc56e0a": {
+      "url": "https://www.jobleads.com/us/job/remote-dsp-designer-from-algorithms-to-fpga--huntsville--e9076f99ffadc5b1d9178d4ee1fc56e0a",
+      "title": "Remote DSP Designer: From Algorithms to FPGA",
+      "company": "Fidus Systems",
+      "location": "Remote",
+      "source": "JSearch:JobLeads",
+      "posted_at": "2026-09-21T00:00:00.000Z",
+      "first_seen": "2026-09-24T11:06:54.870459+00:00",
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+    },
+    "https://remoteworld.mysmartpros.com/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-2/": {
+      "url": "https://remoteworld.mysmartpros.com/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-2/",
+      "title": "[Remote] FPGA RTL Design Engineer-5G Wireless Domain",
+      "company": "vmysmartpros",
+      "location": "Remote",
+      "source": "JSearch:USA Remote Jobs Mysmartpros",
+      "posted_at": "2026-09-24T00:00:00.000Z",
+      "first_seen": "2026-09-24T11:06:54.870459+00:00",
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+    },
+    "https://apply.workable.com/a2e-technologies-1/j/BF09F62479": {
+      "url": "https://apply.workable.com/a2e-technologies-1/j/BF09F62479",
+      "title": "Sr. FPGA Design Engineer",
+      "company": "A2e Technologies",
+      "location": "Remote",
+      "source": "JSearch:Jobs By Workable",
+      "posted_at": "2026-09-02T00:00:00.000Z",
+      "first_seen": "2026-09-24T11:06:54.870459+00:00",
+      "last_seen": "2026-09-24T11:06:54.870459+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/gb/jobs/senior-fpga-engineer-hpc-hardware-design-jobiqo-london--jooble--6272199830385710841",
-    "https://bebee.com/in/jobs/hft-developer-researcher-syndicate-finance--fj-2377055021",
-    "https://bebee.com/us/jobs/fpga-design-engineer-frontier-resourcing-european-union--t7xk-820085811",
-    "https://jaabz.com/jobs/275167-electronic-engineer",
-    "https://jobgether.com/offer/6ab2f3af865119c687dd875e-technical-project-manager",
-    "https://jobmesh.io/job/09f5012d-8794-422a-9829-40815cbb51bd",
-    "https://jobmesh.io/job/22ba36e7-7307-4823-ba95-16acba7b5a86",
-    "https://jobmesh.io/job/3e44b0a9-61fb-4433-9478-3ed2496576f9",
+    "https://apply.workable.com/a2e-technologies-1/j/BF09F62479",
     "https://jobmesh.io/job/41e17eda-a2fb-11f1-87ec-4201ac122412",
-    "https://jobmesh.io/job/f52cbf4e-e2e3-471f-899c-90145fdf7596",
-    "https://jobright.ai/jobs/info/6ab2d4561508734c1530c344",
-    "https://jobright.ai/jobs/info/6ab2d45930340229a322ff95",
-    "https://jobs.workable.com/view/eetZJH1sTarnhzGXJNaM7h/remote-dsp-designer-in-melbourne-at-fidus-systems",
-    "https://spacecrew.com/space-jobs/mudrx0va-lodestar-space-avionics-fpga-engineer",
-    "https://startup.jobs/director-of-embedded-software-fpga-engineering-loft-orbital-solutions-10148463",
-    "https://us.remotejobs.dedyn.io/job/1715168",
-    "https://www.builtinnyc.com/job/rtl-design-all-experience-range/9076082",
-    "https://www.ihirechemists.com/jobs/view/534700378",
+    "https://jobright.ai/jobs/info/6a7b856becf5194164fbea38",
+    "https://remoteworld.mysmartpros.com/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-2/",
+    "https://us.remotejobs.dedyn.io/job/1834750",
+    "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8167807",
     "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/",
+    "https://www.jobleads.com/us/job/remote-dsp-designer-from-algorithms-to-fpga--huntsville--e9076f99ffadc5b1d9178d4ee1fc56e0a",
     "https://www.linkedin.com/jobs/view/field-applications-engineer-fpga-specialist-at-arrow-electronics-4457021442",
-    "https://www.linkedin.com/jobs/view/fpga-designer-at-fidus-systems-4459374093",
-    "https://www.reddit.com/r/ECE/comments/1wny5ev/would_you_trust_ai_to_help_debug_an_embeddedfpga/",
-    "https://www.reddit.com/r/Electronicsinindia/comments/1wnxp3u/can_remote_electronics_labs_realistically_replace/",
-    "https://www.redlinegroup.com/insight-details/why-hiring-specialist-engineers-is-becoming-more-difficult",
-    "https://www.threads.com/@jobicy/post/DdndWk8Eclk/remote-staff-frontend-engineer-design-systems-at-pleo-apply-here-remote-jobs/",
-    "https://www.workopolis.com/jobsearch/viewjob/osouRnpYvKbJOgR7TqBMlGZYpcECZfCtANnnk2RL89hRm_F51WSdCqM5mg_vLHru"
+    "https://www.linkedin.com/jobs/view/fpga-designer-at-fidus-systems-4459374093"
   ]
 }
