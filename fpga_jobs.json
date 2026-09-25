@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-24T11:06:54.870459+00:00",
+  "last_run": "2026-09-25T11:07:15.808831+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -5119,7 +5119,7 @@
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
       "posted_at": "2026-09-01T00:00:00.000Z",
       "first_seen": "2026-06-27T08:33:11.041895+00:00",
-      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0": {
       "url": "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0",
@@ -10747,9 +10747,9 @@
       "company": "K2 Space Corporation",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-09-24 10:46:06",
+      "posted_at": "2026-09-24 12:16:04",
       "first_seen": "2026-08-12T07:20:11.777364+00:00",
-      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://jobright.ai/jobs/info/6a7b35623b399d106e4d4f95": {
       "url": "https://jobright.ai/jobs/info/6a7b35623b399d106e4d4f95",
@@ -13967,9 +13967,9 @@
       "company": "Arrow Electronics",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-09-11 17:38:47",
+      "posted_at": "2026-09-24 17:54:02",
       "first_seen": "2026-09-12T10:04:14.608935+00:00",
-      "last_seen": "2026-09-12T10:04:14.608935+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://jobright.ai/jobs/info/6a930cefa27a2d3c9848d1c3": {
       "url": "https://jobright.ai/jobs/info/6a930cefa27a2d3c9848d1c3",
@@ -14459,7 +14459,7 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-09-18T00:00:00.000Z",
       "first_seen": "2026-09-17T10:57:44.545258+00:00",
-      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://us.remotejobs.dedyn.io/job/2753483": {
       "url": "https://us.remotejobs.dedyn.io/job/2753483",
@@ -14489,7 +14489,7 @@
       "source": "JSearch:LinkedIn",
       "posted_at": "2026-08-26T00:00:00.000Z",
       "first_seen": "2026-09-17T10:57:44.545258+00:00",
-      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://jobright.ai/jobs/info/6aac69a73e3ce93970c7d695": {
       "url": "https://jobright.ai/jobs/info/6aac69a73e3ce93970c7d695",
@@ -14757,9 +14757,9 @@
       "company": "remote quest jobs",
       "location": "Remote",
       "source": "JSearch:Remote Quest Jobs",
-      "posted_at": "2026-09-22T00:00:00.000Z",
+      "posted_at": "2026-09-23T00:00:00.000Z",
       "first_seen": "2026-09-20T10:36:18.064597+00:00",
-      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://vacancyglobalpro.up.railway.app/job/sr-fpga-design-engineer-fully-remotewfh": {
       "url": "https://vacancyglobalpro.up.railway.app/job/sr-fpga-design-engineer-fully-remotewfh",
@@ -15139,7 +15139,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-09-21T00:00:00.000Z",
       "first_seen": "2026-09-24T11:06:54.870459+00:00",
-      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://remoteworld.mysmartpros.com/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-2/": {
       "url": "https://remoteworld.mysmartpros.com/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-2/",
@@ -15149,7 +15149,7 @@
       "source": "JSearch:USA Remote Jobs Mysmartpros",
       "posted_at": "2026-09-24T00:00:00.000Z",
       "first_seen": "2026-09-24T11:06:54.870459+00:00",
-      "last_seen": "2026-09-24T11:06:54.870459+00:00"
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     },
     "https://apply.workable.com/a2e-technologies-1/j/BF09F62479": {
       "url": "https://apply.workable.com/a2e-technologies-1/j/BF09F62479",
@@ -15160,18 +15160,71 @@
       "posted_at": "2026-09-02T00:00:00.000Z",
       "first_seen": "2026-09-24T11:06:54.870459+00:00",
       "last_seen": "2026-09-24T11:06:54.870459+00:00"
+    },
+    "https://www.jobleads.com/us/job/remote-fpga-design-expert-quartus-ii-contract--united-states--ebd5f0677f0f46db12c5d195a328b3f4e": {
+      "url": "https://www.jobleads.com/us/job/remote-fpga-design-expert-quartus-ii-contract--united-states--ebd5f0677f0f46db12c5d195a328b3f4e",
+      "title": "Remote FPGA Design Expert (Quartus II) - Contract",
+      "company": "Embedded Shishya",
+      "location": "Remote",
+      "source": "JSearch:JobLeads",
+      "posted_at": "2026-09-21T00:00:00.000Z",
+      "first_seen": "2026-09-25T11:07:15.808831+00:00",
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+    },
+    "https://www.jobleads.com/us/job/remote-principal-fpga-networking-architect--united-states--eae42c375adead99cfb6d8ead22fae80a": {
+      "url": "https://www.jobleads.com/us/job/remote-principal-fpga-networking-architect--united-states--eae42c375adead99cfb6d8ead22fae80a",
+      "title": "Remote Principal FPGA Networking Architect",
+      "company": "Socket.dev",
+      "location": "Remote",
+      "source": "JSearch:JobLeads",
+      "posted_at": "2026-09-23T00:00:00.000Z",
+      "first_seen": "2026-09-25T11:07:15.808831+00:00",
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+    },
+    "https://jobs.ashbyhq.com/cerebras/4a7be83c-5d32-46b7-9d30-cf6759922237": {
+      "url": "https://jobs.ashbyhq.com/cerebras/4a7be83c-5d32-46b7-9d30-cf6759922237",
+      "title": "Senior ASIC RTL Design Engineer, AI Hardware",
+      "company": "Cerebras Systems",
+      "location": "Remote",
+      "source": "JSearch:Jobs",
+      "posted_at": "2026-09-24T00:00:00.000Z",
+      "first_seen": "2026-09-25T11:07:15.808831+00:00",
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+    },
+    "https://www.jobleads.com/us/job/fpga-vivado-design-engineer-windows-expert--united-states--e2f6d7c084ed42637f800b9870e5385e8": {
+      "url": "https://www.jobleads.com/us/job/fpga-vivado-design-engineer-windows-expert--united-states--e2f6d7c084ed42637f800b9870e5385e8",
+      "title": "FPGA & Vivado Design Engineer – Windows Expert",
+      "company": "Mercor",
+      "location": "Remote",
+      "source": "JSearch:JobLeads",
+      "posted_at": "2026-09-21T00:00:00.000Z",
+      "first_seen": "2026-09-25T11:07:15.808831+00:00",
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+    },
+    "https://jobmesh.io/job/57493e68-7e0a-41c5-b49e-19809d433ec5": {
+      "url": "https://jobmesh.io/job/57493e68-7e0a-41c5-b49e-19809d433ec5",
+      "title": "Lead FPGA/RTL Design Engineer for Coherent FSO Modems Remote",
+      "company": "Aalyria Technologies, Inc.",
+      "location": "Remote",
+      "source": "JSearch:JobMESH",
+      "posted_at": "2026-09-16T00:00:00.000Z",
+      "first_seen": "2026-09-25T11:07:15.808831+00:00",
+      "last_seen": "2026-09-25T11:07:15.808831+00:00"
     }
   },
   "currently_open_urls": [
-    "https://apply.workable.com/a2e-technologies-1/j/BF09F62479",
     "https://jobmesh.io/job/41e17eda-a2fb-11f1-87ec-4201ac122412",
+    "https://jobmesh.io/job/57493e68-7e0a-41c5-b49e-19809d433ec5",
     "https://jobright.ai/jobs/info/6a7b856becf5194164fbea38",
+    "https://jobright.ai/jobs/info/6a9eafd9a7ba386c5d6732ce",
+    "https://jobs.ashbyhq.com/cerebras/4a7be83c-5d32-46b7-9d30-cf6759922237",
     "https://remoteworld.mysmartpros.com/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-2/",
     "https://us.remotejobs.dedyn.io/job/1834750",
-    "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8167807",
     "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/",
+    "https://www.jobleads.com/us/job/fpga-vivado-design-engineer-windows-expert--united-states--e2f6d7c084ed42637f800b9870e5385e8",
     "https://www.jobleads.com/us/job/remote-dsp-designer-from-algorithms-to-fpga--huntsville--e9076f99ffadc5b1d9178d4ee1fc56e0a",
-    "https://www.linkedin.com/jobs/view/field-applications-engineer-fpga-specialist-at-arrow-electronics-4457021442",
+    "https://www.jobleads.com/us/job/remote-fpga-design-expert-quartus-ii-contract--united-states--ebd5f0677f0f46db12c5d195a328b3f4e",
+    "https://www.jobleads.com/us/job/remote-principal-fpga-networking-architect--united-states--eae42c375adead99cfb6d8ead22fae80a",
     "https://www.linkedin.com/jobs/view/fpga-designer-at-fidus-systems-4459374093"
   ]
 }
