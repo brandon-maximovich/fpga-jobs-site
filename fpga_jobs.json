@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-25T11:07:15.808831+00:00",
+  "last_run": "2026-09-26T10:47:04.690753+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -9317,9 +9317,9 @@
       "company": "psiquantum",
       "location": "Palo Alto, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-09-15T15:39:37-04:00",
+      "posted_at": "2026-09-25T12:34:55-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-09-16T10:50:25.515314+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     },
     "https://www.psiquantum.com/apply?gh_jid=7791701003": {
       "url": "https://www.psiquantum.com/apply?gh_jid=7791701003",
@@ -9327,9 +9327,9 @@
       "company": "psiquantum",
       "location": "Milpitas, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-09-15T15:39:37-04:00",
+      "posted_at": "2026-09-25T12:34:55-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-09-16T10:50:25.515314+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     },
     "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681": {
       "url": "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681",
@@ -14527,9 +14527,9 @@
       "company": "Everest Consultants, Inc.",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-09-17 18:11:06",
+      "posted_at": "2026-09-26 01:29:12",
       "first_seen": "2026-09-18T10:33:46.721653+00:00",
-      "last_seen": "2026-09-18T10:33:46.721653+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     },
     "https://jobright.ai/jobs/info/6aac63ce636cddf7396f3def": {
       "url": "https://jobright.ai/jobs/info/6aac63ce636cddf7396f3def",
@@ -15109,7 +15109,7 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-09-18T00:00:00.000Z",
       "first_seen": "2026-09-23T10:44:59.045557+00:00",
-      "last_seen": "2026-09-23T10:44:59.045557+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     },
     "https://www.ihirechemists.com/jobs/view/534700378": {
       "url": "https://www.ihirechemists.com/jobs/view/534700378",
@@ -15149,7 +15149,7 @@
       "source": "JSearch:USA Remote Jobs Mysmartpros",
       "posted_at": "2026-09-24T00:00:00.000Z",
       "first_seen": "2026-09-24T11:06:54.870459+00:00",
-      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     },
     "https://apply.workable.com/a2e-technologies-1/j/BF09F62479": {
       "url": "https://apply.workable.com/a2e-technologies-1/j/BF09F62479",
@@ -15169,7 +15169,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-09-21T00:00:00.000Z",
       "first_seen": "2026-09-25T11:07:15.808831+00:00",
-      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     },
     "https://www.jobleads.com/us/job/remote-principal-fpga-networking-architect--united-states--eae42c375adead99cfb6d8ead22fae80a": {
       "url": "https://www.jobleads.com/us/job/remote-principal-fpga-networking-architect--united-states--eae42c375adead99cfb6d8ead22fae80a",
@@ -15199,7 +15199,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-09-21T00:00:00.000Z",
       "first_seen": "2026-09-25T11:07:15.808831+00:00",
-      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     },
     "https://jobmesh.io/job/57493e68-7e0a-41c5-b49e-19809d433ec5": {
       "url": "https://jobmesh.io/job/57493e68-7e0a-41c5-b49e-19809d433ec5",
@@ -15209,22 +15209,83 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-09-16T00:00:00.000Z",
       "first_seen": "2026-09-25T11:07:15.808831+00:00",
-      "last_seen": "2026-09-25T11:07:15.808831+00:00"
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
+    },
+    "https://jobright.ai/jobs/info/6ab6abfb9d4843569fe4ec25": {
+      "url": "https://jobright.ai/jobs/info/6ab6abfb9d4843569fe4ec25",
+      "title": "Senior FPGA Engineer - (RF/Comm Systems/Simulink - REMOTE)",
+      "company": "Anduril Industries",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-09-25 21:21:18",
+      "first_seen": "2026-09-26T10:47:04.690753+00:00",
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
+    },
+    "https://www.facebook.com/Mistralsolutions/posts/your-next-engineering-opportunity-could-be-herewere-hiring-engineers-to-join-our/2040542956888202/": {
+      "url": "https://www.facebook.com/Mistralsolutions/posts/your-next-engineering-opportunity-could-be-herewere-hiring-engineers-to-join-our/2040542956888202/",
+      "title": "Mistral Solutions hiring engineers for embedded systems ...",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-09-26T10:47:04.690753+00:00",
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
+    },
+    "https://www.facebook.com/LeidosInc/posts/ever-wondered-what-a-dayinthelife-of-a-leidosintern-looks-likemeet-ayinde-hooks-/1512509910922961/": {
+      "url": "https://www.facebook.com/LeidosInc/posts/ever-wondered-what-a-dayinthelife-of-a-leidosintern-looks-likemeet-ayinde-hooks-/1512509910922961/",
+      "title": "Leidos",
+      "company": "www.facebook.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "",
+      "first_seen": "2026-09-26T10:47:04.690753+00:00",
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
+    },
+    "https://www.cityjobs.com/jobs/in-beaconsfield": {
+      "url": "https://www.cityjobs.com/jobs/in-beaconsfield",
+      "title": "Jobs in Beaconsfield (with salaries) - September 2026",
+      "company": "www.cityjobs.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-09-26T10:47:04.690753+00:00",
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
+    },
+    "https://jobgether.com/offer/6ab65bb5865119c687efa0b2-sr.-fpga-design-engineer-radar": {
+      "url": "https://jobgether.com/offer/6ab65bb5865119c687efa0b2-sr.-fpga-design-engineer-radar",
+      "title": "Sr. FPGA Design Engineer, Radar",
+      "company": "Reliable Robotics Corporation",
+      "location": "Remote",
+      "source": "JSearch:Jobgether",
+      "posted_at": "2026-09-25T11:00:00.000Z",
+      "first_seen": "2026-09-26T10:47:04.690753+00:00",
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
+    },
+    "https://www.ziprecruiter.com/c/K2-Space/Job/Senior-FPGA-Prototyping-Engineer/-in-Remote,OR?jid=c7afda388151d490": {
+      "url": "https://www.ziprecruiter.com/c/K2-Space/Job/Senior-FPGA-Prototyping-Engineer/-in-Remote,OR?jid=c7afda388151d490",
+      "title": "Senior FPGA Prototyping Engineer",
+      "company": "K2 Space",
+      "location": "Remote",
+      "source": "JSearch:ZipRecruiter",
+      "posted_at": "2026-09-22T00:00:00.000Z",
+      "first_seen": "2026-09-26T10:47:04.690753+00:00",
+      "last_seen": "2026-09-26T10:47:04.690753+00:00"
     }
   },
   "currently_open_urls": [
-    "https://jobmesh.io/job/41e17eda-a2fb-11f1-87ec-4201ac122412",
+    "https://jobgether.com/offer/6ab65bb5865119c687efa0b2-sr.-fpga-design-engineer-radar",
+    "https://jobmesh.io/job/09f5012d-8794-422a-9829-40815cbb51bd",
     "https://jobmesh.io/job/57493e68-7e0a-41c5-b49e-19809d433ec5",
-    "https://jobright.ai/jobs/info/6a7b856becf5194164fbea38",
-    "https://jobright.ai/jobs/info/6a9eafd9a7ba386c5d6732ce",
-    "https://jobs.ashbyhq.com/cerebras/4a7be83c-5d32-46b7-9d30-cf6759922237",
+    "https://jobright.ai/jobs/info/6aac2d3a2e757fcb5c8b429d",
+    "https://jobright.ai/jobs/info/6ab6abfb9d4843569fe4ec25",
     "https://remoteworld.mysmartpros.com/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-2/",
-    "https://us.remotejobs.dedyn.io/job/1834750",
-    "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/",
+    "https://www.cityjobs.com/jobs/in-beaconsfield",
+    "https://www.facebook.com/LeidosInc/posts/ever-wondered-what-a-dayinthelife-of-a-leidosintern-looks-likemeet-ayinde-hooks-/1512509910922961/",
+    "https://www.facebook.com/Mistralsolutions/posts/your-next-engineering-opportunity-could-be-herewere-hiring-engineers-to-join-our/2040542956888202/",
     "https://www.jobleads.com/us/job/fpga-vivado-design-engineer-windows-expert--united-states--e2f6d7c084ed42637f800b9870e5385e8",
-    "https://www.jobleads.com/us/job/remote-dsp-designer-from-algorithms-to-fpga--huntsville--e9076f99ffadc5b1d9178d4ee1fc56e0a",
     "https://www.jobleads.com/us/job/remote-fpga-design-expert-quartus-ii-contract--united-states--ebd5f0677f0f46db12c5d195a328b3f4e",
-    "https://www.jobleads.com/us/job/remote-principal-fpga-networking-architect--united-states--eae42c375adead99cfb6d8ead22fae80a",
-    "https://www.linkedin.com/jobs/view/fpga-designer-at-fidus-systems-4459374093"
+    "https://www.psiquantum.com/apply?gh_jid=7561477003",
+    "https://www.psiquantum.com/apply?gh_jid=7791701003",
+    "https://www.ziprecruiter.com/c/K2-Space/Job/Senior-FPGA-Prototyping-Engineer/-in-Remote,OR?jid=c7afda388151d490"
   ]
 }
