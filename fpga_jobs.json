@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-13T13:32:22.987524+00:00",
+  "last_run": "2026-10-14T11:09:34.738948+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -5119,7 +5119,7 @@
       "source": "JSearch:IT Recruiters For Tech Jobs Itrecruiters.technology",
       "posted_at": "2026-10-01T00:00:00.000Z",
       "first_seen": "2026-06-27T08:33:11.041895+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0": {
       "url": "https://embedded.jobs/job/Applications-Engineering-Consultant-FPGA-Prototyping-Justification-with-Siemens-ed6ee0",
@@ -6099,7 +6099,7 @@
       "source": "JSearch:Up2staff",
       "posted_at": "2026-10-09T00:00:00.000Z",
       "first_seen": "2026-07-07T09:37:09.256722+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://www.itjobboard.co.uk/job/16768573/fpga-firmware-engineer/": {
       "url": "https://www.itjobboard.co.uk/job/16768573/fpga-firmware-engineer/",
@@ -9317,9 +9317,9 @@
       "company": "psiquantum",
       "location": "Palo Alto, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-10-01T18:22:01-04:00",
+      "posted_at": "2026-10-13T12:13:42-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-10-02T11:51:31.823278+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://www.psiquantum.com/apply?gh_jid=7791701003": {
       "url": "https://www.psiquantum.com/apply?gh_jid=7791701003",
@@ -9327,9 +9327,9 @@
       "company": "psiquantum",
       "location": "Milpitas, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-10-01T18:22:01-04:00",
+      "posted_at": "2026-10-13T12:13:42-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-10-02T11:51:31.823278+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681": {
       "url": "https://dailyremote.com/remote-job/lead-fpga-engineer-4651681",
@@ -15337,9 +15337,9 @@
       "company": "Fidus Systems",
       "location": "Remote",
       "source": "JSearch:JobLeads",
-      "posted_at": "2026-10-07T00:00:00.000Z",
+      "posted_at": "2026-10-08T00:00:00.000Z",
       "first_seen": "2026-09-27T11:22:24.086082+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://www.tealhq.com/job/fpga-design-engineer_7ea1a23fec88252b5aa2fcb1cfeab87b17d67": {
       "url": "https://www.tealhq.com/job/fpga-design-engineer_7ea1a23fec88252b5aa2fcb1cfeab87b17d67",
@@ -15397,9 +15397,9 @@
       "company": "psiquantum",
       "location": "Milpitas, California, United States",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-10-08T16:43:41-04:00",
+      "posted_at": "2026-10-13T12:13:42-04:00",
       "first_seen": "2026-09-29T12:07:43.814519+00:00",
-      "last_seen": "2026-10-09T12:33:22.418904+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://jobright.ai/jobs/info/6abab98aee0b348be729b1f1": {
       "url": "https://jobright.ai/jobs/info/6abab98aee0b348be729b1f1",
@@ -15497,9 +15497,9 @@
       "company": "Stage 4",
       "location": "Remote",
       "source": "JSearch:EmbeddedJobs",
-      "posted_at": "2026-09-27T00:00:00.000Z",
+      "posted_at": "2026-09-28T00:00:00.000Z",
       "first_seen": "2026-09-30T11:54:58.059140+00:00",
-      "last_seen": "2026-10-12T14:23:59.849481+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://jobgether.com/offer/6ab839b08a27695aeafdcdb7-embedded-systems-engineer---fpga-expert---ai-trainer": {
       "url": "https://jobgether.com/offer/6ab839b08a27695aeafdcdb7-embedded-systems-engineer---fpga-expert---ai-trainer",
@@ -16247,9 +16247,9 @@
       "company": "Motorola Solutions",
       "location": "Remote",
       "source": "JSearch:Teal",
-      "posted_at": "2026-10-06T00:00:00.000Z",
+      "posted_at": "2026-10-07T00:00:00.000Z",
       "first_seen": "2026-10-10T11:53:30.518969+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://jobmesh.io/job/41d6b5d4-ef1a-4535-9df8-b423dea715c8": {
       "url": "https://jobmesh.io/job/41d6b5d4-ef1a-4535-9df8-b423dea715c8",
@@ -16277,9 +16277,9 @@
       "company": "Anduril",
       "location": "Remote",
       "source": "JSearch:JobLeads",
-      "posted_at": "2026-10-06T00:00:00.000Z",
+      "posted_at": "2026-10-07T00:00:00.000Z",
       "first_seen": "2026-10-10T11:53:30.518969+00:00",
-      "last_seen": "2026-10-12T14:23:59.849481+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://jobmesh.io/job/854b1eff-ef42-4663-9537-ea6b67a68093": {
       "url": "https://jobmesh.io/job/854b1eff-ef42-4663-9537-ea6b67a68093",
@@ -16289,7 +16289,7 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-10-09T00:00:00.000Z",
       "first_seen": "2026-10-11T12:04:50.195214+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://jobmesh.io/job/a38e1286-5e69-41c9-910b-3af8a751d907": {
       "url": "https://jobmesh.io/job/a38e1286-5e69-41c9-910b-3af8a751d907",
@@ -16349,7 +16349,7 @@
       "source": "JSearch:LinkedIn",
       "posted_at": "2026-10-12T00:00:00.000Z",
       "first_seen": "2026-10-12T14:23:59.849481+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://www.jobleads.com/us/job/senior-fpga-engineer-rf-comm-simulink--united-states--e74a9ea9f136be2608fd957592997c7af": {
       "url": "https://www.jobleads.com/us/job/senior-fpga-engineer-rf-comm-simulink--united-states--e74a9ea9f136be2608fd957592997c7af",
@@ -16367,9 +16367,9 @@
       "company": "Talentify",
       "location": "Remote",
       "source": "JSearch:JobLeads",
-      "posted_at": "2026-10-06T00:00:00.000Z",
+      "posted_at": "2026-10-07T00:00:00.000Z",
       "first_seen": "2026-10-12T14:23:59.849481+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://www.adzuna.com/details/5924654753": {
       "url": "https://www.adzuna.com/details/5924654753",
@@ -16377,9 +16377,9 @@
       "company": "Synopsys Inc",
       "location": "Remote",
       "source": "JSearch:Adzuna",
-      "posted_at": "2026-10-11T00:00:00.000Z",
+      "posted_at": "2026-10-12T00:00:00.000Z",
       "first_seen": "2026-10-13T13:32:22.987524+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     },
     "https://jobmesh.io/job/dc03433c-9798-4e9b-9f06-7a5d290ac67e": {
       "url": "https://jobmesh.io/job/dc03433c-9798-4e9b-9f06-7a5d290ac67e",
@@ -16389,20 +16389,67 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-10-11T00:00:00.000Z",
       "first_seen": "2026-10-13T13:32:22.987524+00:00",
-      "last_seen": "2026-10-13T13:32:22.987524+00:00"
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
+    },
+    "https://jobmesh.io/job/8b9dd280-5b18-402b-a87c-60e9c5776794": {
+      "url": "https://jobmesh.io/job/8b9dd280-5b18-402b-a87c-60e9c5776794",
+      "title": "Senior Staff FPGA Engineer — Remote SDR Innovator",
+      "company": "Epiq Solutions",
+      "location": "Remote",
+      "source": "JSearch:JobMESH",
+      "posted_at": "2026-10-13T00:00:00.000Z",
+      "first_seen": "2026-10-14T11:09:34.738948+00:00",
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
+    },
+    "https://jobmesh.io/job/d9ea8e7c-5f0d-4609-bb66-3a25416dbd20": {
+      "url": "https://jobmesh.io/job/d9ea8e7c-5f0d-4609-bb66-3a25416dbd20",
+      "title": "Principal Hardware Design Engineer – Remote (FPGA/Embedded)",
+      "company": "ADP, Inc.",
+      "location": "Remote",
+      "source": "JSearch:JobMESH",
+      "posted_at": "2026-10-09T00:00:00.000Z",
+      "first_seen": "2026-10-14T11:09:34.738948+00:00",
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
+    },
+    "https://jobmesh.io/job/634d5a52-8c54-4e5e-b8f0-ac40be1e71b1": {
+      "url": "https://jobmesh.io/job/634d5a52-8c54-4e5e-b8f0-ac40be1e71b1",
+      "title": "Senior RTL Design",
+      "company": "Actalent",
+      "location": "Remote",
+      "source": "JSearch:JobMESH",
+      "posted_at": "2026-10-12T00:00:00.000Z",
+      "first_seen": "2026-10-14T11:09:34.738948+00:00",
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
+    },
+    "https://www.dice.com/job-detail/4f9f44ce-cba0-48e6-814e-d18abbb113a9": {
+      "url": "https://www.dice.com/job-detail/4f9f44ce-cba0-48e6-814e-d18abbb113a9",
+      "title": "Sr. ASIC/FPGA Design Engineer",
+      "company": "Mavensoft Technologies, LLC",
+      "location": "Remote",
+      "source": "JSearch:Dice",
+      "posted_at": "2026-10-12T00:00:00.000Z",
+      "first_seen": "2026-10-14T11:09:34.738948+00:00",
+      "last_seen": "2026-10-14T11:09:34.738948+00:00"
     }
   },
   "currently_open_urls": [
-    "https://jobgether.com/offer/6ab839b08a27695aeafdcdb7-embedded-systems-engineer---fpga-expert---ai-trainer",
+    "https://embedded.jobs/job/Senior-FPGA-Design-Engineer-with-Stage-4-5850f3",
+    "https://jobmesh.io/job/634d5a52-8c54-4e5e-b8f0-ac40be1e71b1",
     "https://jobmesh.io/job/854b1eff-ef42-4663-9537-ea6b67a68093",
+    "https://jobmesh.io/job/8b9dd280-5b18-402b-a87c-60e9c5776794",
+    "https://jobmesh.io/job/d9ea8e7c-5f0d-4609-bb66-3a25416dbd20",
     "https://jobmesh.io/job/dc03433c-9798-4e9b-9f06-7a5d290ac67e",
     "https://up2staff.com/staff-fpga-firmware-design-engineer-at-wisk-aero",
     "https://www.adzuna.com/details/5924654753",
+    "https://www.dice.com/job-detail/4f9f44ce-cba0-48e6-814e-d18abbb113a9",
     "https://www.itrecruiters.technology/job/fpga-engineer-work-from-home/",
     "https://www.jobleads.com/us/job/remote-senior-fpga-firmware-engineer-vhdl--chandler--e237b0d0cb2f59ca7376db7eb99800036",
     "https://www.jobleads.com/us/job/remote-verification-lead-asic-fpga-uvm-crv--austin--ea3cc0b27e2f7c5b83bc14e5683f9ab72",
-    "https://www.jobleads.com/us/job/senior-fpga-engineer-rf-comm-simulink--united-states--e74a9ea9f136be2608fd957592997c7af",
+    "https://www.jobleads.com/us/job/senior-fpga-engineer-embedded-ai-clearance-eligible--costa-mesa--ef4d81410475cd2f0452d5f1c82ea8c52",
     "https://www.linkedin.com/jobs/view/fpga-design-expert-quartus-ii-at-mercor-4477283338",
+    "https://www.psiquantum.com/apply?gh_jid=7561477003",
+    "https://www.psiquantum.com/apply?gh_jid=7791701003",
+    "https://www.psiquantum.com/apply?gh_jid=8007039003",
     "https://www.tealhq.com/job/principal-fpga-rtl-design-engineer-signal-processing_7ea1acd0ff2d0866415c260e4b8fa2dd5ce2b"
   ]
 }
