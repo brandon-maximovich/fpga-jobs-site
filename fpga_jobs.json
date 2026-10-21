@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-20T10:55:10.249104+00:00",
+  "last_run": "2026-10-21T11:08:54.159411+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -9315,11 +9315,11 @@
       "url": "https://www.psiquantum.com/apply?gh_jid=7561477003",
       "title": "Staff Digital Design Engineer",
       "company": "psiquantum",
-      "location": "Palo Alto, California, United States",
+      "location": "Palo Alto, California",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-10-16T14:21:17-04:00",
+      "posted_at": "2026-10-20T17:16:12-04:00",
       "first_seen": "2026-08-01T08:16:25.592661+00:00",
-      "last_seen": "2026-10-17T10:07:42.965326+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://www.psiquantum.com/apply?gh_jid=7791701003": {
       "url": "https://www.psiquantum.com/apply?gh_jid=7791701003",
@@ -15395,11 +15395,11 @@
       "url": "https://www.psiquantum.com/apply?gh_jid=8007039003",
       "title": "Principal Hardware Design Engineer",
       "company": "psiquantum",
-      "location": "Milpitas, California, United States",
+      "location": "Milpitas, California",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-10-16T14:21:17-04:00",
+      "posted_at": "2026-10-20T16:34:17-04:00",
       "first_seen": "2026-09-29T12:07:43.814519+00:00",
-      "last_seen": "2026-10-17T10:07:42.965326+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://jobright.ai/jobs/info/6abab98aee0b348be729b1f1": {
       "url": "https://jobright.ai/jobs/info/6abab98aee0b348be729b1f1",
@@ -15407,9 +15407,9 @@
       "company": "Bolt Graphics",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-09-28 23:02:36",
+      "posted_at": "2026-10-20 11:32:02",
       "first_seen": "2026-09-29T12:07:43.814519+00:00",
-      "last_seen": "2026-09-29T12:07:43.814519+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://jobright.ai/jobs/info/6abaa4be1acb8fc6f09c0b8f": {
       "url": "https://jobright.ai/jobs/info/6abaa4be1acb8fc6f09c0b8f",
@@ -15509,7 +15509,7 @@
       "source": "JSearch:Jobgether",
       "posted_at": "2026-09-26T00:00:00.000Z",
       "first_seen": "2026-09-30T11:54:58.059140+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://www.monster.com/job-openings/fpga-design-engineer-new-york-ny--6bb0aa5e-d8d0-4591-921f-15943ddb070d": {
       "url": "https://www.monster.com/job-openings/fpga-design-engineer-new-york-ny--6bb0aa5e-d8d0-4591-921f-15943ddb070d",
@@ -15819,7 +15819,7 @@
       "source": "JSearch:LinkedIn",
       "posted_at": "2026-09-22T00:00:00.000Z",
       "first_seen": "2026-10-06T12:45:05.596686+00:00",
-      "last_seen": "2026-10-11T12:04:50.195214+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://jobright.ai/jobs/info/6a8fc2bfa19886486675e5c8": {
       "url": "https://jobright.ai/jobs/info/6a8fc2bfa19886486675e5c8",
@@ -15929,7 +15929,7 @@
       "source": "JSearch:Teal",
       "posted_at": "2026-09-25T00:00:00.000Z",
       "first_seen": "2026-10-07T12:37:32.606622+00:00",
-      "last_seen": "2026-10-09T12:33:22.418904+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://jobright.ai/jobs/info/6ac75dae36c26b1c92cffe85": {
       "url": "https://jobright.ai/jobs/info/6ac75dae36c26b1c92cffe85",
@@ -16369,7 +16369,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-10-14T00:00:00.000Z",
       "first_seen": "2026-10-12T14:23:59.849481+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://www.adzuna.com/details/5924654753": {
       "url": "https://www.adzuna.com/details/5924654753",
@@ -16379,7 +16379,7 @@
       "source": "JSearch:Adzuna",
       "posted_at": "2026-10-12T00:00:00.000Z",
       "first_seen": "2026-10-13T13:32:22.987524+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://jobmesh.io/job/dc03433c-9798-4e9b-9f06-7a5d290ac67e": {
       "url": "https://jobmesh.io/job/dc03433c-9798-4e9b-9f06-7a5d290ac67e",
@@ -16429,7 +16429,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-10-12T00:00:00.000Z",
       "first_seen": "2026-10-14T11:09:34.738948+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://jobright.ai/jobs/info/6a5cbff13ac7627fe900b0fd": {
       "url": "https://jobright.ai/jobs/info/6a5cbff13ac7627fe900b0fd",
@@ -16509,7 +16509,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-10-12T00:00:00.000Z",
       "first_seen": "2026-10-15T10:50:55.718789+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://www.linkedin.com/jobs/view/fpga-engineer-at-alten-technology-usa-4479201819": {
       "url": "https://www.linkedin.com/jobs/view/fpga-engineer-at-alten-technology-usa-4479201819",
@@ -16529,7 +16529,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-10-12T00:00:00.000Z",
       "first_seen": "2026-10-15T10:50:55.718789+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://www.snagajob.com/jobs/1303503062": {
       "url": "https://www.snagajob.com/jobs/1303503062",
@@ -16559,7 +16559,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-10-14T00:00:00.000Z",
       "first_seen": "2026-10-15T10:50:55.718789+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://spacecrew.com/space-jobs/mv97os72-jpl-fpga-engineer-iv": {
       "url": "https://spacecrew.com/space-jobs/mv97os72-jpl-fpga-engineer-iv",
@@ -16819,7 +16819,7 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-10-15T00:00:00.000Z",
       "first_seen": "2026-10-17T10:07:42.965326+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://www.jobleads.com/us/job/design-verification-trainer-for-asic-fpga-uvm-expert--austin--ebee6bc592483b3dde4e8045187a7806e": {
       "url": "https://www.jobleads.com/us/job/design-verification-trainer-for-asic-fpga-uvm-expert--austin--ebee6bc592483b3dde4e8045187a7806e",
@@ -16829,7 +16829,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-10-15T00:00:00.000Z",
       "first_seen": "2026-10-17T10:07:42.965326+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://us.remotejobs.dedyn.io/job/3515549": {
       "url": "https://us.remotejobs.dedyn.io/job/3515549",
@@ -16929,7 +16929,7 @@
       "source": "JSearch:Monster",
       "posted_at": "2026-10-16T00:00:00.000Z",
       "first_seen": "2026-10-18T10:21:53.448034+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     },
     "https://builtin.com/job/fpga-digital-design-engineer/11732010": {
       "url": "https://builtin.com/job/fpga-digital-design-engineer/11732010",
@@ -17090,31 +17090,67 @@
       "posted_at": "2026-10-18T00:00:00.000Z",
       "first_seen": "2026-10-20T10:55:10.249104+00:00",
       "last_seen": "2026-10-20T10:55:10.249104+00:00"
+    },
+    "https://jobright.ai/jobs/info/6ad8992c54bbabbab0707785": {
+      "url": "https://jobright.ai/jobs/info/6ad8992c54bbabbab0707785",
+      "title": "Sr. ASIC/FPGA Design Engineer",
+      "company": "Mavensoft Technologies",
+      "location": "United States",
+      "source": "Jobright",
+      "posted_at": "2026-10-21 10:51:24",
+      "first_seen": "2026-10-21T11:08:54.159411+00:00",
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
+    },
+    "https://remote.com/jobs/jobgether-c1xcbjrw/asic-fpga-design-engineer-j19cu0qk": {
+      "url": "https://remote.com/jobs/jobgether-c1xcbjrw/asic-fpga-design-engineer-j19cu0qk",
+      "title": "ASIC & FPGA Design Engineer",
+      "company": "Jobgether",
+      "location": "Remote",
+      "source": "JSearch:Remote",
+      "posted_at": "2026-10-13T00:00:00.000Z",
+      "first_seen": "2026-10-21T11:08:54.159411+00:00",
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
+    },
+    "https://frontendnode-25b1.onrender.com/job/fpga-firmware-engineer": {
+      "url": "https://frontendnode-25b1.onrender.com/job/fpga-firmware-engineer",
+      "title": "FPGA Firmware Engineer",
+      "company": "RemoteHive",
+      "location": "Remote",
+      "source": "JSearch:RemoteHive",
+      "posted_at": "2026-10-19T00:00:00.000Z",
+      "first_seen": "2026-10-21T11:08:54.159411+00:00",
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
+    },
+    "https://www.jobleads.com/us/job/senior-embedded-firmware-fpga-engineer--san-francisco--e8cfa1d6249685b8b93184697b4f1a626": {
+      "url": "https://www.jobleads.com/us/job/senior-embedded-firmware-fpga-engineer--san-francisco--e8cfa1d6249685b8b93184697b4f1a626",
+      "title": "Senior Embedded Firmware & FPGA Engineer",
+      "company": "Mercor",
+      "location": "Remote",
+      "source": "JSearch:JobLeads",
+      "posted_at": "2026-10-16T00:00:00.000Z",
+      "first_seen": "2026-10-21T11:08:54.159411+00:00",
+      "last_seen": "2026-10-21T11:08:54.159411+00:00"
     }
   },
   "currently_open_urls": [
-    "https://bebee.com/in/jobs/computer-engineering-expert-ai-content-specialist-alignerr--fj-2422470021",
-    "https://embeddedcomputing.com/application/hpc-datacenters/ti-unveils-nanosecond-resolution-adc-for-continuous-ai-data-center-monitoring",
-    "https://frontendnode-25b1.onrender.com/job/fpga-electrical-engineer-8211-work-from-home",
+    "https://frontendnode-25b1.onrender.com/job/fpga-firmware-engineer",
     "https://jobgether.com/offer/6ab839b08a27695aeafdcdb7-embedded-systems-engineer---fpga-expert---ai-trainer",
-    "https://jobgether.com/offer/6acd278249c73d7b9972b105-asic-fpga-design-engineer",
     "https://jobmesh.io/job/d734b308-629b-4063-9b71-0a3612c3b405",
-    "https://jobright.ai/jobs/info/6ad6638652aa6152bb694c3c",
-    "https://jobright.ai/jobs/info/6ad6c26f54bbabbab06fb062",
-    "https://jobs.ashbyhq.com/cerebras/4a7be83c-5d32-46b7-9d30-cf6759922237",
-    "https://jobsinhelsinki.com/jobs/applications-engineer/ad67da7573447a1610f001d4be452a0c?jlt=dDo5MA",
-    "https://us.remotejobs.dedyn.io/job/3634473",
+    "https://jobright.ai/jobs/info/6abab98aee0b348be729b1f1",
+    "https://jobright.ai/jobs/info/6ad8992c54bbabbab0707785",
+    "https://remote.com/jobs/jobgether-c1xcbjrw/asic-fpga-design-engineer-j19cu0qk",
     "https://www.adzuna.com/details/5924654753",
     "https://www.dice.com/job-detail/4f9f44ce-cba0-48e6-814e-d18abbb113a9",
-    "https://www.flexjobs.com/gjw/fidus_systems/verification-designer/publicjobs?id=158b039a-7cdf-4e7a-bc0a-6cda3db18619",
-    "https://www.fpgajobs.com/company/alten-technology-usa/job/product-engineer-requirements-verification/CvD63cm6dT/",
     "https://www.jobleads.com/us/job/design-verification-trainer-for-asic-fpga-uvm-expert--austin--ebee6bc592483b3dde4e8045187a7806e",
     "https://www.jobleads.com/us/job/remote-fpga-asic-design-engineer-digital-mixed-signal--united-states--ecd25d1e8bb65753d106b3b60b075e0ca",
     "https://www.jobleads.com/us/job/remote-fpga-engineer-avionics-medtech-systems--denver--e46e965f5a2539b71659e60ec96d618e1",
     "https://www.jobleads.com/us/job/remote-fpga-engineer-for-avionics-medical-devices--united-states--e88032666a184557d1dd0d0c499f2260e",
     "https://www.jobleads.com/us/job/remote-senior-fpga-firmware-engineer-vhdl--chandler--e237b0d0cb2f59ca7376db7eb99800036",
-    "https://www.linkedin.com/jobs/view/fpga-design-expert-quartus-ii-at-mercor-4477283338",
+    "https://www.jobleads.com/us/job/senior-embedded-firmware-fpga-engineer--san-francisco--e8cfa1d6249685b8b93184697b4f1a626",
+    "https://www.linkedin.com/jobs/view/fpga-design-engineer-vivado-expert-ai-trainer-at-mercor-4468192629",
     "https://www.monster.com/job-openings/senior-fpga-verification-engineer-littleton-co--8e9aadd3-a4bc-4397-97ad-66ef77cfcd8d",
-    "https://www.reddit.com/r/punejobs/comments/1xa5wsl/hiring_fpga_design_development_intern_remote_6/"
+    "https://www.psiquantum.com/apply?gh_jid=7561477003",
+    "https://www.psiquantum.com/apply?gh_jid=8007039003",
+    "https://www.tealhq.com/job/senior-asic-rtl-design-engineer_7ea1a5124066d70c7c182703726275d08146f"
   ]
 }
