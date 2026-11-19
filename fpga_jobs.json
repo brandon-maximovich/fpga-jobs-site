@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-18T15:05:11.108980+00:00",
+  "last_run": "2026-11-19T15:14:05.083333+00:00",
   "jobs": {
     "https://news.ycombinator.com/item?id=47987441": {
       "url": "https://news.ycombinator.com/item?id=47987441",
@@ -15397,9 +15397,9 @@
       "company": "psiquantum",
       "location": "Milpitas, California",
       "source": "Greenhouse:psiquantum",
-      "posted_at": "2026-11-16T13:43:37-05:00",
+      "posted_at": "2026-11-19T01:21:57-05:00",
       "first_seen": "2026-09-29T12:07:43.814519+00:00",
-      "last_seen": "2026-11-17T15:29:14.509470+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://jobright.ai/jobs/info/6abab98aee0b348be729b1f1": {
       "url": "https://jobright.ai/jobs/info/6abab98aee0b348be729b1f1",
@@ -17017,9 +17017,9 @@
       "company": "Vanteon Corporation",
       "location": "United States",
       "source": "Jobright",
-      "posted_at": "2026-10-19 18:37:58",
+      "posted_at": "2026-11-18 19:14:29",
       "first_seen": "2026-10-20T10:55:10.249104+00:00",
-      "last_seen": "2026-10-20T10:55:10.249104+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://www.reddit.com/r/punejobs/comments/1xa5wsl/hiring_fpga_design_development_intern_remote_6/": {
       "url": "https://www.reddit.com/r/punejobs/comments/1xa5wsl/hiring_fpga_design_development_intern_remote_6/",
@@ -18029,7 +18029,7 @@
       "source": "JSearch:OpenTrain AI",
       "posted_at": "2026-11-02T00:00:00.000Z",
       "first_seen": "2026-11-03T13:36:21.645931+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://www.remotefront.com/remote-jobs/bae-systems-project-engineer-ii-fpga-lead-design-engineer-20k-sign-on-bonus-q2gz3": {
       "url": "https://www.remotefront.com/remote-jobs/bae-systems-project-engineer-ii-fpga-lead-design-engineer-20k-sign-on-bonus-q2gz3",
@@ -18039,7 +18039,7 @@
       "source": "JSearch:Remote Front",
       "posted_at": "2026-10-25T00:00:00.000Z",
       "first_seen": "2026-11-03T13:36:21.645931+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://jobright.ai/jobs/info/6aea4bb1fc85f3a39433270a": {
       "url": "https://jobright.ai/jobs/info/6aea4bb1fc85f3a39433270a",
@@ -18149,7 +18149,7 @@
       "source": "JSearch:Jobgether",
       "posted_at": "2026-11-03T00:00:00.000Z",
       "first_seen": "2026-11-05T13:58:11.807107+00:00",
-      "last_seen": "2026-11-05T13:58:11.807107+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://us.remotejobs.dedyn.io/job/fpga-development-engineer-67": {
       "url": "https://us.remotejobs.dedyn.io/job/fpga-development-engineer-67",
@@ -18289,7 +18289,7 @@
       "source": "JSearch:Dice",
       "posted_at": "2026-10-28T00:00:00.000Z",
       "first_seen": "2026-11-07T12:24:58.988485+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://jobright.ai/jobs/info/6aefbcd39f8e479a8bcfe61e": {
       "url": "https://jobright.ai/jobs/info/6aefbcd39f8e479a8bcfe61e",
@@ -18379,7 +18379,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-11-09T00:00:00.000Z",
       "first_seen": "2026-11-09T15:07:00.879197+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://us.remotejobs.dedyn.io/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-6": {
       "url": "https://us.remotejobs.dedyn.io/job/remote-fpga-rtl-design-engineer-5g-wireless-domain-6",
@@ -18504,12 +18504,12 @@
     "https://us.remotejobs.dedyn.io/job/sr-fpga-engineer-certification-5288033": {
       "url": "https://us.remotejobs.dedyn.io/job/sr-fpga-engineer-certification-5288033",
       "title": "Sr. FPGA Engineer, Certification",
-      "company": "remote quest jobs",
-      "location": "Remote",
-      "source": "JSearch:Remote Quest Jobs",
-      "posted_at": "2026-11-10T00:00:00.000Z",
+      "company": "us.remotejobs.dedyn.io",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "9 hours ago",
       "first_seen": "2026-11-12T14:35:28.216467+00:00",
-      "last_seen": "2026-11-13T13:54:21.647870+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://jobmesh.io/job/c9874e46-06cd-452f-8834-8892c3713831": {
       "url": "https://jobmesh.io/job/c9874e46-06cd-452f-8834-8892c3713831",
@@ -18629,7 +18629,7 @@
       "source": "JSearch:DailyRemote",
       "posted_at": "2026-10-26T00:00:00.000Z",
       "first_seen": "2026-11-13T13:54:21.647870+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://www.recruit.net/job/fpga-design-engineer-quantum-control-jobs/4D00DC5BF914BF17": {
       "url": "https://www.recruit.net/job/fpga-design-engineer-quantum-control-jobs/4D00DC5BF914BF17",
@@ -18659,7 +18659,7 @@
       "source": "JSearch:JobMESH",
       "posted_at": "2026-11-13T00:00:00.000Z",
       "first_seen": "2026-11-14T12:56:46.947594+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://www.jobleads.com/us/job/remote-fpga-engineer-hardware-platform-tools-lead--united-states--e2854731663d93fc2bf9293257ad2be34": {
       "url": "https://www.jobleads.com/us/job/remote-fpga-engineer-hardware-platform-tools-lead--united-states--e2854731663d93fc2bf9293257ad2be34",
@@ -18669,7 +18669,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-11-13T00:00:00.000Z",
       "first_seen": "2026-11-14T12:56:46.947594+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://remote.com/jobs/kepler-communications-c19on1sq/fpga-digital-design-engineer-6-month-contract-j18ro210": {
       "url": "https://remote.com/jobs/kepler-communications-c19on1sq/fpga-digital-design-engineer-6-month-contract-j18ro210",
@@ -18679,7 +18679,7 @@
       "source": "JSearch:Remote",
       "posted_at": "2026-10-24T00:00:00.000Z",
       "first_seen": "2026-11-14T12:56:46.947594+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://jobgether.com/offer/6af7c802081ddfee500aa624-advanced-asic-fpga-verification-engineer": {
       "url": "https://jobgether.com/offer/6af7c802081ddfee500aa624-advanced-asic-fpga-verification-engineer",
@@ -18769,7 +18769,7 @@
       "source": "JSearch:ZipRecruiter",
       "posted_at": "2026-11-13T00:00:00.000Z",
       "first_seen": "2026-11-15T13:25:21.011958+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://www.remotefront.com/remote-jobs/jobgether-asic-fpga-design-engineer-efdsb": {
       "url": "https://www.remotefront.com/remote-jobs/jobgether-asic-fpga-design-engineer-efdsb",
@@ -18819,7 +18819,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-11-11T00:00:00.000Z",
       "first_seen": "2026-11-17T15:29:14.509470+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://talents.vaia.com/companies/hidden-level-inc/syracuse/fpga-firmware-engineer-real-time-rf-sensing-hybrid-253734170/": {
       "url": "https://talents.vaia.com/companies/hidden-level-inc/syracuse/fpga-firmware-engineer-real-time-rf-sensing-hybrid-253734170/",
@@ -18829,7 +18829,7 @@
       "source": "JSearch:Talents By Vaia",
       "posted_at": "2026-11-13T00:00:00.000Z",
       "first_seen": "2026-11-17T15:29:14.509470+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://www.google.com/goto?url=CAESdgHEIkXX2JaDTHAA6hulKsRpDiue4T32_s_GCUVCUCI9dNT9OAToABn3KXaAUrWHSNXiTBuNVSAqZC6idvVyix13_-BoS8lhFqGCAOJsS9c3RgmFiMgsYa5biL4RkZ0Qf2KYXGkSfgqyYdh4AwFS6Ir01arHG4I": {
       "url": "https://www.google.com/goto?url=CAESdgHEIkXX2JaDTHAA6hulKsRpDiue4T32_s_GCUVCUCI9dNT9OAToABn3KXaAUrWHSNXiTBuNVSAqZC6idvVyix13_-BoS8lhFqGCAOJsS9c3RgmFiMgsYa5biL4RkZ0Qf2KYXGkSfgqyYdh4AwFS6Ir01arHG4I",
@@ -18909,7 +18909,7 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-11-08T00:00:00.000Z",
       "first_seen": "2026-11-18T15:05:11.108980+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     },
     "https://www.jobleads.com/us/job/remote-fpga-asic-design-engineer-high-speed-hw--saint-paul--e43d3b4aa5c4537a54b452f7d25e803ce": {
       "url": "https://www.jobleads.com/us/job/remote-fpga-asic-design-engineer-high-speed-hw--saint-paul--e43d3b4aa5c4537a54b452f7d25e803ce",
@@ -18929,37 +18929,158 @@
       "source": "JSearch:JobLeads",
       "posted_at": "2026-11-09T00:00:00.000Z",
       "first_seen": "2026-11-18T15:05:11.108980+00:00",
-      "last_seen": "2026-11-18T15:05:11.108980+00:00"
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.fpgajobs.com/company/mercor-via-ai-gig-scout/job/quartus-ii-on-windows-power-user-code-fpga-digital/o2Pm3EabEX/": {
+      "url": "https://www.fpgajobs.com/company/mercor-via-ai-gig-scout/job/quartus-ii-on-windows-power-user-code-fpga-digital/o2Pm3EabEX/",
+      "title": "Quartus II on Windows Power User (Code), FPGA & Digital ...",
+      "company": "www.fpgajobs.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.google.com/goto?url=CAESgQEBxCJF1-7v-QsOa17L08YYXNhF1sKjhDNesifERlxfuLpwvip_ooyIgJXyh3tjyvFs39I19NU7a5CYcmhdL3BpAq-_ejOx17q4LGTgapT1g0EZFh10dR5ECcnI5hz07ivl0tZxDiAT3XxaLpVTGHzZ97SQfB80xxxVmCRROdffsAY": {
+      "url": "https://www.google.com/goto?url=CAESgQEBxCJF1-7v-QsOa17L08YYXNhF1sKjhDNesifERlxfuLpwvip_ooyIgJXyh3tjyvFs39I19NU7a5CYcmhdL3BpAq-_ejOx17q4LGTgapT1g0EZFh10dR5ECcnI5hz07ivl0tZxDiAT3XxaLpVTGHzZ97SQfB80xxxVmCRROdffsAY",
+      "title": "FPGA Design Engineering Intern - Summer 2027",
+      "company": "www.google.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "18 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.google.com/goto?url=CAEScwHEIkXXkThGZ_Np4nRgoy6EmC9Gnf6fKapeCejr78UQLNWbzLJLJqtzq7IWaI-5QxM6LEQma03T53KgJ5EqUJVBmVkVoKw5YDw9QqTFoKzitRWqkkVlFgqo402hVNFLkvvHSlf81EJZb2oq6jkVZ-6VYis": {
+      "url": "https://www.google.com/goto?url=CAEScwHEIkXXkThGZ_Np4nRgoy6EmC9Gnf6fKapeCejr78UQLNWbzLJLJqtzq7IWaI-5QxM6LEQma03T53KgJ5EqUJVBmVkVoKw5YDw9QqTFoKzitRWqkkVlFgqo402hVNFLkvvHSlf81EJZb2oq6jkVZ-6VYis",
+      "title": "Rf Engineer jobs in Remote",
+      "company": "www.google.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.google.com/goto?url=CAEScwHEIkXXhcvVdY8TFp6ZD5t-faLiuqFb6jG-y_HjDLRiMY8-4lK3VylSh4u4dxEsKEW_Azp_SCtvVGIaMlsndahdJ7JQQTqO2Br3Ze6zmshZO0svo7Ryhf2m8GZWcZ9bII0nQTFaVPvsfyq-hMt5tHpaZZA": {
+      "url": "https://www.google.com/goto?url=CAEScwHEIkXXhcvVdY8TFp6ZD5t-faLiuqFb6jG-y_HjDLRiMY8-4lK3VylSh4u4dxEsKEW_Azp_SCtvVGIaMlsndahdJ7JQQTqO2Br3Ze6zmshZO0svo7Ryhf2m8GZWcZ9bII0nQTFaVPvsfyq-hMt5tHpaZZA",
+      "title": "FPGA Programming Jobs | FPGA Engineer Careers in ...",
+      "company": "www.google.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.google.com/goto?url=CAESkAEBxCJF1xqbbpMFfMRxrcp1YJw45PlzPNFI7bSgwnbMpEsiec2FD3oyBra4REQuM_nQpxIJho6Mwi-CV8c5AxtbQbs5HWSlT7XNZHT5zc3-L64vmiKSXlqtQNoER8Ha7VyoeIXJP5SgEoNoK45tcWalTvGSftsjE79kld6GraBo9Wf3hv9p4HqlBW-nsQqgbZ8": {
+      "url": "https://www.google.com/goto?url=CAESkAEBxCJF1xqbbpMFfMRxrcp1YJw45PlzPNFI7bSgwnbMpEsiec2FD3oyBra4REQuM_nQpxIJho6Mwi-CV8c5AxtbQbs5HWSlT7XNZHT5zc3-L64vmiKSXlqtQNoER8Ha7VyoeIXJP5SgEoNoK45tcWalTvGSftsjE79kld6GraBo9Wf3hv9p4HqlBW-nsQqgbZ8",
+      "title": "Top 16 Server platform engineer jabil Jobs in Austin, Tx",
+      "company": "www.google.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "17 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.google.com/goto?url=CAESfQHEIkXXXOaxqh4WDmbQBJAKfNiiM2ueu0DxID9mQ-2CCLrweo7SWi0RMI-0QQzl2DC2GjAk9eMPQh7TVha0M7RS749CgRXtYevUCUf0UM9GQ5ECsa4cCjPXZ_FQBW09q73fne2eJQnBdefX-WpPGGyMqIqF5qpdxkxizlyp": {
+      "url": "https://www.google.com/goto?url=CAESfQHEIkXXXOaxqh4WDmbQBJAKfNiiM2ueu0DxID9mQ-2CCLrweo7SWi0RMI-0QQzl2DC2GjAk9eMPQh7TVha0M7RS749CgRXtYevUCUf0UM9GQ5ECsa4cCjPXZ_FQBW09q73fne2eJQnBdefX-WpPGGyMqIqF5qpdxkxizlyp",
+      "title": "FPGA Engineer II at Katalyst Space Technologies - Haystack",
+      "company": "www.google.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "22 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.google.com/goto?url=CAESrwEBxCJF13QRu06aTN51pkPG8iINuBa-8x_6K_szfJ3UKwhLHl0Xik5sLmPNfsE2sB5qTQZ3BDjFgSRZjtME53G3aTbJgo2c95YmGCzmEgO71Aqt1xDxnuT-KbyLNjJhzj4TRBSxezHJyYsGj0EfqQ2WQk9arEhVW-PUSBoY6yBtwcGMUoyafb-1iAcnLTiGCKPXRgm33OmicT49yZLgctNmE6Wtq2h73_Z56PMmvbR1": {
+      "url": "https://www.google.com/goto?url=CAESrwEBxCJF13QRu06aTN51pkPG8iINuBa-8x_6K_szfJ3UKwhLHl0Xik5sLmPNfsE2sB5qTQZ3BDjFgSRZjtME53G3aTbJgo2c95YmGCzmEgO71Aqt1xDxnuT-KbyLNjJhzj4TRBSxezHJyYsGj0EfqQ2WQk9arEhVW-PUSBoY6yBtwcGMUoyafb-1iAcnLTiGCKPXRgm33OmicT49yZLgctNmE6Wtq2h73_Z56PMmvbR1",
+      "title": "FPGA Engineer",
+      "company": "www.google.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.google.com/goto?url=CAESZgHEIkXX7zMuJVHxcvFlda5vxhPr9Vw_i1Axkz2Z09qvKL3xV1wu-Cjhks0axB_bw9PVAY1MsiCw6Ck5Z5O2mIPBKr5SxMMRcfX4plKGUAbeskUR-RQ7Z4vFF2AJeKh616J4AZ_f0Q": {
+      "url": "https://www.google.com/goto?url=CAESZgHEIkXX7zMuJVHxcvFlda5vxhPr9Vw_i1Axkz2Z09qvKL3xV1wu-Cjhks0axB_bw9PVAY1MsiCw6Ck5Z5O2mIPBKr5SxMMRcfX4plKGUAbeskUR-RQ7Z4vFF2AJeKh616J4AZ_f0Q",
+      "title": "Abaco",
+      "company": "www.google.com",
+      "location": "Remote (per query)",
+      "source": "SerpAPI:Google",
+      "posted_at": "19 hours ago",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.remotefront.com/remote-jobs/ascendarc-senior-fpga-developer-k4smd": {
+      "url": "https://www.remotefront.com/remote-jobs/ascendarc-senior-fpga-developer-k4smd",
+      "title": "Senior FPGA Developer",
+      "company": "AscendArc",
+      "location": "Remote",
+      "source": "JSearch:Remote Front",
+      "posted_at": "2026-11-17T00:00:00.000Z",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.jobleads.com/us/job/remote-fpga-rtl-designer-vivado-windows--united-states--ed2dd08f3faf959a6f63df8622a1d9fd8": {
+      "url": "https://www.jobleads.com/us/job/remote-fpga-rtl-designer-vivado-windows--united-states--ed2dd08f3faf959a6f63df8622a1d9fd8",
+      "title": "Remote FPGA/RTL Designer (Vivado, Windows)",
+      "company": "DigiNo",
+      "location": "Remote",
+      "source": "JSearch:JobLeads",
+      "posted_at": "2026-11-13T00:00:00.000Z",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.indeed.com/viewjob?jk=6acec0af7cb422ec": {
+      "url": "https://www.indeed.com/viewjob?jk=6acec0af7cb422ec",
+      "title": "SoC RTL Design Engineer",
+      "company": "quadric",
+      "location": "Remote",
+      "source": "JSearch:Indeed",
+      "posted_at": "2026-11-19T12:00:00.000Z",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
+    },
+    "https://www.jobleads.com/us/job/remote-lead-fpga-firmware-engineer-for-real-time-hvdc--united-states--e2b8dda8a33ab2e1e095c0babae257581": {
+      "url": "https://www.jobleads.com/us/job/remote-lead-fpga-firmware-engineer-for-real-time-hvdc--united-states--e2b8dda8a33ab2e1e095c0babae257581",
+      "title": "Remote Lead FPGA Firmware Engineer for Real-Time HVDC",
+      "company": "GE Vernova International LLC",
+      "location": "Remote",
+      "source": "JSearch:JobLeads",
+      "posted_at": "2026-11-14T00:00:00.000Z",
+      "first_seen": "2026-11-19T15:14:05.083333+00:00",
+      "last_seen": "2026-11-19T15:14:05.083333+00:00"
     }
   },
   "currently_open_urls": [
     "https://dailyremote.com/remote-job/fpga-design-engineer-senior-5827080",
-    "https://dashboard.l3h.totalh.net/remote-jobs/fpga-verification-engineer",
-    "https://jobgether.com/offer/6aecd97c1c8aea01fb892797-fpga-firmware-engineer-south-africa",
+    "https://jobgether.com/offer/6aea1a721c8aea01fb7afd33-fpga-verification-engineer",
     "https://jobmesh.io/job/01a1d379-87b3-754d-830c-a7a1aac861f4",
-    "https://jobright.ai/jobs/info/6a739b318dc3d52d8eda0730",
-    "https://jobright.ai/jobs/info/6af3e20fe229a09f4237921a",
+    "https://jobright.ai/jobs/info/6ad6638652aa6152bb694c3c",
     "https://remote.com/jobs/kepler-communications-c19on1sq/fpga-digital-design-engineer-6-month-contract-j18ro210",
     "https://talents.vaia.com/companies/hidden-level-inc/syracuse/fpga-firmware-engineer-real-time-rf-sensing-hybrid-253734170/",
-    "https://us.remotejobs.dedyn.io/job/remote-senior-fpga-hardware-engineer-7fe4b509",
+    "https://us.remotejobs.dedyn.io/job/sr-fpga-engineer-certification-5288033",
     "https://www.dice.com/job-detail/e69892dc-fce1-4a30-ba3a-c9cf595486a6",
-    "https://www.google.com/goto?url=CAESbAHEIkXXi2uP7K8BWHk1AN1PJSpuFE5-FWF-m7uy8m4Q-FYCM7DKMTkoA_zlHikpp2LjJYfn4XP_3TTtZsMNRlMeQzs4sAqGSP4CApt_FYmO0etNT6yIChlvV8R4JpuTLLQXMz4nx4TWIS0tmA",
-    "https://www.google.com/goto?url=CAEScwHEIkXXPcyqEcT2GrEjGBxD5hl2vub8ciL8z7B8rW-ojsCxZ973x_JIequE_G9wAnQHMVKYUfSLDPCVg1q9nYtwMY_DGSocELh8qQkIn1j7sTlvzndu2FHHM5jBtjf8mbn-UoHh5loHMHvNjLr0Iom67Ek",
-    "https://www.google.com/goto?url=CAESdgHEIkXX2JaDTHAA6hulKsRpDiue4T32_s_GCUVCUCI9dNT9OAToABn3KXaAUrWHSNXiTBuNVSAqZC6idvVyix13_-BoS8lhFqGCAOJsS9c3RgmFiMgsYa5biL4RkZ0Qf2KYXGkSfgqyYdh4AwFS6Ir01arHG4I",
-    "https://www.google.com/goto?url=CAEShgEBxCJF17_rcsTIGuSsp3wHz6_BOuXk9_IvwgNab4QkKArise-z4bnr5ge6w60h8O5cGiJnt6xllEGVypBXwdE8aDgXHS6Rny9CR-zo4CvCVquyEnO1s1CO1uS7aQrmVxljr5v091Tpazq23KymJ1iK0BPdK1OSkXgCFnq1dvKRrT3DMH2ASw",
-    "https://www.google.com/goto?url=CAESiAEBxCJF17vJ4IZGgB4rmpLirRVLNbrVd1XWgqFDA7J4MEEdOOQjf5Y32g3vOexgCargUvch_p-FYEgP1cBswPQRJnYKpKRxJE2xbcWO1qAlnNHjxwUcgvm1MGikPtuHbHR7m618dA8aXCD8NFDpXd_p4KbEL_trjL0M_0tdp3JjiEmQCe8C16oy",
-    "https://www.google.com/goto?url=CAESrAIBxCJF1-NjLooVREtQbUqgz2u3SYdzfg8ktO3PvunUJY6cCO6C3V6OxSjXEl3AqdoFgM2wXNj0pp8abmTCNBdU9uXG857OdLje2c0vguKdBU4e3W79O3JvgTbMhdPOyziWD8kxIleGB388plRxmwo7Y27IY6jAIKPdAQ2hZCQr2Xyj6f3k-CzrDCzIuacxgz14YHJ_5pCZ7EUuBUuOLqC3_ziQCucZWB_2TuAlKsioTdUY2ZYm7jPVKZ173DGq3NDARhvWh3mnXKPTxi4BStF73fqHG1bHR8JVmgt-EZZCbFp8l634VjD4vY39S3V4SsvXk-M2NbqDROamgxKAzgvq2uV5Pfhikiov1qJvNhziRs926hrESBhnYNoy26gFF37LS8mMjoe-7d2I_lw",
-    "https://www.google.com/goto?url=CAEStAEBxCJF188VCvyKIPHsxWgn7m4HVvL_sI0ORrv1ZS1zyvF3IqqaHxO0abrw6yzU9DCvHSpnjXzWjsEtKzg8IBEnwcf_ziwVZZp8ULMHiluYWJUWmCB_GkmkyFM9jQP8TKj5zg6o92TI5v81PAALFgoOorN5lrr-EhvhqHvTgp3PAe7wAoHySyVhZ7wYa6k78nE1PpeSUdxlAkJm9W3bNnoi9GkZBCihBvsItkttk6qhnkcIig8",
+    "https://www.fpgajobs.com/company/mercor-via-ai-gig-scout/job/quartus-ii-on-windows-power-user-code-fpga-digital/o2Pm3EabEX/",
+    "https://www.google.com/goto?url=CAESZgHEIkXX7zMuJVHxcvFlda5vxhPr9Vw_i1Axkz2Z09qvKL3xV1wu-Cjhks0axB_bw9PVAY1MsiCw6Ck5Z5O2mIPBKr5SxMMRcfX4plKGUAbeskUR-RQ7Z4vFF2AJeKh616J4AZ_f0Q",
+    "https://www.google.com/goto?url=CAEScwHEIkXXhcvVdY8TFp6ZD5t-faLiuqFb6jG-y_HjDLRiMY8-4lK3VylSh4u4dxEsKEW_Azp_SCtvVGIaMlsndahdJ7JQQTqO2Br3Ze6zmshZO0svo7Ryhf2m8GZWcZ9bII0nQTFaVPvsfyq-hMt5tHpaZZA",
+    "https://www.google.com/goto?url=CAEScwHEIkXXkThGZ_Np4nRgoy6EmC9Gnf6fKapeCejr78UQLNWbzLJLJqtzq7IWaI-5QxM6LEQma03T53KgJ5EqUJVBmVkVoKw5YDw9QqTFoKzitRWqkkVlFgqo402hVNFLkvvHSlf81EJZb2oq6jkVZ-6VYis",
+    "https://www.google.com/goto?url=CAESfQHEIkXXXOaxqh4WDmbQBJAKfNiiM2ueu0DxID9mQ-2CCLrweo7SWi0RMI-0QQzl2DC2GjAk9eMPQh7TVha0M7RS749CgRXtYevUCUf0UM9GQ5ECsa4cCjPXZ_FQBW09q73fne2eJQnBdefX-WpPGGyMqIqF5qpdxkxizlyp",
+    "https://www.google.com/goto?url=CAESgQEBxCJF1-7v-QsOa17L08YYXNhF1sKjhDNesifERlxfuLpwvip_ooyIgJXyh3tjyvFs39I19NU7a5CYcmhdL3BpAq-_ejOx17q4LGTgapT1g0EZFh10dR5ECcnI5hz07ivl0tZxDiAT3XxaLpVTGHzZ97SQfB80xxxVmCRROdffsAY",
+    "https://www.google.com/goto?url=CAESkAEBxCJF1xqbbpMFfMRxrcp1YJw45PlzPNFI7bSgwnbMpEsiec2FD3oyBra4REQuM_nQpxIJho6Mwi-CV8c5AxtbQbs5HWSlT7XNZHT5zc3-L64vmiKSXlqtQNoER8Ha7VyoeIXJP5SgEoNoK45tcWalTvGSftsjE79kld6GraBo9Wf3hv9p4HqlBW-nsQqgbZ8",
+    "https://www.google.com/goto?url=CAESrwEBxCJF13QRu06aTN51pkPG8iINuBa-8x_6K_szfJ3UKwhLHl0Xik5sLmPNfsE2sB5qTQZ3BDjFgSRZjtME53G3aTbJgo2c95YmGCzmEgO71Aqt1xDxnuT-KbyLNjJhzj4TRBSxezHJyYsGj0EfqQ2WQk9arEhVW-PUSBoY6yBtwcGMUoyafb-1iAcnLTiGCKPXRgm33OmicT49yZLgctNmE6Wtq2h73_Z56PMmvbR1",
+    "https://www.indeed.com/viewjob?jk=6acec0af7cb422ec",
     "https://www.jobleads.com/us/job/fpga-engineer-remote-flexible-hours-275k--emeryville--ea0da2d1524be034e086236349ad4af54",
     "https://www.jobleads.com/us/job/member-of-technical-staff-fpga-and-driver-systems--united-states--efb1212b7f4d98e89fa9aa73e4531b6f7",
-    "https://www.jobleads.com/us/job/remote-fpga-asic-design-engineer-high-speed-hw--saint-paul--e43d3b4aa5c4537a54b452f7d25e803ce",
     "https://www.jobleads.com/us/job/remote-fpga-design-engineer-systemverilog-versal--united-states--edd15cf25245d447047a51f8768514a63",
     "https://www.jobleads.com/us/job/remote-fpga-engineer-hardware-platform-tools-lead--united-states--e2854731663d93fc2bf9293257ad2be34",
+    "https://www.jobleads.com/us/job/remote-fpga-rtl-designer-vivado-windows--united-states--ed2dd08f3faf959a6f63df8622a1d9fd8",
+    "https://www.jobleads.com/us/job/remote-lead-fpga-firmware-engineer-for-real-time-hvdc--united-states--e2b8dda8a33ab2e1e095c0babae257581",
     "https://www.jobleads.com/us/job/vlsi-engineer-role-rtl-design-soc-career-growth--united-states--ea69a4d629bb6e0aceb14d0a857c56758",
     "https://www.opentrain.ai/jobs/front-end-rtl-design-engineer-for-ai-hardware-evaluation--cmvz3vlbo002c08jywunfq189/",
+    "https://www.psiquantum.com/apply?gh_jid=8007039003",
+    "https://www.remotefront.com/remote-jobs/ascendarc-senior-fpga-developer-k4smd",
     "https://www.remotefront.com/remote-jobs/bae-systems-project-engineer-ii-fpga-lead-design-engineer-20k-sign-on-bonus-q2gz3",
-    "https://www.remotefront.com/remote-jobs/jobgether-asic-fpga-design-engineer-efdsb",
-    "https://www.ziprecruiter.com/c/Reliable-Robotics/Job/Sr.-FPGA-Design-Engineer,-Radar/-in-Seattle,WA?jid=d46a8bd2dc83b32b",
     "https://www.ziprecruiter.com/c/cullerton-group/Job/Senior-FPGA-Embedded-Linux-Engineer/-in-Chicago,IL?jid=d992d2f06fb0e295"
   ]
 }
